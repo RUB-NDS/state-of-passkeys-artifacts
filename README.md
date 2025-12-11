@@ -2,8 +2,6 @@
 
 This repository contains the artifacts for the paper **"The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web"**, accepted at the **35th USENIX Security Symposium 2026**.
 
----
-
 ## 📂 Repository Structure
 
 Our artifacts are organized into five main components:
@@ -16,8 +14,6 @@ Our artifacts are organized into five main components:
 | 💾 [`./data`](#-data-artifacts) | Data artifacts including community directories and lists |
 | 📊 [`./notebooks`](#-analysis-notebooks) | Jupyter notebooks for analysis and figure generation |
 
----
-
 ## 📡 PASSKEYS-RADAR
 
 **Location:** [`./radar`](./radar)
@@ -25,8 +21,6 @@ Our artifacts are organized into five main components:
 A comprehensive tool for aggregating and analyzing passkey adoption across multiple directories and websites. The radar continuously monitors 12 different passkey directories to track adoption trends.
 
 📖 See [`./radar/README.md`](./radar/README.md) for setup and usage instructions.
-
----
 
 ## 🔍 Well-Known Detector
 
@@ -39,8 +33,6 @@ Source code for scanning and analyzing well-known files across websites. This to
 - 📁 `./detector/tasks` — Task definitions and configurations
 
 📖 See [`./detector/taskly/README.md`](./detector/taskly/README.md) for setup instructions.
-
----
 
 ## 🛠️ PASSKEYS-ATTACKER
 
@@ -55,15 +47,11 @@ A comprehensive security testing toolkit for WebAuthn (passkey) implementations.
 
 📖 See [`./tools/README.md`](./tools/README.md) for setup and usage instructions.
 
----
-
 ## 💾 Data Artifacts
 
 **Location:** [`./data`](./data)
 
 Contains all data artifacts collected and processed by the PASSKEYS-RADAR.
-
----
 
 ## 📊 Analysis Notebooks
 
