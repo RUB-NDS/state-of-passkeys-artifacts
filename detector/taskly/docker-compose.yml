@@ -1,0 +1,490 @@
+services:
+
+  traefik:
+    image: traefik:v3.2
+    restart: unless-stopped
+    networks:
+      - taskly-network
+    expose:
+      - 80
+      - 443
+      - 8443
+    ports:
+      - 0.0.0.0:80:80
+      - 0.0.0.0:443:443
+      - 0.0.0.0:8443:8443
+    healthcheck:
+      test: traefik healthcheck
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    labels:
+      - "traefik.enable=true"
+      # routers: traefik
+      - "traefik.http.routers.traefik.entrypoints=web,websecure"
+      - "traefik.http.routers.traefik.rule=Host(`${TRAEFIK_EXTERNAL_DOMAIN:-traefik.docker.localhost}`)"
+      - "traefik.http.routers.traefik.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.traefik.service=api@internal"
+      - "traefik.http.routers.traefik.middlewares=adminauth"
+      # routers: mock
+      - "traefik.http.routers.mock.entrypoints=web,websecure"
+      - "traefik.http.routers.mock.rule=Host(`${MOCK_EXTERNAL_DOMAIN:-mock.docker.localhost}`)"
+      - "traefik.http.routers.mock.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.mock.service=noop@internal"
+      # middlewares: guestauth
+      - "traefik.http.middlewares.guestauth.basicauth.users=${GUEST_HASH:-guest:$$2y$$05$$1zzyF57XWcRpfz2zvxyz4eAUqeZHnCbFULhaliUjwGcq6DDDvP/XC}" # guest:changeme
+      - "traefik.http.middlewares.guestauth.basicauth.removeheader=true"
+      # middlewares: adminauth
+      - "traefik.http.middlewares.adminauth.basicauth.users=${ADMIN_HASH:-admin:$$2y$$05$$1zzyF57XWcRpfz2zvxyz4eAUqeZHnCbFULhaliUjwGcq6DDDvP/XC}" # admin:changeme
+      - "traefik.http.middlewares.adminauth.basicauth.removeheader=true"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${DATA:-/tmp/taskly}/traefik-logs:/mnt/logs
+      - ${DATA:-/tmp/taskly}/traefik-acme:/mnt/acme
+    environment:
+      - TRAEFIK_PROVIDERS_DOCKER=true
+      - TRAEFIK_PROVIDERS_DOCKER_EXPOSEDBYDEFAULT=false
+      - TRAEFIK_API=true
+      - TRAEFIK_API_DASHBOARD=true
+      - TRAEFIK_PING=true
+      # logs
+      - TRAEFIK_LOG=true
+      - TRAEFIK_LOG_FILEPATH=/mnt/logs/traefik.log
+      - TRAEFIK_ACCESSLOG=true
+      - TRAEFIK_ACCESSLOG_FILEPATH=/mnt/logs/access.log
+      - TRAEFIK_ACCESSLOG_BUFFERINGSIZE=100
+      - TRAEFIK_ACCESSLOG_FILTERS_STATUSCODES=100-417,419-599
+      # entrypoints
+      - TRAEFIK_ENTRYPOINTS_WEB=true
+      - TRAEFIK_ENTRYPOINTS_WEB_ADDRESS=:80
+      - TRAEFIK_ENTRYPOINTS_WEB_HTTP_REDIRECTIONS_ENTRYPOINT_TO=websecure
+      - TRAEFIK_ENTRYPOINTS_WEBSECURE=true
+      - TRAEFIK_ENTRYPOINTS_WEBSECURE_ADDRESS=:443
+      - TRAEFIK_ENTRYPOINTS_QUEUE=true
+      - TRAEFIK_ENTRYPOINTS_QUEUE_ADDRESS=:8443
+      # certificates
+      - TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_TLSCHALLENGE=true
+      - TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_EMAIL=${EMAIL:-john.doe@gmail.com}
+      - TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_STORAGE=/mnt/acme/acme.json
+
+  brain: &brain
+    build:
+      context: ./app
+      dockerfile: Dockerfile.brain
+    command: pipenv run fastapi run --host 0.0.0.0 --port 8000
+    restart: unless-stopped
+    profiles: [production]
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      mongo:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    networks:
+      - taskly-network
+    expose:
+      - 8000
+    ports:
+      - 127.0.0.1:8000:8000
+    healthcheck:
+      test: curl -f http://localhost:8000/ping
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.brain.entrypoints=web,websecure"
+      - "traefik.http.routers.brain.rule=Host(`${BRAIN_EXTERNAL_DOMAIN:-brain.docker.localhost}`)"
+      - "traefik.http.routers.brain.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.brain.middlewares=adminauth"
+      - "traefik.http.services.brain.loadbalancer.server.port=8000"
+    volumes:
+      - type: bind
+        source: ${TASKS_DIR:-./app/tasks}
+        target: /app/tasks
+      - type: tmpfs
+        target: /tmpfs
+    environment:
+      # general
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - TASKS_DIR=/app/tasks
+      - TMP_PATH=${TMP_PATH:-/tmpfs}
+      - CHECK_CERTS=${CHECK_CERTS:-0}
+      # worker
+      - WORKER_CONCURRENCY=${WORKER_CONCURRENCY:-1}
+      - WORKER_PREFETCH=${WORKER_PREFETCH:-1}
+      # auth
+      - GUEST_USER=${GUEST_USER:-guest}
+      - GUEST_PASS=${GUEST_PASS:-changeme}
+      - ADMIN_USER=${ADMIN_USER:-admin}
+      - ADMIN_PASS=${ADMIN_PASS:-changeme}
+      # external domains
+      - TRAEFIK_EXTERNAL_DOMAIN=${TRAEFIK_EXTERNAL_DOMAIN:-traefik.docker.localhost}
+      - MOCK_EXTERNAL_DOMAIN=${MOCK_EXTERNAL_DOMAIN:-mock.docker.localhost}
+      - BRAIN_EXTERNAL_DOMAIN=${BRAIN_EXTERNAL_DOMAIN:-brain.docker.localhost}
+      - RABBITMQ_EXTERNAL_DOMAIN=${RABBITMQ_EXTERNAL_DOMAIN:-rabbitmq.docker.localhost}
+      - MONGO_EXTERNAL_DOMAIN=${MONGO_EXTERNAL_DOMAIN:-mongo.docker.localhost}
+      - MONGOEXPRESS_EXTERNAL_DOMAIN=${MONGOEXPRESS_EXTERNAL_DOMAIN:-mongoexpress.docker.localhost}
+      - MINIO_ADMIN_EXTERNAL_DOMAIN=${MINIO_ADMIN_EXTERNAL_DOMAIN:-minio-admin.docker.localhost}
+      - MINIO_RAW_EXTERNAL_DOMAIN=${MINIO_RAW_EXTERNAL_DOMAIN:-minio-raw.docker.localhost}
+      - SEARXNG_EXTERNAL_DOMAIN=${SEARXNG_EXTERNAL_DOMAIN:-searxng.docker.localhost}
+      - JUPYTER_EXTERNAL_DOMAIN=${JUPYTER_EXTERNAL_DOMAIN:-jupyter.docker.localhost}
+      # rabbitmq
+      - RABBITMQ_HOST=${RABBITMQ_HOST:-rabbitmq}
+      - RABBITMQ_PORT=${RABBITMQ_PORT:-5672}
+      - RABBITMQ_TLS=${RABBITMQ_TLS:-0}
+      # mongo
+      - MONGO_HOST=${MONGO_HOST:-mongo}
+      - MONGO_PORT=${MONGO_PORT:-27017}
+      - MONGO_TLS=${MONGO_TLS:-0}
+      # minio
+      - MINIO_HOST=${MINIO_HOST:-minio}
+      - MINIO_PORT=${MINIO_PORT:-9000}
+      - MINIO_TLS=${MINIO_TLS:-0}
+      # searxng
+      - SEARXNG_HOST=${SEARXNG_HOST:-searxng}
+      - SEARXNG_PORT=${SEARXNG_PORT:-8080}
+      - SEARXNG_TLS=${SEARXNG_TLS:-0}
+
+  brain-dev:
+    <<: *brain
+    command: pipenv run debugpy --listen 0.0.0.0:5678 -m fastapi dev --host 0.0.0.0 --port 8000
+    profiles: [development]
+    expose:
+      - 8000
+      - 5678
+    ports:
+      - 127.0.0.1:8000:8000
+      - 127.0.0.1:5678:5678
+    develop:
+      watch:
+        - action: sync
+          path: ./app
+          target: /app
+        - action: rebuild
+          path: ./app/Pipfile
+
+  worker: &worker
+    build:
+      context: ./app
+      dockerfile: Dockerfile.worker
+    command: xvfb-run -a pipenv run celery -A modules.celery worker -Q ${QUEUE:-default}
+    restart: unless-stopped
+    profiles: [production]
+    init: true
+    ipc: host
+    user: pwuser
+    cap_add:
+      - NET_ADMIN
+    security_opt:
+      - seccomp=./app/seccomp_profile.json
+    networks:
+      - taskly-network
+    dns:
+      - 1.1.1.1 # cloudflare
+      - 1.0.0.1 # cloudflare
+      - 8.8.8.8 # google
+      - 8.8.4.4 # google
+      - 9.9.9.10 # quad9
+      - 149.112.112.10 # quad9
+      - 94.140.14.140 # adguard
+      - 94.140.14.141 # adguard
+      - 208.67.222.2 # cisco umbrella
+      - 208.67.220.2 # cisco umbrella
+    dns_opt:
+      - rotate
+    volumes:
+      - type: bind
+        source: ${TASKS_DIR:-./app/tasks}
+        target: /app/tasks
+      - type: tmpfs
+        target: /tmpfs
+    environment:
+      - PYTHONPATH=.
+      # general
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - TASKS_DIR=/app/tasks
+      - TMP_PATH=${TMP_PATH:-/tmpfs}
+      - CHECK_CERTS=${CHECK_CERTS:-0}
+      # worker
+      - WORKER_CONCURRENCY=${WORKER_CONCURRENCY:-1}
+      - WORKER_PREFETCH=${WORKER_PREFETCH:-1}
+      # auth
+      - ADMIN_USER=${ADMIN_USER:-admin}
+      - ADMIN_PASS=${ADMIN_PASS:-changeme}
+      # rabbitmq
+      - RABBITMQ_HOST=${RABBITMQ_HOST:-rabbitmq}
+      - RABBITMQ_PORT=${RABBITMQ_PORT:-5672}
+      - RABBITMQ_TLS=${RABBITMQ_TLS:-0}
+      # mongo
+      - MONGO_HOST=${MONGO_HOST:-mongo}
+      - MONGO_PORT=${MONGO_PORT:-27017}
+      - MONGO_TLS=${MONGO_TLS:-0}
+      # minio
+      - MINIO_HOST=${MINIO_HOST:-minio}
+      - MINIO_PORT=${MINIO_PORT:-9000}
+      - MINIO_TLS=${MINIO_TLS:-0}
+      # searxng
+      - SEARXNG_HOST=${SEARXNG_HOST:-searxng}
+      - SEARXNG_PORT=${SEARXNG_PORT:-8080}
+      - SEARXNG_TLS=${SEARXNG_TLS:-0}
+
+  worker-dev:
+    <<: *worker
+    command: xvfb-run -a pipenv run debugpy --listen 0.0.0.0:5679 -m celery -A modules.celery worker -Q ${QUEUE:-default}
+    profiles: [development]
+    expose:
+      - 5679
+    ports:
+      - 127.0.0.1:5679:5679
+    develop:
+      watch:
+        - action: sync+restart
+          path: ./app
+          target: /app
+        - action: rebuild
+          path: ./app/Pipfile
+
+  flower:
+    <<: *worker
+    command: pipenv run celery -A modules.celery flower
+    profiles: []
+    expose:
+      - 5555
+    ports:
+      - 127.0.0.1:5555:5555
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.flower.entrypoints=web,websecure"
+      - "traefik.http.routers.flower.rule=Host(`${FLOWER_EXTERNAL_DOMAIN:-flower.docker.localhost}`)"
+      - "traefik.http.routers.flower.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.flower.middlewares=adminauth"
+      - "traefik.http.services.flower.loadbalancer.server.port=5555"
+    healthcheck:
+      test: curl -f http://localhost:5555
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    environment:
+      - FLOWER_MAX_TASKS=1000
+      - FLOWER_UNAUTHENTICATED_API=true
+
+  rabbitmq:
+    image: rabbitmq:4.0.3-management
+    restart: unless-stopped
+    networks:
+      - taskly-network
+    expose:
+      - 5672
+      - 15672
+    ports:
+      - 127.0.0.1:5672:5672
+      - 127.0.0.1:15672:15672
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.rabbitmq.entrypoints=web,websecure"
+      - "traefik.http.routers.rabbitmq.rule=Host(`${RABBITMQ_EXTERNAL_DOMAIN:-rabbitmq.docker.localhost}`)"
+      - "traefik.http.routers.rabbitmq.tls.certresolver=letsencrypt"
+      - "traefik.http.services.rabbitmq.loadbalancer.server.port=15672"
+      - "traefik.tcp.routers.rabbitmq.entrypoints=queue"
+      - "traefik.tcp.routers.rabbitmq.rule=HostSNI(`*`)"
+      - "traefik.tcp.routers.rabbitmq.tls.certresolver=letsencrypt"
+      - "traefik.tcp.services.rabbitmq.loadbalancer.server.port=5672"
+    healthcheck:
+      test: rabbitmq-diagnostics -q check_running
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    volumes:
+      - ./rabbitmq/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+      - ./rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins
+      - ${DATA:-/tmp/taskly}/rabbitmq-mnesia:/var/lib/rabbitmq/mnesia
+    environment:
+      - RABBITMQ_DEFAULT_USER=${ADMIN_USER:-admin}
+      - RABBITMQ_DEFAULT_PASS=${ADMIN_PASS:-changeme}
+
+  mongo:
+    image: mongo:8.0.3
+    restart: unless-stopped
+    networks:
+      - taskly-network
+    expose:
+      - 27017
+    ports:
+      - 127.0.0.1:27017:27017
+    labels:
+      - "traefik.enable=true"
+      - "traefik.tcp.routers.mongo.entrypoints=websecure"
+      - "traefik.tcp.routers.mongo.rule=HostSNI(`${MONGO_EXTERNAL_DOMAIN:-mongo.docker.localhost}`)"
+      - "traefik.tcp.routers.mongo.tls.certresolver=letsencrypt"
+      - "traefik.tcp.services.mongo.loadbalancer.server.port=27017"
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    volumes:
+      - ${DATA:-/tmp/taskly}/mongo-db:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${ADMIN_USER:-admin}
+      - MONGO_INITDB_ROOT_PASSWORD=${ADMIN_PASS:-changeme}
+
+  mongo-express:
+    image: mongo-express:1.0.2
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+    networks:
+      - taskly-network
+    expose:
+      - 8081
+    ports:
+      - 127.0.0.1:8081:8081
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.mongo-express.entrypoints=web,websecure"
+      - "traefik.http.routers.mongo-express.rule=Host(`${MONGOEXPRESS_EXTERNAL_DOMAIN:-mongoexpress.docker.localhost}`)"
+      - "traefik.http.routers.mongo-express.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.mongo-express.middlewares=adminauth"
+      - "traefik.http.services.mongo-express.loadbalancer.server.port=8081"
+    healthcheck:
+      test: wget -q -O /dev/null 127.0.0.1:8081
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    environment:
+      - ME_CONFIG_BASICAUTH=false
+      - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
+      - ME_CONFIG_MONGODB_AUTH_USERNAME=${ADMIN_USER:-admin}
+      - ME_CONFIG_MONGODB_AUTH_PASSWORD=${ADMIN_PASS:-changeme}
+      - ME_CONFIG_MONGODB_ALLOW_DISK_USE=true
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_MONGODB_PORT=27017
+      - ME_CONFIG_OPTIONS_PERSIST_EDIT_MODE=true
+      - ME_CONFIG_OPTIONS_NO_DELETE=false
+
+  minio:
+    image: minio/minio:RELEASE.2024-10-29T16-01-48Z-cpuv1
+    command: server /data --console-address ":9090"
+    restart: unless-stopped
+    networks:
+      - taskly-network
+    expose:
+      - 9000
+      - 9090
+    ports:
+      - 127.0.0.1:9000:9000
+      - 127.0.0.1:9090:9090
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.minio.entrypoints=web,websecure"
+      - "traefik.http.routers.minio.rule=Host(`${MINIO_ADMIN_EXTERNAL_DOMAIN:-minio-admin.docker.localhost}`)"
+      - "traefik.http.routers.minio.tls.certresolver=letsencrypt"
+      - "traefik.http.services.minio.loadbalancer.server.port=9090"
+      - "traefik.tcp.routers.minio.entrypoints=websecure"
+      - "traefik.tcp.routers.minio.rule=HostSNI(`${MINIO_RAW_EXTERNAL_DOMAIN:-minio-raw.docker.localhost}`)"
+      - "traefik.tcp.routers.minio.tls.certresolver=letsencrypt"
+      - "traefik.tcp.services.minio.loadbalancer.server.port=9000"
+    healthcheck:
+      test: mc ready local
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    volumes:
+      - ${DATA:-/tmp/taskly}/minio-data:/data
+    environment:
+      - MINIO_ROOT_USER=${ADMIN_USER:-admin}
+      - MINIO_ROOT_PASSWORD=${ADMIN_PASS:-changeme}
+
+  searxng:
+    image: searxng/searxng:2025.8.1-3d96414
+    restart: unless-stopped
+    networks:
+      - taskly-network
+    expose:
+      - 8080
+    ports:
+      - 127.0.0.1:8082:8080
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.searxng.entrypoints=web,websecure"
+      - "traefik.http.routers.searxng.rule=Host(`${SEARXNG_EXTERNAL_DOMAIN:-searxng.docker.localhost}`)"
+      - "traefik.http.routers.searxng.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.searxng.middlewares=adminauth"
+      - "traefik.http.services.searxng.loadbalancer.server.port=8080"
+    healthcheck:
+      test: wget -q -O- 127.0.0.1:8080 &> /dev/null
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml
+      - ./searxng/uwsgi.ini:/etc/searxng/uwsgi.ini
+    environment:
+      - SEARXNG_SECRET=${ADMIN_PASS:-changeme}
+
+  jupyter:
+    build:
+      context: ./jupyter
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    networks:
+      - taskly-network
+    expose:
+      - 8888
+    ports:
+      - 127.0.0.1:8888:8888
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.jupyter.entrypoints=web,websecure"
+      - "traefik.http.routers.jupyter.rule=Host(`${JUPYTER_EXTERNAL_DOMAIN:-jupyter.docker.localhost}`)"
+      - "traefik.http.routers.jupyter.tls.certresolver=letsencrypt"
+      - "traefik.http.services.jupyter.loadbalancer.server.port=8888"
+    healthcheck:
+      test: wget -q -O- 127.0.0.1:8888 &> /dev/null
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    volumes:
+      - ${DATA:-/tmp/taskly}/jupyter-home:/home/jovyan
+    environment:
+      - ADMIN_USER=${ADMIN_USER:-admin}
+      - ADMIN_PASS=${ADMIN_PASS:-changeme}
+      - MONGO_HOST=${MONGO_HOST:-mongo}
+      - MONGO_PORT=${MONGO_PORT:-27017}
+      - MONGO_TLS=${MONGO_TLS:-0}
+      - MINIO_HOST=${MINIO_HOST:-minio}
+      - MINIO_PORT=${MINIO_PORT:-9000}
+      - MINIO_TLS=${MINIO_TLS:-0}
+
+  metabase:
+    image: metabase/metabase:v0.52.3
+    restart: unless-stopped
+    networks:
+      - taskly-network
+    expose:
+      - 3000
+    ports:
+      - 127.0.0.1:3000:3000
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.metabase.entrypoints=web,websecure"
+      - "traefik.http.routers.metabase.rule=Host(`${METABASE_EXTERNAL_DOMAIN:-metabase.docker.localhost}`)"
+      - "traefik.http.routers.metabase.tls.certresolver=letsencrypt"
+      - "traefik.http.services.metabase.loadbalancer.server.port=3000"
+    healthcheck:
+      test: curl --fail -I http://localhost:3000/api/health || exit 1
+      interval: 10s
+      timeout: 10s
+      retries: 15
+    volumes:
+      - ${DATA:-/tmp/taskly}/metabase-db:/mnt/db
+    environment:
+      MB_DB_TYPE: h2
+      MB_DB_FILE: /mnt/db/metabase.db
+
+networks:
+  taskly-network:
+    name: taskly-network

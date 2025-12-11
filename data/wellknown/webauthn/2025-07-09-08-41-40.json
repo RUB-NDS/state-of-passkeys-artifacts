@@ -1,0 +1,1821 @@
+[
+    {
+        "origin": "https://auswahl.schaden.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://krad.tarifrechner.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.menumal.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://auth.amboss.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://tr-mofa.sales.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://scoreplay.xyz",
+        "data": {
+            "origins": [
+                "https://scoreplay.xyz",
+                "https://app.scoreplay.xyz"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.sparos.tech",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://holidayguru-es.affiliate.kayak.com",
+        "data": {
+            "origins": [
+                "https://www.kayak.de",
+                "https://www.tw.kayak.com",
+                "https://www.kayak.com.hk",
+                "https://www.kayak.pt",
+                "https://www.kayak.dk",
+                "https://www.ua.kayak.com",
+                "https://www.kayak.qa",
+                "https://www.kayak.co.id",
+                "https://www.kayak.ie",
+                "https://www.ee.kayak.com",
+                "https://www.il.kayak.com",
+                "https://www.es.kayak.com",
+                "https://www.kayak.ae",
+                "https://www.kayak.co.in",
+                "https://www.za.kayak.com",
+                "https://www.kayak.com.mx",
+                "https://www.kayak.it",
+                "https://www.kayak.com.my",
+                "https://www.kayak.es",
+                "https://www.kayak.com.ar",
+                "https://www.at.kayak.com",
+                "https://www.kayak.com.au",
+                "https://www.vn.kayak.com",
+                "https://www.ro.kayak.com",
+                "https://www.kayak.nl",
+                "https://www.kayak.no",
+                "https://www.fi.kayak.com",
+                "https://www.be.kayak.com",
+                "https://www.kayak.co.jp",
+                "https://www.nz.kayak.com",
+                "https://www.kayak.fr",
+                "https://www.kayak.sa",
+                "https://www.kayak.com.br",
+                "https://www.kayak.se",
+                "https://www.kayak.sg",
+                "https://www.kayak.co.uk",
+                "https://www.ca.kayak.com",
+                "https://www.kayak.gl",
+                "https://www.kayak.ch",
+                "https://www.kayak.co.kr",
+                "https://www.kayak.cl",
+                "https://www.gr.kayak.com",
+                "https://www.cn.kayak.com",
+                "https://www.kayak.com.co",
+                "https://www.kayak.co.th",
+                "https://www.kayak.com.pe",
+                "https://www.cz.kayak.com",
+                "https://www.kayak.com.ph",
+                "https://www.kayak.pl",
+                "https://www.kayak.com.tr"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.stockarea.io",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://www.kayak.com",
+        "data": {
+            "origins": [
+                "https://www.kayak.de",
+                "https://www.tw.kayak.com",
+                "https://www.kayak.com.hk",
+                "https://www.kayak.pt",
+                "https://www.kayak.dk",
+                "https://www.ua.kayak.com",
+                "https://www.kayak.qa",
+                "https://www.kayak.co.id",
+                "https://www.kayak.ie",
+                "https://www.ee.kayak.com",
+                "https://www.il.kayak.com",
+                "https://www.es.kayak.com",
+                "https://www.kayak.ae",
+                "https://www.kayak.co.in",
+                "https://www.za.kayak.com",
+                "https://www.kayak.com.mx",
+                "https://www.kayak.it",
+                "https://www.kayak.com.my",
+                "https://www.kayak.es",
+                "https://www.kayak.com.ar",
+                "https://www.at.kayak.com",
+                "https://www.kayak.com.au",
+                "https://www.vn.kayak.com",
+                "https://www.ro.kayak.com",
+                "https://www.kayak.nl",
+                "https://www.kayak.no",
+                "https://www.fi.kayak.com",
+                "https://www.be.kayak.com",
+                "https://www.kayak.co.jp",
+                "https://www.nz.kayak.com",
+                "https://www.kayak.fr",
+                "https://www.kayak.sa",
+                "https://www.kayak.com.br",
+                "https://www.kayak.se",
+                "https://www.kayak.sg",
+                "https://www.kayak.co.uk",
+                "https://www.ca.kayak.com",
+                "https://www.kayak.gl",
+                "https://www.kayak.ch",
+                "https://www.kayak.co.kr",
+                "https://www.kayak.cl",
+                "https://www.gr.kayak.com",
+                "https://www.cn.kayak.com",
+                "https://www.kayak.com.co",
+                "https://www.kayak.co.th",
+                "https://www.kayak.com.pe",
+                "https://www.cz.kayak.com",
+                "https://www.kayak.com.ph",
+                "https://www.kayak.pl",
+                "https://www.kayak.com.tr"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.ruten.com.tw",
+        "data": {
+            "origins": [
+                "https://ruten.com.tw",
+                "https://www.ruten.com.tw",
+                "https://www.beta.ruten.com.tw",
+                "https://www.stage.ruten.com.tw"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.codere.mx",
+        "data": {
+            "origins": [
+                "https://apuestas.codere.mx",
+                "https://portal-admin.codere.mx",
+                "https://prev.codere.mx"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.super.com",
+        "data": {
+            "origins": [
+                "https://www.super.com/"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://id.moneyforward.com",
+        "data": {
+            "origins": [
+                "https://id.moneyforward.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://wpengine.com",
+        "data": {
+            "origins": [
+                "https://my.wpengine.com",
+                "https://my.dev.wpesvc.net",
+                "https://my.stg.wpesvc.net"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.neuronation.com",
+        "data": {
+            "origins": [
+                "https://sso.neuronation.com",
+                "https://sso.dev.neuronation.com",
+                "https://www.neuronation.com",
+                "https://www.dev.neuronation.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://kuda.com",
+        "data": {
+            "origins": [
+                "https://kuda.com",
+                "https://app-staging.kuda.com",
+                "https://app.kuda.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.fortrade.com",
+        "data": {
+            "origins": [
+                "https://fortrade.com",
+                "https://auth-stg.fortrade.com",
+                "https://ready.fortrade.com/",
+                "https://pro.fortrade.com/",
+                "https://www.fortrade.com/",
+                "https://web.fortrade.com/",
+                "https://{prod-subdomain}.fortrade.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.cloud.yandex.ru",
+        "data": {
+            "origins": [
+                "https://auth.cloud.yandex.ru",
+                "https://auth.cloud.yandex.com",
+                "https://auth.yandex.cloud"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.yandex.cloud",
+        "data": {
+            "origins": [
+                "https://auth.cloud.yandex.ru",
+                "https://auth.cloud.yandex.com",
+                "https://auth.yandex.cloud"
+            ]
+        }
+    },
+    {
+        "origin": "https://otpless.com",
+        "data": {
+            "origins": [
+                "https://otpless.tech"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.kcex.com",
+        "data": {
+            "origins": [
+                "https://www.kcex.io",
+                "https://www.kcex.cc",
+                "https://www.kcex.vip",
+                "https://www.kcexpre.com",
+                "https://www.kcextest.com",
+                "https://www.kcdva.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://app.apexnetwork.co",
+        "data": {
+            "origins": [
+                "localhost",
+                "http://localhost",
+                "http://localhost:5173",
+                "http://127.0.0.1",
+                "http://127.0.0.1:5173",
+                "https://amanam.helloapex.dev",
+                "https://wtrader.apex-middleware.dev"
+            ]
+        }
+    },
+    {
+        "origin": "https://app.basewallet.co",
+        "data": {
+            "origins": [
+                "android:apk-key-hash:mn1QymQTD256aybtmgWh8qD8Wy1U2KXsSfz0Cv48914",
+                "https://app.basewallet.co",
+                "https://basewallet.co",
+                "6T6Q4L44T8.com.basewallet.app-ios"
+            ]
+        }
+    },
+    {
+        "origin": "https://identity.ic0.app",
+        "data": {
+            "origins": [
+                "https://id.ai",
+                "https://identity.ic0.app",
+                "https://identity.internetcomputer.org",
+                "https://identity.icp0.io"
+            ]
+        }
+    },
+    {
+        "origin": "https://identity.internetcomputer.org",
+        "data": {
+            "origins": [
+                "https://id.ai",
+                "https://identity.ic0.app",
+                "https://identity.internetcomputer.org",
+                "https://identity.icp0.io"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.lendi.pl",
+        "data": {
+            "origins": [
+                "https://zitadel-login-lendi.vercel.app",
+                "https://zitadel-login-git-layout-lendi-global.vercel.app"
+            ]
+        }
+    },
+    {
+        "origin": "https://swissborg.com",
+        "data": {
+            "origins": [
+                "https://web.swissborg-stage.local"
+            ]
+        }
+    },
+    {
+        "origin": "https://worldskills.org",
+        "data": {
+            "origins": [
+                "https://auth.worldskills.org",
+                "https://auth.worldskills.show"
+            ]
+        }
+    },
+    {
+        "origin": "https://superpay.supervin.dk",
+        "data": {
+            "origins": [
+                "https://superpay.supervin.dk",
+                "https://www.supervin.dk"
+            ]
+        }
+    },
+    {
+        "origin": "https://origenportal.co.uk",
+        "data": {
+            "origins": [
+                "https://mymoney.frazerjames.co.uk",
+                "https://financialplanningportal.pmm.co.uk",
+                "https://connect.shardcapital.com",
+                "https://www.mybournebridge.com",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://portal.tidewaywealth.co.uk",
+                "https://wealthfocus.boolers.co.uk",
+                "https://yourcam.city-asset.co.uk",
+                "https://clients.thomsontyndall.com",
+                "https://connect.cooperparrywealth.com",
+                "https://myfinli.co.uk",
+                "https://financialplanning.rathbones.com",
+                "https://portal.equilibrium.co.uk",
+                "https://myartorius.com",
+                "https://www.yourwealthmanager.uk.net",
+                "https://secureportal.rcbim.co.uk",
+                "https://www.ethicalmoney.co.uk",
+                "https://clientmatters.co.uk",
+                "https://secure.mygbim.co.uk",
+                "https://myportal.versoim.com",
+                "https://myportfolio.wpofp.co.uk",
+                "https://my.nlpfm.co.uk",
+                "https://www.becketts.online",
+                "https://wealth.theprivateoffice.com",
+                "https://connect.hfmcwealth.com",
+                "https://view.fpc.co.uk",
+                "https://www.yourbiml.com",
+                "https://motus.moneyinfo.co.uk",
+                "https://waverton.moneyinfo.co.uk",
+                "https://clientportal.hawksmoorim.co.uk",
+                "https://myfiscalhub.fiscalengineers.com",
+                "https://www.bluecoathub.co.uk",
+                "https://fescape.co.uk",
+                "https://www.myovation.ovationfinance.co.uk",
+                "https://insight.hartsfield.co.uk",
+                "https://my.nlpfm.co.uk/",
+                "https://tenwealth.moneyinfo.co.uk",
+                "https://caliber.moneyinfo.co.uk",
+                "https://lomondwealth-mywealth.com",
+                "https://connect.wealthflow.com",
+                "https://connect.4-shires.com",
+                "https://clients.wiseinvestment.co.uk",
+                "https://myprosperityplanning.co.uk",
+                "https://www.barnabycecilapp.com",
+                "https://mylonghurst.co.uk",
+                "https://www.mymclaren.uk",
+                "https://myportal.frenkeltopping.co.uk",
+                "https://mypigottsportal.co.uk",
+                "https://mylogic.logicfinancialservices.co.uk",
+                "https://thanks.moneyinfo.co.uk",
+                "https://yourwealth.om.uk",
+                "https://origenportal.co.uk",
+                "https://mycmswealth.co.uk",
+                "https://www.mymoney.hymanspersonalwealth.co.uk",
+                "https://myspecialistpw.com",
+                "https://lowes-online.co.uk",
+                "https://client.kingswood-group.com",
+                "https://connect.ipensionswealth.co.uk",
+                "https://iqwealth.app",
+                "https://clientportal.lyndhurstfm.co.uk",
+                "https://secureportal.alpha-pm.co.uk",
+                "https://ocarisconnect.co.uk",
+                "https://bentleyreid.online",
+                "https://mywoa.co.uk",
+                "https://commshare.money",
+                "https://moneylocker.mvam.com",
+                "https://client.mkcwealth.com",
+                "https://clienthub.tmfp.co.uk",
+                "https://bernstein-globalclients.com",
+                "https://clients-tillswood.com",
+                "https://armstrongwealthportal.co.uk",
+                "https://connect.tpio.co.uk",
+                "https://myportal.minatowealth.com",
+                "https://app.williampartners.co.uk",
+                "https://mercuryinsight.co.uk",
+                "https://ch-clients.co.uk",
+                "https://tribeimpactcapital.app",
+                "https://myportal.jameshambro.com",
+                "https://client-login.unluco.uk",
+                "https://www.myfinli.co.uk",
+                "https://secure.myargentis.co.uk",
+                "https://myspecialistpw.com",
+                "https://clientportal.thisis6.com",
+                "https://my.ombainvestments.com",
+                "https://myplandfa.co.uk",
+                "https://clientportal.holderandcombes.co.uk",
+                "https://portal.19wealth.co.uk",
+                "https://connect.avnwm.com",
+                "https://connect.charterhousewm.com",
+                "https://portal.tacitim.com",
+                "https://bromptonam-clients.com",
+                "https://shackletonconnect.shackletonadvisers.co.uk",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://aeswealth.aesinternational.com",
+                "https://portal.amberriver.com",
+                "https://clientportal.herbertscott.uk",
+                "https://connect.torevellpartners.co.uk"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.hika.fyi",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://auth.brukerportal.no",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://has.schaden.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://sso.corelab.com",
+        "data": {
+            "origins": [
+                "https://corelab.auth.securid.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://viewpoint.moneyinfo.co.uk",
+        "data": {
+            "origins": [
+                "https://mymoney.frazerjames.co.uk",
+                "https://financialplanningportal.pmm.co.uk",
+                "https://connect.shardcapital.com",
+                "https://www.mybournebridge.com",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://portal.tidewaywealth.co.uk",
+                "https://wealthfocus.boolers.co.uk",
+                "https://yourcam.city-asset.co.uk",
+                "https://clients.thomsontyndall.com",
+                "https://connect.cooperparrywealth.com",
+                "https://myfinli.co.uk",
+                "https://financialplanning.rathbones.com",
+                "https://portal.equilibrium.co.uk",
+                "https://myartorius.com",
+                "https://www.yourwealthmanager.uk.net",
+                "https://secureportal.rcbim.co.uk",
+                "https://www.ethicalmoney.co.uk",
+                "https://clientmatters.co.uk",
+                "https://secure.mygbim.co.uk",
+                "https://myportal.versoim.com",
+                "https://myportfolio.wpofp.co.uk",
+                "https://my.nlpfm.co.uk",
+                "https://www.becketts.online",
+                "https://wealth.theprivateoffice.com",
+                "https://connect.hfmcwealth.com",
+                "https://view.fpc.co.uk",
+                "https://www.yourbiml.com",
+                "https://motus.moneyinfo.co.uk",
+                "https://waverton.moneyinfo.co.uk",
+                "https://clientportal.hawksmoorim.co.uk",
+                "https://myfiscalhub.fiscalengineers.com",
+                "https://www.bluecoathub.co.uk",
+                "https://fescape.co.uk",
+                "https://www.myovation.ovationfinance.co.uk",
+                "https://insight.hartsfield.co.uk",
+                "https://my.nlpfm.co.uk/",
+                "https://tenwealth.moneyinfo.co.uk",
+                "https://caliber.moneyinfo.co.uk",
+                "https://lomondwealth-mywealth.com",
+                "https://connect.wealthflow.com",
+                "https://connect.4-shires.com",
+                "https://clients.wiseinvestment.co.uk",
+                "https://myprosperityplanning.co.uk",
+                "https://www.barnabycecilapp.com",
+                "https://mylonghurst.co.uk",
+                "https://www.mymclaren.uk",
+                "https://myportal.frenkeltopping.co.uk",
+                "https://mypigottsportal.co.uk",
+                "https://mylogic.logicfinancialservices.co.uk",
+                "https://thanks.moneyinfo.co.uk",
+                "https://yourwealth.om.uk",
+                "https://origenportal.co.uk",
+                "https://mycmswealth.co.uk",
+                "https://www.mymoney.hymanspersonalwealth.co.uk",
+                "https://myspecialistpw.com",
+                "https://lowes-online.co.uk",
+                "https://client.kingswood-group.com",
+                "https://connect.ipensionswealth.co.uk",
+                "https://iqwealth.app",
+                "https://clientportal.lyndhurstfm.co.uk",
+                "https://secureportal.alpha-pm.co.uk",
+                "https://ocarisconnect.co.uk",
+                "https://bentleyreid.online",
+                "https://mywoa.co.uk",
+                "https://commshare.money",
+                "https://moneylocker.mvam.com",
+                "https://client.mkcwealth.com",
+                "https://clienthub.tmfp.co.uk",
+                "https://bernstein-globalclients.com",
+                "https://clients-tillswood.com",
+                "https://armstrongwealthportal.co.uk",
+                "https://connect.tpio.co.uk",
+                "https://myportal.minatowealth.com",
+                "https://app.williampartners.co.uk",
+                "https://mercuryinsight.co.uk",
+                "https://ch-clients.co.uk",
+                "https://tribeimpactcapital.app",
+                "https://myportal.jameshambro.com",
+                "https://client-login.unluco.uk",
+                "https://www.myfinli.co.uk",
+                "https://secure.myargentis.co.uk",
+                "https://myspecialistpw.com",
+                "https://clientportal.thisis6.com",
+                "https://my.ombainvestments.com",
+                "https://myplandfa.co.uk",
+                "https://clientportal.holderandcombes.co.uk",
+                "https://portal.19wealth.co.uk",
+                "https://connect.avnwm.com",
+                "https://connect.charterhousewm.com",
+                "https://portal.tacitim.com",
+                "https://bromptonam-clients.com",
+                "https://shackletonconnect.shackletonadvisers.co.uk",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://aeswealth.aesinternational.com",
+                "https://portal.amberriver.com",
+                "https://clientportal.herbertscott.uk",
+                "https://connect.torevellpartners.co.uk"
+            ]
+        }
+    },
+    {
+        "origin": "https://mfa-eu-si.allianz.com",
+        "data": {
+            "origins": [
+                "https://mfa-eu-si.allianz.com",
+                "https://mfa-eu-si.srv.allianz:8945",
+                "https://mfa-eu-si.srv.allianz:9987",
+                "https://adfsadt.allianz.net"
+            ]
+        }
+    },
+    {
+        "origin": "https://pass.rc.today",
+        "data": {
+            "origins": [
+                "https://pass.rc.today",
+                "https://passport-hub-frontend-staging.stage.rccore.net",
+                "https://144-review-new-design-obevwx.stage.rccore.net",
+                "http://localhost:8080"
+            ]
+        }
+    },
+    {
+        "origin": "https://vpis.fh-swf.de",
+        "data": {
+            "origins": [
+                "https://www.fh-swf.de",
+                "https://elearning.fh-swf.de",
+                "https://gwmail.fh-swf.de",
+                "https://hochschulportal.fh-swf.de",
+                "https://vpis.fh-swf.de",
+                "https://vp.fh-swf.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://sellmonitor.com",
+        "data": {
+            "origins": [
+                "https://sellmonitor.com",
+                "https://sellematics.com",
+                "https://sellscreen.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://portal.schaden.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://progeny.moneyinfo.co.uk",
+        "data": {
+            "origins": [
+                "https://mymoney.frazerjames.co.uk",
+                "https://financialplanningportal.pmm.co.uk",
+                "https://connect.shardcapital.com",
+                "https://www.mybournebridge.com",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://portal.tidewaywealth.co.uk",
+                "https://wealthfocus.boolers.co.uk",
+                "https://yourcam.city-asset.co.uk",
+                "https://clients.thomsontyndall.com",
+                "https://connect.cooperparrywealth.com",
+                "https://myfinli.co.uk",
+                "https://financialplanning.rathbones.com",
+                "https://portal.equilibrium.co.uk",
+                "https://myartorius.com",
+                "https://www.yourwealthmanager.uk.net",
+                "https://secureportal.rcbim.co.uk",
+                "https://www.ethicalmoney.co.uk",
+                "https://clientmatters.co.uk",
+                "https://secure.mygbim.co.uk",
+                "https://myportal.versoim.com",
+                "https://myportfolio.wpofp.co.uk",
+                "https://my.nlpfm.co.uk",
+                "https://www.becketts.online",
+                "https://wealth.theprivateoffice.com",
+                "https://connect.hfmcwealth.com",
+                "https://view.fpc.co.uk",
+                "https://www.yourbiml.com",
+                "https://motus.moneyinfo.co.uk",
+                "https://waverton.moneyinfo.co.uk",
+                "https://clientportal.hawksmoorim.co.uk",
+                "https://myfiscalhub.fiscalengineers.com",
+                "https://www.bluecoathub.co.uk",
+                "https://fescape.co.uk",
+                "https://www.myovation.ovationfinance.co.uk",
+                "https://insight.hartsfield.co.uk",
+                "https://my.nlpfm.co.uk/",
+                "https://tenwealth.moneyinfo.co.uk",
+                "https://caliber.moneyinfo.co.uk",
+                "https://lomondwealth-mywealth.com",
+                "https://connect.wealthflow.com",
+                "https://connect.4-shires.com",
+                "https://clients.wiseinvestment.co.uk",
+                "https://myprosperityplanning.co.uk",
+                "https://www.barnabycecilapp.com",
+                "https://mylonghurst.co.uk",
+                "https://www.mymclaren.uk",
+                "https://myportal.frenkeltopping.co.uk",
+                "https://mypigottsportal.co.uk",
+                "https://mylogic.logicfinancialservices.co.uk",
+                "https://thanks.moneyinfo.co.uk",
+                "https://yourwealth.om.uk",
+                "https://origenportal.co.uk",
+                "https://mycmswealth.co.uk",
+                "https://www.mymoney.hymanspersonalwealth.co.uk",
+                "https://myspecialistpw.com",
+                "https://lowes-online.co.uk",
+                "https://client.kingswood-group.com",
+                "https://connect.ipensionswealth.co.uk",
+                "https://iqwealth.app",
+                "https://clientportal.lyndhurstfm.co.uk",
+                "https://secureportal.alpha-pm.co.uk",
+                "https://ocarisconnect.co.uk",
+                "https://bentleyreid.online",
+                "https://mywoa.co.uk",
+                "https://commshare.money",
+                "https://moneylocker.mvam.com",
+                "https://client.mkcwealth.com",
+                "https://clienthub.tmfp.co.uk",
+                "https://bernstein-globalclients.com",
+                "https://clients-tillswood.com",
+                "https://armstrongwealthportal.co.uk",
+                "https://connect.tpio.co.uk",
+                "https://myportal.minatowealth.com",
+                "https://app.williampartners.co.uk",
+                "https://mercuryinsight.co.uk",
+                "https://ch-clients.co.uk",
+                "https://tribeimpactcapital.app",
+                "https://myportal.jameshambro.com",
+                "https://client-login.unluco.uk",
+                "https://www.myfinli.co.uk",
+                "https://secure.myargentis.co.uk",
+                "https://myspecialistpw.com",
+                "https://clientportal.thisis6.com",
+                "https://my.ombainvestments.com",
+                "https://myplandfa.co.uk",
+                "https://clientportal.holderandcombes.co.uk",
+                "https://portal.19wealth.co.uk",
+                "https://connect.avnwm.com",
+                "https://connect.charterhousewm.com",
+                "https://portal.tacitim.com",
+                "https://bromptonam-clients.com",
+                "https://shackletonconnect.shackletonadvisers.co.uk",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://aeswealth.aesinternational.com",
+                "https://portal.amberriver.com",
+                "https://clientportal.herbertscott.uk",
+                "https://connect.torevellpartners.co.uk"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.coca.xyz",
+        "data": {
+            "origins": [
+                "capacitor://coca.xyz",
+                "",
+                "https://coca.xyz"
+            ]
+        }
+    },
+    {
+        "origin": "https://dashboard.v4guard.io",
+        "data": {
+            "origins": [
+                "https://dashboard.v4guard.io",
+                "https://v4guard.io",
+                "https://v4guard.me"
+            ]
+        }
+    },
+    {
+        "origin": "https://tr-rs.sales.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.mentorhints.com",
+        "data": {
+            "origins": [
+                "https://mentorhints.com",
+                "https://test.mentorhints.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://login.digiquip.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://login.microsoftonline.com.office.prod.abbvie.myshn.net",
+        "data": {
+            "origins": [
+                "https://login.live.com.office.prod.abbvie.myshn.net",
+                "https://login.microsoftonline.com.office.prod.abbvie.myshn.net"
+            ]
+        }
+    },
+    {
+        "origin": "https://deals-check-rates.affiliate.kayak.com",
+        "data": {
+            "origins": [
+                "https://www.kayak.de",
+                "https://www.tw.kayak.com",
+                "https://www.kayak.com.hk",
+                "https://www.kayak.pt",
+                "https://www.kayak.dk",
+                "https://www.ua.kayak.com",
+                "https://www.kayak.qa",
+                "https://www.kayak.co.id",
+                "https://www.kayak.ie",
+                "https://www.ee.kayak.com",
+                "https://www.il.kayak.com",
+                "https://www.es.kayak.com",
+                "https://www.kayak.ae",
+                "https://www.kayak.co.in",
+                "https://www.za.kayak.com",
+                "https://www.kayak.com.mx",
+                "https://www.kayak.it",
+                "https://www.kayak.com.my",
+                "https://www.kayak.es",
+                "https://www.kayak.com.ar",
+                "https://www.at.kayak.com",
+                "https://www.kayak.com.au",
+                "https://www.vn.kayak.com",
+                "https://www.ro.kayak.com",
+                "https://www.kayak.nl",
+                "https://www.kayak.no",
+                "https://www.fi.kayak.com",
+                "https://www.be.kayak.com",
+                "https://www.kayak.co.jp",
+                "https://www.nz.kayak.com",
+                "https://www.kayak.fr",
+                "https://www.kayak.sa",
+                "https://www.kayak.com.br",
+                "https://www.kayak.se",
+                "https://www.kayak.sg",
+                "https://www.kayak.co.uk",
+                "https://www.ca.kayak.com",
+                "https://www.kayak.gl",
+                "https://www.kayak.ch",
+                "https://www.kayak.co.kr",
+                "https://www.kayak.cl",
+                "https://www.gr.kayak.com",
+                "https://www.cn.kayak.com",
+                "https://www.kayak.com.co",
+                "https://www.kayak.co.th",
+                "https://www.kayak.com.pe",
+                "https://www.cz.kayak.com",
+                "https://www.kayak.com.ph",
+                "https://www.kayak.pl",
+                "https://www.kayak.com.tr"
+            ]
+        }
+    },
+    {
+        "origin": "https://rsa.legis.wisconsin.gov",
+        "data": {
+            "origins": [
+                "https://legis-wisconsin.auth.securid.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://dimo.org",
+        "data": {
+            "origins": [
+                "https://dimo.org",
+                "https://dimo.co",
+                "https://dimo.zone",
+                "https://dimo.xyz"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.orb.net",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://wggdemo.ciamlogin.com",
+        "data": {
+            "origins": [
+                "https://login.live.com",
+                "https://login.microsoftonline.com"
+            ]
+        }
+    },
+    {
+        "origin": "http://www.kayak.com",
+        "data": {
+            "origins": [
+                "https://www.kayak.de",
+                "https://www.tw.kayak.com",
+                "https://www.kayak.com.hk",
+                "https://www.kayak.pt",
+                "https://www.kayak.dk",
+                "https://www.ua.kayak.com",
+                "https://www.kayak.qa",
+                "https://www.kayak.co.id",
+                "https://www.kayak.ie",
+                "https://www.ee.kayak.com",
+                "https://www.il.kayak.com",
+                "https://www.es.kayak.com",
+                "https://www.kayak.ae",
+                "https://www.kayak.co.in",
+                "https://www.za.kayak.com",
+                "https://www.kayak.com.mx",
+                "https://www.kayak.it",
+                "https://www.kayak.com.my",
+                "https://www.kayak.es",
+                "https://www.kayak.com.ar",
+                "https://www.at.kayak.com",
+                "https://www.kayak.com.au",
+                "https://www.vn.kayak.com",
+                "https://www.ro.kayak.com",
+                "https://www.kayak.nl",
+                "https://www.kayak.no",
+                "https://www.fi.kayak.com",
+                "https://www.be.kayak.com",
+                "https://www.kayak.co.jp",
+                "https://www.nz.kayak.com",
+                "https://www.kayak.fr",
+                "https://www.kayak.sa",
+                "https://www.kayak.com.br",
+                "https://www.kayak.se",
+                "https://www.kayak.sg",
+                "https://www.kayak.co.uk",
+                "https://www.ca.kayak.com",
+                "https://www.kayak.gl",
+                "https://www.kayak.ch",
+                "https://www.kayak.co.kr",
+                "https://www.kayak.cl",
+                "https://www.gr.kayak.com",
+                "https://www.cn.kayak.com",
+                "https://www.kayak.com.co",
+                "https://www.kayak.co.th",
+                "https://www.kayak.com.pe",
+                "https://www.cz.kayak.com",
+                "https://www.kayak.com.ph",
+                "https://www.kayak.pl",
+                "https://www.kayak.com.tr"
+            ]
+        }
+    },
+    {
+        "origin": "https://shopify-b2b.miniorange.com",
+        "data": {
+            "origins": [
+                "https://shop.app",
+                "https://shopify.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://3z99q5.logto.app",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://www.kuda.com",
+        "data": {
+            "origins": [
+                "https://kuda.com",
+                "https://app-staging.kuda.com",
+                "https://app.kuda.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.connectabil.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://rs.schaden.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://vec.fun",
+        "data": {
+            "origins": [
+                "https://app.vector.fun",
+                "https://vector-desktop.vercel.app"
+            ]
+        }
+    },
+    {
+        "origin": "https://uzum.sellmonitor.com",
+        "data": {
+            "origins": [
+                "https://sellmonitor.com",
+                "https://sellematics.com",
+                "https://sellscreen.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://commerceconnections.commercebank.com",
+        "data": {
+            "origins": [
+                "https://commerceconnections.commercebank.com",
+                "https://cc.commercebank.com",
+                "https://efx.commercebank.com",
+                "https://ccnxp-admin.okta.com",
+                "https://ccnxp.okta.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://protegear.io",
+        "data": {
+            "origins": [
+                "http://localhost:8080",
+                "https://zugspitze.tail54cfa.ts.net/"
+            ]
+        }
+    },
+    {
+        "origin": "https://pass.mediageneral.digital",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://www.amazonaws.cn",
+        "data": {
+            "origins": [
+                "https://amazonaws.cn",
+                "https://amazonwebservices.cn"
+            ]
+        }
+    },
+    {
+        "origin": "https://sellematics.com",
+        "data": {
+            "origins": [
+                "https://sellmonitor.com",
+                "https://sellematics.com",
+                "https://sellscreen.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://login.dimo.org",
+        "data": {
+            "origins": [
+                "https://dimo.org",
+                "https://dimo.co",
+                "https://dimo.zone",
+                "https://dimo.xyz"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.billgenerator.in",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://www.leiting.app",
+        "data": {
+            "origins": [
+                "https://leiting.app",
+                "https://leiting.io",
+                "https://leiting.uk",
+                "https://uniss.me"
+            ]
+        }
+    },
+    {
+        "origin": "https://logto.sunnypilot.ai",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://www.kcex.io",
+        "data": {
+            "origins": [
+                "https://www.kcex.io",
+                "https://www.kcex.cc",
+                "https://www.kcex.vip",
+                "https://www.kcexpre.com",
+                "https://www.kcextest.com",
+                "https://www.kcdva.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://id.test.mfw.work",
+        "data": {
+            "origins": [
+                "https://id.test.mfw.work"
+            ]
+        }
+    },
+    {
+        "origin": "https://wealth.theprivateoffice.com",
+        "data": {
+            "origins": [
+                "https://mymoney.frazerjames.co.uk",
+                "https://financialplanningportal.pmm.co.uk",
+                "https://connect.shardcapital.com",
+                "https://www.mybournebridge.com",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://portal.tidewaywealth.co.uk",
+                "https://wealthfocus.boolers.co.uk",
+                "https://yourcam.city-asset.co.uk",
+                "https://clients.thomsontyndall.com",
+                "https://connect.cooperparrywealth.com",
+                "https://myfinli.co.uk",
+                "https://financialplanning.rathbones.com",
+                "https://portal.equilibrium.co.uk",
+                "https://myartorius.com",
+                "https://www.yourwealthmanager.uk.net",
+                "https://secureportal.rcbim.co.uk",
+                "https://www.ethicalmoney.co.uk",
+                "https://clientmatters.co.uk",
+                "https://secure.mygbim.co.uk",
+                "https://myportal.versoim.com",
+                "https://myportfolio.wpofp.co.uk",
+                "https://my.nlpfm.co.uk",
+                "https://www.becketts.online",
+                "https://wealth.theprivateoffice.com",
+                "https://connect.hfmcwealth.com",
+                "https://view.fpc.co.uk",
+                "https://www.yourbiml.com",
+                "https://motus.moneyinfo.co.uk",
+                "https://waverton.moneyinfo.co.uk",
+                "https://clientportal.hawksmoorim.co.uk",
+                "https://myfiscalhub.fiscalengineers.com",
+                "https://www.bluecoathub.co.uk",
+                "https://fescape.co.uk",
+                "https://www.myovation.ovationfinance.co.uk",
+                "https://insight.hartsfield.co.uk",
+                "https://my.nlpfm.co.uk/",
+                "https://tenwealth.moneyinfo.co.uk",
+                "https://caliber.moneyinfo.co.uk",
+                "https://lomondwealth-mywealth.com",
+                "https://connect.wealthflow.com",
+                "https://connect.4-shires.com",
+                "https://clients.wiseinvestment.co.uk",
+                "https://myprosperityplanning.co.uk",
+                "https://www.barnabycecilapp.com",
+                "https://mylonghurst.co.uk",
+                "https://www.mymclaren.uk",
+                "https://myportal.frenkeltopping.co.uk",
+                "https://mypigottsportal.co.uk",
+                "https://mylogic.logicfinancialservices.co.uk",
+                "https://thanks.moneyinfo.co.uk",
+                "https://yourwealth.om.uk",
+                "https://origenportal.co.uk",
+                "https://mycmswealth.co.uk",
+                "https://www.mymoney.hymanspersonalwealth.co.uk",
+                "https://myspecialistpw.com",
+                "https://lowes-online.co.uk",
+                "https://client.kingswood-group.com",
+                "https://connect.ipensionswealth.co.uk",
+                "https://iqwealth.app",
+                "https://clientportal.lyndhurstfm.co.uk",
+                "https://secureportal.alpha-pm.co.uk",
+                "https://ocarisconnect.co.uk",
+                "https://bentleyreid.online",
+                "https://mywoa.co.uk",
+                "https://commshare.money",
+                "https://moneylocker.mvam.com",
+                "https://client.mkcwealth.com",
+                "https://clienthub.tmfp.co.uk",
+                "https://bernstein-globalclients.com",
+                "https://clients-tillswood.com",
+                "https://armstrongwealthportal.co.uk",
+                "https://connect.tpio.co.uk",
+                "https://myportal.minatowealth.com",
+                "https://app.williampartners.co.uk",
+                "https://mercuryinsight.co.uk",
+                "https://ch-clients.co.uk",
+                "https://tribeimpactcapital.app",
+                "https://myportal.jameshambro.com",
+                "https://client-login.unluco.uk",
+                "https://www.myfinli.co.uk",
+                "https://secure.myargentis.co.uk",
+                "https://myspecialistpw.com",
+                "https://clientportal.thisis6.com",
+                "https://my.ombainvestments.com",
+                "https://myplandfa.co.uk",
+                "https://clientportal.holderandcombes.co.uk",
+                "https://portal.19wealth.co.uk",
+                "https://connect.avnwm.com",
+                "https://connect.charterhousewm.com",
+                "https://portal.tacitim.com",
+                "https://bromptonam-clients.com",
+                "https://shackletonconnect.shackletonadvisers.co.uk",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://aeswealth.aesinternational.com",
+                "https://portal.amberriver.com",
+                "https://clientportal.herbertscott.uk",
+                "https://connect.torevellpartners.co.uk"
+            ]
+        }
+    },
+    {
+        "origin": "https://kr.g11.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.subanana.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://client.kingswood-group.com",
+        "data": {
+            "origins": [
+                "https://mymoney.frazerjames.co.uk",
+                "https://financialplanningportal.pmm.co.uk",
+                "https://connect.shardcapital.com",
+                "https://www.mybournebridge.com",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://portal.tidewaywealth.co.uk",
+                "https://wealthfocus.boolers.co.uk",
+                "https://yourcam.city-asset.co.uk",
+                "https://clients.thomsontyndall.com",
+                "https://connect.cooperparrywealth.com",
+                "https://myfinli.co.uk",
+                "https://financialplanning.rathbones.com",
+                "https://portal.equilibrium.co.uk",
+                "https://myartorius.com",
+                "https://www.yourwealthmanager.uk.net",
+                "https://secureportal.rcbim.co.uk",
+                "https://www.ethicalmoney.co.uk",
+                "https://clientmatters.co.uk",
+                "https://secure.mygbim.co.uk",
+                "https://myportal.versoim.com",
+                "https://myportfolio.wpofp.co.uk",
+                "https://my.nlpfm.co.uk",
+                "https://www.becketts.online",
+                "https://wealth.theprivateoffice.com",
+                "https://connect.hfmcwealth.com",
+                "https://view.fpc.co.uk",
+                "https://www.yourbiml.com",
+                "https://motus.moneyinfo.co.uk",
+                "https://waverton.moneyinfo.co.uk",
+                "https://clientportal.hawksmoorim.co.uk",
+                "https://myfiscalhub.fiscalengineers.com",
+                "https://www.bluecoathub.co.uk",
+                "https://fescape.co.uk",
+                "https://www.myovation.ovationfinance.co.uk",
+                "https://insight.hartsfield.co.uk",
+                "https://my.nlpfm.co.uk/",
+                "https://tenwealth.moneyinfo.co.uk",
+                "https://caliber.moneyinfo.co.uk",
+                "https://lomondwealth-mywealth.com",
+                "https://connect.wealthflow.com",
+                "https://connect.4-shires.com",
+                "https://clients.wiseinvestment.co.uk",
+                "https://myprosperityplanning.co.uk",
+                "https://www.barnabycecilapp.com",
+                "https://mylonghurst.co.uk",
+                "https://www.mymclaren.uk",
+                "https://myportal.frenkeltopping.co.uk",
+                "https://mypigottsportal.co.uk",
+                "https://mylogic.logicfinancialservices.co.uk",
+                "https://thanks.moneyinfo.co.uk",
+                "https://yourwealth.om.uk",
+                "https://origenportal.co.uk",
+                "https://mycmswealth.co.uk",
+                "https://www.mymoney.hymanspersonalwealth.co.uk",
+                "https://myspecialistpw.com",
+                "https://lowes-online.co.uk",
+                "https://client.kingswood-group.com",
+                "https://connect.ipensionswealth.co.uk",
+                "https://iqwealth.app",
+                "https://clientportal.lyndhurstfm.co.uk",
+                "https://secureportal.alpha-pm.co.uk",
+                "https://ocarisconnect.co.uk",
+                "https://bentleyreid.online",
+                "https://mywoa.co.uk",
+                "https://commshare.money",
+                "https://moneylocker.mvam.com",
+                "https://client.mkcwealth.com",
+                "https://clienthub.tmfp.co.uk",
+                "https://bernstein-globalclients.com",
+                "https://clients-tillswood.com",
+                "https://armstrongwealthportal.co.uk",
+                "https://connect.tpio.co.uk",
+                "https://myportal.minatowealth.com",
+                "https://app.williampartners.co.uk",
+                "https://mercuryinsight.co.uk",
+                "https://ch-clients.co.uk",
+                "https://tribeimpactcapital.app",
+                "https://myportal.jameshambro.com",
+                "https://client-login.unluco.uk",
+                "https://www.myfinli.co.uk",
+                "https://secure.myargentis.co.uk",
+                "https://myspecialistpw.com",
+                "https://clientportal.thisis6.com",
+                "https://my.ombainvestments.com",
+                "https://myplandfa.co.uk",
+                "https://clientportal.holderandcombes.co.uk",
+                "https://portal.19wealth.co.uk",
+                "https://connect.avnwm.com",
+                "https://connect.charterhousewm.com",
+                "https://portal.tacitim.com",
+                "https://bromptonam-clients.com",
+                "https://shackletonconnect.shackletonadvisers.co.uk",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://aeswealth.aesinternational.com",
+                "https://portal.amberriver.com",
+                "https://clientportal.herbertscott.uk",
+                "https://connect.torevellpartners.co.uk"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.logto.io",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://auth.katipolt.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://auth.cloud.yandex.com",
+        "data": {
+            "origins": [
+                "https://auth.cloud.yandex.ru",
+                "https://auth.cloud.yandex.com",
+                "https://auth.yandex.cloud"
+            ]
+        }
+    },
+    {
+        "origin": "https://sellscreen.io",
+        "data": {
+            "origins": [
+                "https://sellmonitor.com",
+                "https://sellematics.com",
+                "https://sellscreen.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://login-microsoftonline-com.translate.goog",
+        "data": {
+            "origins": [
+                "https://login.live.com",
+                "https://login.microsoftonline.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://kfz.schaden.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://app.repaircode.de",
+        "data": {
+            "origins": [
+                "https://app.repaircode.de",
+                "https://app.sqanit.com",
+                "https://app.sqanit.io"
+            ]
+        }
+    },
+    {
+        "origin": "https://clientportal.hawksmoorim.co.uk",
+        "data": {
+            "origins": [
+                "https://mymoney.frazerjames.co.uk",
+                "https://financialplanningportal.pmm.co.uk",
+                "https://connect.shardcapital.com",
+                "https://www.mybournebridge.com",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://www.myfinli.co.uk",
+                "https://portal.tidewaywealth.co.uk",
+                "https://wealthfocus.boolers.co.uk",
+                "https://yourcam.city-asset.co.uk",
+                "https://clients.thomsontyndall.com",
+                "https://connect.cooperparrywealth.com",
+                "https://myfinli.co.uk",
+                "https://financialplanning.rathbones.com",
+                "https://portal.equilibrium.co.uk",
+                "https://myartorius.com",
+                "https://www.yourwealthmanager.uk.net",
+                "https://secureportal.rcbim.co.uk",
+                "https://www.ethicalmoney.co.uk",
+                "https://clientmatters.co.uk",
+                "https://secure.mygbim.co.uk",
+                "https://myportal.versoim.com",
+                "https://myportfolio.wpofp.co.uk",
+                "https://my.nlpfm.co.uk",
+                "https://www.becketts.online",
+                "https://wealth.theprivateoffice.com",
+                "https://connect.hfmcwealth.com",
+                "https://view.fpc.co.uk",
+                "https://www.yourbiml.com",
+                "https://motus.moneyinfo.co.uk",
+                "https://waverton.moneyinfo.co.uk",
+                "https://clientportal.hawksmoorim.co.uk",
+                "https://myfiscalhub.fiscalengineers.com",
+                "https://www.bluecoathub.co.uk",
+                "https://fescape.co.uk",
+                "https://www.myovation.ovationfinance.co.uk",
+                "https://insight.hartsfield.co.uk",
+                "https://my.nlpfm.co.uk/",
+                "https://tenwealth.moneyinfo.co.uk",
+                "https://caliber.moneyinfo.co.uk",
+                "https://lomondwealth-mywealth.com",
+                "https://connect.wealthflow.com",
+                "https://connect.4-shires.com",
+                "https://clients.wiseinvestment.co.uk",
+                "https://myprosperityplanning.co.uk",
+                "https://www.barnabycecilapp.com",
+                "https://mylonghurst.co.uk",
+                "https://www.mymclaren.uk",
+                "https://myportal.frenkeltopping.co.uk",
+                "https://mypigottsportal.co.uk",
+                "https://mylogic.logicfinancialservices.co.uk",
+                "https://thanks.moneyinfo.co.uk",
+                "https://yourwealth.om.uk",
+                "https://origenportal.co.uk",
+                "https://mycmswealth.co.uk",
+                "https://www.mymoney.hymanspersonalwealth.co.uk",
+                "https://myspecialistpw.com",
+                "https://lowes-online.co.uk",
+                "https://client.kingswood-group.com",
+                "https://connect.ipensionswealth.co.uk",
+                "https://iqwealth.app",
+                "https://clientportal.lyndhurstfm.co.uk",
+                "https://secureportal.alpha-pm.co.uk",
+                "https://ocarisconnect.co.uk",
+                "https://bentleyreid.online",
+                "https://mywoa.co.uk",
+                "https://commshare.money",
+                "https://moneylocker.mvam.com",
+                "https://client.mkcwealth.com",
+                "https://clienthub.tmfp.co.uk",
+                "https://bernstein-globalclients.com",
+                "https://clients-tillswood.com",
+                "https://armstrongwealthportal.co.uk",
+                "https://connect.tpio.co.uk",
+                "https://myportal.minatowealth.com",
+                "https://app.williampartners.co.uk",
+                "https://mercuryinsight.co.uk",
+                "https://ch-clients.co.uk",
+                "https://tribeimpactcapital.app",
+                "https://myportal.jameshambro.com",
+                "https://client-login.unluco.uk",
+                "https://www.myfinli.co.uk",
+                "https://secure.myargentis.co.uk",
+                "https://myspecialistpw.com",
+                "https://clientportal.thisis6.com",
+                "https://my.ombainvestments.com",
+                "https://myplandfa.co.uk",
+                "https://clientportal.holderandcombes.co.uk",
+                "https://portal.19wealth.co.uk",
+                "https://connect.avnwm.com",
+                "https://connect.charterhousewm.com",
+                "https://portal.tacitim.com",
+                "https://bromptonam-clients.com",
+                "https://shackletonconnect.shackletonadvisers.co.uk",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://portal.amberriver.com",
+                "https://aeswealth.aesinternational.com",
+                "https://portal.amberriver.com",
+                "https://clientportal.herbertscott.uk",
+                "https://connect.torevellpartners.co.uk"
+            ]
+        }
+    },
+    {
+        "origin": "https://id360.manageengine.com",
+        "data": {
+            "origins": [
+                "https://id360.manageengine.ae",
+                "https://id360.manageengine.in",
+                "https://id360.manageengine.eu",
+                "https://id360.manageengine.uk",
+                "https://id360.manageengine.jp"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.roomsearch.com",
+        "data": {
+            "origins": [
+                "https://www.kayak.de",
+                "https://www.tw.kayak.com",
+                "https://www.kayak.com.hk",
+                "https://www.kayak.pt",
+                "https://www.kayak.dk",
+                "https://www.ua.kayak.com",
+                "https://www.kayak.qa",
+                "https://www.kayak.co.id",
+                "https://www.kayak.ie",
+                "https://www.ee.kayak.com",
+                "https://www.il.kayak.com",
+                "https://www.es.kayak.com",
+                "https://www.kayak.ae",
+                "https://www.kayak.co.in",
+                "https://www.za.kayak.com",
+                "https://www.kayak.com.mx",
+                "https://www.kayak.it",
+                "https://www.kayak.com.my",
+                "https://www.kayak.es",
+                "https://www.kayak.com.ar",
+                "https://www.at.kayak.com",
+                "https://www.kayak.com.au",
+                "https://www.vn.kayak.com",
+                "https://www.ro.kayak.com",
+                "https://www.kayak.nl",
+                "https://www.kayak.no",
+                "https://www.fi.kayak.com",
+                "https://www.be.kayak.com",
+                "https://www.kayak.co.jp",
+                "https://www.nz.kayak.com",
+                "https://www.kayak.fr",
+                "https://www.kayak.sa",
+                "https://www.kayak.com.br",
+                "https://www.kayak.se",
+                "https://www.kayak.sg",
+                "https://www.kayak.co.uk",
+                "https://www.ca.kayak.com",
+                "https://www.kayak.gl",
+                "https://www.kayak.ch",
+                "https://www.kayak.co.kr",
+                "https://www.kayak.cl",
+                "https://www.gr.kayak.com",
+                "https://www.cn.kayak.com",
+                "https://www.kayak.com.co",
+                "https://www.kayak.co.th",
+                "https://www.kayak.com.pe",
+                "https://www.cz.kayak.com",
+                "https://www.kayak.com.ph",
+                "https://www.kayak.pl",
+                "https://www.kayak.com.tr"
+            ]
+        }
+    },
+    {
+        "origin": "https://accounts.projecthedron.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://www.metri.xyz",
+        "data": {
+            "origins": [
+                "metri.xyz",
+                "metri.dev",
+                "localhost"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.subtitlewhisper.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://auth.dilats.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://www.enclave.money",
+        "data": {
+            "origins": [
+                "https://alpha.endeavour.fun",
+                "https://enclave.money",
+                "https://www.enclave.money",
+                "http://localhost:3002",
+                "http://localhost:3001",
+                "http://localhost:3000",
+                "https://wallet-sdk-test.vercel.app",
+                "https://demo.enclave.money",
+                "https://demo-oveo2q2vt-enclave-money.vercel.app"
+            ]
+        }
+    },
+    {
+        "origin": "https://login.getextendly.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://master.regatta-systems.com",
+        "data": {
+            "origins": [
+                "https://regatta-systems.com",
+                "https://roeiuitslagen.nl"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.spacetoco.com",
+        "data": {
+            "origins": []
+        }
+    },
+    {
+        "origin": "https://login.microsoftonline.com.office.default.airtelafrica.myshn.net",
+        "data": {
+            "origins": [
+                "https://login.live.com.office.default.airtelafrica.myshn.net",
+                "https://login.microsoftonline.com.office.default.airtelafrica.myshn.net"
+            ]
+        }
+    },
+    {
+        "origin": "https://login.microsoftonline.com.office.o365rp2.betagro.myshn.net",
+        "data": {
+            "origins": [
+                "https://login.live.com.office.o365rp2.betagro.myshn.net",
+                "https://login.microsoftonline.com.office.o365rp2.betagro.myshn.net"
+            ]
+        }
+    },
+    {
+        "origin": "https://hus.schaden.c.huk.de",
+        "data": {
+            "origins": [
+                "https://huk.de",
+                "https://www.huk.de",
+                "https://www.huk24.de",
+                "https://www.vrk.de",
+                "https://huk24.de",
+                "https://vrk.de",
+                "https://hukmeinauto.de",
+                "https://www.hukmeinauto.de",
+                "https://huk-pwp.de"
+            ]
+        }
+    },
+    {
+        "origin": "https://kz.auth.yandex.cloud",
+        "data": {
+            "origins": [
+                "https://kz.auth.yandex.cloud",
+                "https://kz.auth.yandex.cloud"
+            ]
+        }
+    },
+    {
+        "origin": "https://id.dev.nikkei.com",
+        "data": {
+            "origins": [
+                "https://id.dev.nikkei.com",
+                "https://id.dev-ext.nikkei.com",
+                "https://id-dev2.dev.nikkei.com",
+                "https://id-dev3.dev.nikkei.com"
+            ]
+        }
+    }
+]

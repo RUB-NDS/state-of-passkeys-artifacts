@@ -1,0 +1,1432 @@
+[
+    {
+        "name": "0pass Citadel",
+        "content": "0pass ist ein Anbieter von Cybersicherheitsl\u00f6sungen f\u00fcr den Unternehmenssektor. Das Unternehmen bietet Citadel an, die passwortlose Authentifizierungsplattform, mit der Benutzer die Mitarbeiterregistrierung, Sicherheitsschl\u00fcssel, physische \u00dcberpr\u00fcfung usw. verwalten k\u00f6nnen.",
+        "link": null
+    },
+    {
+        "name": "1Kosmos Block ID",
+        "content": "1Kosmos ist die weltweit einzige Cybersicherheitsl\u00f6sung, die einen unbestreitbaren digitalen Identit\u00e4tsnachweis mit fortschrittlicher Biometrie und passwortloser Authentifizierung kombiniert und gleichzeitig Benutzerdaten verschl\u00fcsselt in einer privaten, zugelassenen Blockchain speichert. 1Kosmos BlockID unterst\u00fctzt die kryptografischen F\u00e4higkeiten, die U2F-Token bieten.",
+        "link": "https://www.1kosmos.com/insights/datasheets/authenticators/"
+    },
+    {
+        "name": "1Password",
+        "content": "Die auf den Menschen ausgerichtete Sicherheit von 1Password sch\u00fctzt die Menschen bei der Arbeit und zu Hause. Seine L\u00f6sung ist von Grund auf so konzipiert, dass jeder \u2013 unabh\u00e4ngig von technischen Kenntnissen \u2013 ohne Angst oder Reibung durch die digitale Welt navigieren kann, und gestaltet die Zukunft der Authentifizierung neu, einschlie\u00dflich passwortloser Authentifizierung. 1Password genie\u00dft das Vertrauen von \u00fcber 100.000 Unternehmen wie IBM, Slack, Snowflake, Shopify und Under Armour und sch\u00fctzt die sensibelsten Informationen von Millionen von Einzelpersonen und Familien auf der ganzen Welt. Das ultimative Ziel des Unternehmens ist es, Verbrauchern und Unternehmen dabei zu helfen, in k\u00fcrzerer Zeit mehr zu erledigen \u2013 mit Sicherheit und Datenschutz als Selbstverst\u00e4ndlichkeit.",
+        "link": "http://1password.com/"
+    },
+    {
+        "name": "101Domain",
+        "content": "Mit \u00fcber 15 Jahren Erfahrung in der Bereitstellung von L\u00f6sungen f\u00fcr internationale Domainnamen f\u00fcr Kunden auf der ganzen Welt ist 101domain ein etablierter weltweiter Marktf\u00fchrer in der Registrierung internationaler Domainnamen. Seine Service-Suite ist darauf ausgelegt, gro\u00dfen und kleinen Unternehmen einen vertrauensw\u00fcrdigen Partner f\u00fcr internationales Domainnamen-Management, Marken- und Warenzeichenschutz, DNS-Management und mehr zu bieten.",
+        "link": "https://help.101domain.com/account-management/account-security/setup-two-factor-authentication"
+    },
+    {
+        "name": "21unity Cloud logo",
+        "content": "Mit der 21unity Collaboration Cloud erhalten Sie ein digitales B\u00fcro, in dem Sie \u00fcber alle erforderlichen Tools verf\u00fcgen, um innerhalb Ihres eigenen Unternehmens und Teams oder extern mit Ihren Kunden und Partnern zu kommunizieren und zusammenzuarbeiten.",
+        "link": null
+    },
+    {
+        "name": "Adobe",
+        "content": "A global leader in creative software, known for products like Photoshop, Illustrator, and Acrobat",
+        "link": null
+    },
+    {
+        "name": "AiRE IntelligentFiler",
+        "content": "AiRE IntelligentFiler ist eine einheitliche Datenplattform der n\u00e4chsten Generation, die auf AiRE basiert, einem funktionsreichen Software-Stack, der in eine speziell entwickelte Hardwareplattform integriert ist. AiRE IntelligentFiler wurde mit einer adaptiven Architektur entwickelt, die intelligente Datendienste bereitstellt, um die gleiche Benutzererfahrung \u00fcber Datenstrukturen hinweg zu erm\u00f6glichen.",
+        "link": "https://storvix.eu/aire-intelligent-filer"
+    },
+    {
+        "name": "Amazon",
+        "content": "A multinational tech company that focuses on e-commerce, cloud computing, and artificial intelligence, known for its global marketplace",
+        "link": null
+    },
+    {
+        "name": "Antradar Gyroscope",
+        "content": "Antradar Gyroscope ist eine Open-Source-Plattform zum Erstellen webbasierter CRM/ERP-Systeme.\nHardware-Sicherheitsschl\u00fcssel, die FIDO2 oder FIDO U2F verwenden, werden in Gyroscope v18.7 unterst\u00fctzt. Dies bedeutet sicherere und bequemere Authentifizierungsm\u00f6glichkeiten wie USB-, NFC- und Bluetooth-Schl\u00fcssel.",
+        "link": "http://www.antradar.com/blog-using-hardware-security-keys-in-gyroscope"
+    },
+    {
+        "name": "AOL",
+        "content": "Hideez wird nach der Aktivierung eindeutig mit Ihrem AOL-Konto verkn\u00fcpft. Jedes Mal, wenn Sie sich mit Ihrem Passwort anmelden, werden Sie aufgefordert, den Zugriff auf Ihr Konto mit Ihrem Schl\u00fcssel zu genehmigen. Dadurch wird verhindert, dass Personen, die nicht \u00fcber Ihr Sicherheitsschl\u00fcsselger\u00e4t verf\u00fcgen, Zugriff auf Ihr Konto erhalten.",
+        "link": "https://help.aol.com/articles/2-step-verification-with-a-security-key"
+    },
+    {
+        "name": "AppGate",
+        "content": "Appgate vereint eine Reihe differenzierter cloud- und hybridf\u00e4higer Sicherheits- und Analyseprodukte und -dienste. Dazu geh\u00f6ren Appgate SDP, die branchenf\u00fchrende Software-Defined Perimeter-L\u00f6sung, die Consumer Access Suite mit risikobasierter Authentifizierung und Funktionen zum Schutz vor digitalen Bedrohungen sowie die Immunity-Reihe von angriffsorientierter Software und gegnerischen Simulationsdiensten.",
+        "link": "https://sdphelp.appgate.com/adminguide/v5.4/mfa.html"
+    },
+    {
+        "name": "Appgate SDP",
+        "content": "Appgate SDP ist wie die Cloud aufgebaut \u2013 massiv skalierbar, verteilt und belastbar. Es implementiert die Software-Defined Perimeter-Architektur und erm\u00f6glicht es Unternehmen, ein Zero-Trust-Sicherheitsmodell f\u00fcr Mobil- und Desktop-Benutzer in lokalen, hybriden und Cloud-Umgebungen einzuf\u00fchren.",
+        "link": null
+    },
+    {
+        "name": "Apple iCloud",
+        "content": "iCloud ist der Dienst von Apple, der Ihre Fotos, Dateien, Notizen, Passw\u00f6rter und andere Daten sicher in der Cloud speichert und sie auf allen Ihren Ger\u00e4ten automatisch auf dem neuesten Stand h\u00e4lt. iCloud macht es au\u00dferdem einfach, Fotos, Dateien, Notizen und mehr mit Freunden und Familie zu teilen.",
+        "link": null
+    },
+    {
+        "name": "Appterix",
+        "content": "Appterix bietet Zero Trust Application Access (ZTAA), Datenschutzrichtlinien, YubiKey-Management und Container-Verschl\u00fcsselung. ZTAA \u00fcber Appterix blockiert alle nicht autorisierten Anwendungen, einschlie\u00dflich Zero-Day-Angriffe, und macht Ihr Netzwerk zu einem undurchdringlichen Bollwerk f\u00fcr Cyberangriffe, w\u00e4hrend das YubiKey-Management zentralisiert wird.",
+        "link": null
+    },
+    {
+        "name": "Authlogics",
+        "content": "Authlogics bietet eine umfassende Passwortsicherheit UND eine Multi-Faktor-Authentifizierungsl\u00f6sung, die schnell bereitgestellt und einfach zu verwenden ist. Authlogics bietet passwortlose Authentifizierung mit f\u00fcnf dynamischen Technologien innerhalb einer Multi-Factor Authentication-L\u00f6sung.",
+        "link": "https://authlogics.com/mfa/"
+    },
+    {
+        "name": "Authsignal",
+        "content": "Authsignal arbeitet mit f\u00fchrenden Marken zusammen, um Sicherheit und Kundenerfahrung in Einklang zu bringen. Wir sch\u00fctzen Fluggesellschaften, Marktpl\u00e4tze und Finanzinstitute, indem wir Identit\u00e4tsfunktionen wie passwortlose MFA, Passkeys und ID-Verifizierung mit minimalem technischen Aufwand schnell implementieren.",
+        "link": null
+    },
+    {
+        "name": "AuthStack",
+        "content": "AuthStack ist ein Host-Anywhere-, Enterprise-Grade-, Single Sign-On (SSO)- und Identity Access Management (IAM)-System. Es \u00fcbernimmt die Verantwortung f\u00fcr die Anmeldung von Benutzern bei Ihren eigenen und optional bei Websites und Anwendungen von Drittanbietern.",
+        "link": "https://www.buckhill.co.uk/contact"
+    },
+    {
+        "name": "Auth0",
+        "content": "Mit Auth0 k\u00f6nnen Sie MFA aktivieren und die Faktoren (Push-Benachrichtigungen, SMS, OTP, Sicherheitsschl\u00fcssel oder Biometrie) ausw\u00e4hlen, die Sie mit Ihrem Mandanten im Auth0-Dashboard verwenden m\u00f6chten. Sie k\u00f6nnen Ihren MFA-Flow so anpassen, dass MFA unter bestimmten Umst\u00e4nden erforderlich ist, oder die Verwendung eines bestimmten Faktors erzwingen.",
+        "link": "https://auth0.com/docs/login/mfa/fido-authentication-with-webauthn/configure-webauthn-security-keys-for-mfa"
+    },
+    {
+        "name": "Authereum",
+        "content": "Authereum ist eine auf Ethereum basierende Brieftasche, die FIDO U2F-Sicherheitsschl\u00fcssel f\u00fcr die Zwei-Faktor-Authentifizierung (2FA) zus\u00e4tzlich zu zeitbasierten Einmalpassw\u00f6rtern (TOTP) Software-Token (dh 2FA-Token auf Google Authenticator) unterst\u00fctzt.",
+        "link": "https://medium.com/authereum/authereum-now-supports-hardware-security-keys-for-two-factor-authentication-2fa-dff699912b97"
+    },
+    {
+        "name": "Authtake",
+        "content": "AuthTake ist eine Plattform, die es einzelnen Benutzern und Organisationen erm\u00f6glicht, ihren Systemzugriff mit Passwort oder passwortloser Multi-Faktor-Authentifizierung zu authentifizieren, und bietet diesbez\u00fcglich L\u00f6sungen an. Wir arbeiten daran, eine sicherere digitale Welt zu erm\u00f6glichen.",
+        "link": "https://authtake.com/wp-content/uploads/2021/03/AuthTake-Main-Brochure-english.pdf"
+    },
+    {
+        "name": "Avatier",
+        "content": "Avatier ist ein Technologieunternehmen, das ein Aufzeichnungssystem f\u00fcr Unternehmen bereitstellt, das Arbeitsabl\u00e4ufe und Risikomanagement von Unternehmen integriert. Mit Unterst\u00fctzung f\u00fcr FIDO2/WebAuthn erm\u00f6glicht Avatier eine starke Ein-Faktor- oder passwortlose Authentifizierung mit dem Hideez Key.",
+        "link": null
+    },
+    {
+        "name": "AwardWallet",
+        "content": "AwardWallet ist ein einzigartiger Service, mit dem Sie alle Ihre Treuepunkte verfolgen k\u00f6nnen, einschlie\u00dflich Vielfliegermeilen, Hotelpunkte, Restaurantpr\u00e4mien und Einkaufspr\u00e4mien.",
+        "link": "https://awardwallet.com/faqs#44"
+    },
+    {
+        "name": "AWS Single Sign-On",
+        "content": "AWS SSO verf\u00fcgt \u00fcber native WebAuthn-Unterst\u00fctzung, um den Benutzerzugriff auf AWS-Konten und Gesch\u00e4ftsanwendungen mithilfe einer starken, FIDO-basierten Multi-Faktor-Authentifizierung zu sichern. Sie k\u00f6nnen sich mit einer Vielzahl von FIDO-f\u00e4higen Authentifikatoren authentifizieren \u2013 tippen Sie auf Ihren Hideez Key, ber\u00fchren Sie einen Fingerabdrucksensor auf Ihrem Mac oder verwenden Sie die Gesichtserkennung auf Ihrem Mobilger\u00e4t oder PC.",
+        "link": "https://docs.aws.amazon.com/singlesignon/latest/userguide/user-device-registration.html"
+    },
+    {
+        "name": "AWS Identity and Access Management",
+        "content": "U2F-Sicherheitsschl\u00fcssel sind eine Art MFA-Ger\u00e4t, mit dem Sie Ihre AWS-Ressourcen sch\u00fctzen k\u00f6nnen. Sie k\u00f6nnen den Schl\u00fcssel mit Ihrem Computer koppeln und ihn mithilfe der folgenden Anweisungen aktivieren. Tippen Sie auf die Taste, wenn Sie dazu aufgefordert werden, um den Anmeldevorgang sicher abzuschlie\u00dfen.",
+        "link": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_u2f.html"
+    },
+    {
+        "name": "Axiad",
+        "content": "Axiad bietet eine unternehmensweite passwortlose Orchestrierung, um Benutzer, Maschinen und digitale Interaktionen zu sch\u00fctzen. Die Axiad Cloud-Plattform ist eine umfassende, einfache und sichere integrierte Authentifizierungsl\u00f6sung, die es Kunden erm\u00f6glicht, ohne die Reibung und das Risiko fragmentierter L\u00f6sungen in eine passwortlose Zukunft zu wechseln.",
+        "link": "https://www.axiad.com/passwordless-authentication"
+    },
+    {
+        "name": "Basecamp",
+        "content": "Basecamp unterst\u00fctzt WebAuthn f\u00fcr Sicherheitsschl\u00fcssel und andere Authentifikatoren als alternative 2FA-Methode. Nachdem Sie 2FA f\u00fcr Ihr Konto mit einer Authentifizierungs-App aktiviert haben, k\u00f6nnen Sie auch einen Sicherheitsschl\u00fcssel hinzuf\u00fcgen und ihn als 2FA-Methode verwenden.",
+        "link": "https://3.basecamp-help.com/article/443-two-factor-authentication-2fa#use-a-security-key"
+    },
+    {
+        "name": "Beacon",
+        "content": "Beacon ist ein privater, sicherer Video- und Sprachkommunikationsdienst der n\u00e4chsten Generation f\u00fcr Familien, Freunde und Kollegen. Die hochmoderne Verschl\u00fcsselung sch\u00fctzt Ihre Kommunikation, gew\u00e4hrleistet die Vertraulichkeit und sch\u00fctzt sie vor neugierigen Blicken.",
+        "link": null
+    },
+    {
+        "name": "BerryTMS",
+        "content": "BerryTMS \u2013 Token-Management-L\u00f6sung. Verwalten Sie alle Ihre Sicherheitsschl\u00fcssel aus der Ferne. Initialisierung, Bereitstellung und Zugriffsrechte: Vereinfachen und zentralisieren Sie die Verwaltung aller Ihrer Sicherheitsschl\u00fcssel mit BerryTMS.",
+        "link": null
+    },
+    {
+        "name": "Beyond Identity",
+        "content": "A cybersecurity company offering passwordless identity management and authentication solutions",
+        "link": null
+    },
+    {
+        "name": "BeyondTrust",
+        "content": "BeyondTrust ist die einzige Identit\u00e4tssicherheitsplattform, mit der Sie Bedrohungen in Ihrem gesamten Identit\u00e4tsbestand erkennen und reagieren k\u00f6nnen, indem Sie Privilegien, Zugriff, Anmeldeinformationen und Geheimnisse kontrollieren.",
+        "link": null
+    },
+    {
+        "name": "Binance",
+        "content": "Binance erm\u00f6glicht Ihnen die Verwendung von Sicherheitsschl\u00fcsseln als sicherere Methode von 2FA zus\u00e4tzlich zu den SMS- und Google Authenticator-Optionen, die auf der Website und in den Apps unterst\u00fctzt werden.",
+        "link": "https://www.binance.com/en/blog/351376985820852224/you-can-now-use-hardware-security-keys-on-binance"
+    },
+    {
+        "name": "BitBay",
+        "content": "BitBay ist eine Plattform f\u00fcr den Austausch von Kryptow\u00e4hrungen, die Unternehmen bei der Verwaltung von Einzahlungen, Auszahlungen, Speicherung und Umtausch von Bitcoin und anderen W\u00e4hrungen unterst\u00fctzt. Das Unternehmen ist die profitabelste Handelsplattform f\u00fcr Fiat-zu-Krypto-Kontotransaktionen im europ\u00e4ischen EU-Gebiet.",
+        "link": null
+    },
+    {
+        "name": "Bitbucket",
+        "content": "Bitbucket unterst\u00fctzt FIDO Universal 2nd Factor (U2F) in Bitbucket Cloud. Du kannst einfach eine Taste auf deinem Hideez Key dr\u00fccken, anstatt jedes Mal ein TOTP eingeben zu m\u00fcssen, wenn du dich bei Bitbucket Cloud anmelden m\u00f6chtest",
+        "link": "https://support.atlassian.com/bitbucket-cloud/docs/enable-two-step-verification/"
+    },
+    {
+        "name": "BitMEX",
+        "content": "BitMEX ist eine marktf\u00fchrende B\u00f6rse f\u00fcr Kryptow\u00e4hrungsderivate, die es H\u00e4ndlern erm\u00f6glicht, Futures und Perpetuals auf eine Reihe von Krypto-Assets zu kaufen und zu verkaufen.",
+        "link": "https://support.bitmex.com/en/support/solutions/folders/13000011323"
+    },
+    {
+        "name": "Bitfinex",
+        "content": "Bitfinex ist eine der beliebtesten Kryptow\u00e4hrungsb\u00f6rsen weltweit und zeichnet sich durch niedrige Geb\u00fchren aus. Es ist auch eng mit der Stablecoin Tether verbunden, die die B\u00f6rse in Schwierigkeiten mit den Aufsichtsbeh\u00f6rden gebracht hat. Die niedrigen Geb\u00fchren von Bittfinex sind ein Plus, aber seine l\u00fcckenhafte Geschichte k\u00f6nnte f\u00fcr potenzielle Benutzer besorgniserregend sein.",
+        "link": "https://support.bitfinex.com/hc/en-us/articles/115003616589-How-to-set-up-Universal-2nd-Factor-U2F-2FA-"
+    },
+    {
+        "name": "Bittrex",
+        "content": "Mit mehr als 400 verschiedenen verf\u00fcgbaren Coins kann Bittrex die Bed\u00fcrfnisse selbst der fortschrittlichsten Krypto-H\u00e4ndler erf\u00fcllen. Diese Krypto-B\u00f6rse erhebt angemessene Geb\u00fchren, obwohl sie nicht die niedrigsten sind, die es gibt. Bittrex bietet solide Sicherheitsfunktionen wie Wallet- und IP-Adressen-Whitelisting, die zum Schutz Ihrer Coins beitragen, indem sie einschr\u00e4nken, wie Ihre Coins von Ihrem Konto entfernt werden k\u00f6nnen.",
+        "link": "https://bittrex.zendesk.com/hc/en-us/articles/5873174805531-Two-Factor-Authentication-2FA"
+    },
+    {
+        "name": "Bitwarden",
+        "content": "Die zweistufige Anmeldung mit FIDO2 WebAuthn-Authentifikatoren ist f\u00fcr Premium-Benutzer verf\u00fcgbar. Jeder FIDO2 WebAuthn-zertifizierte Authentifikator kann verwendet werden, einschlie\u00dflich Hideez Key sowie native Biometrieoptionen wie Windows Hello und Touch ID.",
+        "link": "https://bitwarden.com/help/article/setup-two-step-login-fido/"
+    },
+    {
+        "name": "Brave",
+        "content": "Brave ist ein kostenloser und quelloffener Webbrowser, der von Brave Software, Inc. auf Basis des Chromium-Webbrowsers entwickelt wurde. Brave ist ein auf Datenschutz ausgerichteter Browser, der in seinen Standardeinstellungen automatisch die meisten Werbeanzeigen und Website-Tracker blockiert.",
+        "link": null
+    },
+    {
+        "name": "Blogger",
+        "content": "Blogger ist ein kostenloser Blogging-Dienst von Google. Es bietet eine schnelle und einfache M\u00f6glichkeit, ein Blog f\u00fcr technisch nicht versierte Benutzer zu erstellen.",
+        "link": "https://support.google.com/accounts/answer/6103523?co=GENIE.Platform%3DDesktop&hl=en"
+    },
+    {
+        "name": "Blur",
+        "content": "Blur ist ein Tool, das Benutzern mit Funktionen wie E-Mail-Maskierung, Kreditkartenmaskierung und Passwortgenerierung dabei hilft, online anonym zu bleiben.",
+        "link": null
+    },
+    {
+        "name": "BMW",
+        "content": "A global luxury automobile manufacturer known for its premium cars, motorcycles, and engines",
+        "link": null
+    },
+    {
+        "name": "Bolt",
+        "content": "A mobility platform offering ride-hailing, food delivery, and scooter rental services",
+        "link": null
+    },
+    {
+        "name": "Bomgar PAM",
+        "content": "Mit Bomgar Privileged Access Management k\u00f6nnen Sie Remote-Verbindungsprotokolle wie RDP und SSH \u00fcber das LAN hinaus erweitern, ohne VPN-Tunneling, Portweiterleitung oder komplexe Firewall-Konfigurationen. \u00dcberwachen Sie Sitzungen oder nutzen Sie den Fernzugriff von Ihrem Tablet oder Mobilger\u00e4t.",
+        "link": "https://www.beyondtrust.com/docs/privileged-identity/identity-manager/index.htm#page=350"
+    },
+    {
+        "name": "Boxctyptor",
+        "content": "Boxcryptor unterst\u00fctzt WebAuthN und Sicherheitsschl\u00fcssel f\u00fcr 2FA. Da WebAuthN abw\u00e4rtskompatibel mit U2F ist, k\u00f6nnen alle U2F-konformen Sicherheitsfunktionen auch f\u00fcr 2FA mit Boxcryptor verwendet werden.",
+        "link": "https://www.boxcryptor.com/ru/help/boxcryptor-account/windows/#two-factor-authentication"
+    },
+    {
+        "name": "Bugfender",
+        "content": "Bugfender ist ein Protokollspeicherdienst f\u00fcr Anwendungsentwickler. Bugfender sammelt alles, was in der Anwendung passiert, auch wenn sie nicht abst\u00fcrzt, um Fehler effektiver zu reproduzieren und zu beheben und einen besseren Kundensupport zu bieten.",
+        "link": null
+    },
+    {
+        "name": "Capsule",
+        "content": "Capsule CRM ist eine SaaS-L\u00f6sung f\u00fcr das Kundenbeziehungsmanagement der in Gro\u00dfbritannien ans\u00e4ssigen Zestia Ltd. Sie beseitigt die Schwierigkeit, Ihre wachsende Liste von Kontakten in Tabellenkalkulationen zu verwalten. Wie andere CRMs bietet Capsule ein System, das alle Ihre Daten an einem zentralen Ort speichert.",
+        "link": "https://capsulecrm.com/blog/introducing-two-factor-authentication/"
+    },
+    {
+        "name": "Centrify",
+        "content": "Centrify nutzt die WebAuthn-API, um eine passwortlose Authentifizierung beim Privileged Access Service zu erm\u00f6glichen, indem entweder ger\u00e4teinterne Authentifikatoren (Ger\u00e4te mit biometrischen Scannern) oder externe Authentifikatoren (Hardware-Sicherheitsschl\u00fcssel wie Hideez Key) verwendet werden.",
+        "link": "https://docs.centrify.com/Content/CoreServices/Authenticate/U2FAuth.htm"
+    },
+    {
+        "name": "Cogito Jellyfish",
+        "content": "Cogito Jellyfish ist eine innovative Cybersicherheitsplattform, die eine einheitliche Sicht auf alle Aspekte bietet. Sie vereinheitlicht vorhandene Architekturen, um ein sicheres \u00d6kosystem f\u00fcr Ihr gesamtes Unternehmen zu schaffen. Und wenn Ihre Sicherheitsanforderungen steigen, entwickelt sich Jellyfish weiter und macht Ihr Unternehmen zukunftssicher.",
+        "link": null
+    },
+    {
+        "name": "CyStack Locker",
+        "content": "Locker ist ein plattform\u00fcbergreifender Tresor, der Benutzern hilft, vertrauliche Daten wie Logins und Passw\u00f6rter, geheime Notizen, Zahlungskarten und Online-Identit\u00e4ten zu sichern. Es bietet au\u00dferdem zus\u00e4tzliche Funktionen zur Verbesserung Ihres Browsing-Erlebnisses wie automatisches Ausf\u00fcllen von Passw\u00f6rtern, Teilen von Elementen und mehr.",
+        "link": null
+    },
+    {
+        "name": "CyberArk",
+        "content": "CyberArk Software Ltd. ist ein b\u00f6rsennotiertes israelisches Informationssicherheitsunternehmen, das Identit\u00e4tsmanagement anbietet. Die Technologie des Unternehmens wird haupts\u00e4chlich in den Bereichen Finanzdienstleistungen, Energie, Einzelhandel, Gesundheitswesen und Regierung eingesetzt. Der Hauptsitz von CyberArk befindet sich in Petach-Tikva.",
+        "link": "https://docs.cyberark.com/identity/latest/en/content/userportal/useu2fauth.htm"
+    },
+    {
+        "name": "Citrix Workspace",
+        "content": "Citrix Workspace ist eine von Citrix Systems entwickelte Softwareplattform f\u00fcr digitale Arbeitspl\u00e4tze. Citrix Workspace ist ein Informationsabrufdienst, bei dem Benutzer \u00fcber eine zentrale Anwendung oder einen Webbrowser auf Programme und Dateien aus einer Vielzahl von Quellen zugreifen k\u00f6nnen.",
+        "link": "https://citrixready.citrix.com/hideez/hideez-key-4.html"
+    },
+    {
+        "name": "Cleanroom",
+        "content": "Systancia Cleanroom ist ein Produkt f\u00fcr Privileged Access Management (PAM). Es erm\u00f6glicht die Definition von Administratorzugriffen auf Ressourcen durch die Kontrolle der zur Authentifizierung an der Ressource verwendeten Konten und die genaue Nachverfolgung aller durchgef\u00fchrten Aktionen.",
+        "link": null
+    },
+    {
+        "name": "Cloudflare",
+        "content": "Cloudflare unterst\u00fctzt Sicherheitsschl\u00fcssel als Zwei-Faktor-Authentifizierungsmethode (2FA) f\u00fcr alle Benutzer, um von verschiedenen Ger\u00e4ten und Browsern auf ihre Apps zuzugreifen.",
+        "link": "https://blog.cloudflare.com/cloudflare-now-supports-security-keys-with-web-authentication-webauthn/"
+    },
+    {
+        "name": "CloudTrust",
+        "content": "CloudTrust, Remote Network Connection\u2122 ist eine umfassende VPN-L\u00f6sung und -Plattform, die das SSL/TLS-Protokoll verwendet, um einen verschl\u00fcsselten Kanal einzurichten. CloudTrust entwickelt seine Produkte und L\u00f6sungen unter Verwendung und Implementierung der aktuellsten Technologien und Methoden auf der Grundlage von Industriestandards.",
+        "link": "https://cloudtrust.solutions"
+    },
+    {
+        "name": "CodeShip",
+        "content": "Codeship ist eine gehostete Plattform f\u00fcr kontinuierliche Integration und Bereitstellung. Es befindet sich zwischen Ihrem Quellcode-Repository (z. B. GitHub, GitLab oder Bitbucket) und der Hosting-Umgebung (z. B. Amazon Web Services) und testet und implementiert automatisch jede \u00c4nderung in Ihrer Plattform.",
+        "link": null
+    },
+    {
+        "name": "Coinbase",
+        "content": "Coinbase unterst\u00fctzt Universal Second Factor (U2F) Sicherheitsschl\u00fcssel. Sie bieten mehr Schutz als andere 2FA-Methoden wie SMS und Softtoken-TOTP-Apps, da die Anmeldeinformationen nicht auf einem vernetzten Ger\u00e4t gespeichert werden m\u00fcssen.",
+        "link": "https://help.coinbase.com/en/coinbase/managing-my-account/verify-my-identity/using-and-managing-security-keys"
+    },
+    {
+        "name": "Cointree",
+        "content": "Cointree ist eine digitale W\u00e4hrungsb\u00f6rse. Gegr\u00fcndet 2013 in Melbourne mit einfachem, schnellem und sicherem Service und der \u00dcberzeugung, dass diese erstaunlichen Technologien zug\u00e4nglicher und f\u00fcr den Alltagsmenschen verst\u00e4ndlicher gemacht werden sollten.",
+        "link": "https://support.cointree.com/hc/en-us/articles/360003504755-Adding-extra-protection-with-YubiKey-U2F-"
+    },
+    {
+        "name": "Compose",
+        "content": "Compose ist eine vollst\u00e4ndig verwaltete Plattform, die von Entwicklern zum Bereitstellen, Hosten und Skalieren von Datenbanken verwendet wird, um Ihnen zu helfen, die Datenschicht zu erobern. Die Compose-Plattform erm\u00f6glicht das Hochfahren und Verwalten von MongoDB-, Elasticsearch-, Redis-, RethinkDB-, PostgreSQL-, MySQL-, RabbitMQ- und etcd-Datenbanken.",
+        "link": "https://www.compose.com/articles/introducing-fido-universal-2nd-factor-authentication/"
+    },
+    {
+        "name": "Cotech Hardware Security SDK",
+        "content": "Das Hardware Security SDK von Confidential Technologies (CoTech) ist ein herstellerunabh\u00e4ngiges Framework zur Verwendung von Sicherheitsschl\u00fcsseln \u00fcber NFC und USB f\u00fcr die Zwei-Faktor-Authentifizierung.",
+        "link": "https://hwsecurity.dev/docs"
+    },
+    {
+        "name": "Cryptolens",
+        "content": "Cryptolens ist eine Cloud-basierte LaaS-Plattform (License as a Service), die Unternehmen bei der Verwaltung von Lizenzen f\u00fcr mobile und Desktop-Anwendungen, eingebettete Systeme und Plug-ins unterst\u00fctzt. Zu den Funktionen geh\u00f6ren Offline-Aktivierung, Preisoptimierung, Reseller-Portale, Vorlagenverwaltung.",
+        "link": "https://cryptolens.io/2017/05/secure-your-account-using-2-step-verification/"
+    },
+    {
+        "name": "Curity",
+        "content": "Curity ist ein f\u00fchrender Anbieter von IAM- und API-Sicherheitstechnologie, die Benutzerauthentifizierung und -autorisierung f\u00fcr eine breite Palette digitaler Dienste erm\u00f6glicht. Externe Sicherheitsschl\u00fcssel oder Fingerabdruckleser k\u00f6nnen verwendet werden, um einen Benutzer ohne Kennwort zu authentifizieren.",
+        "link": "https://curity.io/resources/learn/webauthn-authenticator/"
+    },
+    {
+        "name": "Cybavo",
+        "content": "CYBAVO VAULT ist eine Digital-Asset-Custody-L\u00f6sung f\u00fcr Unternehmen, die entwickelt wurde, um Institutionen dabei zu helfen, digitale Assets sicher zu sichern, zu sch\u00fctzen und zu verwalten.",
+        "link": null
+    },
+    {
+        "name": "Daon",
+        "content": "Daon ist ein IT-Unternehmen, das Software f\u00fcr Biometrie und Identit\u00e4tssicherung anbietet. Die biometrischen Produkte von Daon lassen sich in bereits vorhandene IT-Plattformen und Anwendungen integrieren, um Identit\u00e4tslebenszyklen zu verwalten. Das Unternehmen bedient mehrere M\u00e4rkte, darunter mobile Authentifizierung, Grenzmanagement, Personenausweise, Reiseausweise, Mitarbeiterausweise und Zugangskontrolle.",
+        "link": "https://www.daon.com/technology/fido-authentication/"
+    },
+    {
+        "name": "Dashlane",
+        "content": "Dashlane war der erste Passwort-Manager, der U2F unterst\u00fctzte. Sie k\u00f6nnen die Zwei-Faktor-Authentifizierung (2FA) \u00fcber einen Sicherheitsschl\u00fcssel abschlie\u00dfen, anstatt Codes eingeben zu m\u00fcssen, die von einer Zwei-Faktor-Authentifizierungsanwendung generiert wurden.",
+        "link": "https://support.dashlane.com/hc/en-us/articles/360021374760-Unlock-the-web-app-with-your-fingerprint-or-a-security-key"
+    },
+    {
+        "name": "Data Guard",
+        "content": "Kunden, die Data Guard verwenden, sind in der Lage, Chain-of-Custody-Anforderungen mit vollst\u00e4ndiger Transparenz und \u00dcberpr\u00fcfbarkeit der Dateiaktivit\u00e4ten zu erf\u00fcllen. KI-gest\u00fctzte Sensoren erfassen und protokollieren Ereignisse, z. B. wer zu welcher Zeit auf eine Datei zugegriffen hat und ob eine Datei ge\u00e4ndert, heruntergeladen und/oder geteilt wurde. Data Guard stellt sicher, dass Ihre Dateien vor Ransomware verborgen sind, und bek\u00e4mpft Bedrohungen proaktiv in jeder Phase der Angriffskette.",
+        "link": "https://www.ransomdataguard.com/"
+    },
+    {
+        "name": "Delinea",
+        "content": "Delinea ist ein f\u00fchrender Anbieter von Privileged Access Management (PAM)-L\u00f6sungen, die die Sicherheit f\u00fcr das moderne, hybride Unternehmen nahtlos machen. Unsere L\u00f6sungen erm\u00f6glichen es Unternehmen, kritische Daten, Ger\u00e4te, Code und Cloud-Infrastruktur zu sichern, um Risiken zu reduzieren, Compliance zu gew\u00e4hrleisten und die Sicherheit zu vereinfachen.",
+        "link": "https://support.delinea.com/s/article/SS-CFG-EXT-Yubikey#_Toc166016"
+    },
+    {
+        "name": "deSEC",
+        "content": "Modernes DNS-Hosting f\u00fcr alle. deSEC ist ein kostenloser DNS-Hosting-Dienst, der mit Blick auf Sicherheit entwickelt wurde. deSEC l\u00e4uft auf Open-Source-Software und wird von SSE unterst\u00fctzt. Es ist f\u00fcr jeden kostenlos nutzbar.",
+        "link": null
+    },
+    {
+        "name": "Digidentity",
+        "content": "Digidentity entwickelt Dienste, die sich auf eine einzigartige digitale Identit\u00e4t konzentrieren, bei der der Benutzer und seine Privatsph\u00e4re im Mittelpunkt stehen. Digidentity ist auch ein Anbieter von SSL-Zertifikaten und qualifizierten digitalen Signaturen. Digidentity bietet nationale digitale Identit\u00e4tsl\u00f6sungen f\u00fcr die niederl\u00e4ndische und britische Regierung sowie L\u00f6sungen f\u00fcr eine Vielzahl von Organisationen.",
+        "link": "https://www.digidentity.eu/de/article/Digidentity-k\u00fcndigt-sichereren-einfacheren-online-schutz-mit-universeller-zweitfaktor-authentifizierung an/"
+    },
+    {
+        "name": "Discord",
+        "content": "Discord ist eine soziale Instant-Messaging- und VoIP-Plattform, die Kommunikation \u00fcber Sprachanrufe, Videoanrufe, Textnachrichten sowie Medien und Dateien erm\u00f6glicht.",
+        "link": null
+    },
+    {
+        "name": "DNSimple",
+        "content": "DNSimple ist ein verwalteter Domain Name Server-Dienst, der von Aetrion LLC d/b/a DNSimple betrieben wird und DNS-Hosting, Domain-Registrierung und SSL-Zertifikate anbietet. DNSimple ist auch ein von der ICANN akkreditierter Domain-Registrar.",
+        "link": "https://support.dnsimple.com/articles/multi-factor-authentication/"
+    },
+    {
+        "name": "DropBox",
+        "content": "Dropbox unterst\u00fctzt Universal 2nd Factor (U2F)-Sicherheitsschl\u00fcssel als zus\u00e4tzliche Methode f\u00fcr die zweistufige Verifizierung, die Ihnen einen st\u00e4rkeren Authentifizierungsschutz bietet. Der U2F-Schl\u00fcssel kann dann mit Ihrem Dropbox-Konto und allen anderen U2F-f\u00e4higen Diensten eingerichtet werden.",
+        "link": "https://help.dropbox.com/account-access/enable-two-step-verification\u201c"
+    },
+    {
+        "name": "DocuSign",
+        "content": "DocuSign ist ein Tool f\u00fcr elektronische Signaturen, das entwickelt wurde, um Einwilligungen, Autorisierungen, Registrierungsformulare, Bestellungen und Vertragsvereinbarungen innerhalb einer sicheren digitalen Umgebung zu optimieren, indem es Ihnen erm\u00f6glicht, Dokumente von Ihrem Computer, Tablet oder Mobilger\u00e4t aus zu erstellen, zu senden, zu signieren und zu verfolgen .",
+        "link": "https://support.docusign.com/s/document-item?language=en_US&rsc_301&bundleId=jux1643235969954&topicId=txt1578456659215.html&_LANG=enus"
+    },
+    {
+        "name": "DSX",
+        "content": "DSX ist eine professionelle Plattform f\u00fcr den Handel mit Kryptow\u00e4hrungen, die danach strebt, ein effizientes, schnelles und sicheres Erlebnis zu bieten. Eine der Kernfunktionen von DSX ist die Sicherheit. Es bietet Kunden intelligente Backups, manuelle Abhebungen, Cold Storage usw., damit die Gelder sicher bleiben.",
+        "link": "https://dsxinc.com/contacts.html"
+    },
+    {
+        "name": "DUO",
+        "content": "Die Zwei-Faktor-Authentifizierungsplattform von DUO unterst\u00fctzt Sicherheitsschl\u00fcssel und bietet sichere Login-Genehmigungen, die gegen Phishing-Angriffe resistent sind, kombiniert mit dem One-Tap-Komfort. Sie k\u00f6nnen Ihren Sicherheitsschl\u00fcssel als zus\u00e4tzliches Authentifizierungsger\u00e4t \u00fcber das Ger\u00e4teverwaltungsportal hinzuf\u00fcgen.",
+        "link": null
+    },
+    {
+        "name": "Deutsche Bahn",
+        "content": "The German railway company offering domestic and international passenger and freight transport services",
+        "link": null
+    },
+    {
+        "name": "Ensure Endpoint",
+        "content": "Dies ist der Kern von Ensure Endpoint \u2013 Ger\u00e4tesicherheitskontrollen f\u00fcr Anti-Malware, Datenverschl\u00fcsselung, Firewall und Betriebssystemupdates.",
+        "link": null
+    },
+    {
+        "name": "eBay",
+        "content": "Die eBay-App bietet Ihnen Zugriff auf eine sichere und bequeme Form von 2FA. Selbst wenn jemand Ihr Passwort kennt, bietet die Best\u00e4tigung in zwei Schritten eine zus\u00e4tzliche Sicherheitsebene, um unbefugten Zugriff auf Ihr Konto zu verhindern.",
+        "link": "https://www.linkedin.com/pulse/ebays-journey-passwordless-fido-ashish-jain/"
+    },
+    {
+        "name": "Egnyte Protect",
+        "content": "Egnyte Protect hat k\u00fcrzlich Unterst\u00fctzung f\u00fcr FIDO2/WebAuthn-Standards hinzugef\u00fcgt. Es erm\u00f6glicht Ihnen, Ihr Konto sicherer zu machen, indem Sie Ihrem Anmeldeprozess eine Zweitfaktor-Authentifizierung mit FIDO2/WebAuthn-kompatiblen Sicherheitsschl\u00fcsseln hinzuf\u00fcgen.",
+        "link": "https://helpdesk.egnyte.com/hc/en-us/articles/360040496691-Multifactor-Authentication-using-FIDO2-WebAuthn-"
+    },
+    {
+        "name": "Electronic Arts",
+        "content": "Electronic Arts Inc. ist ein amerikanisches Videospielunternehmen mit Hauptsitz in Redwood City, Kalifornien. Das Unternehmen war ein Pionier der fr\u00fchen Heimcomputerspielindustrie und f\u00f6rderte die f\u00fcr seine Spiele verantwortlichen Designer und Programmierer als \"Softwarek\u00fcnstler\".",
+        "link": "https://help.ea.com/en/help/account/ea-login-verification-information/"
+    },
+    {
+        "name": "Envato",
+        "content": "Envato ist der f\u00fchrende Marktplatz f\u00fcr kreative Assets und kreative Menschen, um ihre digitalen Assets zu verkaufen. Millionen von Menschen auf der ganzen Welt w\u00e4hlen unseren Marktplatz, unser Studio und unsere Kurse, um Dateien zu kaufen, Freiberufler einzustellen oder die F\u00e4higkeiten zu erlernen, die zum Erstellen von Websites, Videos, Apps, Grafiken und mehr erforderlich sind.",
+        "link": "https://help.market.envato.com/hc/en-us/articles/115005592963-Two-factor-authentication-for-your-Envato-Market-account"
+    },
+    {
+        "name": "Entrust",
+        "content": "Entrust Identity ist eine Cloud-basierte IAM-L\u00f6sung, die Unternehmen jeder Gr\u00f6\u00dfe dabei unterst\u00fctzt, ihre Mitarbeiter und Kunden mit fortschrittlichen Cyber-Sicherheitstools zu sch\u00fctzen. Zu den wichtigsten Funktionen geh\u00f6ren Single Sign-On (SSO), MFA, virtuelle Smartcards, Workflow-Automatisierung, Benutzergruppen- und Identit\u00e4tsverwaltung, Zugriffsverwaltung, Orchestrierung, RBAC und vieles mehr.",
+        "link": "https://entrust.us.trustedauth.com/documentation/help/admin/index.htm#t=Settings%2FAdd_FIDO2.htm"
+    },
+    {
+        "name": "Epic Games",
+        "content": "Epic Games, Inc. ist ein amerikanischer Entwickler und Herausgeber von Videospielen und Software mit Sitz in Cary, North Carolina. Das Unternehmen wurde 1991 von Tim Sweeney als Potomac Computer Systems gegr\u00fcndet und befand sich urspr\u00fcnglich in seinem Elternhaus in Potomac, Maryland.",
+        "link": "https://www.epicgames.com/site/en-US/account-security"
+    },
+    {
+        "name": "ESET Secure Authentication",
+        "content": "Ab Version 2.8 unterst\u00fctzt ESET Secure Authentication die Zwei-Faktor-Authentifizierung auf Ger\u00e4ten, die die Authentifizierungsstandards FIDO2 (und FIDO U2F) unterst\u00fctzen.",
+        "link": "https://support.eset.com/en/kb3648-using-hard-tokens-with-eset-secure-authentication-7157"
+    },
+    {
+        "name": "EVE Online",
+        "content": "Eve Online ist ein weltraumbasiertes Massively Multiplayer Online-Rollenspiel mit persistenter Welt, das von CCP Games entwickelt und ver\u00f6ffentlicht wurde. Spieler von Eve Online k\u00f6nnen an einer Reihe von Berufen und Aktivit\u00e4ten im Spiel teilnehmen, darunter Bergbau, Piraterie, Herstellung, Handel, Erkundung und Kampf (sowohl Spieler gegen Umwelt als auch Spieler gegen Spieler).",
+        "link": "https://support.eveonline.com/hc/en-us/articles/203465601-Authenticator"
+    },
+    {
+        "name": "Ezeelogin",
+        "content": "Ezeelogin ist eine SSH-Jump-Server-L\u00f6sung f\u00fcr den Zugriff auf mehrere Linux-Server. Es verf\u00fcgt \u00fcber Tools wie Parallel Shell, Root-Passwortverwaltung, SSH-Benutzerverwaltung und Zugriffskontrolle, Ein-Klick-Systemsteuerungsanmeldung, automatisiertes Sudo, Befehlszeilenschutz, Benutzer-SSH-Protokolle, 2FA und mehr, die die Verwaltung von Hunderten von Linux-Servern einfach, effizient und effizient machen w\u00fcrden sicher.",
+        "link": "https://www.ezeelogin.com/kb/article/how-to-upgrade-openssh-in-centos-331.html"
+    },
+    {
+        "name": "Facebook",
+        "content": "Sicherheitsschl\u00fcssel sind eine Methode der Zwei-Faktor-Authentifizierung (2FA), die der Anmeldung bei Facebook eine Sicherheitsebene hinzuf\u00fcgt. Ihr Sicherheitsschl\u00fcssel kann mit anderen Websites verwendet werden, w\u00e4hrend er auch f\u00fcr Ihr Facebook-Konto verwendet wird.",
+        "link": "https://www.facebook.com/help/401566786855239"
+    },
+    {
+        "name": "Fastly",
+        "content": "Fastly ist ein amerikanischer Anbieter von Cloud-Computing-Diensten. Es beschreibt sein Netzwerk als Edge-Cloud-Plattform, die Entwicklern helfen soll, ihre Kern-Cloud-Infrastruktur an den Rand des Netzwerks zu erweitern, n\u00e4her an die Benutzer.",
+        "link": "https://docs.fastly.com/en/guides/enabling-and-disabling-two-factor-authentication"
+    },
+    {
+        "name": "Fastmail",
+        "content": "Fastmail ist ein E-Mail-Hosting-Unternehmen mit Sitz in Melbourne, Australien. Mit Fastmail k\u00f6nnen Benutzer ihre Konten mit FIDO-Sicherheitsschl\u00fcsseln einschlie\u00dflich Hideez-Schl\u00fcsseln sichern.",
+        "link": "https://fastmail.blog/historical/new-features-to-keep-your-fastmail-account-noch-mehr-sicher/"
+    },
+    {
+        "name": "Fedora",
+        "content": "Fedora erstellt eine innovative, kostenlose Open-Source-Plattform f\u00fcr Hardware, Clouds und Container, die es Softwareentwicklern und Community-Mitgliedern erm\u00f6glicht, ma\u00dfgeschneiderte L\u00f6sungen f\u00fcr ihre Benutzer zu erstellen.",
+        "link": "https://src.fedoraproject.org/rpms/pam-u2f"
+    },
+    {
+        "name": "Fine Friends",
+        "content": "FineFriends ist ein kostenloses, modernes und einfach zu bedienendes soziales Netzwerk. Es ist f\u00fcr die Benutzer und ihre Privatsph\u00e4re gebaut. Es erm\u00f6glicht Ihnen, mit Ihren Freunden und Ihrer Familie in Kontakt zu bleiben oder R\u00e4ume mit anderen zu nutzen.",
+        "link": "https://finefriends.social/help/safety/securitykey"
+    },
+    {
+        "name": "Forgerock",
+        "content": "ForgeRock, der f\u00fchrende Anbieter digitaler Identit\u00e4ten, hilft Menschen, sicher und einfach auf die vernetzte Welt zuzugreifen, indem es au\u00dfergew\u00f6hnliche digitale Erlebnisse, kompromisslose Sicherheit und umfassende Funktionalit\u00e4t in jeder Gr\u00f6\u00dfenordnung erm\u00f6glicht. Die ForgeRock Identity Platform wird als Service bereitgestellt, mit Push-Button-Bereitstellungen in jeder Cloud oder jedem Rechenzentrum.",
+        "link": "https://www.forgerock.com/blog/passwordless-future-here-now"
+    },
+    {
+        "name": "FTX Cryptocurrency Derivatives Exchange",
+        "content": "FTX ist eine Kryptow\u00e4hrungsb\u00f6rse, die von H\u00e4ndlern f\u00fcr H\u00e4ndler entwickelt wurde. FTX bietet innovative Produkte, darunter branchenweit erste Derivate, Optionen, Volatilit\u00e4tsprodukte und gehebelte Token.",
+        "link": "https://help.ftx.com/hc/en-us/articles/360034160512-How-to-Change-Disable-Two-Factor-Authentications-2FA-"
+    },
+    {
+        "name": "Gandi.net",
+        "content": "Sie k\u00f6nnen Hideez Key als U2F-Ger\u00e4t auf Gandi.net verwenden. Sie k\u00f6nnen sowohl Sicherheitsschl\u00fcssel als auch TOTP gleichzeitig aktivieren, um die M\u00f6glichkeit zu haben, beide Methoden zu verwenden. Wenn Sie sich anmelden, werden Sie zuerst nach Ihrem Sicherheitsschl\u00fcssel gefragt. Wenn Sie Ihren Sicherheitsschl\u00fcssel nicht zur Hand haben, werden Sie aufgefordert, einen TOTP-Code anzugeben.",
+        "link": "https://news.gandi.net/en/2017/10/u2f-jetzt-verf\u00fcgbar-auf-gandiv5/"
+    },
+    {
+        "name": "Gemini",
+        "content": "Gemini ist die weltweit erste Krypto-B\u00f6rse und Verwahrstelle, die das WebAuthn-Sicherheitsprotokoll unterst\u00fctzt. Sie k\u00f6nnen Hardware-Sicherheitsschl\u00fcssel, MacOS TouchID und sogar Windows Hello als Zwei-Faktor-Authentifizierungsmethode (2FA) verwenden, wenn Sie sich bei Ihrem Gemini-Konto anmelden.\n\nUm die Sicherheit von GeoIP-Webdiensten zu erh\u00f6hen, k\u00f6nnen Sie jetzt einen (FIDO U2F) Sicherheitsschl\u00fcssel zus\u00e4tzlich zu Ihren Kontoanmeldeinformationen hinzuf\u00fcgen und anfordern, um sich sicherer anzumelden. Informationen zum Einrichten von 2FA finden Sie in unserem Support-Center-Benutzerhandbuch.",
+        "link": "https://support.gemini.com/hc/en-us/articles/360044275792"
+    },
+    {
+        "name": "GeoIP2",
+        "content": "Um die Sicherheit von GeoIP-Webdiensten zu erh\u00f6hen, k\u00f6nnen Sie jetzt einen (FIDO U2F) Sicherheitsschl\u00fcssel zus\u00e4tzlich zu Ihren Kontoanmeldeinformationen hinzuf\u00fcgen und anfordern, um sich sicherer anzumelden. Informationen zum Einrichten von 2FA finden Sie in unserem Support-Center-Benutzerhandbuch.",
+        "link": "https://support.maxmind.com/hc/en-us/articles/1260803946470-Set-Up-Two-Factor-Authentication"
+    },
+    {
+        "name": "GitHub",
+        "content": "GitLab unterst\u00fctzt das FIDO U2F-Protokoll f\u00fcr die Benutzerauthentifizierung mit der zus\u00e4tzlichen Ebene der Hardwaresicherheit. Diese h\u00f6here Authentifizierungsebene erm\u00f6glicht es Entwicklern, die Sicherheit ihrer Server, Codes, Sites und mehr aus einer einzigen Quelle zu gew\u00e4hrleisten.",
+        "link": null
+    },
+    {
+        "name": "GitLab",
+        "content": "GitLab unterst\u00fctzt das FIDO U2F-Protokoll f\u00fcr die Benutzerauthentifizierung mit der zus\u00e4tzlichen Ebene der Hardwaresicherheit. Diese h\u00f6here Authentifizierungsebene erm\u00f6glicht es Entwicklern, die Sicherheit ihrer Server, Codes, Sites und mehr aus einer einzigen Quelle zu gew\u00e4hrleisten.",
+        "link": "https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#enable-2fa-via-u2f-device"
+    },
+    {
+        "name": "Gluu",
+        "content": "Der Gluu-Server enth\u00e4lt einen eigenst\u00e4ndigen FIDO-Server, der Anmeldeinformationen validiert und registriert. Es gibt ein Casa FIDO-Plugin, mit dem Benutzer ihre Ger\u00e4te verwalten (z. B. registrieren, entfernen) k\u00f6nnen. Und Gluu bietet eine FIDO-SCIM-Erweiterung, die es Anwendungen erm\u00f6glicht, FIDO-Ger\u00e4te f\u00fcr einen Endbenutzer aufzulisten und zu entfernen (Erm\u00f6glichung von Self-Service).",
+        "link": "https://gluu.org/docs/gluu-server/4.1/authn-guide/fido2/"
+    },
+    {
+        "name": "GoDaddy",
+        "content": "F\u00fcr die bestm\u00f6gliche Kontosicherheit k\u00f6nnen Sie einen Hardware-Sicherheitsschl\u00fcssel f\u00fcr die Best\u00e4tigung in zwei Schritten einrichten. GoDaddy unterst\u00fctzt alle USB- oder Bluetooth-f\u00e4higen Schl\u00fcssel, die dem FIDO U2F-Standard entsprechen.",
+        "link": "https://www.godaddy.com/help/sign-in-to-my-godaddy-account-with-a-security-key-31905"
+    },
+    {
+        "name": "Google",
+        "content": "Physische Sicherheitsschl\u00fcssel k\u00f6nnen f\u00fcr die Best\u00e4tigung in zwei Schritten verwendet werden, um Hacker von Ihren Google-Konten (Gmail, Google Apps, Google Maps, YouTube, Hangouts usw.) fernzuhalten. Jedes Mal, wenn Sie sich von einem neuen Computer oder Ger\u00e4t aus anmelden, werden Sie nach Ihrem Sicherheitsschl\u00fcssel oder einem weiteren zweiten Schritt gefragt.",
+        "link": "https://support.google.com/accounts/answer/6103523"
+    },
+    {
+        "name": "Green Rocket Security",
+        "content": "Green Rocket Security bietet eine Vielzahl von Authentifizierungsl\u00f6sungen, die von unseren f\u00fchrenden Sicherheitsexperten entwickelt wurden, um Ihr Unternehmen zu sch\u00fctzen. In Kombination mit Sicherheitstoken wie den Hideez Keys k\u00f6nnen Benutzer von jedem Ger\u00e4t oder Standort sicher auf Ressourcen (Webmail, Netzwerkzugriff, sichere Datenbanken, Gesch\u00e4ftsanwendungen usw.) zugreifen und gleichzeitig den unbefugten Zugriff durch andere verhindern.",
+        "link": "https://www.greenrocketsecurity.com/fido-1-0-u2f/"
+    },
+    {
+        "name": "G Suite for Education",
+        "content": "Google for Education ist ein Dienst von Google, der unabh\u00e4ngig anpassbare Versionen mehrerer Google-Produkte unter Verwendung eines vom Kunden bereitgestellten Domainnamens bereitstellt.",
+        "link": "https://support.google.com/a/answer/2537800?hl=de"
+    },
+    {
+        "name": "GOV.UK",
+        "content": "gov.uk ist eine Informations-Website des \u00f6ffentlichen Sektors des Vereinigten K\u00f6nigreichs, die vom Government Digital Service erstellt wurde, um einen zentralen Zugangspunkt zu den Diensten der britischen Regierung bereitzustellen.",
+        "link": "https://www.gov.uk/government/publications/authentication-credentials-for-online-government-services/"
+    },
+    {
+        "name": "Google Express",
+        "content": "Mit Google Express k\u00f6nnen Nutzer mit der Google Express-App, dem Google-Sprachassistenten oder \u00fcber den Desktop unter google.com/express in einer Vielzahl von Gesch\u00e4ften einkaufen. Beim Einkaufen k\u00f6nnen Benutzer Artikel in einen zentralen Warenkorb legen, anstatt wie bei Google Shopping auf die Website des einzelnen Einzelh\u00e4ndlers geleitet zu werden, um einen Kauf abzuschlie\u00dfen. Es schafft ein schnelles und einfaches Einkaufserlebnis.",
+        "link": "https://support.google.com/accounts/answer/6103523"
+    },
+    {
+        "name": "Grape",
+        "content": "Grape ist eine Business-Kommunikationsl\u00f6sung mit einer tiefen Service-Integration, die alle verteilten Daten von verschiedenen externen Cloud-Services sofort verf\u00fcgbar macht \u2013 direkt w\u00e4hrend Sie tippen.",
+        "link": "https://www.grape.io/support/administration/activate-two-factor-authentication"
+    },
+    {
+        "name": "Gusto",
+        "content": "Gusto, Inc. ist ein Unternehmen, das eine Cloud-basierte Gehaltsabrechnungs-, Sozialleistungs- und Personalverwaltungssoftware f\u00fcr Unternehmen mit Sitz in den Vereinigten Staaten anbietet.",
+        "link": "https://support.gusto.com/article/106622317100000/Set-up-and-manage-2-step-verification"
+    },
+    {
+        "name": "HackerOne",
+        "content": "HackerOne ist eine Schwachstellenkoordinierungs- und Bug-Bounty-Plattform, die Unternehmen mit Penetrationstestern und Cybersicherheitsforschern verbindet.",
+        "link": "https://docs.hackerone.com/en/articles/8410217-two-factor-authentication"
+    },
+    {
+        "name": "Hancock",
+        "content": "A financial institution offering banking, loans, and financial services in the United States",
+        "link": null
+    },
+    {
+        "name": "Hanko",
+        "content": "Hanko.io m\u00f6chte Entwicklern eine einfach zu implementierende Methode bieten, um passwortfreies Identit\u00e4ts- und Zugriffsmanagement (IAM) in jede Anwendung zu integrieren \u2013 vom Desktop \u00fcber mobile Apps bis hin zu Browsern. Hanko Identity verwendet FIDO2- und WebAuthn-Technologien, um Passw\u00f6rter vollst\u00e4ndig aus dem Anmeldeprozess zu eliminieren.",
+        "link": "https://www.hanko.io/login-methods/fido-security-keys"
+    },
+    {
+        "name": "HelloID",
+        "content": "HelloID unterst\u00fctzt hardwarebasierte FIDO/U2F- oder FIDO2/WebAuthn-Sicherheitsschl\u00fcssel als sekund\u00e4re Authentifizierungsfaktoren. Sie k\u00f6nnen sie auf der Seite Sicherheit Ihres Kontos hinzuf\u00fcgen oder entfernen.",
+        "link": null
+    },
+    {
+        "name": "HEY",
+        "content": "HEY ist ein E-Mail-Dienst von Basecamp, der von Grund auf mit Blick auf Datenschutz und Sicherheit entwickelt wurde. HEY unterst\u00fctzt hardwaregest\u00fctztes 2FA mit Hideez Keys.",
+        "link": "https://www.hey.com/security/"
+    },
+    {
+        "name": "Helpmonks",
+        "content": "Helpmonks ist ein Team-Collaboration-Tool, das Ihre Kundenkommunikation erweitert, unabh\u00e4ngig davon, wo sich Ihre Teammitglieder befinden. Sie haben die M\u00f6glichkeit, SSO mit SAMLv2 zu verwenden, eine benutzerdefinierte tokenbasierte OAuth-Authentifizierung zu verwenden, 2FA zu aktivieren oder sogar einen Hardwareschl\u00fcssel zu verwenden, um Ihr Konto zu sichern.",
+        "link": "https://helpmonks.com/blog/your-security-and-privacy-in-helpmonks/"
+    },
+    {
+        "name": "Hetzer Online Web Hosting",
+        "content": "Hetzner Online ist ein deutscher Webhosting-Anbieter, dessen Rechenzentren haupts\u00e4chlich in Deutschland angesiedelt sind. Seit der Gr\u00fcndung im Jahr 1997 bietet Hetzner Privat- und Gesch\u00e4ftskunden leistungsstarke Hosting-Produkte und eine zuverl\u00e4ssige IT-Infrastruktur.",
+        "link": "https://docs.hetzner.com/accounts-panel/accounts/two-factor-authentication/"
+    },
+    {
+        "name": "Hex Trust",
+        "content": "Hex Trust ist ein vollst\u00e4ndig lizenzierter Verwahrer digitaler Verm\u00f6genswerte, der L\u00f6sungen f\u00fcr Protokolle, Stiftungen, Finanzinstitute und das Web3-\u00d6kosystem anbietet.",
+        "link": null
+    },
+    {
+        "name": "Hideez",
+        "content": "Das Hauptziel von Hideez ist die Entwicklung eines individuellen Sicherheitssystems \u2013 einer einzigartigen Kombination aus Hardware- und Softwarel\u00f6sungen zum Schutz von Daten und digitalen Identit\u00e4ten. Hideez ist der Ansicht, dass die Cybersicherheit von Endger\u00e4ten zuverl\u00e4ssig und bequem sein sollte.",
+        "link": "/de-de/pages/education"
+    },
+    {
+        "name": "HYPR",
+        "content": "HYPR ist ein Cybersicherheitsunternehmen, das Benutzern eine passwortlose Authentifizierung bietet. HYPR unterst\u00fctzt FIDO2- und U2F-Sicherheitsschl\u00fcssel, um Benutzern eine Auswahl und flexible passwortlose Anmeldung zu erm\u00f6glichen. Um Sicherheitsschl\u00fcssel verwenden zu k\u00f6nnen, muss Ihre Organisation diese als Teil Ihres kennwortlosen MFA-Protokolls (Multi-Factor Authentication) aktivieren.",
+        "link": "https://get.hypr.com/register-smart-key-on-windows"
+    },
+    {
+        "name": "HotelsCombined",
+        "content": "A travel metasearch engine that compares prices for hotels, flights, and car rentals from multiple booking sites",
+        "link": null
+    },
+    {
+        "name": "Internet Explorer",
+        "content": "Internet Explorer ist ein Webbrowser, der fr\u00fcher im Microsoft Windows-Betriebssystem enthalten war. In Windows 10 wurde der Browser durch den neuen Edge-Browser von Microsoft ersetzt.",
+        "link": null
+    },
+    {
+        "name": "Island Enterprise Browser",
+        "content": "Island, der Enterprise-Browser, befasst sich mit dem einzigartigen Thema Sicherheit und Produktivit\u00e4t am Arbeitsplatz. Island basiert im Wesentlichen auf der Bereitstellung eines sicheren Browser-Erlebnisses und erm\u00f6glicht Unternehmen umfassende Kontrolle, Transparenz und Steuerung ihrer Aktivit\u00e4ten.",
+        "link": null
+    },
+    {
+        "name": "IBM Secure Access Manager",
+        "content": "IBM Security Access Manager ist eine umfassende L\u00f6sung zur Verwaltung von Autorisierungs- und Netzwerksicherheitsrichtlinien. Es bietet End-to-End-Schutz von Ressourcen \u00fcber geografisch verteilte Intranets und Extranets. WebSEAL ist ein Ressourcenmanager, der webbasierte Informationen und Ressourcen sch\u00fctzt.",
+        "link": "https://docs.verify.ibm.com/verify/docs/multi-factor-authentication"
+    },
+    {
+        "name": "ID.me",
+        "content": "Sie k\u00f6nnen eine oder mehrere Multi-Faktor-Authentifizierungsoptionen (MFA) in Ihrem ID.me-Konto f\u00fcr zus\u00e4tzliche Sicherheitsebenen einrichten. Wenn Ihrem ID.me-Konto mehr als eine MFA-Methode hinzugef\u00fcgt wird, k\u00f6nnen Sie bei jeder Anmeldung diejenige ausw\u00e4hlen, die Sie verwenden m\u00f6chten.",
+        "link": "https://help.id.me/hc/en-us/articles/360017969214-Einrichten-des-FIDO-Sicherheitsschl\u00fcssels-Multi-Faktor-Authentifizierung-MFA-"
+    },
+    {
+        "name": "Identity Automation",
+        "content": "Identity Automation ist ein Beratungsunternehmen, das seinen Kunden bei der Implementierung von Identit\u00e4tsmanagementsystemen hilft. Es bietet optimierte Identit\u00e4tsverwaltungssoftware, die die Unternehmenssicherheit verbessert, die Produktivit\u00e4t steigert und die IT-Kosten senkt.",
+        "link": "https://rapididentity-mfa-product-guide.identityautomation.com/en/hideez-key-support-in-rapididentity-client.html"
+    },
+    {
+        "name": "Idaptive",
+        "content": "Die Idaptive Identity Management Platform ist eine branchenweit anerkannte IAM-L\u00f6sung, die alle wesentlichen Identit\u00e4ts- und Zugriffsverwaltungsdienste vereint. Mit der Idaptive-Plattform k\u00f6nnen Unternehmen die Zugriffsverwaltung mit SSO vereinfachen, Benutzeranmeldeinformationen und Ger\u00e4te mit adaptiver MFA sch\u00fctzen und die Onboarding- und Offboarding-Prozesse automatisieren.",
+        "link": null
+    },
+    {
+        "name": "InfoAnywhere",
+        "content": "InfoAnywhere ist eine EMR- und Case-Management-Software f\u00fcr die Palliativ- und Trauerpflege und das Freiwilligenmanagement. InfoAnywhere verlangt, dass Benutzer im Besitz eines physischen USB-\u201eSchl\u00fcssels\u201c sind, der w\u00e4hrend des Anmeldevorgangs angefordert wird, um sicherzustellen, dass auf das Konto nicht zugegriffen werden kann, selbst wenn der Benutzername und das Passwort kompromittiert sind.",
+        "link": "https://www.infoanywhere.ca/presentation/security.htm"
+    },
+    {
+        "name": "Intercede",
+        "content": "Intercede liefert seit mehr als 20 Jahren innovative Cybersicherheitsl\u00f6sungen f\u00fcr reale digitale Identit\u00e4tsherausforderungen f\u00fcr Regierungen, Polizei, Milit\u00e4r und multinationale Unternehmen. Sein robustes MyID-Anmeldeinformationsverwaltungssystem und die breitere MyID-Plattform genie\u00dfen das Vertrauen f\u00fchrender Organisationen auf der ganzen Welt.",
+        "link": "https://www.intercede.com/solutions/technologies/fido-authentication/"
+    },
+    {
+        "name": "Instagram",
+        "content": "Instagram ist ein Online-Foto-Sharing- und Social-Networking-Dienst, mit dem Benutzer Bilder aufnehmen, Filter darauf anwenden und diese Bilder auf verschiedene Weise teilen k\u00f6nnen, einschlie\u00dflich \u00fcber soziale Netzwerke wie Twitter und Facebook. Instagram ist als Anwendung f\u00fcr iPhone, iPad und Android-Ger\u00e4te verf\u00fcgbar.",
+        "link": "https://help.instagram.com/1582474155197965"
+    },
+    {
+        "name": "Inuvika OVD Service",
+        "content": "Die Softwareplattform von Inuvika, OVD Enterprise, \u00fcberbr\u00fcckt gesch\u00e4ftskritische Windows- und Linux-Anwendungen in die Cloud und stellt sie Benutzern auf jedem Ger\u00e4t ohne die Kosten und Komplexit\u00e4t anderer L\u00f6sungen bereit.",
+        "link": "https://docs.inuvika.com/authentication_guide/"
+    },
+    {
+        "name": "IPS Hosting",
+        "content": "IPS Hosting bietet Hochleistungs-Gameserver. Mit Unterst\u00fctzung f\u00fcr FIDO2/WebAuthn erm\u00f6glicht IPS Hosting eine starke Zwei-Faktor-Authentifizierung (2FA) mit hardwaregest\u00fctzten Sicherheitsschl\u00fcsseln.",
+        "link": "https://help.ips-hosting.com/de/"
+    },
+    {
+        "name": "IronVest",
+        "content": "IronVest ist eine ger\u00e4te\u00fcbergreifende, biometrische Sicherheits- und Datenschutz-App, die \u00fcber die Verwaltung von Passw\u00f6rtern hinausgeht, um sicherzustellen, dass nur Sie auf Ihre sensibelsten Konten wie Banken, E-Mails, Investitionen und mehr zugreifen k\u00f6nnen. Es sch\u00fctzt auch Ihre Privatsph\u00e4re mit maskierten E-Mails, virtuellen Einmal-Kreditkarten und virtuellen Handynummern.",
+        "link": null
+    },
+    {
+        "name": "ISL Online",
+        "content": "Die Zwei-Faktor-Authentifizierung (2FA) kann mit verschiedenen Methoden f\u00fcr den zweiten Verifizierungsschritt konfiguriert werden: E-Mail, Telefon, Authentifizierungs-App (TOTP) oder Sicherheitsschl\u00fcssel (Hideez Key basierend auf dem FIDO U2F-Standard)",
+        "link": "https://help.isonline.com/35746/257890"
+    },
+    {
+        "name": "Isosec",
+        "content": "Isosec bietet revolution\u00e4re Software und Innovationen f\u00fcr Organisationen im Gesundheitswesen. Zu seinen Kunden z\u00e4hlen \u00fcber 80 NHS Trusts und 140.000 Benutzer, die bereits von der Verbesserung der Mitarbeitereffizienz, einem wesentlichen Beitrag zu den papierlosen Zielen des NHS und vor allem einer verbesserten Patientenversorgung profitieren.",
+        "link": "https://download.isosec.co.uk/Documents/Yubikey_VirtualSmartcard_Registration.pdf"
+    },
+    {
+        "name": "Jira",
+        "content": "Die 2FA for Jira-App von Alpha Serve erm\u00f6glicht es Benutzern, sich bei Jira mit Hideez Keys als starkem zweiten Authentifizierungsfaktor zu authentifizieren.",
+        "link": "https://aserve.atlassian.net/wiki/spaces/U2F/pages/746979329/How%2Bto%2Blog%2Bin%2Bwith%2B2FA%2Bfor%2BJira%2Busing%2BU2F%2Bdevice%2Bas%2Bauthentication%2Bsecond%2Bfactor"
+    },
+    {
+        "name": "Joomla-CMS",
+        "content": "Joomla ist ein kostenloses und quelloffenes Content-Management-System zum Ver\u00f6ffentlichen von Webinhalten auf Websites. Anwendungen f\u00fcr Webinhalte umfassen Diskussionsforen, Fotogalerien, E-Commerce und Benutzergemeinschaften sowie zahlreiche andere webbasierte Anwendungen.",
+        "link": "https://docs.joomla.org/J3.x:Two_Factor_Authentication"
+    },
+    {
+        "name": "JumpCloud",
+        "content": "Universelle Sicherheitsschl\u00fcssel des zweiten Faktors (U2F) wie Hideez Key bieten eine einfache Endbenutzererfahrung. Durch die Kombination mit einem Cloud-Verzeichnisdienst k\u00f6nnen IT-Administratoren mit MFA einen sicheren Zugriff auf Systeme, VPNs und Cloud-Anwendungen erm\u00f6glichen.",
+        "link": "https://support.jumpcloud.com/support/s/article/Using-a-Security-Key-with-your-JumpCloud-User-Account"
+    },
+    {
+        "name": "Keeper",
+        "content": "Als Teil des Kernangebots von Keeper steht die Unterst\u00fctzung von FIDO U2F-Sicherheitsschl\u00fcsseln einzelnen Benutzern und Unternehmenskonten zur Verf\u00fcgung. Sobald ein Ger\u00e4t registriert ist und w\u00e4hrend der Anmeldung bei Keeper zur Eingabe des zweiten Faktors aufgefordert wird, muss ein Benutzer das Ger\u00e4t einfach ber\u00fchren, um sich zu authentifizieren und Zugriff zu erhalten.",
+        "link": "https://www.keepersecurity.com/blog/2017/06/12/latest-keeper-release-incorporates-fido-u2f-security-keys/"
+    },
+    {
+        "name": "Kentik Detect",
+        "content": "Kentik ist das Unternehmen f\u00fcr Netzwerkbeobachtung. Die Plattform ist ein Muss f\u00fcr die Netzwerkfront, egal ob Digital Business, Unternehmens-IT oder Service Provider. Netzwerkprofis wenden sich an die Kentik Network Observability Cloud, um jedes Netzwerk zu planen, zu betreiben und zu reparieren, und verlassen sich dabei auf unsere unendliche Granularit\u00e4t, KI-gesteuerte Erkenntnisse und wahnsinnig schnelle Suche.",
+        "link": "https://kb.kentik.com/v3/Cb02.htm"
+    },
+    {
+        "name": "KeyBank",
+        "content": "Da sich KeyBank daf\u00fcr einsetzt, dass Ihre Gesch\u00e4ftskonten sicher und gesch\u00fctzt bleiben, investieren wir in die aktuellsten Cybersicherheitstools, um den Schutz von KeyNavigator zu gew\u00e4hrleisten. Als Teil Ihres KeyNavigator-Onboarding-Prozesses k\u00f6nnen Sie den FIDO-Sicherheitsschl\u00fcssel ausw\u00e4hlen, um auf KeyNavigator zuzugreifen.",
+        "link": "https://www.key.com/businesses-institutions/solutions/payments/key-navigator-sign-on.htm"
+    },
+    {
+        "name": "Kickstarter",
+        "content": "Kickstarter ist eine amerikanische gemeinn\u00fctzige K\u00f6rperschaft mit Sitz in Brooklyn, New York, die eine globale Crowdfunding-Plattform mit Fokus auf Kreativit\u00e4t unterh\u00e4lt. Die erkl\u00e4rte Mission des Unternehmens ist es, \u201ekreative Projekte zum Leben zu erwecken\u201c.",
+        "link": "https://help.kickstarter.com/hc/en-us/articles/115005127094-How-can-I-enable-two-factor-authentication-"
+    },
+    {
+        "name": "Kraken",
+        "content": "Kraken ist eine in den USA ans\u00e4ssige Kryptow\u00e4hrungsb\u00f6rse und Bank. Derzeit unterst\u00fctzt Kraken FIDO2-Sicherheitsschl\u00fcssel, die kryptografische 1:1-Beziehungen mit der beabsichtigten Anmeldeseite herstellen, wodurch verhindert wird, dass Phishing-Sites Ihre Anmeldeinformationen stehlen.",
+        "link": "https://support.kraken.com/hc/en-us/articles/360000570283-Using-a-Security-Key-for-two-factor-authentication-2FA-"
+    },
+    {
+        "name": "Login.gov",
+        "content": "login.gov ist ein Dienst, der einen sicheren und privaten Online-Zugriff auf staatliche Programme wie staatliche Leistungen, Dienste und Anwendungen bietet. Mit einem login.gov-Konto k\u00f6nnen Sie sich mit derselben E-Mail-Adresse und demselben Passwort bei mehreren Beh\u00f6rden-Websites anmelden.",
+        "link": "https://www.login.gov/help/get-started/authentication-options/"
+    },
+    {
+        "name": "Linux",
+        "content": "Linux ist sowohl ein Open-Source-Unix-\u00e4hnlicher Kernel als auch der generische Name f\u00fcr eine Familie von Open-Source-Unix-\u00e4hnlichen Betriebssystemen, die auf dem Linux-Kernel basieren, einem Betriebssystem-Kernel, der erstmals am 17. September 1991 von Linus Torvalds ver\u00f6ffentlicht wurde.",
+        "link": null
+    },
+    {
+        "name": "LinkedIn",
+        "content": "A professional social networking platform that helps users build professional connections, find jobs, and engage in business-related content",
+        "link": null
+    },
+    {
+        "name": "Microsoft Edge Browser",
+        "content": "Microsoft Edge ist der Standard-Webbrowser und ersetzt Internet Explorer 11 und Internet Explorer Mobile. Da seine Entwicklung und Ver\u00f6ffentlichung vom Modell von Windows als Dienst abh\u00e4ngt, ist er nicht in Windows Enterprise Long-Term Servicing Channel (LTSC)-Builds enthalten.",
+        "link": null
+    },
+    {
+        "name": "Maiar Browser",
+        "content": "Maiar ist ein kostenlos herunterladbarer Browser, der von elrond-ltd entwickelt wurde und sich auf die Privatsph\u00e4re und Sicherheit der Benutzer konzentriert. Mit seinen integrierten Funktionen sch\u00fctzt Sie die Software nicht nur vor Online-Bedrohungen, sondern bietet auch ein schnelles und effizientes Surferlebnis.",
+        "link": null
+    },
+    {
+        "name": "Mailchimp",
+        "content": "Mailchimp ist eine Marketing-Automatisierungsplattform, die f\u00fcr Unternehmen konzipiert und entwickelt wurde, die E-Mails verwenden, um ihre Zielm\u00e4rkte zu erreichen. Es ist ein All-in-One-Tool, mit dem Sie Ihre Mailinglisten verwalten, benutzerdefinierte E-Mail-Vorlagen erstellen und Ihre gesamten Marketingkampagnen pflegen und automatisieren k\u00f6nnen.",
+        "link": "https://mailchimp.com/ help/set-up-a-two-factor-authentication-app-at-login/"
+    },
+    {
+        "name": "Magic Link",
+        "content": "Magic ist ein Plug-and-Play-SDK, das eine Vielzahl von passwortlosen Anmeldemethoden unterst\u00fctzt, einschlie\u00dflich magischer E-Mail-Links, WebAuthn und sozialer Anmeldung \u2013 Facebook, Google, Twitter, LinkedIn, Discord und mehr. Mit Sicherheit und Zuverl\u00e4ssigkeit der Enterprise-Klasse \u2013 globale Verf\u00fcgbarkeit, 99 % Betriebszeit, SOC 2, Tests von Drittanbietern, SLAs, die nach den neuesten Standards zertifiziert sind \u2013 gibt Magic Unternehmen Sicherheit, wenn ihre Apps skalieren, und das alles mit nur wenigen Codezeilen.",
+        "link": "https://magic.link"
+    },
+    {
+        "name": "MATESO Password Safe",
+        "content": "Mateso Password Safe ist eine fortschrittliche Verschl\u00fcsselungssoftware zur Verwaltung von Identit\u00e4ten, Passw\u00f6rtern und Dokumenten. Password Safe ist seit 2006 ein Pionier in der Branche als Enterprise-Passwortverwaltungsl\u00f6sung. Es versetzt Benutzer in die Lage, sensible Gesch\u00e4ftsdaten zu speichern, zu sichern und zu sch\u00fctzen.",
+        "link": "https://help.passwordsafe.de/v8/1/en/topic/multifaktor-authentifizierung"
+    },
+    {
+        "name": "Mercury",
+        "content": "Mercury baut ein Banking f\u00fcr Startups auf. Das Unternehmen f\u00f6rdert die n\u00e4chste Generation von Startups.",
+        "link": "https://mercury.com/signup"
+    },
+    {
+        "name": "Micro Focus",
+        "content": "Micro Focus ist einer der weltweit gr\u00f6\u00dften Anbieter von Unternehmenssoftware. Wir liefern unternehmenskritische Technologie und unterst\u00fctzende Services, die Tausenden von Kunden weltweit helfen, die wichtigsten IT-Elemente ihres Unternehmens zu verwalten, damit sie gleichzeitig laufen und transformieren k\u00f6nnen.",
+        "link": "https://www.netiq.com/documentation/advanced-authentication-framework-52/pdfdoc/guides/server-administrator-guide.pdf"
+    },
+    {
+        "name": "Microsoft",
+        "content": "Microsoft hat die M\u00f6glichkeit aktiviert, sich mit einem standardbasierten FIDO2-kompatiblen Ger\u00e4t sicher bei Ihrem Microsoft-Konto anzumelden \u2013 kein Benutzername oder Kennwort erforderlich! FIDO2 erm\u00f6glicht es Benutzern, standardbasierte Ger\u00e4te zu nutzen, um sich einfach bei Online-Diensten zu authentifizieren \u2013 sowohl in mobilen als auch in Desktop-Umgebungen.",
+        "link": "https://support.microsoft.com/en-us/windows/sign-in-to-your-microsoft-account-with-windows-hello-or-a-security-key-800a8c01-6b61-49f5-0660- c2159bea4d84"
+    },
+    {
+        "name": "Microsoft Entra ID (Azure AD)",
+        "content": "FIDO2-Sicherheitsschl\u00fcssel sind eine der kennwortlosen Authentifizierungsoptionen, die in Azure Active Directory (Azure AD) integriert werden. Benutzer k\u00f6nnen sich registrieren und dann einen Hideez-Schl\u00fcssel auf der Anmeldeoberfl\u00e4che als Hauptauthentifizierungsmittel ausw\u00e4hlen.",
+        "link": "https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-passwordless#fido2-security-keys"
+    },
+    {
+        "name": "minFraud",
+        "content": "Um die Sicherheit der miFraud-Dienste von Max Mind zu erh\u00f6hen, k\u00f6nnen Sie jetzt einen (FIDO U2F) Sicherheitsschl\u00fcssel zus\u00e4tzlich zu Ihren Kontoanmeldeinformationen hinzuf\u00fcgen und anfordern, um sich sicherer anzumelden. Informationen zum Einrichten von 2FA finden Sie in unserem Support-Center-Benutzerhandbuch.",
+        "link": "https://support.maxmind.com/hc/en-us/articles/1260803946470-Set-Up-Two-Factor-Authentication"
+    },
+    {
+        "name": "Misakey",
+        "content": "Misakey ist ein Entwickler einer Plattform zum Schutz personenbezogener Daten zur Verwaltung des digitalen Lebens. Ziel ist die einfache und schnelle Erstellung von Webservices und -anwendungen mit einer fl\u00fcssigen Benutzererfahrung, einem benutzerzentrierten Einwilligungsmanagement und einem hohen Grad an Interoperabilit\u00e4t.",
+        "link": "https://docs.misakey.com"
+    },
+    {
+        "name": "Moneybird",
+        "content": "Moneybird bietet Unternehmern ein Online-Buchhaltungstool zur Verwaltung ihrer Finanzen. Zu den Funktionen geh\u00f6ren das Erstellen von Rechnungen, das Speichern von Eingangsrechnungen, das Scannen von Quittungen und das Versenden von Angeboten. Alle Finanzinformationen werden gesammelt und mit Informationen aus Kontoausz\u00fcgen angereichert, um Buchhaltungsberichte zu erstellen.",
+        "link": "https://www.moneybird.nl/blog/twee-staps-verificatie/"
+    },
+    {
+        "name": "miniOrange",
+        "content": "miniOrange vereinfacht die Sicherheit und Benutzerverwaltung der Atlassian Suite durch Ein-Klick-Zugriff f\u00fcr Mitarbeiter, Kunden und Partner \u00fcber alle Ger\u00e4tetypen hinweg auf alle Unternehmen mit lokalen Anwendungen.",
+        "link": null
+    },
+    {
+        "name": "LogitechG",
+        "content": "A division of Logitech that designs and manufactures gaming peripherals like keyboards, mice, headsets, and controllers",
+        "link": null
+    },
+    {
+        "name": "Namecheap",
+        "content": "Mit U2F m\u00fcssen Sie keine Codes von einer App auf Ihrem Smartphone eingeben. Stattdessen k\u00f6nnen Sie jeden U2F-Schl\u00fcssel f\u00fcr 2FA verwenden, z. B. Hideez Key.",
+        "link": "https://www.namecheap.com/support/knowledgebase/article.aspx/10102/45/how-can-i-use-the-u2f-method-for-twofactor-authentication/"
+    },
+    {
+        "name": "Nicehash",
+        "content": "NiceHash ist ein globaler Kryptow\u00e4hrungs-Hash-Power-Broker und Kryptow\u00e4hrungsaustausch mit einem offenen Marktplatz, der Verk\u00e4ufer von Hash-Power mit K\u00e4ufern von Hash-Power unter Verwendung des Sharing-Economy-Ansatzes verbindet. Das Unternehmen bietet Software f\u00fcr das Kryptow\u00e4hrungs-Mining an.",
+        "link": "https://www.nicehash.com/support/general-help/security/how-to-setup-2fa-security"
+    },
+    {
+        "name": "Nintendo",
+        "content": "Nintendo Co., Ltd. ist ein japanisches multinationales Videospielunternehmen mit Hauptsitz in Kyoto, Japan. Es entwickelt Videospiele und Videospielkonsolen.",
+        "link": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/27496/~/how-to-set-up-2-step-verification-for-a-nintendo-account"
+    },
+    {
+        "name": "Nitrado",
+        "content": "Nitrado bietet Gaming-Server und Hosting-Dienste mit Unterst\u00fctzung f\u00fcr U2F. Wenn FIDO U2F aktiviert ist, kann Hideez Key deinem Nitrado-Konto eine zus\u00e4tzliche Sicherheitsebene bieten.",
+        "link": "https://server.nitrado.net/eng/news2/view/nitrado-highlighted-features-two-factor-authentication/"
+    },
+    {
+        "name": "Nok Nok S3 Authentication Suite",
+        "content": "Nok Nok ist der vertrauensw\u00fcrdige Marktf\u00fchrer in der passwortlosen Verbraucherauthentifizierung f\u00fcr die weltweit gr\u00f6\u00dften Organisationen. Durch die Bereitstellung der innovativsten Authentifizierungsl\u00f6sungen auf dem heutigen Markt versetzt Nok Nok globale Organisationen in die Lage, die Benutzererfahrung beim Zugriff auf digitale Dienste zu verbessern und gleichzeitig die fortschrittlichsten Datenschutz- und Regulierungsanforderungen zu erf\u00fcllen.",
+        "link": "https://noknok.com/products/s3-authentication-suite/"
+    },
+    {
+        "name": "Nulab",
+        "content": "Nulab bietet eine Vielzahl cloudbasierter Software f\u00fcr Zusammenarbeit und Produktivit\u00e4t. Sie k\u00f6nnen 2FA f\u00fcr eine verbesserte Kontosicherheit aktivieren: Sie m\u00fcssen im ersten Schritt das Passwort eingeben und im zweiten Schritt auf einen Sicherheitsschl\u00fcssel tippen (anstatt einen Best\u00e4tigungscode einzugeben).",
+        "link": "https://support.nulab.com/hc/en-us/articles/7732936736537-How-to-set-up-two-factor-authentication"
+    },
+    {
+        "name": "Nvidia",
+        "content": "A leading technology company known for its graphics processing units (GPUs) used in gaming, AI, and professional visualization",
+        "link": null
+    },
+    {
+        "name": "Opera",
+        "content": "Opera ist ein Webbrowser, der ein umfassenderes Web-Erlebnis bietet, als Sie es von Standardbrowsern gewohnt sind. Millionen von Benutzern entscheiden sich aufgrund seiner \u00fcberlegenen Leistung und Zuverl\u00e4ssigkeit f\u00fcr ihn.",
+        "link": null
+    },
+    {
+        "name": "OnlyFans",
+        "content": "A content subscription platform where creators can earn money from subscribers who access their exclusive content",
+        "link": null
+    },
+    {
+        "name": "Okta",
+        "content": "Ein Okta-Administrator kann MFA auf Organisations- oder Anwendungsebene konfigurieren. Wenn beide Ebenen aktiviert sind, werden Endbenutzer aufgefordert, ihre Anmeldeinformationen mit Faktoren zu best\u00e4tigen, wenn sie sich bei Okta anmelden und auf eine Anwendung zugreifen. Endbenutzer k\u00f6nnen einen U2F-kompatiblen Sicherheitsschl\u00fcssel wie Hideez Key verwenden, um sich bei Okta anzumelden.",
+        "link": "https://help.okta.com/en-us/Content/Topics/Security/mfa-webouthn.htm"
+    },
+    {
+        "name": "OneLock",
+        "content": "OneLock ist eine Cloud-basierte All-in-One-Suite f\u00fcr Daten- und Dateisicherheit, die auf fortschrittlicher Zero-Knowledge-Verschl\u00fcsselung (auch bekannt als End-to-End-Verschl\u00fcsselung) basiert, um Ihnen die ultimative Datensicherheit und Privatsph\u00e4re zu bieten. Das bedeutet, dass wir nicht auf Ihre Daten zugreifen k\u00f6nnen und es keinerlei Zwischenh\u00e4ndler gibt.",
+        "link": "https://www.onelock.com/how-to-register-yubikey-with-onelock.php"
+    },
+    {
+        "name": "One Identity",
+        "content": "One Identity bietet vereinheitlichte Identit\u00e4tssicherheitsl\u00f6sungen, mit denen Kunden ihre allgemeine Cybersicherheit st\u00e4rken und die f\u00fcr das Unternehmen wesentlichen Personen, Anwendungen und Daten sch\u00fctzen k\u00f6nnen. Unsere Unified Identity Security Platform vereint erstklassige Software, um Unternehmen den Wechsel von einem fragmentierten zu einem ganzheitlichen Ansatz der Identit\u00e4tssicherheit zu erm\u00f6glichen.",
+        "link": "https://support.oneidentity.com/technical-documents/starling-connect/hosted/one-identity-manager-administration-guide/61"
+    },
+    {
+        "name": "OneLogin",
+        "content": "OneLogin, Inc. ist ein cloudbasierter Anbieter von Identit\u00e4ts- und Zugriffsverwaltung (IAM), der eine einheitliche Zugriffsverwaltungsplattform f\u00fcr Unternehmen und Organisationen auf Unternehmensebene entwickelt.",
+        "link": "https://www.onelogin.com/blog/webathn-by-me-for-me"
+    },
+    {
+        "name": "Opalstack",
+        "content": "Managed Hosting f\u00fcr Entwickler, Unternehmer und Unternehmen wie Ihres. Probleme mit Ihrer Website? Opalstack wird Ihnen helfen, wenn sie es nicht tun.",
+        "link": "https://opalstack.com/"
+    },
+    {
+        "name": "Oracle",
+        "content": "Mit Oracle Identity Cloud Service k\u00f6nnen Sie das Hideez Key-Ger\u00e4t w\u00e4hrend der Verifizierung im zweiten Schritt verwenden, um auf Oracle Cloud oder alle Anwendungen zuzugreifen, die in Oracle Identity Cloud Service integriert sind.",
+        "link": "https://docs.oracle.com/en/cloud/paas/identity-cloud/uaids/configure-fido-security.html"
+    },
+    {
+        "name": "Ory Cloud",
+        "content": "Ory Cloud-Projekte sind isolierte Mandanten, die Funktionen, Benutzeroberfl\u00e4chen und APIs rund um Identit\u00e4ten, Sitzungen, Anmeldung und vieles mehr bereitstellen. Intern f\u00fchren Ory Cloud Projects unsere beliebten Open-Source-Projekte in einer Multi-Tenant-Umgebung hochgradig skalierbar, mit geringer Latenz und zuverl\u00e4ssig aus.",
+        "link": "https://www.ory.sh/docs/kratos/passwordless/webouthn"
+    },
+    {
+        "name": "Paced Email",
+        "content": "Mit Paced Email k\u00f6nnen Sie E-Mails in einem einzigen Digest b\u00fcndeln, damit Ihre Produktivit\u00e4t nicht mit jeder neuen E-Mail in Ihrem Posteingang leidet. Sie k\u00f6nnen Brenner-E-Mail-Adressen generieren, um Ihre wahre Identit\u00e4t vor Unternehmen zu verbergen, die Ihre Aktivit\u00e4ten f\u00fcr gezielte Werbung verfolgen m\u00f6chten.",
+        "link": "https://www.paced.email/blog/fido-u2f-security-key-support"
+    },
+    {
+        "name": "Passbolt",
+        "content": "Passbolt ist ein kostenloser Open-Source-Passwortmanager, der es Teammitgliedern erm\u00f6glicht, Anmeldeinformationen sicher zu speichern und zu teilen. Zum Beispiel das WLAN-Passwort Ihres B\u00fcros, das Administratorpasswort eines Routers oder das Passwort Ihres Social-Media-Kontos in Ihrem Unternehmen, sie alle k\u00f6nnen mit Passbolt gesichert werden.",
+        "link": "https://community.passbolt.com/t/as-a-community-edition-user-i-can-use-2fa-mfa-feature/4708"
+    },
+    {
+        "name": "Ping Identity",
+        "content": "Ping Identity bietet Identit\u00e4ts- und Zugriffsverwaltungsl\u00f6sungen (IAM), die Kunden und Mitarbeitern mit einem Klick Zugriff auf jede Anwendung von jedem Ger\u00e4t aus erm\u00f6glichen. Ihr Ziel ist es, der Tr\u00e4ger der Standards zu sein. Sie haben sich mit den weltweit f\u00fchrenden SaaS-Anbietern, Technologieunternehmen, Systemintegratoren und Value-Added-Resellern zusammengeschlossen. Gemeinsam streben sie danach, eine sicherer vernetzte Welt aufzubauen, indem sie sich jeweils auf eine Identit\u00e4t konzentrieren.",
+        "link": "https://docs.pingidentity.com/bundle/pingid/page/Chunk2071690972.html#xrx1564020447906"
+    },
+    {
+        "name": "Pointsharp",
+        "content": "Pointsharp Enterprise bietet eine All-in-One-L\u00f6sung zur sicheren Benutzeranmeldung in einer Multi-Cloud-Umgebung. Kunden von Pointsharp Enterprise k\u00f6nnen jetzt FIDO-f\u00e4hige YubiKeys nutzen, um ihre Konten zu sichern",
+        "link": "http://www.hermitagesolutions.com/download/PointSharp/PointSharp_Manual.pdf"
+    },
+    {
+        "name": "Porkbun",
+        "content": "Porkbun ist ein Domain-Webhosting-Unternehmen, das die Verwendung eines physischen Sicherheitsschl\u00fcssels als Zweitfaktor-Option f\u00fcr die Anmeldung bei Ihrem Konto unterst\u00fctzt.",
+        "link": null
+    },
+    {
+        "name": "PayPal",
+        "content": "A global online payment system that allows users to send and receive money, as well as make purchases securely online",
+        "link": null
+    },
+    {
+        "name": "Pertuniti",
+        "content": "Pertuniti kann Sie und Ihr Team bei Aufgaben unterst\u00fctzen, bei denen Sie eindeutig der Experte sind, sowie bei m\u00fchsamen Routinearbeiten.",
+        "link": null
+    },
+    {
+        "name": "Plurilock AI Cloud",
+        "content": "Plurilock AI Cloud ist eine kosteng\u00fcnstige, leicht zug\u00e4ngliche Single Sign-On- (SSO-), Cloud Access Security Broker- (CASB-) und Zugriffskontrollplattform, die modernste Funktionen wie kennwortlose FIDO2-Authentifizierung und Geolokalisierung, Browser und tageszeitabh\u00e4ngige Ein- und Ausschl\u00fcsse bietet.",
+        "link": null
+    },
+    {
+        "name": "Rocky Linux",
+        "content": "Rocky Linux ist ein Open-Source-Unternehmensbetriebssystem, das zu 100 % mit Red Hat Enterprise Linux\u00ae kompatibel ist. Es wird von der Community intensiv weiterentwickelt.",
+        "link": null
+    },
+    {
+        "name": "Passly",
+        "content": "Passly ist die branchenweit erste sichere IAM-Plattform, die Zwei-Faktor-Authentifizierung (2FA), Single Sign-On (SSO) und Passwortverwaltung (PM) mit propriet\u00e4rer Dark-Web-\u00dcberwachung kombiniert, um zu erkennen, ob Benutzeranmeldeinformationen kompromittiert und im Dunkeln offengelegt wurden Netz.",
+        "link": "https://support.idagent.com/hc/en-us/articles/360009189617-How-to-Add-a-Yubikey-with-U2F-Capabilities-to-your-Passly-account"
+    },
+    {
+        "name": "PrivacyIDEA",
+        "content": "privacyIDEA ist ein modularer Authentifizierungsserver, mit dem Sie die Sicherheit Ihrer bestehenden Anwendungen wie lokale Anmeldung, VPN, Fernzugriff, SSH-Verbindungen, Zugriff auf Websites oder Webportale mit Zwei-Faktor-Authentifizierung erh\u00f6hen k\u00f6nnen. Urspr\u00fcnglich wurde es f\u00fcr OTP-Authentifizierungsger\u00e4te (One Time Password) verwendet \u2013 als OTP-Server. Aber auch andere \u201eGer\u00e4te\u201c wie Challenge Response, U2F, Yubikeys, SSH-Schl\u00fcssel und x509-Zertifikate sind verf\u00fcgbar. Es l\u00e4uft unter Linux und ist vollst\u00e4ndig Open Source, lizenziert unter der AGPLv3.",
+        "link": "https://privacyidea.readthedocs.io/en/latest/modules/lib/tokentypes/u2f.html"
+    },
+    {
+        "name": "ProtonMail",
+        "content": "Proton Mail ist ein Ende-zu-Ende-verschl\u00fcsselter E-Mail-Dienst, der 2013 in Genf, Schweiz, gegr\u00fcndet wurde. Es verwendet eine clientseitige Verschl\u00fcsselung, um E-Mail-Inhalte und Benutzerdaten zu sch\u00fctzen, bevor sie an Proton Mail-Server gesendet werden, im Gegensatz zu anderen g\u00e4ngigen E-Mail-Anbietern wie Gmail und Outlook.",
+        "link": "https://proton.me/support/two-factor-authentication-2fa"
+    },
+    {
+        "name": "Posteo",
+        "content": "Posteo ist ein E-Mail-Dienstleister mit Sitz in Berlin, Deutschland, der kostenpflichtige E-Mail-Konten f\u00fcr Privatpersonen und Unternehmen anbietet.",
+        "link": "https://posteo.de/de/hilfe/was-ist-zwei-faktor-authentisierung-und-wie-stelle-ich-es-ein"
+    },
+    {
+        "name": "PulseConnect Secure",
+        "content": "Pulse Secure ist ein speziell auf Unternehmen zugeschnittener VPN-Sicherheitsdienst. Es ist ein Desktop-Tool, das als Schutzschirm f\u00fcr ganze Unternehmen dient, Malware und Viren abwehrt und die Internetaktivit\u00e4ten beschleunigt. Der vom IT-Softwareunternehmen Ivanti erworbene Pulse Client erstellt und verwaltet eine sichere Verbindung auf Windows, Android und iPhone.",
+        "link": "https://help.ivanti.com/ps/help/en_US/PDC/9.1R12/ag/pdc-admin-guide/RSA_Authentication.htm#Authenti"
+    },
+    {
+        "name": "PushCoin",
+        "content": "PushCoin ist die einzige Zahlungsplattform, die District 86 f\u00fcr Studiengeb\u00fchren, Online-Eink\u00e4ufe und Essenskonten verwendet. Mit dem Sicherheitsschl\u00fcssel m\u00fcssen Sie sich keine Codes ansehen und sie erneut eingeben \u2013 Sie tippen einfach auf Ihren Hideez-Schl\u00fcssel, wenn Sie dazu aufgefordert werden.",
+        "link": "https://knowhow.pushcoin.com/2015/01/12/using-security-key-for-2-step-verification/"
+    },
+    {
+        "name": "Quonference",
+        "content": "Quonference ist eine hochsichere Webkonferenzplattform mit Unterst\u00fctzung f\u00fcr FIDO2 (biometrische und Roaming-Hardware-Authentifizierungsger\u00e4te). Es ist eine gro\u00dfartige Option f\u00fcr Meetings, bei denen eine sichere Zugangskontrolle und Vertraulichkeit wichtig sind.",
+        "link": "https://quonference.com/security-guide#YubiKey"
+    },
+    {
+        "name": "RCDevs Open OTP",
+        "content": "RCDevs bietet Sicherheitsl\u00f6sungen der Enterprise-Klasse mit Zwei-Faktor-Authentifizierung. Von OTP/FIDO2 \u00fcber Federation (SSO) bis IAM bis hin zu sicheren Transaktionen (PSD2) und mehr. Seine L\u00f6sungen kombinieren mobile Technologien mit bew\u00e4hrten Sicherheitsstandards, um die beste Software f\u00fcr Profis und Laien anzubieten, die kosteng\u00fcnstige L\u00f6sungen ben\u00f6tigen, die mit der Mobilit\u00e4t ihrer Benutzer kompatibel sind.",
+        "link": "https://docs.rcdevs.com/fido-and-passkeys/"
+    },
+    {
+        "name": "Red Hat",
+        "content": "Red Hat Identity Manager (IdM) wurde entwickelt, um einen integrierten Identit\u00e4tsverwaltungsdienst f\u00fcr eine breite Palette von Clients bereitzustellen, einschlie\u00dflich Linux, Mac und sogar Windows. Im Kern kombiniert IdM LDAP, Kerberos, DNS und PKI mit einem umfassenden Management-Framework.",
+        "link": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/linux_domain_identity_authentication_and_policy_guide/otp#otp-enable"
+    },
+    {
+        "name": "RelateIT",
+        "content": "RelateIT ist einer der gr\u00f6\u00dften NAV/Business Central-Partner D\u00e4nemarks, der anspruchsvolle ERP-Dienste f\u00fcr Unternehmen mit nationalem und internationalem Entwicklungsbedarf anbietet.",
+        "link": "https://relate.it/downloads/myrelate-2fa.pdf"
+    },
+    {
+        "name": "RevBits PAM",
+        "content": "RevBits Privileged Access Management ist eine L\u00f6sung mit mehreren Modulen, die privilegierten Zugriff, privilegierte Sitzungen, ci/cd-Integration, Passwort, Dienstkonten, Schl\u00fcssel- und Zertifikatsverwaltung sowie eine umfassende Sitzungsprotokollierung umfasst, die Tastenanschl\u00e4ge und Videos erfasst. RevBits Privileged Access Management native Clients sind f\u00fcr g\u00e4ngige Betriebssysteme verf\u00fcgbar.",
+        "link": "https://revbitsinc.medium.com/revbits-pam-2-factor-authentication-2fa-with-yubikey-56e7e79aae78"
+    },
+    {
+        "name": "Reddit",
+        "content": "Reddit ist eine amerikanische Social-News-Aggregations-, Inhaltsbewertungs- und Diskussionswebsite. Registrierte Benutzer \u00fcbermitteln Inhalte auf der Website wie Links, Textbeitr\u00e4ge, Bilder und Videos, die dann von anderen Mitgliedern positiv oder negativ bewertet werden.",
+        "link": "https://www.reddit.com/r/announcements/comments/7spq3s/protect_your_account_with_twofactor_authentication/"
+    },
+    {
+        "name": "RealMe",
+        "content": "Realme ist eine aufstrebende Mobiltelefonmarke, die sich der Bereitstellung von Mobiltelefonen mit leistungsstarker Leistung, stilvollem Design und aufrichtigem Service verschrieben hat.",
+        "link": null
+    },
+    {
+        "name": "Realtime Register",
+        "content": "Realtime Register ist ein gefragter Domain-Name-Registrar, der weltweit f\u00fcr seine g\u00fcnstigen Dienste gefeiert wird. Dieser Domain-Gro\u00dfh\u00e4ndler ist seit \u00fcber 20 Jahren auf der Bildfl\u00e4che erschienen und ist damit eine vertrauensw\u00fcrdige Wahl f\u00fcr Internetdienstanbieter, Unternehmensbosse und sogar Domain-Enthusiasten.",
+        "link": null
+    },
+    {
+        "name": "Roblox",
+        "content": "Roblox ist eine von der Roblox Corporation entwickelte Online-Spieleplattform und ein Spieleerstellungssystem, mit dem Benutzer von ihnen selbst oder von anderen Benutzern erstellte Spiele programmieren und spielen k\u00f6nnen.",
+        "link": null
+    },
+    {
+        "name": "Rockstar Games Social Clubs",
+        "content": "Rockstar Games Social Club (Social Club) ist ein Digital Rights Management-, Multiplayer- und Kommunikationsdienst, der von Rockstar Games zur Verwendung mit der neuesten Generation von Spielen bereitgestellt wird.",
+        "link": "https://support.rockstargames.com/articles/360000031747/Setting-Up-2-Step-Verification-with-Social-Club"
+    },
+    {
+        "name": "Rohos",
+        "content": "Rohos bietet ein lokales Zwei-Faktor-Authentifizierungstool, mit dem Unternehmen ein USB-Laufwerk in einen Sicherheitsschl\u00fcssel umwandeln und die Windows-Anmeldung ersetzen k\u00f6nnen.",
+        "link": null
+    },
+    {
+        "name": "RSA",
+        "content": "SecurID bietet leistungsstarke Identit\u00e4ts- und Zugriffsverwaltungsfunktionen f\u00fcr lokale Bereitstellungen \u2013 in den Bereichen Authentifizierung, Zugriffsverwaltung und Identit\u00e4tsverwaltung \u2013, um Unternehmen in einer Welt ohne Grenzen vollst\u00e4ndig zu sch\u00fctzen.",
+        "link": "https://community.rsa.com/t5/securid-access-cloud/getting-started-with-fido-certified-security-keys-with-securid/ta-p/623048/redirect_from_archived_page/true"
+    },
+    {
+        "name": "runZero",
+        "content": "runZero ist eine Asset-Inventarisierungs- und Netzwerktransparenzl\u00f6sung, die Organisationen hilft, verwaltete und nicht verwaltete Assets zu finden und zu identifizieren, die mit ihren Netzwerken und in der Cloud verbunden sind. runZero unterst\u00fctzt die Multi-Faktor-Authentifizierung (MFA) f\u00fcr die runZero-Konsole durch FIDO2-kompatible (WebAuthn) Sicherheitstoken.",
+        "link": "https://www.runzero.com/legal/security/"
+    },
+    {
+        "name": "Runbox",
+        "content": "Runbox ist ein E-Mail-Anbieter aus Norwegen, der erstmals im Jahr 2000 eingef\u00fchrt wurde. Der Runbox-Dienst ist Eigentum von Runbox Solutions AS, das auch daf\u00fcr bekannt ist, Webhosting-Dienste anzubieten.",
+        "link": "https://help.runbox.com/more-about-two-factor-authentication-and-app-passwords/"
+    },
+    {
+        "name": "Safari",
+        "content": "Safari ist die beste M\u00f6glichkeit, das Internet auf all Ihren Apple-Ger\u00e4ten zu erleben. Es bietet umfangreiche Anpassungsoptionen, leistungsstarken Datenschutz und optimiert die Akkulaufzeit \u2013 damit Sie surfen k\u00f6nnen, wie und wann Sie m\u00f6chten.",
+        "link": null
+    },
+    {
+        "name": "Sciber YubiKey Locker",
+        "content": "Mit YubiKey Locker von Sciber k\u00f6nnen Organisationen Richtlinien festlegen und durchsetzen, um Endpunkte mit der neuesten Version von Windows 11, macOS und Ubuntu automatisch abzumelden oder zu sperren, wenn ein YubiKey vom Ger\u00e4t entfernt wird.",
+        "link": null
+    },
+    {
+        "name": "Secfense",
+        "content": "Sicherer Remote-Zugriff mit Secfense bedeutet eine robuste Alternative zu VPNs mit starker, Phishing-resistenter Authentifizierung und vollst\u00e4ndigem Site-Schutz.",
+        "link": null
+    },
+    {
+        "name": "SendQuick Conexa",
+        "content": "SendQuick bietet mit SendQuick Conexa eine kosteng\u00fcnstige, einfache und zuverl\u00e4ssige L\u00f6sung, die einen sicheren Fernzugriff durch MFA gew\u00e4hrleistet und nur autorisierten Personen Zugriff auf vertrauliche Daten, Anwendungen und kritische Systeme erm\u00f6glicht.",
+        "link": null
+    },
+    {
+        "name": "SAASPASS",
+        "content": "SAASPASS bietet Zwei-Faktor-Authentifizierung als Service und sicheres Single Sign-On (SSO) f\u00fcr Ihre physischen Ger\u00e4te, Computer und digitalen Anwendungen mit zahlreichen fertigen Integrationen und Adaptern f\u00fcr lokale, hybride, benutzerdefinierte und Cloud-Anwendungen.",
+        "link": "https://saaspass.com/fido/fido-u2f-usb-identity-provider-saml-sso-single-sign-on/"
+    },
+    {
+        "name": "Salesforce",
+        "content": "Als Salesforce-Administrator k\u00f6nnen Sie Benutzern erlauben, einen U2F-Sicherheitsschl\u00fcssel zu verwenden, wann immer sie aufgefordert werden, ihre Identit\u00e4t zu best\u00e4tigen. Anstatt Salesforce Authenticator oder OTPs zu verwenden, die per E-Mail oder SMS gesendet werden, verwenden Benutzer den Sicherheitsschl\u00fcssel in das entsprechende oder mobile Ger\u00e4t, um die Verifizierung abzuschlie\u00dfen.",
+        "link": "https://help.salesforce.com/s/articleView?id=sf.security_u2f_register_security_key.htm&type=5"
+    },
+    {
+        "name": "SecSign",
+        "content": "SecSign Technologies liefert Cloud- und On-Premise-Identit\u00e4tsmanagementl\u00f6sungen und Signaturportale. Unternehmen k\u00f6nnen den SecSign ID-Server zur Absicherung von Authentifizierungspfaden nutzen und zwischen zahlreichen Authentifizierungsmethoden w\u00e4hlen, zum Beispiel SecSign ID App, TOTP, Mail OTP und mehr.",
+        "link": "https://www.secsign.com/authentication-with-fido-2fa/"
+    },
+    {
+        "name": "SecureAuth",
+        "content": "SecureAuth ist ein Zugriffsverwaltungs- und Authentifizierungsunternehmen der n\u00e4chsten Generation, das eine sichere und passwortlose, kontinuierliche Authentifizierungserfahrung f\u00fcr Mitarbeiter, Partner und Kunden erm\u00f6glicht. Mit der einzigen L\u00f6sung, die in Cloud-, Hybrid- und On-Premises-Umgebungen bereitgestellt werden kann, verwaltet und sch\u00fctzt SecureAuth den Zugriff auf Anwendungen, Systeme und Daten in gro\u00dfem Umfang und \u00fcberall auf der Welt.",
+        "link": "https://docs.secureauth.com/0903/en/time-based-passcodes--oath--registration-method-for-multi-factor-authentication.html"
+    },
+    {
+        "name": "Segulink",
+        "content": "Segulink bietet Datei\u00fcbertragung und E-Mail-Verschl\u00fcsselung f\u00fcr einen sicheren und vertrauensw\u00fcrdigen Datenaustausch. Es unterst\u00fctzt hardwaregest\u00fctztes 2FA mit den Sicherheitsschl\u00fcsseln \u00fcber Plattformen und Ger\u00e4te hinweg.",
+        "link": "https://segusoft.freshdesk.com/support/solutions/articles/19000117048-multi-faktor-authentifizierung-mfa-einrichten"
+    },
+    {
+        "name": "Sentry",
+        "content": "Sentry ist eine Open-Source-Fehlerverfolgungsplattform, die es erm\u00f6glicht, U2F-Ger\u00e4te (wie Hideez Keys), Google Authenticator (oder \u00e4hnliche Apps, die TOTP unterst\u00fctzen) oder SMS als zweiten Faktor zu verwenden.",
+        "link": "https://blog.sentry.io/2016/06/22/introducing-2fa"
+    },
+    {
+        "name": "SharePass",
+        "content": "SharePass ist eine Online-L\u00f6sung zum Teilen von Geheimnissen und vertraulichen Informationen mithilfe einer Webanwendung, Browsererweiterung oder App. SharePass liefert einen einmalig verschl\u00fcsselten Link vom Sender zum Empf\u00e4nger; Es l\u00e4uft ab, sobald dieser Link ge\u00f6ffnet wird, und hinterl\u00e4sst keinen digitalen Fu\u00dfabdruck.",
+        "link": "https://blog.sharepass.com/configure-multi-factor-authentication-1cb9d218f0fe"
+    },
+    {
+        "name": "Shibboleth",
+        "content": "Shibboleth ist eine Single Sign-On (SSO)-L\u00f6sung, die es dem Management erm\u00f6glicht, fundierte Autorisierungsentscheidungen unter Wahrung der Privatsph\u00e4re zu treffen. Shibboleth wird in der InCommon Trusted Access Platform-Architektur verwendet, um Verbund- und Campus-Single-Sign-On-Dienste f\u00fcr lokale und in der Cloud gehostete Anwendungen zu unterst\u00fctzen.",
+        "link": "https://github.com/Ratler/shibboleth-mfa-u2f-auth"
+    },
+    {
+        "name": "Shopify",
+        "content": "Sie k\u00f6nnen einen mit dem WebAuthn-Standard kompatiblen Sicherheitsschl\u00fcssel als zweiten Faktor f\u00fcr die Anmeldung bei Ihrem Konto verwenden. Um die zweistufige Authentifizierung mit einem Sicherheitsschl\u00fcssel zu aktivieren, ben\u00f6tigen Sie einen kompatiblen Browser und einen kompatiblen Sicherheitsschl\u00fcssel wie Hideez Key.",
+        "link": "https://help.shopify.com/en/manual/your-account/account-security/two-step-authentication#enable-two-step-authentication-with-security-keys"
+    },
+    {
+        "name": "Sign&go Global SSO",
+        "content": "Die Sign&go Global SSO-L\u00f6sung bietet eine Antwort auf alle Ihre Probleme in Bezug auf starke Authentifizierung, logische Zugriffskontrolle, Single Sign-On und Identity Federation sowie R\u00fcckverfolgbarkeit des Zugriffs auf Ihr IS, bleibt dabei aber einfach zu bedienen und bietet ein ergonomisches Design f\u00fcr Ihre Benutzer.",
+        "link": null
+    },
+    {
+        "name": "Silverfort",
+        "content": "Silverfort ist der Anbieter der ersten Unified Identity Protection-Plattform, die Sicherheitskontrollen in Unternehmensnetzwerken und Cloud-Umgebungen konsolidiert, um identit\u00e4tsbasierte Angriffe zu blockieren. Durch die Verwendung innovativer agentenloser und proxyloser Technologie l\u00e4sst sich Silverfort nahtlos in alle bestehenden IAM-L\u00f6sungen (wie AD, ADFS, RADIUS, Azure AD, Okta, Ping, AWS IAM usw.) integrieren und erweitert ihre Abdeckung auf Assets, die bis heute nicht gesch\u00fctzt werden konnten .",
+        "link": "https://www.silverfort.com/blog/mfa-protection-for-air-gapped-networks/"
+    },
+    {
+        "name": "Spot",
+        "content": "Spot ist ein digitales Tool zum Melden von Fehlverhalten, das rund um die Uhr verf\u00fcgbar ist. Es ist so einfach wie SMS und benutzerfreundlicher als alte Formulare, sodass jeder es vertrauensvoll verwenden kann.",
+        "link": "https://talktospot.com/contact"
+    },
+    {
+        "name": "Samsung",
+        "content": "A multinational conglomerate known for its wide range of electronics, including smartphones, televisions, and home appliances",
+        "link": null
+    },
+    {
+        "name": "Secure ShellFish",
+        "content": "Secure ShellFish ist ein SSH- und SFTP-Dateimanager, der gut mit anderen Apps zusammenarbeitet. Ihre Serverinhalte sind in der App \u201eDateien\u201c und anderen Apps verf\u00fcgbar, die den Dokumentbrowser oder die Dokumentauswahl unterst\u00fctzen.",
+        "link": null
+    },
+    {
+        "name": "Standard Notes",
+        "content": "Standard Notes ist eine sichere App f\u00fcr digitale Notizen, die Ihre Notizen und Dateien mit gepr\u00fcfter, branchenf\u00fchrender End-to-End-Verschl\u00fcsselung sch\u00fctzt.",
+        "link": null
+    },
+    {
+        "name": "Stripe",
+        "content": "A financial technology company providing businesses with payment processing services, as well as fraud prevention and subscription management tools",
+        "link": null
+    },
+    {
+        "name": "Stuudium",
+        "content": "An educational platform used in schools, providing tools for teachers, students, and parents to communicate and manage learning materials",
+        "link": null
+    },
+    {
+        "name": "Symantec",
+        "content": "Symantec Endpoint Protection wurde von Broadcom Inc. entwickelt und ist eine Sicherheitssoftware-Suite, die Anti-Malware-, Intrusion Prevention- und Firewall-Funktionen f\u00fcr Server- und Desktop-Computer umfasst. Es hat den gr\u00f6\u00dften Marktanteil aller Produkte f\u00fcr Endger\u00e4tesicherheit.",
+        "link": null
+    },
+    {
+        "name": "Sony",
+        "content": "A global conglomerate known for its electronics, entertainment, gaming (PlayStation), and music production businesses",
+        "link": null
+    },
+    {
+        "name": "Silver Stripe Cloud",
+        "content": "Silverstripe Cloud ist unsere vollst\u00e4ndig verwaltete Cloud-Hosting-Plattform. Mit Silverstripe Cloud erhalten Sie rund um die Uhr Infrastruktursupport aus Neuseeland vom Expertenteam, das Silverstripe CMS, unsere Open-Source-Software, erstellt.",
+        "link": "https://www.silverstripe.org/blog/multi-factor-authentication-on-silverstripe/"
+    },
+    {
+        "name": "SilverStripe CMS",
+        "content": "Silverstripe CMS ist ein kostenloses Open-Source-Content-Management-System und Framework zum Erstellen und Pflegen von Websites und Webanwendungen. Es bietet ein sofort einsatzbereites webbasiertes Administrationspanel, mit dem Benutzer \u00c4nderungen an Teilen der Website vornehmen k\u00f6nnen, einschlie\u00dflich eines WYSIWYG-Website-Editors.",
+        "link": "https://addons.silverstripe.org/add-ons/silverstripe/mfa"
+    },
+    {
+        "name": "SingularKey",
+        "content": "Singular Key modernisiert die passwortlose Identit\u00e4tspr\u00fcfung und reduziert OpEx mit No-Code Identity Security Orchestration & Automation. Der automatisierte Identit\u00e4tsintegrations-Hub von Singular Key \u00fcbertrifft andere Orchestrierungsfunktionen mit \u00fcber 100 sofort einsatzbereiten Drittanbieter-Integrationen f\u00fcr Identit\u00e4t, Authentifizierung und Betrug Dienstleistungen.",
+        "link": "https://webathn.singularkey.com"
+    },
+    {
+        "name": "Skrill",
+        "content": "Skrill ist ein 2001 gegr\u00fcndeter Anbieter digitaler Geldb\u00f6rsen, der eine Reihe von Online-Zahlungs- und Geldtransferdiensten anbietet. Seit der Einf\u00fchrung ist Skrill auf mehr als 120 L\u00e4nder gewachsen, wobei die digitale Geldb\u00f6rse in 40 verschiedenen W\u00e4hrungen angeboten wird.",
+        "link": null
+    },
+    {
+        "name": "Secret Double Octopus",
+        "content": "Secret Double Octopus (SDO) ist ein israelisches Softwareunternehmen, das sich auf passwortlose Authentifizierung f\u00fcr Unternehmensumgebungen spezialisiert hat. Die Octopus Passwordless Enterprise\u2122-Technologie bietet ein einheitliches Benutzererlebnis und eine konsistente M\u00f6glichkeit f\u00fcr den Zugriff auf Workstations, Remote-Dienste, Cloud-Anwendungen und lokale Systeme und bietet gleichzeitig einen st\u00e4rkeren Schutz vor Cyber-Angriffen.",
+        "link": "https://doubleoctopus.com/contact/"
+    },
+    {
+        "name": "SmartID Digital Access",
+        "content": "Nexus Smart ID Digital Access ist eine softwarebasierte Authentifizierungs- und F\u00f6derationsl\u00f6sung, die verwendet wird, um einen sicheren Zugriff auf digitale Dienste zu erm\u00f6glichen \u2013 unabh\u00e4ngig davon, wo sich diese Dienste oder Benutzer befinden.",
+        "link": "https://doc.nexusgroup.com/pages/viewpage.action?pageId=38146011"
+    },
+    {
+        "name": "STEX",
+        "content": "Stex ist eine Multiw\u00e4hrungs-Kryptow\u00e4hrungs-Handelsplattform, die sich auf den Krypto-zu-Krypto-Spothandel konzentriert. Es verwendet modernste Sicherheit, um die Plattform zu sch\u00fctzen. Es zielt darauf ab, einen globalen Marktplatz zu schaffen, auf dem Einzelpersonen in eine Vielzahl von Blockchain-Anlagen investieren k\u00f6nnen.",
+        "link": "https://fido.ftsafe.com/2020/05/25/STEX/"
+    },
+    {
+        "name": "SurePassID Universal MFA Server",
+        "content": "SurePassID ist ein Anbieter von hochsicheren, hocherweiterbaren Multi-Faktor-Authentifizierungsl\u00f6sungen (MFA). Die SurePassID MFA-Plattform sperrt den Zugriff auf jede Anwendung, durch jeden Benutzer, mit jedem Ger\u00e4t, innerhalb jeder Bereitstellungsarchitektur. SurePassID basiert ebenfalls auf offenen Standards und ist ein FIDO-, OpenID- und OATH-zertifizierter universeller Server.",
+        "link": "https://surepassid.com/how-we-secure/authentication-methods-fast-identity-online-fido/"
+    },
+    {
+        "name": "Systancia Cleanroom",
+        "content": "Systancia m\u00f6chte seinen Kunden als Teil einer sicheren Telearbeitsl\u00f6sung (Systancia Workroom Session oder Systancia Gate) oder einer universellen und einmaligen Authentifizierungsl\u00f6sung (Systancia Access) die gesamte Palette m\u00f6glicher Authentifizierungsmethoden anbieten: OTP, biometrischer Fingerabdruck usw.",
+        "link": "https://marketing.systancia.com/acton/media/33519/systancia-contact-systancia"
+    },
+    {
+        "name": "StrongKey",
+        "content": "StrongKey ist mit NIST SP 800-171-konformen L\u00f6sungen f\u00fchrend in der Schl\u00fcsselverwaltungsinfrastruktur und Cybersicherheit f\u00fcr Unternehmen. Es bietet einen umfassenden Open-Source-Datensicherheitsansatz, der eine Kombination aus Verschl\u00fcsselung, Tokenisierung, starker Authentifizierung (sowohl PKI als auch FIDO), digitalen Signaturen und Schl\u00fcsselverwaltung bereitstellt.",
+        "link": "https://www.youtube.com/watch?v=1RNm_KwEa4U"
+    },
+    {
+        "name": "StoredSafe Secure Platform",
+        "content": "StoredSafe bietet eine skalierbare Architektur, die es einem Unternehmen erm\u00f6glicht, je nach Bedarf zwischen seinen Produkten zu w\u00e4hlen und im Laufe der Zeit Funktionen hinzuzuf\u00fcgen. Um die Vertraulichkeit im Laufe der Zeit zu gew\u00e4hrleisten, k\u00f6nnen alle ihre Produkte die Verschl\u00fcsselungsalgorithmen und Modi OFB, GCM usw. nach Bedarf leicht \u00e4ndern, ohne die aktuellen Daten zu gef\u00e4hrden.",
+        "link": "https://storedsafe.com/assets/twofactorstoredsafe-a4.pdf"
+    },
+    {
+        "name": "Squarespace",
+        "content": "Squarespace, Inc. ist ein amerikanisches Website-Erstellungs- und Hosting-Unternehmen mit Sitz in New York City, USA. Es bietet Software als Service f\u00fcr die Erstellung und das Hosting von Websites und erm\u00f6glicht Benutzern die Verwendung vorgefertigter Website-Vorlagen und Drag-and-Drop-Elemente zum Erstellen und \u00c4ndern von Webseiten.",
+        "link": "https://support.squarespace.com/hc/en-us/articles/360000044827-Protect-your-account-with-two-factor-authentication"
+    },
+    {
+        "name": "TeamViewer",
+        "content": "TeamViewer ist eine Computersoftware f\u00fcr den Fernzugriff und die Fernsteuerung, die die Wartung von Computern und anderen Ger\u00e4ten erm\u00f6glicht. TeamViewer ist eine propriet\u00e4re Software, erfordert jedoch keine Registrierung und ist f\u00fcr die nicht-kommerzielle Nutzung kostenlos.",
+        "link": "https://community.teamviewer.com/English/kb/articles/108791-two-factor-authentication-for-connections"
+    },
+    {
+        "name": "TecMFA",
+        "content": "TecMFA ist ein Credential Provider/Autorisierungs-Plugin, das auf dem MFA- und Richtlinien-Framework von Okta entwickelt wurde und die MFA-Richtlinie von Okta auf Windows/Mac/Linux-Desktops und -Laptops erweitert.",
+        "link": "https://tecnics.com/products/tecmfa/"
+    },
+    {
+        "name": "Teleport",
+        "content": "Teleport bietet sicheren Zugriff auf SSH- oder Windows-Server, Windows-Desktops, Kubernetes-Cluster, Datenbanken und Webanwendungen. Teleport ist einfach als Linux-Daemon oder in einem Kubernetes-Pod einzurichten. Teleport unterst\u00fctzt WebAuthn als zweiten Authentifizierungsfaktor.",
+        "link": "https://goteleport.com/docs/access-controls/guides/webathn/"
+    },
+    {
+        "name": "Termius",
+        "content": "Termius ist ein SSH-Client, der auf Desktops und Mobilger\u00e4ten funktioniert. Es synchronisiert und teilt Daten \u00fcber einen sicheren Tresor in der Cloud, wie ein Passwort-Manager. Mit Termius k\u00f6nnen Engineering- und DevOps-Teams die Liste der Server gemeinsam nutzen, die in Gruppen organisiert und f\u00fcr eine schnellere Suche gekennzeichnet werden k\u00f6nnen.",
+        "link": null
+    },
+    {
+        "name": "Tesla",
+        "content": "Tesla, Inc. ist ein amerikanisches multinationales Automobil- und Energieunternehmen mit Hauptsitz in Austin, Texas. Tesla entwickelt und fertigt Elektrofahrzeuge, Batteriespeicher von zu Hause bis zum Netz, Solarmodule und Solardachziegel sowie zugeh\u00f6rige Produkte und Dienstleistungen.",
+        "link": "https://www.tesla.com/support/multi-factor-authentication"
+    },
+    {
+        "name": "ThruU Identity Platform",
+        "content": "Die TruU Identity Platform erm\u00f6glicht es Unternehmen, Passw\u00f6rter und Badges aus ihrer Identit\u00e4tsinfrastruktur zu eliminieren. TruU ist die umfassendste passwortlose Identit\u00e4tsl\u00f6sung f\u00fcr Unternehmen, die heute erh\u00e4ltlich ist. TruU ist die erste vollst\u00e4ndig vereinheitlichte, passwortlose Authentifizierungsl\u00f6sung, die eine kontinuierliche Identit\u00e4t in Echtzeit bietet.",
+        "link": "https://truu.ai/contact/"
+    },
+    {
+        "name": "Thycotic",
+        "content": "Thycotic Secret Server ist eine voll ausgestattete Privileged Account Management (PAM)-L\u00f6sung, die sowohl vor Ort als auch in der Cloud verf\u00fcgbar ist. Verhindern Sie Konto\u00fcbernahmen mit Secret Server und dem FIDO2-kompatiblen Hideez Key.",
+        "link": null
+    },
+    {
+        "name": "Trello",
+        "content": "Trello ist das flexible Arbeitsmanagement-Tool, mit dem Teams Pl\u00e4ne entwerfen, an Projekten zusammenarbeiten, Arbeitsabl\u00e4ufe organisieren und Fortschritte auf visuelle, produktive und lohnende Weise verfolgen k\u00f6nnen. Vom Brainstorming \u00fcber die Planung bis hin zur Ausf\u00fchrung verwaltet Trello die gro\u00dfen Meilensteine \u200b\u200bund die t\u00e4glichen Aufgaben der Zusammenarbeit und der Erledigung von Aufgaben.",
+        "link": "https://support.atlassian.com/trello/docs/enabling-two-factor-authentication-for-your-trello-account/"
+    },
+    {
+        "name": "Trustelem",
+        "content": "Trustelem bietet europ\u00e4ischen und globalen Unternehmen einen gebrauchsfertigen Zugangsverwaltungsdienst, der die Prinzipien der Souver\u00e4nit\u00e4t, Territorialit\u00e4t und Privatsph\u00e4re respektiert. Es ist ein eleganter, anpassbarer und einfach einzurichtender SSH-Client. Es ist kompatibel mit Windows, macOS, Linux und den bereits erw\u00e4hnten Android und iOS.",
+        "link": "https://www.wallix.com/wp-content/uploads/2021/10/DATASHEET_2021_TRUSTELEM_IDAAS_EN.pdf"
+    },
+    {
+        "name": "Toodledo",
+        "content": "oodledo ist eine Reihe unglaublich leistungsstarker Tools, mit denen Sie Ihre Produktivit\u00e4t steigern und Ihr Leben organisieren k\u00f6nnen. Toodledo ist mehr als nur eine To-Do-Liste und bietet Ihnen einen Ort, an dem Sie lange Notizen schreiben, benutzerdefinierte Listen erstellen, strukturierte Gliederungen erstellen und Ihre Gewohnheiten verfolgen k\u00f6nnen.",
+        "link": null
+    },
+    {
+        "name": "Tovuti LMS",
+        "content": "Tovuti ist eine All-in-One-Online-Trainingsplattform, die Unternehmen und Einzelpersonen aller Art bef\u00e4higt, das Potenzial ihrer Organisation zu aktivieren. Die End-to-End-L\u00f6sung bietet Benutzern alles, was sie zum Erstellen gro\u00dfartiger eLearning-Programme ben\u00f6tigen, unabh\u00e4ngig davon, ob sie ihr Team, ihre Partner oder ihre Kunden schulen.",
+        "link": "https://help.tovutilms.com/hc/en-us/articles/6925713485581-Enable-Two-Factor-Authentication"
+    },
+    {
+        "name": "Twitch",
+        "content": "Twitch ist ein interaktiver Livestreaming-Dienst f\u00fcr Inhalte aus den Bereichen Spiele, Unterhaltung, Sport, Musik und mehr. Twitch bietet eine Zwei-Faktor-Authentifizierung (2FA), um Ihr Konto vor unbefugten Anmeldungen zu sch\u00fctzen.",
+        "link": "https://help.twitch.tv/s/article/two-factor-authentication?language=en_US"
+    },
+    {
+        "name": "Tehama",
+        "content": "Tehama ist ein kanadisches Software-as-a-Service-Unternehmen (SaaS) mit Hauptsitz in Ottawa (Ontario). Es bietet eine virtuelle, cloudbasierte Desktop-as-a-Service-Plattform (DaaS) f\u00fcr den sicheren Arbeitsaustausch \u00fcber das Internet. Damit k\u00f6nnen Unternehmen Remote-Mitarbeiter, Drittanbieter und Freiberufler sicher verwalten und in ihre Arbeitsumgebungen integrieren.",
+        "link": null
+    },
+    {
+        "name": "The Novum Bank System",
+        "content": "Novum Bank Limited ist ein privates Kreditinstitut, das im Rahmen der Bankenregulierung der Europ\u00e4ischen Union t\u00e4tig ist und diese auch anwendet. Die Bank ist von der maltesischen Finanzaufsichtsbeh\u00f6rde (MFSA) lizenziert und wird von ihr reguliert, um au\u00dferhalb Maltas t\u00e4tig zu sein.",
+        "link": null
+    },
+    {
+        "name": "ThreeNamic",
+        "content": "ThreeNamic ist eine dynamische Prozessmanagement- und Digitalisierungsplattform f\u00fcr Unternehmen jeder Gr\u00f6\u00dfe.",
+        "link": null
+    },
+    {
+        "name": "Trustworthy",
+        "content": "Trustworthy ist das Family Operating System\u00ae, ein Onlinedienst, der modernen Familien und ihren Beratern hilft, ihre wichtigen Informationen \u2013 Ausweise, Geld, Eigentum, Passw\u00f6rter, Versicherungen, Steuern, Rechtliches, Notfallanweisungen, Kontakte und mehr \u2013 zu organisieren, zu sch\u00fctzen und zu optimieren.",
+        "link": null
+    },
+    {
+        "name": "Tuta",
+        "content": "Tuta ist der weltweit erste durchg\u00e4ngig verschl\u00fcsselte E-Mail-Dienst, der das gesamte Postfach verschl\u00fcsselt, jetzt mit Post-Quanten-Verschl\u00fcsselung.",
+        "link": null
+    },
+    {
+        "name": "TikTok",
+        "content": "A social media platform where users create, share, and discover short-form videos, known for its viral trends and challenges",
+        "link": null
+    },
+    {
+        "name": "Trusona Authentication Cloud",
+        "content": "A cybersecurity platform offering passwordless authentication solutions for enterprises and online services",
+        "link": null
+    },
+    {
+        "name": "Vanguard",
+        "content": "The Vanguard Group, Inc. ist ein in den USA registrierter Anlageberater mit Sitz in Malvern, Pennsylvania. Das Unternehmen ist mit 30 Millionen Investoren eine der weltweit gr\u00f6\u00dften Investmentgesellschaften und ver\u00e4ndert die Art und Weise, wie die Welt investiert.",
+        "link": "https://investor.vanguard.com/security-center#modal-keys"
+    },
+    {
+        "name": "Veridium",
+        "content": "Veridium ist die umfassendste integrierte passwortlose Plattform auf Basis von KI-basierter Verhaltensbiometrie, die Multi-Faktor-Authentifizierung (MFA), digitale ID-Verifizierung und ein echtes passwortloses Erlebnis auf Unternehmensniveau f\u00fcr Mitarbeiter und Kunden erm\u00f6glicht. Wenig Code, agil und flexibel.",
+        "link": null
+    },
+    {
+        "name": "Versasec vSEX: CMS",
+        "content": "vSEC:CMS ist ein innovatives, leicht integrierbares und kosteng\u00fcnstiges Smart Card Management System oder Credential Management System (SCMS oder CMS), das Sie bei der Bereitstellung und Verwaltung von Anmeldeinformationen in Ihrem Unternehmen unterst\u00fctzt.",
+        "link": null
+    },
+    {
+        "name": "VMware Workspace ONE Access",
+        "content": "Der Workspace ONE Access Service ist eine virtuelle Appliance (OVA-Datei), die Sie in einer VMware vSphere\u00ae-Umgebung bereitstellen. F\u00fchrt eine Verzeichnissynchronisierung und Authentifizierung zwischen lokalen Ressourcen wie Active Directory, VMware Horizon und dem Workspace ONE Access-Dienst durch.",
+        "link": "https://docs.vmware.com/en/VMware-Workspace-ONE-Access/services/ws1_access_authentication_cloud/GUID-152CBFE1-E499-408C-AFA6-31EE574D2E79.html"
+    },
+    {
+        "name": "Uber",
+        "content": "A global ride-hailing service that allows users to book transportation via a mobile app, offering ride-sharing, food delivery (UberEats), and freight services",
+        "link": null
+    },
+    {
+        "name": "Unity",
+        "content": "Unity ist eine von Unity Technologies entwickelte plattform\u00fcbergreifende Spiele-Engine, die erstmals im Juni 2005 auf der Apple Worldwide Developers Conference als Mac OS X-Spiele-Engine angek\u00fcndigt und ver\u00f6ffentlicht wurde. Die Engine wurde seitdem schrittweise erweitert, um eine Vielzahl von Desktop-, Mobil-, Konsolen- und Virtual-Reality-Plattformen zu unterst\u00fctzen.",
+        "link": "https://support.unity.com/hc/en-us/articles/208764976-Wie-aktiviere-ich-die-Zwei-Faktor-Authentifizierung-auf-meinem-Konto-"
+    },
+    {
+        "name": "Userify",
+        "content": "Mit Userify k\u00f6nnen Sie den SSH-Schl\u00fcssel und die Benutzerbereitstellung auf vorhandenen Droplets verwalten und sie synchron halten. Es verwendet das UserData-Feld w\u00e4hrend der Droplet-Erstellung, mit der API beim Erstellen neuer Droplets oder einfach durch Einf\u00fcgen einer Curl-Anweisung in Ihre vorhandenen Droplets.",
+        "link": "https://userify.com/docs/multifactor-authentication/"
+    },
+    {
+        "name": "UserLock",
+        "content": "UserLock bietet Multi-Factor Authentication und Access Management f\u00fcr Active Directory-Benutzerkonten. \u00dcberpr\u00fcfen Sie die Identit\u00e4t aller Benutzer und sichern Sie den Zugriff auf Windows-Anmeldungen, RDP, RD-Gateway, VPN, IIS und Cloud-Anwendungen.",
+        "link": "https://www.isdecisions.com/products/userlock/multi-factor-authentication-mfa-active-directory.htm"
+    },
+    {
+        "name": "WPMU-ENTW",
+        "content": "WPMU DEV ist die ultimative WordPress-Plattform f\u00fcr Webentwickler und Designer. Erstellen, verwalten, optimieren und aktualisieren Sie unbegrenzt viele WordPress-Sites von einem Dashboard aus. Der Site-Management-Hub von WPMU DEV bietet Ihnen alles, was Sie zum Verwalten, \u00dcberwachen, Sichern, Optimieren, Aktualisieren und Sichern unbegrenzter Sites ben\u00f6tigen.",
+        "link": null
+    },
+    {
+        "name": "WSO2",
+        "content": "Standardm\u00e4\u00dfig wird WSO2 Identity Server mit benutzername/kennwortbasierter Authentifizierung ausgeliefert. Sie k\u00f6nnen die Sicherheit dieser Authentifizierung weiter erh\u00f6hen, indem Sie einen zus\u00e4tzlichen Authentifizierungsschritt hinzuf\u00fcgen, um sich mit Basisauthentifizierung, FIDO U2F-Token, TOTP usw. zu authentifizieren.",
+        "link": "https://docs.wso2.com/display/IS560/Multi-factor+Authentication+using+FIDO"
+    },
+    {
+        "name": "Xona",
+        "content": "Xona Critical System Gateway (CSG) ist eine browserbasierte, geh\u00e4rtete Plattform, die Protokollisolierung und verschl\u00fcsselte Anzeige verwendet, um einen sicheren Zugriff auf jedes industrielle System oder jede Anwendung zu erm\u00f6glichen. Xona CSG-Kunden k\u00f6nnen physische Sicherheitsschl\u00fcssel f\u00fcr die Multi-Faktor-Benutzerauthentifizierung nutzen.",
+        "link": "https://www.xonasystems.com/contact/"
+    },
+    {
+        "name": "XTN Cognitive Security",
+        "content": "XTN\u00ae ist aktiv in der Entwicklung von fortschrittlichen Sicherheits- und Betrugsbek\u00e4mpfungsl\u00f6sungen f\u00fcr Finanztransaktionen (Betrugserkennung und Verhaltensanalyse im Internet und auf Mobilger\u00e4ten) und mobile Anwendungen (mehrschichtiger Thread-Schutz auf Mobil- und IoT-Ger\u00e4ten).",
+        "link": "https://xtn-lab.com/contact-us/"
+    },
+    {
+        "name": "X/Twitter",
+        "content": "X (fr\u00fcher bekannt als Twitter) ist ein Dienst zum Austausch kurzer, h\u00e4ufiger Nachrichten, der Menschen hilft, mit Freunden, Familie und Kollegen in Kontakt zu bleiben. Benutzer posten Tweets, die Fotos, Videos, Links und Text enthalten k\u00f6nnen. Vor kurzem wurde X auch um die Funktion f\u00fcr Audio- und Videoanrufe erweitert.",
+        "link": null
+    },
+    {
+        "name": "Ubuntu",
+        "content": "Ubuntu ist eine von Debian abgeleitete Linux-Distribution, die haupts\u00e4chlich aus kostenloser Open-Source-Software besteht. Ubuntu ist offiziell in mehreren Editionen erh\u00e4ltlich: Desktop, Server und Core f\u00fcr IoT-Ger\u00e4te und Roboter.",
+        "link": null
+    },
+    {
+        "name": "Yahoo",
+        "content": "Ein Sicherheitsschl\u00fcssel kann eindeutig mit Ihrem Yahoo-Konto verkn\u00fcpft werden. Jedes Mal, wenn Sie sich mit Ihrem Passwort anmelden, werden Sie aufgefordert, den Zugriff auf Ihr Konto mit Ihrem Schl\u00fcssel zu genehmigen.",
+        "link": "https://help.yahoo.com/kb/-step-verification-security-key-sln35380.html"
+    },
+    {
+        "name": "Youtube",
+        "content": "YouTube ist ein Video-Sharing-Dienst, bei dem Nutzer ihr eigenes Profil erstellen, Videos hochladen, andere Videos ansehen, liken und kommentieren k\u00f6nnen. Sch\u00fctzen Sie Ihr YouTube-Konto mit hardwaregest\u00fctzter 2FA vor unbefugtem Zugriff.",
+        "link": "https://support.google.com/accounts/answer/6103523"
+    },
+    {
+        "name": "Yubico",
+        "content": "Yubico setzt neue globale Standards f\u00fcr den einfachen und sicheren Zugriff auf Computer, Mobilger\u00e4te, Server und Internetkonten.\n Die Kernerfindung des Unternehmens, der YubiKey, bietet mit einer einfachen Ber\u00fchrung starken Hardware-Schutz f\u00fcr eine beliebige Anzahl von IT-Systemen und Online-Diensten. Das YubiHSM, das ultraportable Hardware-Sicherheitsmodul von Yubico, sch\u00fctzt sensible Daten, die auf Servern gespeichert sind.",
+        "link": "https://www.yubico.com/authentication-standards/fido2/"
+    },
+    {
+        "name": "Zoho",
+        "content": "Zoho Office Suite ist eine indische webbasierte Online-Office-Suite mit Textverarbeitung, Tabellenkalkulationen, Pr\u00e4sentationen, Datenbanken, Notizen, Wikis, Webkonferenzen, Kundenbeziehungsmanagement, Projektmanagement, Rechnungsstellung und anderen Anwendungen.",
+        "link": null
+    },
+    {
+        "name": "ZenDesk",
+        "content": "Zendesk ist ein serviceorientiertes CRM-Unternehmen, das Software zur Verbesserung der Kundenbeziehungen entwickelt. Die Software ist leistungsstark und flexibel und l\u00e4sst sich an die Anforderungen jedes Unternehmens anpassen.",
+        "link": "https://support.zendesk.com/hc/en-us/articles/4408829277466"
+    },
+    {
+        "name": "Zentral",
+        "content": "Zentral ist eine Plattform zur Steuerung von Apple-Endpunkten in Unternehmen. Sie bietet hohe Transparenz und erleichtert so die Nachverfolgung und Meldung von Compliance-Anforderungen. Zu den Funktionen von Zentral geh\u00f6ren GitOps-Workflows f\u00fcr MDM-Konfigurationen, die die Sicherheit und Zuverl\u00e4ssigkeit verbessern.",
+        "link": null
+    },
+    {
+        "name": "heylogin",
+        "content": "HeyLogin ist ein Passwort-Manager, der einen neuen Ansatz f\u00fcr die Anmeldesicherheit verfolgt. Anstatt auf ein Master-Passwort zu vertrauen, nutzt er den Sicherheitschip Ihres Smartphones.",
+        "link": null
+    },
+    {
+        "name": "macOS, iOS",
+        "content": "macOS, urspr\u00fcnglich Mac OS X, fr\u00fcher als OS X abgek\u00fcrzt, ist ein seit 2001 von Apple entwickeltes und vermarktetes Betriebssystem. Es ist das prim\u00e4re Betriebssystem f\u00fcr Apples Mac-Computer.",
+        "link": null
+    },
+    {
+        "name": "macmon SDP",
+        "content": "macmon SDP (Secure Defined Perimeter) ist eine L\u00f6sung, die es Mitarbeitern erm\u00f6glicht, von \u00fcberall auf der Welt sicher auf Unternehmensressourcen zuzugreifen.",
+        "link": null
+    },
+    {
+        "name": "myrelate",
+        "content": "MyRelate ist eine brandneue Lernplattform von Relate. Sie ist f\u00fcr klinische Fachkr\u00e4fte, Lernende am Arbeitsplatz und alle, die ihre Beziehungen st\u00e4rken m\u00f6chten, konzipiert.",
+        "link": null
+    },
+    {
+        "name": "smart2success",
+        "content": "smart2success ist ein deutsches Softwareunternehmen mit Sitz in Niedersachsen und Niederlassungen in ganz Deutschland. Ihre Mission ist es, die Zusammenarbeit zwischen Menschen, Unternehmen und Technologien zu verbessern.",
+        "link": null
+    },
+    {
+        "name": "VK",
+        "content": "A Russian social media platform similar to Facebook, allowing users to share content, connect with friends, and join communities",
+        "link": null
+    },
+    {
+        "name": "WebAuthn.io",
+        "content": "A service offering WebAuthn (a web authentication standard) for developers to implement passwordless authentication in web applications",
+        "link": null
+    },
+    {
+        "name": "WhatsApp (iOS and Android)",
+        "content": "A widely used messaging app owned by Meta, offering text, voice, and video communication over the internet",
+        "link": null
+    },
+    {
+        "name": "World of Hyatt",
+        "content": "The loyalty program of Hyatt Hotels, offering points, rewards, and exclusive benefits to travelers",
+        "link": null
+    },
+    {
+        "name": "Yandex",
+        "content": "A Russian multinational company providing internet-related services, including search, maps, email, and ride-hailing",
+        "link": null
+    },
+    {
+        "name": "Zitadel",
+        "content": "An identity and access management (IAM) platform offering scalable authentication and authorization for web applications",
+        "link": null
+    }
+]

@@ -1,0 +1,726 @@
+[
+    {
+        "name": "Adobe",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Auone.jp",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Affirm",
+        "description": "Finance"
+    },
+    {
+        "name": "Air New Zealand",
+        "description": "Travel &amp; Tourism"
+    },
+    {
+        "name": "Albert Heijn",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Amazon",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Anki Forums",
+        "description": "Education"
+    },
+    {
+        "name": "Apple",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Arcalive",
+        "description": "Social"
+    },
+    {
+        "name": "Armstrong Bank",
+        "description": "Finance"
+    },
+    {
+        "name": "Arpari",
+        "description": "Finance"
+    },
+    {
+        "name": "Authgear",
+        "description": "Authentication Provider"
+    },
+    {
+        "name": "Authsignal",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Bagou450",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Best Buy",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Beyond Identity",
+        "description": "Authentication Provider"
+    },
+    {
+        "name": "Binance",
+        "description": "Finance"
+    },
+    {
+        "name": "Bitwarden",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Bitwarden Community Forums",
+        "description": "Information Technology"
+    },
+    {
+        "name": "BMW",
+        "description": "Automotive"
+    },
+    {
+        "name": "Boursorama",
+        "description": "Finance"
+    },
+    {
+        "name": "Bread Financial",
+        "description": "Finance"
+    },
+    {
+        "name": "Bridgecrest",
+        "description": "Finance"
+    },
+    {
+        "name": "Cape Cod 5",
+        "description": "Finance"
+    },
+    {
+        "name": "CardPointers",
+        "description": "Finance"
+    },
+    {
+        "name": "Caremark",
+        "description": "Health &amp; Wellness"
+    },
+    {
+        "name": "Chek",
+        "description": "Finance"
+    },
+    {
+        "name": "Cloze",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Coinbase",
+        "description": "Finance"
+    },
+    {
+        "name": "ComputerBase",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Coveto Recruiting Software",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Credit Union of Texas",
+        "description": "Finance"
+    },
+    {
+        "name": "Crowdin",
+        "description": "Information Technology"
+    },
+    {
+        "name": "CustomerPing.AI",
+        "description": "Marketing"
+    },
+    {
+        "name": "CVS",
+        "description": "Health &amp; Wellness"
+    },
+    {
+        "name": "CVS Specialty",
+        "description": "Health &amp; Wellness"
+    },
+    {
+        "name": "DataPacket",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Daylite",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Deutsche Telekom",
+        "description": "Telecommunications"
+    },
+    {
+        "name": "Devolutions",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Dinero",
+        "description": "Finance"
+    },
+    {
+        "name": "Discord",
+        "description": "Social Networking"
+    },
+    {
+        "name": "Discourse",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "Docomo",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Documenso",
+        "description": "Productivity"
+    },
+    {
+        "name": "DocuSign",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Duke",
+        "description": "Education"
+    },
+    {
+        "name": "eBay",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Esl Gaming",
+        "description": "(missing category)"
+    },
+    {
+        "name": "Fairfax County, Virginia (MyFairfax)",
+        "description": "Government"
+    },
+    {
+        "name": "Fastmail",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Finom",
+        "description": "Finance"
+    },
+    {
+        "name": "First Financial Bank",
+        "description": "Finance"
+    },
+    {
+        "name": "Fleeps",
+        "description": "Travel &amp; Tourism"
+    },
+    {
+        "name": "FormX.ai",
+        "description": "Information Technology"
+    },
+    {
+        "name": "ForwardEmail",
+        "description": "Information Technology"
+    },
+    {
+        "name": "FreePrints",
+        "description": "eCommerce"
+    },
+    {
+        "name": "FusionAuth",
+        "description": "Authentication Provider"
+    },
+    {
+        "name": "Gemini Exchange",
+        "description": "Finance"
+    },
+    {
+        "name": "GitHub",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Google",
+        "description": "Information Technology"
+    },
+    {
+        "name": "haeppie",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Hancock",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Hard Wax",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Hatena",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Home Assistant",
+        "description": "Social"
+    },
+    {
+        "name": "Home Depot",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Horizon Pics",
+        "description": "Information Technology"
+    },
+    {
+        "name": "iCloud",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Instacart",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Intastellar Accounts",
+        "description": "Information Technology"
+    },
+    {
+        "name": "KAYAK",
+        "description": "Travel &amp; Leisure"
+    },
+    {
+        "name": "KEMBA Financial Credit Union",
+        "description": "Finance"
+    },
+    {
+        "name": "Klemn",
+        "description": "Information Technology"
+    },
+    {
+        "name": "L\u00c3\u00a4\u00c3\u00a4k\u00c3\u00a4ri.chat",
+        "description": "Health &amp; Wellness"
+    },
+    {
+        "name": "larksuite.com",
+        "description": "Information Technology"
+    },
+    {
+        "name": "LGTM.lol",
+        "description": "Other"
+    },
+    {
+        "name": "Linear",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Link by Stripe",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Link3",
+        "description": "Information Technology"
+    },
+    {
+        "name": "LinkedIn",
+        "description": "Social Media"
+    },
+    {
+        "name": "live.com",
+        "description": "Information Technology"
+    },
+    {
+        "name": "lnk.bio",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Locker",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Lowe's",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Luno",
+        "description": "Finance"
+    },
+    {
+        "name": "LuxID",
+        "description": "Identity Provider"
+    },
+    {
+        "name": "Marshmallow",
+        "description": "Social Media"
+    },
+    {
+        "name": "Mercari",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Micro Center",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Microsoft",
+        "description": "Information Technology"
+    },
+    {
+        "name": "MINI",
+        "description": "Automotive"
+    },
+    {
+        "name": "Miniflux",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Mintbase Wallet",
+        "description": "Finance"
+    },
+    {
+        "name": "minter.io",
+        "description": "Information Technology"
+    },
+    {
+        "name": "MIXI M",
+        "description": "Finance"
+    },
+    {
+        "name": "Money Forward ID",
+        "description": "Finance"
+    },
+    {
+        "name": "Moneybird",
+        "description": "Finance"
+    },
+    {
+        "name": "My Helsana (App only)",
+        "description": "Health &amp; Wellness"
+    },
+    {
+        "name": "MyGov AU",
+        "description": "Government"
+    },
+    {
+        "name": "mySites.guru",
+        "description": "Information Technology"
+    },
+    {
+        "name": "NHS",
+        "description": "Health &amp; Wellness"
+    },
+    {
+        "name": "Nintendo",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "nulab",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Nvidia",
+        "description": "Information Technology"
+    },
+    {
+        "name": "OKX",
+        "description": "Finance"
+    },
+    {
+        "name": "omg.lol",
+        "description": "Social Media"
+    },
+    {
+        "name": "Onedrive",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Online Scout Manager (OSM)",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "OnlyFans",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "Outlook Mail",
+        "description": "Email"
+    },
+    {
+        "name": "Papermark",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Pastery",
+        "description": "Information Technology"
+    },
+    {
+        "name": "PayFit",
+        "description": "Finance"
+    },
+    {
+        "name": "PayPal",
+        "description": "Finance"
+    },
+    {
+        "name": "Pixiv",
+        "description": "Other"
+    },
+    {
+        "name": "PlayStation",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "Poblano",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Poloniex",
+        "description": "Finance"
+    },
+    {
+        "name": "Porkbun",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Proton",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Qapital",
+        "description": "Finance"
+    },
+    {
+        "name": "rad.dad",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Ring",
+        "description": "Other"
+    },
+    {
+        "name": "Robinhood",
+        "description": "Finance"
+    },
+    {
+        "name": "Roblox",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "Salad",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Scrooge Games",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "Shakepay",
+        "description": "Finance"
+    },
+    {
+        "name": "Shop Pay",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Shopify",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Simply.com",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Sirius XM Satellite Radio",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "Snapchat",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "So-net",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Sony",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "Spaceship (by NameCheap)",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Stall-Frei.de",
+        "description": "Lifestyle &amp; Leisure"
+    },
+    {
+        "name": "State of Michigan",
+        "description": "Government"
+    },
+    {
+        "name": "Station-Drivers",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Stripe",
+        "description": "Finance"
+    },
+    {
+        "name": "Stuudium",
+        "description": "Education"
+    },
+    {
+        "name": "SumUp",
+        "description": "eCommerce"
+    },
+    {
+        "name": "SWITCH edu-ID",
+        "description": "Education"
+    },
+    {
+        "name": "Synology",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Tailscale",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Target",
+        "description": "eCommerce"
+    },
+    {
+        "name": "Telstra",
+        "description": "Telecommunications"
+    },
+    {
+        "name": "Tender",
+        "description": "Finance"
+    },
+    {
+        "name": "The Hendrix",
+        "description": "Real Estate"
+    },
+    {
+        "name": "Thunder",
+        "description": "Finance"
+    },
+    {
+        "name": "Ticketeer",
+        "description": "Information Technology"
+    },
+    {
+        "name": "TikTok",
+        "description": "Social Media"
+    },
+    {
+        "name": "TOKYU",
+        "description": "Information TechnologyToyota -\u00c2"
+    },
+    {
+        "name": "Tripletex",
+        "description": "Finance"
+    },
+    {
+        "name": "Trusona Authentication Cloud",
+        "description": "Authentication Provider"
+    },
+    {
+        "name": "Trustworthy",
+        "description": "Health &amp; Wellness"
+    },
+    {
+        "name": "Turnkey",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Twitter",
+        "description": "Social Networking"
+    },
+    {
+        "name": "Ubank",
+        "description": "Finance"
+    },
+    {
+        "name": "Uber",
+        "description": "Travel &amp; Tourism"
+    },
+    {
+        "name": "Uninbox",
+        "description": "Email"
+    },
+    {
+        "name": "United Southeast Federal Credit Union",
+        "description": "Finance"
+    },
+    {
+        "name": "usesarchbtw.lol",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Vault Vision",
+        "description": "Authentication Provider"
+    },
+    {
+        "name": "Vercel",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Virgin Media",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Visma",
+        "description": "Finance"
+    },
+    {
+        "name": "vk",
+        "description": "Social Networking"
+    },
+    {
+        "name": "Voura",
+        "description": "Finance"
+    },
+    {
+        "name": "Walmart",
+        "description": "eCommerce"
+    },
+    {
+        "name": "WhatsApp (iOS and Android)",
+        "description": "Information Technology"
+    },
+    {
+        "name": "World of Hyatt",
+        "description": "Travel &amp; Leisure"
+    },
+    {
+        "name": "X (Twitter)",
+        "description": "Social Networking"
+    },
+    {
+        "name": "XenForo (Community)",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Yahoo mail",
+        "description": "Email"
+    },
+    {
+        "name": "Yahoo!",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Yahoo! JAPAN",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Yandex",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Zitadel",
+        "description": "Information Technology"
+    },
+    {
+        "name": "Zoho",
+        "description": "Information Technology"
+    }
+]

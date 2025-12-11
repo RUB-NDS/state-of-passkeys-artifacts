@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["standard"] }
+celery = "*"
+pymongo = "*"
+minio = "*"
+flower = "*"
+nested-lookup = "*"
+debugpy = "*"
+argdantic = "*"
+playwright = "*"
+tldextract = "*"
+requests = "*"
+crux-cache = "*"
+tranco = "*"
+sniffio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,45 @@
+<div class="modal" tabindex="-1" id="codeModal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <pre><code></code></pre>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    codeModal.addEventListener("show.bs.modal", (e) => {
+        const sourceBtn = e.relatedTarget
+        const closeOrBackBtn = codeModal.querySelector("button.btn-secondary")
+        if (sourceBtn.hasAttribute("back-modal")) {
+            closeOrBackBtn.removeAttribute("data-bs-dismiss")
+            closeOrBackBtn.setAttribute("data-bs-toggle", "modal")
+            closeOrBackBtn.setAttribute("data-bs-target", sourceBtn.getAttribute("back-modal"))
+            closeOrBackBtn.textContent = "Back"
+            if (sourceBtn.hasAttribute("back-modal-props")) {
+                const props = JSON.parse(sourceBtn.getAttribute("back-modal-props"))
+                for (const p in props) {
+                    if (props[p]) closeOrBackBtn.setAttribute(p, props[p])
+                }
+            }
+        } else {
+            closeOrBackBtn.removeAttribute("data-bs-toggle")
+            closeOrBackBtn.removeAttribute("data-bs-target")
+            closeOrBackBtn.setAttribute("data-bs-dismiss", "modal")
+            closeOrBackBtn.textContent = "Close"
+        }
+    })
+
+    const initCodeModal = (title, code) => {
+        codeModal.querySelector("h5").textContent = title
+        codeModal.querySelector("code").textContent = code
+    }
+</script>

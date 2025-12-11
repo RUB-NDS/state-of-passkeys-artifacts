@@ -1,0 +1,872 @@
+Authgear	authgear.com
+ComputerBase	computerbase.de
+omg.lol	omg.lol
+Beyond Identity	beyondidentity.com
+Corbado	corbado.com
+Nvidia	nvidia.com
+Arpari	arpari.com
+Karlsruhe Institute of Technology (KIT)	kit.edu
+Duke	duke.edu
+Zoho	zoho.com
+The Hendrix	thehendrixjc.com
+Target	target.com
+NHS	N/A
+Trusona Authentication Cloud	trusona.com
+Amazon.it	amazon.it
+Virgin Media	virginmedia.com
+Bitwarden	bitwarden.com
+Square	squareup.com
+Salad	salad.com
+Cloudflare	cloudflare.com
+Dinero	dinero.dk
+Crowdin	crowdin.com
+Coveto Recruiting Software	coveto.de
+Hanko.io	hanko.io
+Stripe	stripe.com
+GoDaddy	godaddy.com
+GitLab	gitlab.com
+Canva	canva.com
+Tender	tender.run
+Lowe's	lowes.com
+Qapital	qapital.com
+Vault Vision	vaultvision.com
+Descope passkeys demo	passkeys.guru
+Luno	luno.com
+Amazon India	amazon.in
+Amazon Germany	amazon.de
+Amazon Netherlands	amazon.nl
+SumUp	sumup.com
+Amazon Spain	amazon.es
+Horizon Pics	horizon.pics
+Sirius XM Satellite Radio	siriusxm.com
+Namecheap	namecheap.com
+Passage	passage.id
+Pastery	pastery.net
+Ring	ring.com
+Lääkäri.chat	laakari.chat
+Passage Authentication Demo	1password.com
+Shop Pay	shop.app
+Credit Union of Texas	cutx.org
+Mangadex	mangadex.org
+Daylite	marketcircle.com
+Yahoo mail	yahoo.com
+Porkbun	porkbun.com
+Bolt	bolt.eu
+Thunder (jetzt Azura)	azura.xyz (old: thunder.gg)
+Arcalive	arca.live
+Bitwarden Community Forums	bitwarden.com
+BMW	bmw.com
+Marshmallow	marshmallow-qa.com
+XenForo (Community)	xenforo.com
+Docomo	docomo.ne.jp
+haeppie	haeppie.com
+Login.gov	login.gov
+Money Forward ID	moneyforward.com
+Scrooge Games	scrooge.games
+Voura	voura.com
+Papermark	papermark.io
+Skiff	skiff.com
+OneLogin	onelogin.com
+WebAuthn.io	webauthn.io
+Poloniex	poloniex.com
+Ticketeer	ticketeer.se
+rad.dad	rad.dad
+Air New Zealand	airnewzealand.com
+Cash App	cash.app
+Linear	linear.app
+Amazon SG	amazon.sg
+Telstra	telstra.com
+Synology	synology.com
+LuxID	luxid.lu
+iCloud	icloud.com
+Best Buy	bestbuy.com
+GitHub	github.com
+Nintendo	nintendo.com
+Amazon Japan	amazon.co.jp
+Microsoft 365 Business/Enterprise/Education	microsoftonline.com
+Trustworthy	trustworthy.com
+Boursorama	boursorama.com
+OnlyFans	onlyfans.com
+minter.io	minter.io
+Poblano	poblano.jp
+Nord Account	nordaccount.com
+Air New Zealand (Australia)	airnewzealand.com.au
+Bread Financial	breadfinancial.com
+Air New Zealand	airnewzealand.co.nz
+Yahoo! JAPAN	yahoo.co.jp
+PayFit	payfit.com
+Mastodon	mastodon.social
+Google	google.com
+DocuSign	docusign.com
+Shopify	shopify.com
+Apple ID	apple.com
+Cape Cod 5	capecodfive.com
+OKX	okx.com
+TikTok	tiktok.com
+Chek	chekspend.com
+au	auone.jp
+Visma	visma.com
+Devolutions	devolutions.com
+MIXI M	mixi.com
+Intastellar Accounts	intastellaraccounts.com
+KEMBA Financial Credit Union	kemba.org
+FusionAuth	fusionauth.io
+Tailscale	tailscale.com
+YouTube	youtube.com
+LinkedIn	linkedin.com
+Binance	binance.com
+Hatena	hatena.ne.jp
+My Helsana (App only)	helsana.ch
+Miniflux	miniflux.app
+Yandex	yandex.com
+Esl Gaming	eslgaming.com
+Albert Heijn	ah.nl
+lnk.bio	lnk.bio
+Amazon AU	amazon.com.au
+Anki Forums	ankiweb.net
+Amazon Sweden	amazon.se
+Link3	link3.to
+DataPacket	datapacket.com
+Mercari	mercari.com
+Micro Center	microcenter.com
+Moneybird	moneybird.com
+CVS Specialty	cvsspecialty.com
+PayPal	paypal.com
+Instacart	instacart.com
+Amazon France	amazon.fr
+Gemini Exchange	gemini.com
+United Southeast Federal Credit Union	usfcu.org
+Fleeps	fleeps.co
+SWITCH edu-ID	eduid.ch
+CardPointers	cardpointers.com
+Caremark	caremark.com
+Apple	apple.com
+eBay	ebay.com
+Bagou450	bagou450.com
+Link by Stripe	link.com
+Yandex	yandex.ru
+usesarchbtw.lol	usesarchbtw.lol
+Finom	finom.co
+FreePrints	freeprints.com
+State of Michigan	michigan.gov
+So-net	so-net.ne.jp
+Vercel	vercel.com
+Ubank	ubank.com.au
+Spaceship (by NameCheap)	spaceship.com
+Amazon Türkiye	amazon.com.tr
+Mintbase Wallet	mintbase.xyz
+Amazon	amazon.com
+Tripletex	tripletex.no
+Gmail	gmail.com
+ID.me	id.me
+Turnkey	turnkey.com
+Amazon Brazil	amazon.com.br
+Bridgecrest	bridgecrest.com
+Yahoo!	yahoo.com
+WhatsApp (iOS and Android)	whatsapp.com
+Documenso	documenso.com
+Zitadel	zitadel.com
+Hancock	hancock.ink
+First Financial Bank	bankatfirst.com
+KAYAK	kayak.com
+Hard Wax	hardwax.com
+Discourse	discourse.org
+Cloze	cloze.com
+Locker 	locker.io
+CustomerPing.AI	customerping.ai
+Sony	sony.com
+Stall-Frei.de	stall-frei.de
+X (Twitter) iOS	x.com
+Amazon Canada	amazon.ca
+Simply.com	simply.com
+Adobe	adobe.com
+Affirm	affirm.com
+mySites.guru	mysites.guru
+Uninbox	uninbox.com
+Twitter	twitter.com
+TOKYU	tokyu.co.jp
+ForwardEmail	forwardemail.net
+Station-Drivers	station-drivers.com
+PlayStation	playstation.com
+DEXT	dext.com
+Shakepay	shakepay.com
+Home Depot	homedepot.com
+Home Assistant	home-assistant.io
+Amazon UK	amazon.co.uk
+vk	vk.com
+Uber	uber.com
+nulab	nulab.com
+Robinhood	robinhood.com
+Coinbase	coinbase.com
+Roblox	roblox.com
+LGTM.lol	lgtm.lol
+Amazon.com.be	com.be
+Fairfax County, Virginia (MyFairfax)	fairfaxcounty.gov
+World of Hyatt	hyatt.com
+Stuudium	ope.ee
+EE	ee.co.uk
+Authsignal	authsignal.com
+MINI	mini.com
+Syncfusion	syncfusion.com
+FormX.ai	formx.ai
+okta	okta.com
+Fastmail	fastmail.com
+Crown Audit	crownaudit.org
+Webull	webull.com.au
+Armstrong Bank	armstrong.bank
+Klemn	klemn.net
+Practice Protect	practiceprotect.com
+Discord	discord.com
+Level1Techs Forum	level1techs.com
+Discord (Beta)	discord.gg
+Microsoft 	live.com
+Pixiv	pixiv.net
+Ulys	ulys.com
+Outlook Mail	outlook.com
+Onedrive	onedrive.com
+live.com	live.com
+larksuite.com	larksuite.com
+MyGov AU	my.gov.au
+Grab (App)	grab.com
+netfiles	netfiles.com
+Snapchat	snapchat.com
+TIAA	tiaa.org
+Hubspot	hubspot.com
+hCaptcha	hcaptcha.com
+Online Scout Manager (OSM)	onlinescoutmanager.co.uk
+Curricula	mycurricula.com
+CVS	cvs.com
+OneLog	onelog.ch
+SK Telecom	sktelecom.com
+Migros	migros.ch
+SK Telecom passkey demo	sktelecom.com
+Heexy	heexy.org
+Glauca Digital	glauca.digital
+Kakao	kakaocorp.com
+High Mobility	high-mobility.com
+Walmart	walmart.com
+Microsoft	microsoft.com
+Deutsche Telekom	telekom.de
+Paidy (iOS/Android Apps)	Paidy.com
+Prismm	getprismm.com
+AFAS	afasonline.nl
+Free Tax USA	freetaxusa.com
+Swica	swica.ch
+Trimble	trimble.com
+techbookfest	techbookfest.org
+My KONAMI	konami.net
+Microsoft Entra	azure.com
+Arbeitsagentur	arbeitsagentur.de
+Notion	notion.com
+Notion	notion.so
+Fintual	fintual.cl
+Microsoft Entra ID	microsoft.com
+ABANCA	abanca.com
+Aflac Japan	aflac.com
+N/A	bookmyname.com
+BoursoBank	boursobank.com
+Carnival	carnival.com
+N/A	carta.com
+N/A	frontegg.com
+Mailchimp	intuit.com
+N/A	ivoclar.com
+N/A	justpass.me
+Kenwoodworld.com	kenwoodworld.com
+Kraken	kraken.com
+N/A	macif.fr
+Magic Link	magic.link
+N/A	monespacesante.fr
+N/A	nyulmc.org
+NFL	nfl.com
+N/A	offshoot.rentals
+N/A	olympics.com
+N/A	revolut.com
+VicRoads	vicroads.vic.gov.au
+N/A	vinci-autoroutes.com
+N/A	wellsfargo.com
+0pass	0pass.com
+Bank of America	bankofamerica.com
+bitbank	bitbank.cc
+Blue Ocean Law	blueocean.law
+Citibank	citi.com
+Citrix	citrix.com
+CyberArk Identity	cyberark.com
+Dropbox	dropbox.com
+Forgejo	forgejo.org
+Gitea	gitea.com
+IBM Verify	ibm.com
+imo	imo.im
+Salesforce	salesforce.com
+Samsung	samsung.com
+Registro.br	registro.br
+University of Idaho	uidaho.edu
+University of California, Merced	ucmerced.edu
+University of Michigan	umich.edu
+University of Waterloo	uwaterloo.ca
+University of British Columbia	ubc.ca
+Icedrive	icedrive.net
+ING Bank Slaski [PL]	ing.pl
+ISL Online	islonline.com
+US Internal Revenue Service	irs.gov
+Norton	norton.com
+NordVPN	nordvpn.com
+NordPass	nordpass.com
+University of Notre Dame	nd.edu
+North Carolina State University	ncsu.edu
+Georgia Institute of Technology	gatech.edu
+Teleport	goteleport.com
+Gandi	gandi.net
+Tutanota	tuta.com
+Talkdesk	talkdesk.com
+Toronto Metropolitan University	torontomu.ca
+Standard Notes	standardnotes.com
+Nitrado	nitrado.net
+SimpleLogin	simplelogin.io
+Shadow	shadow.tech
+Stanford University	stanford.edu
+Seton Hall University	shu.edu
+Sentry	sentry.io
+The University of Sydney	sydney.edu.au
+AirAsia	airasia.com
+Adafruit	adafruit.com
+Arizona State University	asu.edu
+Aha!	aha.io
+FragDenStaat	fragdenstaat.de
+Files.com	files.com
+Onet	onet.pl
+Open Collective	opencollective.com
+The Ohio State University	osu.edu
+University of Otago	otago.ac.nz
+o2	o2.pl
+Oregon State University	oregonstate.edu
+OVH	ovh.com
+Harvard University	harvard.edu
+HEY	hey.com
+Harvey Mudd College	hmc.edu
+SAPO Mail	sapo.pt
+Michigan State University	msu.edu
+Colorado School of Mines	mines.edu
+Minecraft	minecraft.net
+MyFRITZ!Net	myfritz.net
+mail.de	mail.de
+Morgan Stanley	morganstanley.com
+Mercury	mercury.com
+Monash University	monash.edu
+Masaryk University	muni.cz
+Miami University	miamioh.edu
+MongoDB	mongodb.com
+JumpCloud	jumpcloud.com
+Cal Poly	calpoly.edu
+ClassLink	classlink.com
+Clemson University	clemson.edu
+Cloud 66	cloud66.com
+Oracle Cloud Infrastructure	oracle.com
+Cornell University	cornell.edu
+Codeberg	codeberg.org
+Crowd Supply	crowdsupply.com
+Carnegie Mellon University	cmu.edu
+Deakin University	deakin.edu.au
+Doppler	doppler.com
+DNSimple	dnsimple.com
+dmarcian	dmarcian.com
+Dynadot	dynadot.com
+Delinea	delinea.com
+US Veteran Affairs	va.gov
+Vivaldi	vivaldi.com
+Vysoká škola ekonomická v Praze	vse.cz
+Virginia Commonwealth University	vcu.edu
+Veracode	veracode.com
+Vanguard	vanguard.com
+Epayslips	epayslips.co.uk
+Bitfinex	bitfinex.com
+Bitbucket	bitbucket.org
+Brigham Young University	byu.edu
+University of California, Berkeley	berkeley.edu
+Boston University	bu.edu
+Basecamp	basecamp.com
+BitGo	bitgo.com
+LastPass	lastpass.com
+York University	yorku.ca
+PyPI	pypi.org
+Basic Attention Token	basicattentiontoken.org
+ProBit	probit.com
+Perimeter 81	perimeter81.com
+Proton	proton.me
+Pennsylvania State University	psu.edu
+Weclapp	weclapp.com
+European Commission	europa.eu
+University of Wisconsin Madison	wisc.edu
+Wefunder	wefunder.com
+WordPress.com	wordpress.com
+Wikipedia	wikipedia.org
+WoltLab	woltlab.com
+University of California, Los Angeles	ucla.edu
+University of California, Riverside	ucr.edu
+University of California, San Diego	ucsd.edu
+University of California, Davis	ucdavis.edu
+ZeroTier	zerotier.com
+123 Reg	123-reg.co.uk
+Twingate	twingate.com
+Technische Universität Darmstadt	tu-darmstadt.de
+SANS	sans.org
+Afternic	afternic.com
+Headway	headway.co
+Hewlett Packard Enterprise	hpe.com
+MuleSoft	mulesoft.com
+University of Colorado Boulder	colorado.edu
+CPOMS	cpoms.co.uk
+British Airways	britishairways.com
+Koofr	koofr.eu
+PKO Bank Polski	pkobp.pl
+Instacard	instacard.co
+Volt	volt.io
+101domain	101domain.com
+BBVA	bbva.com
+BC Card	N/A
+China Minsheng Bank	N/A
+CZ.nic	fidoalliance.org
+Dashlane	dashlane.com
+EMILY’s List	authenticatecon.com
+Enpass	enpass.io
+IKEA	N/A
+Lowes	N/A
+Merck	N/A
+MUFG	thepaypers.com
+Naver	N/A
+Nescafe	N/A
+Nikkei ID	N/A
+Otis Elevators	N/A
+PNC Bank	N/A
+Quickbooks	N/A
+SoftBank	findbiometrics.com
+Standard Bank	N/A
+Sunhat	N/A
+T-Mobile	N/A
+Turbotax	N/A
+Ubie	ubie.app
+USAA	N/A
+Verizon	N/A
+Warby Parker	warbyparker.com
+The Olympics	N/A
+Toyota	N/A
+ADP	N/A
+DeLonghi	N/A
+Deutsche Bahn	N/A
+Duo Security	curity.io
+Facebook	N/A
+HotelsCombined	N/A
+LogitechG	N/A
+My Helsana (App)	N/A
+NinjaOne	N/A
+Outbrain	N/A
+1Kosmos Block ID	1kosmos.com
+21unity Cloud logo	N/A
+AiRE IntelligentFiler	storvix.eu
+Antradar Gyroscope	antradar.com
+AppGate	appgate.com
+Appterix	N/A
+Avatier	N/A
+AwardWallet	awardwallet.com
+Axiad	axiad.com
+Beacon	N/A
+BerryTMS	N/A
+BeyondTrust	N/A
+BitBay	N/A
+BitMEX	bitmex.com
+Bittrex	zendesk.com
+Brave	N/A
+Blur	N/A
+Bomgar PAM	beyondtrust.com
+Boxctyptor	boxcryptor.com
+Bugfender	N/A
+Capsule	capsulecrm.com
+Centrify	centrify.com
+Cogito Jellyfish	N/A
+Cleanroom	systancia.com
+CloudTrust	cloudtrust.solutions
+CodeShip	N/A
+Cotech Hardware Security SDK	hwsecurity.dev
+Cryptolens	cryptolens.io
+Cybavo	N/A
+Daon	daon.com
+Data Guard	ransomdataguard.com
+deSEC	N/A
+Digidentity	digidentity.eu
+DSX	dsxinc.com
+Egnyte Protect	egnyte.com
+Electronic Arts	ea.com
+Envato	envato.com
+Entrust	trustedauth.com
+Epic Games	epicgames.com
+EVE Online	eveonline.com
+Fastly	fastly.com
+Fedora	fedoraproject.org
+Fine Friends	finefriends.social
+Forgerock	forgerock.com
+FTX Cryptocurrency Derivatives Exchange	ftx.com
+GeoIP2	maxmind.com
+Gluu	gluu.org
+GOV.UK	www.gov.uk
+Grape	grape.io
+Gusto	gusto.com
+HackerOne	hackerone.com
+HelloID	N/A
+Helpmonks	helpmonks.com
+Hetzer Online Web Hosting	hetzner.com
+Hex Trust	N/A
+HYPR	hypr.com
+Internet Explorer	N/A
+Island Enterprise Browser	N/A
+Idaptive	N/A
+InfoAnywhere	infoanywhere.ca
+Intercede	intercede.com
+Inuvika OVD Service	inuvika.com
+IPS Hosting	ips-hosting.com
+IronVest	N/A
+Isosec	isosec.co.uk
+Joomla-CMS	joomla.org
+Kentik Detect	kentik.com
+KeyBank	key.com
+Kickstarter	kickstarter.com
+Linux	N/A
+Maiar Browser	N/A
+MATESO Password Safe	passwordsafe.de
+Micro Focus	netiq.com
+Misakey	misakey.com
+Nicehash	nicehash.com
+Opera	N/A
+OneLock	onelock.com
+One Identity	oneidentity.com
+Opalstack	opalstack.com
+Ory Cloud	ory.sh
+Paced Email	paced.email
+Ping Identity	pingidentity.com
+Pointsharp	hermitagesolutions.com
+Pertuniti	N/A
+Passly	idagent.com
+PrivacyIDEA	readthedocs.io
+Posteo	posteo.de
+PulseConnect Secure	ivanti.com
+PushCoin	pushcoin.com
+Quonference	quonference.com
+RCDevs Open OTP	rcdevs.com
+RelateIT	relate.it
+RevBits PAM	medium.com
+Reddit	reddit.com
+RealMe	N/A
+Realtime Register	N/A
+Rockstar Games Social Clubs	rockstargames.com
+Rohos	N/A
+RSA	rsa.com
+runZero	runzero.com
+Runbox	runbox.com
+Safari	N/A
+Secfense	N/A
+SendQuick Conexa	N/A
+SAASPASS	saaspass.com
+SecSign	secsign.com
+Segulink	freshdesk.com
+SharePass	sharepass.com
+Sign&go Global SSO	N/A
+Silverfort	silverfort.com
+Secure ShellFish	N/A
+Symantec	N/A
+SingularKey	singularkey.com
+Skrill	N/A
+Secret Double Octopus	doubleoctopus.com
+SmartID Digital Access	nexusgroup.com
+STEX	ftsafe.com
+StoredSafe Secure Platform	storedsafe.com
+TeamViewer	teamviewer.com
+TecMFA	tecnics.com
+Termius	N/A
+Tesla	tesla.com
+ThruU Identity Platform	truu.ai
+Thycotic	N/A
+Trustelem	wallix.com
+Toodledo	N/A
+Tovuti LMS	tovutilms.com
+Tehama	N/A
+The Novum Bank System	N/A
+Veridium	N/A
+VMware Workspace ONE Access	vmware.com
+Userify	userify.com
+UserLock	isdecisions.com
+WPMU-ENTW	N/A
+Xona	xonasystems.com
+XTN Cognitive Security	xtn-lab.com
+Ubuntu	N/A
+Yubico	yubico.com
+Zentral	N/A
+macOS, iOS	N/A
+macmon SDP	N/A
+myrelate	N/A
+smart2success	N/A
+N/A	neuronation.com
+N/A	worldskills.org
+N/A	basewallet.co
+N/A	uni-due.de
+N/A	commercebank.com
+N/A	hawksmoorim.co.uk
+N/A	dimo.org
+N/A	travelgayhotels.com
+N/A	huk.de
+N/A	wpengine.com
+N/A	sellmonitor.com
+N/A	ciamlogin.com
+N/A	kcex.com
+N/A	kuda.com
+N/A	super.com
+N/A	ruten.com.tw
+N/A	sellematics.com
+N/A	codere.mx
+N/A	louisa.ai
+N/A	supervin.dk
+N/A	moneyinfo.co.uk
+N/A	internetcomputer.org
+N/A	sellscreen.io
+N/A	lyndhurstfm.co.uk
+N/A	myshn.net
+N/A	v4guard.io
+N/A	apexnetwork.co
+N/A	fortrade.com
+N/A	swissborg.com
+N/A	theprivateoffice.com
+N/A	origenportal.co.uk
+N/A	equilibrium.co.uk
+N/A	rc.today
+N/A	leiting.app
+N/A	enclave.money
+N/A	ic0.app
+N/A	mfw.work
+N/A	fh-swf.de
+N/A	protegear.io
+N/A	coin.space
+N/A	kingswood-group.com
+N/A	repaircode.de
+N/A	rathbones.com
+N/A	r-a.no
+N/A	drmlab.io
+N/A	vrsal.cc
+N/A	thebrokenrail.com
+N/A	aid.no
+N/A	rcs-rds.ro
+N/A	totenidag.no
+N/A	nt24.no
+N/A	firda.no
+N/A	fastex.com
+N/A	iharstad.no
+N/A	axenov.dev
+N/A	uu.se
+N/A	sognavis.no
+N/A	bodonu.no
+N/A	rha.no
+N/A	jellypro.xyz
+N/A	smaalenene.no
+N/A	tronderdebatt.no
+N/A	vivasoftltd.com
+N/A	scm.com
+N/A	glomdalen.no
+N/A	op.no
+N/A	f-b.no
+N/A	iverdal.no
+N/A	geminisolutions.com
+N/A	i2pgit.org
+N/A	lsd.cat
+N/A	fremover.no
+N/A	austagderblad.no
+N/A	oblad.no
+N/A	openprivacy.ca
+N/A	pixelplanet.fun
+N/A	h-a.no
+N/A	aasanetidende.no
+N/A	tvedestrandsposten.no
+N/A	enebakkavis.no
+N/A	sageneavis.no
+N/A	palemoon.org
+N/A	alt.no
+N/A	firdaposten.no
+N/A	door43.org
+N/A	phundrak.com
+N/A	tb.no
+N/A	h-avis.no
+N/A	unlock-music.dev
+N/A	silverstudiogames.org
+N/A	hadeland.no
+N/A	dt.no
+N/A	an.no
+N/A	lofot-tidende.no
+N/A	lyngdalsavis.no
+N/A	fanaposten.no
+N/A	lierposten.no
+N/A	amu.edu.pl
+N/A	743378673.xyz
+N/A	ifinnmark.no
+N/A	jarlsbergavis.no
+N/A	okeanos.nl
+N/A	plussalt.no
+N/A	ranablad.no
+N/A	noblad.no
+N/A	canva-staging.com
+N/A	norsklandbruk.no
+N/A	almalinux.org
+N/A	luminia.io
+N/A	solabladet.no
+N/A	bygdeposten.no
+N/A	nordnorskdebatt.no
+N/A	tromsoby.no
+N/A	krs.no
+N/A	ranano.no
+N/A	svelviksposten.no
+N/A	ui.com
+N/A	eub.no
+N/A	laagendalsposten.no
+N/A	hammerfestingen.no
+N/A	server47.de
+N/A	tiktokw.eu
+N/A	rb.no
+N/A	vp.no
+N/A	mittlillestrom.no
+N/A	felixm.de
+N/A	cavemanon.xyz
+N/A	nationen.no
+N/A	namdalsavisa.no
+N/A	regatta-systems.com
+N/A	canva-dev.com
+N/A	coom.tech
+N/A	alterware.dev
+N/A	sigmagaming.net
+N/A	helg.no
+N/A	nord24.no
+N/A	openpunk.com
+N/A	jbl.no
+N/A	sva.no
+N/A	fuwafuwa.moe
+N/A	drangedalsposten.no
+N/A	tendokyu.moe
+N/A	gd.no
+N/A	mittloerenskog.no
+N/A	carvel.li
+N/A	allspice.io
+N/A	liberatedsystems.co.uk
+N/A	m-labs.hk
+N/A	ao.no
+N/A	telen.no
+N/A	avisenagder.no
+N/A	dmin.pro
+N/A	lubuntu.me
+N/A	kolaente.dev
+N/A	nordlys.no
+N/A	auraavis.no
+N/A	kp.no
+N/A	avisa-valdres.no
+N/A	aasavis.no
+N/A	digistorage.es
+N/A	kolibrios.org
+N/A	iut-fbleau.fr
+N/A	uupdump.net
+N/A	ecker.tech
+N/A	sa.no
+N/A	sam-app.ro
+N/A	binbash.rocks
+N/A	blender.org
+N/A	getadmiral.com
+N/A	stangeavisa.no
+N/A	ta.no
+N/A	dalane-tidende.no
+N/A	inderoyningen.no
+N/A	vise.no
+N/A	sb.no
+N/A	moss-avis.no
+N/A	nab.no
+N/A	tuke.sk
+N/A	amta.no
+N/A	kv.no
+N/A	tutumway.com
+N/A	luckyrobots.com
+N/A	retten.no
+N/A	kska.io
+N/A	artixlinux.org
+N/A	tk.no
+N/A	norddalen.no
+N/A	sydvesten.no
+N/A	api.no
+N/A	taurusxin.com
+N/A	vestbyavis.no
+N/A	bondebladet.no
+N/A	snasningen.no
+N/A	old-metin2.com
+N/A	ha-halden.no
+N/A	indre.no
+N/A	isandnessjoen.no
+N/A	budstikka.no
+N/A	sandnesposten.no
+N/A	varingen.no
+N/A	lokal-avisa.no
+N/A	solungavisa.no
+N/A	sheetjs.com
+N/A	pika-os.com
+N/A	ostlendingen.no
+N/A	nidaros.no
+N/A	nordhordland.no
+N/A	hardanger-folkeblad.no
+N/A	activated.win
+N/A	ringblad.no
+N/A	lofotposten.no
+N/A	ba.no
+N/A	finnmarkdebatten.no
+N/A	senja247.no
+N/A	gjengangeren.no
+N/A	snipcola.com
+N/A	rablad.no
+N/A	avisa-hordaland.no
+N/A	sandeavis.no
+N/A	traktor.no
+N/A	torrents-csv.com
+N/A	raumnes.no
+N/A	nyetroms.no
+N/A	eikerbladet.no
+N/A	ilevanger.no
+N/A	rimmyscorner.com
+N/A	finnmarkdagblad.no
+N/A	nikkei.com
+N/A	strandbuen.no
+N/A	karmoynytt.no
+N/A	amedia.no
+N/A	oyene.no
+N/A	avisagaula.no
+N/A	cdm-project.com
+N/A	xeserv.us
+N/A	matthewgall.codes
+N/A	nettavisen.no
+N/A	gbnett.no
+N/A	finnmarksposten.no
+N/A	soutade.fr
+N/A	eaglercraft.win
+N/A	akersposten.no
+N/A	ringsaker-blad.no
+N/A	steinkjer-avisa.no
+N/A	tuwien.ac.at
+N/A	nvg.dev
+N/A	chief.app
+N/A	ulstu.ru
+N/A	onlyoffice.com
+N/A	gameindy.com
+N/A	rastavanger.no
+N/A	onepropertee.com
+N/A	merakerposten.no
+N/A	torsion.org
+N/A	kvinnheringen.no
+N/A	sneleentaxi.nl
+N/A	loolootech.com
+N/A	neonteam.dev
+N/A	repo.radio
+N/A	jeddunk.xyz
+N/A	t-a.no
+N/A	frostingen.no
+N/A	finnmarken.no
+N/A	pd.no
+N/A	bygdebladet.no
+N/A	kood.tech
+N/A	blv.no
+N/A	ilam.ac.ir

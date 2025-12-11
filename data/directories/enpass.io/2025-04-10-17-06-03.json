@@ -1,0 +1,1477 @@
+[
+    {
+        "domain": "adobe.com",
+        "name": "Adobe",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://helpx.adobe.com/manage-account/using/secure-sign-in-with-passkey.html#set-up",
+        "setup_link": "https://account.adobe.com/security",
+        "notes": "",
+        "created_date": "1710413326",
+        "modified_date": "1710759102",
+        "logo_path": "https://favicon.enpass.io/websites/adobe.com/120x120-5.png"
+    },
+    {
+        "domain": "airnewzealand.co.nz",
+        "name": "Air New Zealand",
+        "category": [
+            "Travel & Tourism"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.airnewzealand.co.nz/manage-multi-factor-authentication#passkey",
+        "setup_link": "https://www.airnewzealand.com/membership/profile/personalInfo/mfa",
+        "notes": "",
+        "created_date": "1710414045",
+        "modified_date": "1710912432",
+        "logo_path": "https://favicon.enpass.io/websites/airnewzealand.co.nz/120x120-4.png"
+    },
+    {
+        "domain": "amazon.com",
+        "name": "Amazon",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.amazon.com/your-account",
+        "notes": "",
+        "created_date": "1710414497",
+        "modified_date": "1710846445",
+        "logo_path": "https://favicon.enpass.io/websites/amazon.com/120x120-4.png"
+    },
+    {
+        "domain": "apple.com",
+        "name": "Apple",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710414762",
+        "modified_date": "1710843241",
+        "logo_path": "https://favicon.enpass.io/websites/apple.com/120x120-7.png"
+    },
+    {
+        "domain": "arca.live",
+        "name": "Arcalive",
+        "category": [
+            "Social"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "",
+        "setup_link": "https://arca.live/settings/",
+        "notes": "",
+        "created_date": "1710414889",
+        "modified_date": "1710846780",
+        "logo_path": "https://favicon.enpass.io/websites/arca.live/120x120.png"
+    },
+    {
+        "domain": "arpari.com",
+        "name": "Arpari",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://app.arpari.com/login",
+        "notes": "",
+        "created_date": "1710415002",
+        "modified_date": "1710912486",
+        "logo_path": "https://favicon.enpass.io/websites/arpari.com/120x120.png"
+    },
+    {
+        "domain": "authgear.com",
+        "name": "Authgear",
+        "category": [
+            "Authentication Provider"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://authgear.com",
+        "notes": "",
+        "created_date": "1710415228",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/authgear.com/120x120.png"
+    },
+    {
+        "domain": "bagou450.com",
+        "name": "Bagou450",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710415311",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/bagou450.com/120x120.png"
+    },
+    {
+        "domain": "bestbuy.com",
+        "name": "Best Buy",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.bestbuy.com/identity/accountSettings/",
+        "notes": "",
+        "created_date": "1710415403",
+        "modified_date": "1710843241",
+        "logo_path": "https://favicon.enpass.io/websites/bestbuy.com/120x120-2.png"
+    },
+    {
+        "domain": "beyondidentity.com",
+        "name": "Beyond Identity",
+        "category": [
+            "Authentication Provider"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://console-us.beyondidentity.com/signup",
+        "notes": "",
+        "created_date": "1710415512",
+        "modified_date": "1710912486",
+        "logo_path": "https://favicon.enpass.io/websites/beyondidentity.com/120x120.png"
+    },
+    {
+        "domain": "binance.com",
+        "name": "Binance",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://www.binance.com/en/support/faq/how-to-create-a-passkey-for-my-binance-account-2aec8fe0437242f2a5fbef9cdb71d4c2",
+        "setup_link": "https://accounts.binance.com/en/manage-yubikey-authenticator",
+        "notes": "",
+        "created_date": "1710415801",
+        "modified_date": "1710843241",
+        "logo_path": "https://favicon.enpass.io/websites/binance.com/120x120-3.png"
+    },
+    {
+        "domain": "boursorama.com",
+        "name": "Boursorama",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.boursorama.com/aide-en-ligne/securite/proteger-mon-espace-client/question/comment-se-connecter-a-votre-espace-client-grace-aux-cles-de-securite-5165516",
+        "setup_link": "https://www.boursorama.com",
+        "notes": "",
+        "created_date": "1710416190",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/boursorama.com/120x120-3.png"
+    },
+    {
+        "domain": "bridgecrest.com",
+        "name": "Bridgecrest",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://bridgecrest.com",
+        "notes": "",
+        "created_date": "1710416288",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/bridgecrest.com/120x120.png"
+    },
+    {
+        "domain": "capecodfive.com",
+        "name": "Cape Cod 5",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://online.capecodfive.com/settings/security/",
+        "notes": "",
+        "created_date": "1710416375",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/capecodfive.com/120x120-2.png"
+    },
+    {
+        "domain": "cardpointers.com",
+        "name": "CardPointers",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710416563",
+        "modified_date": "1710996318",
+        "logo_path": "https://favicon.enpass.io/websites/cardpointers.com/120x120-2.png"
+    },
+    {
+        "domain": "caremark.com",
+        "name": "Caremark",
+        "category": [
+            "Health & Wellness"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.caremark.com/digital-fast/caremark-login-web/#/login",
+        "notes": "",
+        "created_date": "1710416677",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/caremark.com/120x120-6.png"
+    },
+    {
+        "domain": "coinbase.com",
+        "name": "Coinbase",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://help.coinbase.com/en/coinbase/getting-started/getting-started-with-coinbase/passkeys",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710416999",
+        "modified_date": "1710843857",
+        "logo_path": "https://favicon.enpass.io/websites/coinbase.com/120x120-4.png"
+    },
+    {
+        "domain": "corbado.com",
+        "name": "Corbado",
+        "category": [
+            "Authentication Provider"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://app.corbado.com/",
+        "notes": "",
+        "created_date": "1710417109",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/corbado.com/120x120.png"
+    },
+    {
+        "domain": "cutx.org",
+        "name": "Credit Union of Texas",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "",
+        "setup_link": "https://online.cutx.org/settings/security",
+        "notes": "",
+        "created_date": "1710417281",
+        "modified_date": "1710843857",
+        "logo_path": "https://favicon.enpass.io/websites/cutx.org/120x120.png"
+    },
+    {
+        "domain": "crowdin.com",
+        "name": "Crowdin",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "",
+        "setup_link": "https://crowdin.com/settings#password",
+        "notes": "",
+        "created_date": "1710417380",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/crowdin.com/120x120-4.png"
+    },
+    {
+        "domain": "datapacket.com",
+        "name": "DataPacket",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://app.datapacket.com/settings/security",
+        "notes": "",
+        "created_date": "1710418250",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/datapacket.com/120x120.png"
+    },
+    {
+        "domain": "marketcircle.com",
+        "name": "Daylite",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.marketcircle.com/learn/passkeys",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710418354",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/marketcircle.com/120x120-2.png"
+    },
+    {
+        "domain": "dinero.dk",
+        "name": "Dinero",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://accountsettings.connect.visma.com/",
+        "notes": "",
+        "created_date": "1710418587",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/dinero.dk/120x120.png"
+    },
+    {
+        "domain": "discourse.org",
+        "name": "Discourse",
+        "category": [
+            "Lifestyle & Leisure"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710418686",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/discourse.org/120x120-3.png"
+    },
+    {
+        "domain": "id.smt.docomo.ne.jp",
+        "name": "Docomo",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://id.smt.docomo.ne.jp/ast/tra/id/conts/setwebauthn/top/",
+        "notes": "",
+        "created_date": "1710418779",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/id.smt.docomo.ne.jp/120x120.png"
+    },
+    {
+        "domain": "docusign.com",
+        "name": "DocuSign",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://support.docusign.com/s/document-item?language=en_US&bundleId=jux1643235969954&topicId=niw1651694673085.html&_LANG=enus",
+        "setup_link": "https://app.docusign.com/auth",
+        "notes": "",
+        "created_date": "1710419557",
+        "modified_date": "1710843241",
+        "logo_path": "https://favicon.enpass.io/websites/docusign.com/120x120-3.png"
+    },
+    {
+        "domain": "ebay.com",
+        "name": "eBay",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://accounts.ebay.com/acctsec/security-center",
+        "notes": "",
+        "created_date": "1710419647",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/ebay.com/120x120-3.png"
+    },
+    {
+        "domain": "finom.co",
+        "name": "Finom",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://help.finom.co/en/articles/8512790-what-are-passkeys-and-how-do-i-use-them",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710419757",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/finom.co/120x120.png"
+    },
+    {
+        "domain": "fleeps.co",
+        "name": "Fleeps",
+        "category": [
+            "Travel & Tourism"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710419860",
+        "modified_date": "1710996335",
+        "logo_path": "https://favicon.enpass.io/websites/fleeps.co/120x120.png"
+    },
+    {
+        "domain": "formx.ai",
+        "name": "FormX.ai",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710419941",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/formx.ai/120x120-2.png"
+    },
+    {
+        "domain": "freeprints.com",
+        "name": "FreePrints",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.freeprints.com/apps",
+        "notes": "",
+        "created_date": "1710420028",
+        "modified_date": "1710846877",
+        "logo_path": "https://favicon.enpass.io/websites/freeprints.com/120x120.png"
+    },
+    {
+        "domain": "fusionauth.io",
+        "name": "FusionAuth",
+        "category": [
+            "Authentication Provider"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://fusionauth.io/docs/v1/tech/passwordless/webauthn-passkeys",
+        "setup_link": "https://fusionauth.io/",
+        "notes": "",
+        "created_date": "1710420209",
+        "modified_date": "1710846877",
+        "logo_path": "https://favicon.enpass.io/websites/fusionauth.io/120x120.png"
+    },
+    {
+        "domain": "github.com",
+        "name": "GitHub",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://docs.github.com/en/authentication/authenticating-with-a-passkey/about-passkeys",
+        "setup_link": "https://github.com/settings/security",
+        "notes": "",
+        "created_date": "1710420777",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/github.com/120x120-11.png"
+    },
+    {
+        "domain": "google.com",
+        "name": "Google",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://support.google.com/accounts/answer/13548313",
+        "setup_link": "https://g.co/passkeys",
+        "notes": "",
+        "created_date": "1710420921",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/google.com/120x120-5.png"
+    },
+    {
+        "domain": "haeppie.com",
+        "name": "haeppie",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://be.haeppie.com/#register",
+        "notes": "",
+        "created_date": "1710421018",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/haeppie.com/120x120.png"
+    },
+    {
+        "domain": "hancock.ink",
+        "name": "Hancock",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://app.hancock.ink/profile",
+        "notes": "",
+        "created_date": "1710421115",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/hancock.ink/120x120.png"
+    },
+    {
+        "domain": "hanko.io",
+        "name": "Hanko.io",
+        "category": [
+            "Authentication Provider"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://cloud.hanko.io/",
+        "notes": "",
+        "created_date": "1710421233",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/hanko.io/120x120.png"
+    },
+    {
+        "domain": "hardwax.com",
+        "name": "Hard Wax",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://hardwax.com/my-details/#login-settings",
+        "notes": "",
+        "created_date": "1710421331",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/hardwax.com/120x120.png"
+    },
+    {
+        "domain": "instacart.com",
+        "name": "Instacart",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710421530",
+        "modified_date": "1710844054",
+        "logo_path": "https://favicon.enpass.io/websites/instacart.com/120x120-3.png"
+    },
+    {
+        "domain": "kayak.com",
+        "name": "KAYAK",
+        "category": [
+            "Travel & Leisure"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.kayak.com/profile/account",
+        "notes": "",
+        "created_date": "1710421857",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/kayak.com/120x120-5.png"
+    },
+    {
+        "domain": "my.kemba.org",
+        "name": "KEMBA Financial Credit Union",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://my.kemba.org/settings/security",
+        "notes": "",
+        "created_date": "1710421960",
+        "modified_date": "1710915635",
+        "logo_path": "https://favicon.enpass.io/websites/my.kemba.org/120x120.png"
+    },
+    {
+        "domain": "link.com",
+        "name": "Link by Stripe",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://app.link.com/settings",
+        "notes": "",
+        "created_date": "1710422379",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/link.com/120x120-2.png"
+    },
+    {
+        "domain": "linkedin.com",
+        "name": "LinkedIn",
+        "category": [
+            "Social Media"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.linkedin.com/help/linkedin/answer/a1621596",
+        "setup_link": "https://www.linkedin.com/mypreferences/d/passkey",
+        "notes": "",
+        "created_date": "1710422484",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/linkedin.com/120x120-3.png"
+    },
+    {
+        "domain": "jp.mercari.com",
+        "name": "Mercari",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://help.jp.mercari.com/guide/articles/1103/",
+        "setup_link": "https://jp.mercari.com/mypage/personal_info/passkeys",
+        "notes": "",
+        "created_date": "1710423025",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/jp.mercari.com/120x120.png"
+    },
+    {
+        "domain": "microsoft.com",
+        "name": "Microsoft (Personal)",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://support.microsoft.com/en-us/windows/sign-in-to-your-microsoft-account-with-windows-hello-or-a-security-key-800a8c01-6b61-49f5-0660-c2159bea4d84",
+        "setup_link": "https://account.live.com/proofs/manage/additional",
+        "notes": "",
+        "created_date": "1710423133",
+        "modified_date": "1710843857",
+        "logo_path": "https://favicon.enpass.io/websites/microsoft.com/120x120-4.png"
+    },
+    {
+        "domain": "minter.io",
+        "name": "minter.io",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://help.minter.io/en/articles/8207212-adding-a-passkey-for-your-minter-io-account",
+        "setup_link": "https://minter.io/app/edit/passkeys/add",
+        "notes": "",
+        "created_date": "1710423249",
+        "modified_date": "1710846654",
+        "logo_path": "https://favicon.enpass.io/websites/minter.io/120x120.png"
+    },
+    {
+        "domain": "m.mixi.com",
+        "name": "MIXI M",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://account.mixi.com/security/authenticators",
+        "notes": "",
+        "created_date": "1710423354",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/m.mixi.com/120x120.png"
+    },
+    {
+        "domain": "moneybird.com",
+        "name": "Moneybird",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://help.moneybird.nl/support/solutions/articles/103000250142-gebruik-passkeys-om-in-te-loggen-in-moneybird",
+        "setup_link": "https://moneybird.com/user/webauthn_credential_setup/new",
+        "notes": "",
+        "created_date": "1710423884",
+        "modified_date": "1710844054",
+        "logo_path": "https://favicon.enpass.io/websites/moneybird.com/120x120.png"
+    },
+    {
+        "domain": "id.moneyforward.com",
+        "name": "Money Forward ID",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://id.moneyforward.com/webauthn/credentials",
+        "notes": "",
+        "created_date": "1710423579",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/id.moneyforward.com/120x120.png"
+    },
+    {
+        "domain": "nintendo.com",
+        "name": "Nintendo",
+        "category": [
+            "Lifestyle & Leisure"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/62531",
+        "setup_link": "https://accounts.nintendo.com/passkey",
+        "notes": "",
+        "created_date": "1710424052",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/nintendo.com/120x120-3.png"
+    },
+    {
+        "domain": "apps.nulab.com",
+        "name": "nulab",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://support.nulab.com/hc/en-us/articles/7745339110041-Passwordless-authentication-setup",
+        "setup_link": "https://apps.nulab.com/profile/security/security_device",
+        "notes": "",
+        "created_date": "1710424187",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/apps.nulab.com/120x120.png"
+    },
+    {
+        "domain": "nvidia.com",
+        "name": "Nvidia",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "",
+        "setup_link": "https://profile.nvgs.nvidia.com/security/webauthn",
+        "notes": "",
+        "created_date": "1710424305",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/nvidia.com/120x120-3.png"
+    },
+    {
+        "domain": "okta.com",
+        "name": "okta",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://help.okta.com/oie/en-us/Content/Topics/identity-engine/authenticators/configure-webauthn.htm",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710424412",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/okta.com/120x120-5.png"
+    },
+    {
+        "domain": "okx.com",
+        "name": "OKX",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.okx.com/account/security/passkeys",
+        "notes": "",
+        "created_date": "1710424588",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/okx.com/120x120.png"
+    },
+    {
+        "domain": "onlyfans.com",
+        "name": "OnlyFans",
+        "category": [
+            "Lifestyle & Leisure"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://onlyfans.com/my/settings/account/passwordless-sign-in",
+        "notes": "",
+        "created_date": "1710424787",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/onlyfans.com/120x120.png"
+    },
+    {
+        "domain": "payfit.com",
+        "name": "PayFit",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://support.payfit.com/en/articles/73141-two-factor-authentication-2fa",
+        "setup_link": "https://payfit.com",
+        "notes": "",
+        "created_date": "1710425685",
+        "modified_date": "1710843857",
+        "logo_path": "https://favicon.enpass.io/websites/payfit.com/120x120.png"
+    },
+    {
+        "domain": "paypal.com",
+        "name": "PayPal",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.paypal.com/us/cshelp/article/what-are-paypal-passkeys-help997",
+        "setup_link": "https://www.paypal.com/myaccount/security/",
+        "notes": "",
+        "created_date": "1710425818",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/paypal.com/120x120-3.png"
+    },
+    {
+        "domain": "playstation.com",
+        "name": "PlayStation",
+        "category": [
+            "Lifestyle & Leisure"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.playstation.com/support/account/set-up-passkey-psn/",
+        "setup_link": "https://www.playstation.com/passkey/",
+        "notes": "",
+        "created_date": "1710425944",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/playstation.com/120x120-3.png"
+    },
+    {
+        "domain": "qapital.com",
+        "name": "Qapital",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://qapital.com",
+        "notes": "",
+        "created_date": "1710426547",
+        "modified_date": "1710844054",
+        "logo_path": "https://favicon.enpass.io/websites/qapital.com/120x120.png"
+    },
+    {
+        "domain": "robinhood.com",
+        "name": "Robinhood",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://robinhood.com/us/en/support/articles/passkeys/",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710426764",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/robinhood.com/120x120-6.png"
+    },
+    {
+        "domain": "roblox.com",
+        "name": "Roblox",
+        "category": [
+            "Lifestyle & Leisure"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://en.help.roblox.com/hc/en-us/articles/20669991483156-Login-with-a-Passkey",
+        "setup_link": "https://www.roblox.com/my/account#!/info",
+        "notes": "",
+        "created_date": "1710426918",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/roblox.com/120x120-4.png"
+    },
+    {
+        "domain": "shakepay.com",
+        "name": "Shakepay",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://help.shakepay.com/en/articles/8569018-how-to-enable-passkeys",
+        "setup_link": "https://shakepay.com/dashboard/profile",
+        "notes": "",
+        "created_date": "1710427198",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/shakepay.com/120x120.png"
+    },
+    {
+        "domain": "shopify.com",
+        "name": "Shopify",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://help.shopify.com/manual/your-account/logging-in/passkeys#create-a-passkey",
+        "setup_link": "https://www.shopify.com",
+        "notes": "",
+        "created_date": "1710427397",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/shopify.com/120x120-3.png"
+    },
+    {
+        "domain": "shop.app",
+        "name": "Shop Pay",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://pay.shopify.com/pay/webauthn/new",
+        "notes": "",
+        "created_date": "1710427283",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/shop.app/120x120.png"
+    },
+    {
+        "domain": "simply.com",
+        "name": "Simply.com",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.simply.com/en/controlpanel/user/",
+        "notes": "",
+        "created_date": "1710427485",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/simply.com/120x120-2.png"
+    },
+    {
+        "domain": "siriusxm.com",
+        "name": "Sirius XM Satellite Radio",
+        "category": [
+            "Lifestyle & Leisure"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.siriusxm.com/player/welcome",
+        "notes": "",
+        "created_date": "1710427578",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/siriusxm.com/120x120-4.png"
+    },
+    {
+        "domain": "so-net.ne.jp",
+        "name": "So-net",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.so-net.ne.jp/support/bioauth/",
+        "setup_link": "https://id.so-net.ne.jp/auth_device/authenticator-manager",
+        "notes": "",
+        "created_date": "1710427697",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/so-net.ne.jp/120x120-5.png"
+    },
+    {
+        "domain": "sony.com",
+        "name": "Sony",
+        "category": [
+            "Lifestyle & Leisure"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.playstation.com/support/account/set-up-passkey-psn/",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710427881",
+        "modified_date": "1710843857",
+        "logo_path": "https://favicon.enpass.io/websites/sony.com/120x120-3.png"
+    },
+    {
+        "domain": "spaceship.com",
+        "name": "Spaceship (by NameCheap)",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.spaceship.com/blog/passkeys-intro/",
+        "setup_link": "https://www.spaceship.com/application/security-center/",
+        "notes": "",
+        "created_date": "1710428009",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/spaceship.com/120x120.png"
+    },
+    {
+        "domain": "stall-frei.de",
+        "name": "Stall-Frei.de",
+        "category": [
+            "Lifestyle & Leisure"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://www.stall-frei.de/account/security/",
+        "notes": "",
+        "created_date": "1710428102",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/stall-frei.de/120x120.png"
+    },
+    {
+        "domain": "michigan.gov",
+        "name": "State of Michigan",
+        "category": [
+            "Government"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://milogin.michigan.gov/uisecure/selfservice/anonymous/passwordlessUserGuide",
+        "setup_link": "https://milogin.michigan.gov/uisecure/selfservice/enrollFIDO",
+        "notes": "",
+        "created_date": "1710428247",
+        "modified_date": "1710846654",
+        "logo_path": "https://favicon.enpass.io/websites/michigan.gov/120x120-3.png"
+    },
+    {
+        "domain": "synology.com",
+        "name": "Synology",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://account.synology.com/security/",
+        "notes": "",
+        "created_date": "1710428350",
+        "modified_date": "1710846654",
+        "logo_path": "https://favicon.enpass.io/websites/synology.com/120x120-3.png"
+    },
+    {
+        "domain": "tailscale.com",
+        "name": "Tailscale",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://tailscale.com/kb/1269/passkeys/",
+        "setup_link": "https://login.tailscale.com/admin/users",
+        "notes": "",
+        "created_date": "1710428449",
+        "modified_date": "1710843857",
+        "logo_path": "https://favicon.enpass.io/websites/tailscale.com/120x120.png"
+    },
+    {
+        "domain": "target.com",
+        "name": "Target",
+        "category": [
+            "E-Commerce"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://help.target.com/help/TargetGuestHelpArticleDetail?articleId=ka95d0000008R16AAE",
+        "setup_link": "https://www.target.com/account/settings/signinsecurity",
+        "notes": "",
+        "created_date": "1710428562",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/target.com/120x120-3.png"
+    },
+    {
+        "domain": "tiktok.com",
+        "name": "TikTok",
+        "category": [
+            "Social Media"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://support.tiktok.com/en/log-in-troubleshoot/log-in/log-in-with-a-passkey#4",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710428858",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/tiktok.com/120x120-4.png"
+    },
+    {
+        "domain": "tripletex.no",
+        "name": "Tripletex",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710428958",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/tripletex.no/120x120.png"
+    },
+    {
+        "domain": "trusona.com",
+        "name": "Trusona Authentication Cloud",
+        "category": [
+            "Authentication Provider"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.trusona.com/customers/authentication-cloud",
+        "setup_link": "https://portal.trusona.io",
+        "notes": "",
+        "created_date": "1710429200",
+        "modified_date": "1710844712",
+        "logo_path": "https://favicon.enpass.io/websites/trusona.com/120x120.png"
+    },
+    {
+        "domain": "uber.com",
+        "name": "Uber",
+        "category": [
+            "Travel & Tourism"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://help.uber.com/riders/article/using-passkeys-to-sign-in?nodeId=61701cda-3615-43b2-8187-1440e91035d8",
+        "setup_link": "https://account.uber.com/passkeys",
+        "notes": "",
+        "created_date": "1710429530",
+        "modified_date": "1710843121",
+        "logo_path": "https://favicon.enpass.io/websites/uber.com/120x120-3.png"
+    },
+    {
+        "domain": "usfcu.org",
+        "name": "United Southeast Federal Credit Union",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://my.usfcu.org/settings/security",
+        "notes": "",
+        "created_date": "1710429617",
+        "modified_date": "1710844471",
+        "logo_path": "https://favicon.enpass.io/websites/usfcu.org/120x120.png"
+    },
+    {
+        "domain": "vaultvision.com",
+        "name": "Vault Vision",
+        "category": [
+            "Authentication Provider"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://docs.vaultvision.com/index.html",
+        "setup_link": "https://auth.vaultvision.com/settings",
+        "notes": "",
+        "created_date": "1710429729",
+        "modified_date": "1710846322",
+        "logo_path": "https://favicon.enpass.io/websites/vaultvision.com/120x120.png"
+    },
+    {
+        "domain": "vercel.com",
+        "name": "Vercel",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://vercel.com/docs/accounts/create-an-account#login-methods-and-connections",
+        "setup_link": "https://vercel.com/account/authentication",
+        "notes": "",
+        "created_date": "1710429835",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/vercel.com/120x120.png"
+    },
+    {
+        "domain": "virginmedia.com",
+        "name": "Virgin Media",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://virginmedia.com",
+        "notes": "",
+        "created_date": "1710429921",
+        "modified_date": "1710844054",
+        "logo_path": "https://favicon.enpass.io/websites/virginmedia.com/120x120-5.png"
+    },
+    {
+        "domain": "home.visma.com",
+        "name": "Visma",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://community.visma.com/t5/Brukertips-i-Visma-net-ERP/Hvordan-kan-du-aktivere-totrinnskontroll-med-FIDO2/ta-p/293830",
+        "setup_link": "https://accountsettings.connect.visma.com",
+        "notes": "",
+        "created_date": "1710430032",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/home.visma.com/120x120.png"
+    },
+    {
+        "domain": "voura.com",
+        "name": "Voura",
+        "category": [
+            "Finance"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://app.voura.com/auth/login",
+        "notes": "",
+        "created_date": "1710430232",
+        "modified_date": "1710915546",
+        "logo_path": "https://favicon.enpass.io/websites/voura.com/120x120.png"
+    },
+    {
+        "domain": "webauthn.io",
+        "name": "WebAuthn.io",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "https://webauthn.io",
+        "notes": "",
+        "created_date": "1710430316",
+        "modified_date": "1710843241",
+        "logo_path": "https://favicon.enpass.io/websites/webauthn.io/120x120.png"
+    },
+    {
+        "domain": "whatsapp.com",
+        "name": "WhatsApp (Android beta)",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "",
+        "setup_link": "",
+        "notes": "",
+        "created_date": "1710430394",
+        "modified_date": "1710844054",
+        "logo_path": "https://favicon.enpass.io/websites/whatsapp.com/120x120-4.png"
+    },
+    {
+        "domain": "hyatt.com",
+        "name": "World of Hyatt",
+        "category": [
+            "Travel & Leisure"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://www.hyatt.com/en-US/member/passkey/what-is-passkey",
+        "setup_link": "https://www.hyatt.com/member/passkey/manage",
+        "notes": "",
+        "created_date": "1710430500",
+        "modified_date": "1710844471",
+        "logo_path": "https://favicon.enpass.io/websites/hyatt.com/120x120-6.png"
+    },
+    {
+        "domain": "x.com",
+        "name": "X (formerly Twitter)",
+        "category": [
+            "Social Networking"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://help.twitter.com/en/managing-your-account/how-to-use-passkey",
+        "setup_link": "https://twitter.com/settings/account/login_verification",
+        "notes": "",
+        "created_date": "1710430628",
+        "modified_date": "1710846499",
+        "logo_path": "https://favicon.enpass.io/websites/x.com/120x120-2.png"
+    },
+    {
+        "domain": "yahoo.com",
+        "name": "Yahoo!",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://in.help.yahoo.com/kb/SLN35635.html",
+        "setup_link": "https://login.yahoo.com/myaccount/security",
+        "notes": "",
+        "created_date": "1710430818",
+        "modified_date": "1710842981",
+        "logo_path": "https://favicon.enpass.io/websites/yahoo.com/120x120-4.png"
+    },
+    {
+        "domain": "yahoo.co.jp",
+        "name": "Yahoo! JAPAN",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in"
+        ],
+        "help_link": "https://about.yahoo.co.jp/pr/release/2023/03/14b/",
+        "setup_link": "https://id.yahoo.co.jp",
+        "notes": "",
+        "created_date": "1710430918",
+        "modified_date": "1710844471",
+        "logo_path": "https://favicon.enpass.io/websites/yahoo.co.jp/120x120-6.png"
+    },
+    {
+        "domain": "zoho.com",
+        "name": "Zoho",
+        "category": [
+            "Information Technology"
+        ],
+        "usage_type": [
+            "sign_in",
+            "mfa"
+        ],
+        "help_link": "https://help.zoho.com/portal/en/kb/accounts/faqs-troubleshooting/troubleshooting/sign-in/articles/passkey-sign-in-failed-on-mac#What_happened",
+        "setup_link": "https://accounts.zoho.com/home#multiTFA/modes",
+        "notes": "",
+        "created_date": "1710431026",
+        "modified_date": "1710842981",
+        "logo_path": "https://favicon.enpass.io/websites/zoho.com/120x120-3.png"
+    }
+]

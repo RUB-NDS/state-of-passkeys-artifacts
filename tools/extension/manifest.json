@@ -1,0 +1,44 @@
+{
+    "manifest_version": 3,
+    "name": "Passkeys.Tools - Interceptor",
+    "version": "1.0.0",
+    "description": "Companion extension for https://passkeys.tools that intercepts and modifies WebAuthn operations for security testing, debugging, and research. Supports cross-browser simulation.",
+    "homepage_url": "https://passkeys.tools",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "run_at": "document_start",
+            "all_frames": true
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "rules.json"
+        }]
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["init.js", "globals.js", "helpers.js", "hooks.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}

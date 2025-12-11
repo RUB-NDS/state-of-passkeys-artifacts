@@ -1,0 +1,122 @@
+<div class="row">
+    <div class="col text-center">
+        <h1>Settings</h1>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-header">Theme</div>
+            <div class="card-body">
+                <p class="text-muted mb-4">Choose your preferred color theme.</p>
+
+                <div class="mb-4">
+                    <h5>Dark Mode</h5>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="themeMode" id="themeAuto" value="auto" checked>
+                        <label class="form-check-label" for="themeAuto">
+                            <strong>Automatic</strong>
+                            <br>
+                            <small class="text-muted">Match system preference</small>
+                        </label>
+                    </div>
+
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="themeMode" id="themeLight" value="light">
+                        <label class="form-check-label" for="themeLight">
+                            <strong>Light</strong>
+                            <br>
+                            <small class="text-muted">Always use light theme</small>
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="themeMode" id="themeDark" value="dark">
+                        <label class="form-check-label" for="themeDark">
+                            <strong>Dark</strong>
+                            <br>
+                            <small class="text-muted">Always use dark theme</small>
+                        </label>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" id="saveTheme">Save Theme</button>
+                <span id="themeStatus" class="ms-3"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-header">Storage</div>
+            <div class="card-body">
+                <p class="text-muted mb-4">Choose how to store your keys, users, and history.</p>
+
+                <div class="mb-4">
+                    <h5>Mode</h5>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="storageMode" id="storageLocal" value="local" checked>
+                        <label class="form-check-label" for="storageLocal">
+                            <strong>Local Storage</strong>
+                            <br>
+                            <small class="text-muted">Store data in browser's local storage</small>
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="storageMode" id="storageRemote" value="remote">
+                        <label class="form-check-label" for="storageRemote">
+                            <strong>Remote Storage</strong>
+                            <br>
+                            <small class="text-muted">Store data on a remote server</small>
+                        </label>
+                    </div>
+                </div>
+
+                <div id="storageRemoteConfig" class="border rounded p-3" style="display: none;">
+                    <h5 class="mb-3">Remote Configuration</h5>
+
+                    <div class="mb-3">
+                        <label for="storageRemoteUrl" class="form-label">Remote Server URL</label>
+                        <input type="url" class="form-control" id="storageRemoteUrl" placeholder="https://example.com">
+                        <div class="form-text">The URL of your remote storage server (public backend available at <code>https://db.passkeys.tools</code>)</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="storageSecret" class="form-label">Secret</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="storageSecret" placeholder="Enter your secret">
+                            <button class="btn btn-outline-secondary" type="button" id="storageRegenerateKey">
+                                <i class="bi bi-arrow-clockwise"></i> Regenerate
+                            </button>
+                        </div>
+                        <div class="form-text">Your unique secret to access your data. Keep this private!</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="storageE2EE" value="true">
+                            <label class="form-check-label" for="storageE2EE">
+                                <strong>Enable End-to-End Encryption</strong>
+                            </label>
+                            <div class="form-text">Encrypt data before sending to remote storage. Data will only be decryptable with your secret.</div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-secondary" id="storageTestConnection">Test Connection</button>
+                    <div id="storageConnectionStatus" class="mt-2"></div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-primary" id="saveStorage">Save Storage</button>
+                    <span id="storageStatus" class="ms-3"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

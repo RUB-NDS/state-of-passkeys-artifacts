@@ -1,0 +1,722 @@
+[
+    {
+        "name": "ABANCA",
+        "url": "https://comunicacion.abanca.com/es/noticias/abanca-primer-banco-espanol-en-implantar-la-tecnologia-de-llaves-de-acceso-en-la-banca-movil-para-reforzar-la-seguridad-de-sus-clientes/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Adobe",
+        "url": "https://account.adobe.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Aflac Japan",
+        "url": "https://www.aflac.co.jp/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Affirm",
+        "url": "https://helpcenter.affirm.com/s/article/Set-up-a-Passkey",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Air New Zealand",
+        "url": "https://www.airnewzealand.com/manage-multi-factor-authentication#passkeys",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Amazon",
+        "url": "https://www.amazon.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Arpari",
+        "url": "https://app.arpari.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Authgear",
+        "url": "https://accounts.portal.authgearapps.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "authentik",
+        "url": "https://docs.goauthentik.io/docs/flow/stages/authenticator_validate/#passwordless-authentication",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Amazon Web Services (AWS)",
+        "url": "https://aws.amazon.com/iam/features/mfa/?audit=2019q1",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Bank of America",
+        "url": "https://www.bankofamerica.com/security-center/online-mobile-banking-privacy/usb-security-key/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/identity/signin",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Beyond Identity",
+        "url": "https://console-us.beyondidentity.com/signup",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Binance",
+        "url": "https://www.binance.com/en/support/faq/how-to-create-a-passkey-for-my-binance-account-2aec8fe0437242f2a5fbef9cdb71d4c2",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "bitbank",
+        "url": "https://support.bitbank.cc/hc/ja/articles/33591659742745-%E7%94%9F%E4%BD%93%E8%AA%8D%E8%A8%BC%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%97%E3%81%9F%E3%81%84",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Bitwarden",
+        "url": "https://bitwarden.com",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Blue Ocean Law",
+        "url": "https://www.blueocean.law/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "BMW",
+        "url": "https://mybmw.bmwusa.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Bourseroma",
+        "url": "https://www.boursorama.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "BoursoBank",
+        "url": "https://clients.boursobank.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Braunhousehold",
+        "url": "https://braunhousehold.com",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Bridgecrest",
+        "url": "https://bridgecrest.com",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Cape Cod 5",
+        "url": "https://www.capecodfive.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Card Pointers",
+        "url": "https://cardpointers.com/login/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Carnival",
+        "url": "https://carnival.com",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Citibank",
+        "url": "https://www.citi.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Cloudflare",
+        "url": "https://developers.cloudflare.com/fundamentals/setup/account/account-security/2fa/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Coinbase",
+        "url": "https://www.coinbase.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Corbado",
+        "url": "https://app.corbado.com/signin",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "CVS",
+        "url": "https://www.cvs.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "CVS Caremark",
+        "url": "https://www.caremark.com/digital-fast/caremark-login-web/#/login",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "CyberArk Identity",
+        "url": "https://docs.cyberark.com/identity/Latest/en/Content/UserPortal/user-setup-passkey.htm?tocpath=End%20User%7CSet%20up%20authentication%7C_____6",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Daylite",
+        "url": "https://www.marketcircle.com/account/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Dinero",
+        "url": "https://dinero.dk",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Discord",
+        "url": "https://discord.com/blog/how-discord-modernized-mfa-with-webauthn",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Discourse",
+        "url": "https://meta.discourse.org/t/support-passwordless-login-with-passkeys",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Docomo",
+        "url": "https://www.docomo.ne.jp/english/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "DocuSign",
+        "url": "https://account.docusign.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Dropbox",
+        "url": "https://help.dropbox.com/account-access/enable-two-step-verification#securitykey",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "eBay",
+        "url": "https://signin.ebay.com/ws/eBayISAPI.dll",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "ente",
+        "url": "https://ente.io/blog/introducing-passkeys-on-ente/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Fastmail",
+        "url": "https://app.fastmail.com/settings/security/passkeys",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "fleeps",
+        "url": "https://fleeps.co/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Forgejo",
+        "url": "https://forgejo.org/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "FormX.ai",
+        "url": "https://auth.formextractorai.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Gemini",
+        "url": "https://support.gemini.com/hc/en-us/articles/17421039737243-What-are-passkeys",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "GitHub",
+        "url": "https://docs.github.com/en/authentication/authenticating-with-a-passkey/signing-in-with-a-passkey",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "GitLab",
+        "url": "https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Gitea",
+        "url": "https://docs.gitea.com/usage/multi-factor-authentication",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "GoDaddy",
+        "url": "https://sso.godaddy.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Google",
+        "url": "https://www.google.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "haeppie",
+        "url": "https://be.haeppie.com/auth",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Hancock.ink",
+        "url": "https://idp.hancock.ink/v0",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Hanko",
+        "url": "https://cloud.hanko.io/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Home Depot",
+        "url": "https://www.homedepot.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Horizon Pics",
+        "url": "https://horizon.pics",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "IBM Verify",
+        "url": "https://www.ibm.com/docs/en/security-verify?topic=launchpad-managing-your-verify-authenticators",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "imo",
+        "url": "https://imo.im/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Instacart",
+        "url": "https://www.instacart.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Kayak",
+        "url": "https://www.kayak.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Kenwoodworld.com",
+        "url": "https://kenwoodworld.com",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Kraken",
+        "url": "https://support.kraken.com/hc/en-us/articles/what-is-a-passkey",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Laakari.chat",
+        "url": "https://laakari.chat",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/help/linkedin/answer/a1621596",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Mangadex",
+        "url": "https://mangadex.org/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Microsoft",
+        "url": "https://microsoft.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Money Forward ID",
+        "url": "https://id.moneyforward.com/sign_in",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Namecheap",
+        "url": "https://www.namecheap.com/support/knowledgebase/article.aspx/10102/45/how-can-i-use-the-u2f-method-for-twofactor-authentication/",
+        "features": [
+            "mfa"
+        ]
+    },
+    {
+        "name": "Nintendo",
+        "url": "https://www.nintendo.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Nvidia",
+        "url": "https://nvidia.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Okta",
+        "url": "https://okta.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Omg.lol",
+        "url": "https://omg.lol",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Pastery",
+        "url": "https://pastery.net/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "PayPal",
+        "url": "https://www.paypal.com/signin/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Qapital",
+        "url": "https://qapital.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Robinhood",
+        "url": "https://robinhood.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Roblox",
+        "url": "https://roblox.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Salesforce",
+        "url": "https://help.salesforce.com/s/articleView?id=sf.use_built_in_authenticators_as_a_verification_method.htm&type=5",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Samsung",
+        "url": "https://www.samsung.com/uk/support/apps-services/how-to-create-and-use-a-passkey/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Shop Pay",
+        "url": "https://shop.app",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Shopify",
+        "url": "https://accounts.shopify.com/lookup",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Sony Playstation",
+        "url": "https://www.playstation.com/en-us/passkey/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Stripe",
+        "url": "https://support.stripe.com/questions/set-up-a-passkey-for-one-click-login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Synology DSM",
+        "url": "https://www.synology.com/en-global/dsm",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Tailscale",
+        "url": "https://tailscale.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Tender",
+        "url": "https://tender.run/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "TikTok",
+        "url": "https://newsroom.tiktok.com/en-us/passkeys-fido-alliance",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "The Hendrix",
+        "url": "https://thehendrixjc.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Trusona Authentication Cloud",
+        "url": null,
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Uber",
+        "url": "https://www.uber.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Vault Vision",
+        "url": "https://vaultvision.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Vercel",
+        "url": "https://vercel.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Virgin Media",
+        "url": "https://virginmedia.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "WebAuthn\\.io",
+        "url": "https://webauthn.io/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "World of Hyatt",
+        "url": "https://hyatt.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "X (formerly Twitter)",
+        "url": "https://help.x.com/en/managing-your-account/how-to-use-passkey",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Yahoo!",
+        "url": "https://www.yahoo.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Zoho",
+        "url": null,
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "WhatsApp",
+        "url": "https://faq.whatsapp.com/1850567238795036/?cms_platform=android&helpref=platform_switcher",
+        "features": [
+            "mfa"
+        ]
+    }
+]

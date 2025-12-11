@@ -1,0 +1,42 @@
+/**
+ * PublicKeyCredentialRequestOptions (PKCRO) processing.
+ * Converts request options to assertion response data.
+ */
+
+import { uint8ToHex, strSha256Uint8 } from "./converters.js"
+import logger from "./logger.js"
+
+export const pkcroToAssertion = async (pkcro, origin, mode, crossOrigin = undefined, topOrigin = undefined) => {
+    logger.debug("PKCRO to Assertion:", pkcro, origin, mode, crossOrigin, topOrigin)
+
+    // clientDataJSON
+    const clientDataJSON = {}
+    clientDataJSON.type = "webauthn.get"
+    clientDataJSON.challenge = pkcro.challenge
+    clientDataJSON.origin = origin
+    if (crossOrigin != undefined) clientDataJSON.crossOrigin = crossOrigin
+    if (topOrigin != undefined) clientDataJSON.topOrigin = topOrigin
+
+    // authenticatorData
+    const authenticatorData = {}
+
+    // authenticatorData.rpIdHash
+    authenticatorData.rpIdHash = uint8ToHex(await strSha256Uint8(pkcro.rpId || (new URL(origin)).hostname))
+
+    // authenticatorData.flags
+    authenticatorData.flags = {}
+    authenticatorData.flags.up = true // user present
+    authenticatorData.flags.uv = true // user verified
+    authenticatorData.flags.be = true // backup eligible
+    authenticatorData.flags.bs = true // backup state
+    authenticatorData.flags.at = false // attestation credential data included
+    authenticatorData.flags.ed = false // extension data included
+
+    // authenticatorData.signCount
+    authenticatorData.signCount = 0
+
+    // authenticatorData.extensions
+    authenticatorData.extensions = ""
+
+    return { clientDataJSON, authenticatorData }
+}

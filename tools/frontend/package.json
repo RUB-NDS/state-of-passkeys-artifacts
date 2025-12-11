@@ -1,0 +1,24 @@
+{
+  "name": "passkeys-tools-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-include-html": "^1.0.0",
+    "vite-plugin-node-polyfills": "^0.23.0"
+  },
+  "dependencies": {
+    "cbor": "^10.0.3",
+    "cborg": "^4.2.7",
+    "ecdsa-sig-formatter": "^1.0.11",
+    "extensible-custom-error": "^0.0.7",
+    "jose": "^5.9.6",
+    "str2ab": "^1.2.1"
+  }
+}

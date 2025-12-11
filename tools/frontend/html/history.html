@@ -1,0 +1,210 @@
+<div class="row">
+    <div class="col text-center">
+        <h1>History</h1>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>Stored History</span>
+                <div>
+                    <button class="btn btn-sm btn-secondary" id="importHistoryBtn">
+                        <i class="bi bi-upload"></i> Import JSON
+                    </button>
+                    <button class="btn btn-sm btn-secondary" id="exportHistoryBtn">
+                        <i class="bi bi-download"></i> Export JSON
+                    </button>
+                    <button class="btn btn-sm btn-danger" id="clearHistoryBtn">
+                        <i class="bi bi-trash"></i> Clear All
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="searchInput" placeholder='Search entries... (e.g., status == "resolved" AND type == "create")'>
+                            <button class="btn btn-outline-secondary" type="button" id="searchHelpBtn" title="Search syntax help">
+                                <i class="bi bi-question-circle"></i>
+                            </button>
+                            <button class="btn btn-outline-secondary" type="button" id="searchClearBtn" title="Clear search">
+                                <i class="bi bi-x-circle"></i>
+                            </button>
+                        </div>
+                        <div class="form-text" id="searchResultsInfo"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0 history-table" id="historyTable">
+                        <thead>
+                            <tr>
+                                <th>Timestamp</th>
+                                <th>Info</th>
+                                <th>Origin</th>
+                                <th>Credential / Key / User</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="historyTableBody">
+                            <!-- History entries will be dynamically inserted here -->
+                        </tbody>
+                    </table>
+                    <div class="p-3 text-center text-muted" id="historyEmptyMessage" style="display: none;">
+                        No history entries yet. Interceptions will appear here.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for search help -->
+<div class="modal fade" id="searchHelpModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Search Syntax Help</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <h6>Basic Search</h6>
+                <p>Type any text to search across all fields:</p>
+                <ul>
+                    <li><code>excludeCredentials</code> - Find entries containing this text</li>
+                </ul>
+
+                <h6>Field-based Search</h6>
+                <p>Search specific fields using operators:</p>
+                <ul>
+                    <li><code>status == "resolved"</code> - Find entries with resolved status</li>
+                    <li><code>type == "create"</code> - Find create operations</li>
+                    <li><code>origin : "example.com"</code> - Find entries containing example.com in origin</li>
+                    <li><code>credentialId != ""</code> - Find entries with a credential ID</li>
+                    <li><code>timestamp > 1700000000000</code> - Find entries after a timestamp</li>
+                </ul>
+
+                <h6>Logical Operators</h6>
+                <p>Combine multiple conditions:</p>
+                <ul>
+                    <li><code>AND</code> or <code>&&</code> - Both conditions must be true</li>
+                    <li><code>OR</code> or <code>||</code> - Either condition can be true</li>
+                    <li><code>NOT</code> or <code>!</code> - Negate a condition</li>
+                    <li>Use parentheses <code>()</code> for grouping</li>
+                </ul>
+
+                <h6>Available Fields</h6>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul>
+                            <li><code>timestamp</code></li>
+                            <li><code>mode</code></li>
+                            <li><code>type</code></li>
+                            <li><code>status</code></li>
+                            <li><code>origin</code></li>
+                            <li><code>credentialId</code></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><code>key</code></li>
+                            <li><code>userHandle</code></li>
+                            <li><code>modification</code></li>
+                            <li><code>info</code></li>
+                            <li><code>request</code></li>
+                            <li><code>response</code></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h6>Operators</h6>
+                <table class="table table-sm">
+                    <tr><td><code>==</code> or <code>=</code></td><td>Equals (case-insensitive)</td></tr>
+                    <tr><td><code>!=</code></td><td>Not equals</td></tr>
+                    <tr><td><code>:</code> or <code>~</code></td><td>Contains (case-insensitive)</td></tr>
+                    <tr><td><code>></code></td><td>Greater than</td></tr>
+                    <tr><td><code>>=</code></td><td>Greater than or equal</td></tr>
+                    <tr><td><code><</code></td><td>Less than</td></tr>
+                    <tr><td><code><=</code></td><td>Less than or equal</td></tr>
+                </table>
+
+                <h6>Complex Examples</h6>
+                <ul>
+                    <li><code>status == "rejected" OR status == "dismissed"</code></li>
+                    <li><code>type == "create" AND origin : "example.com"</code></li>
+                    <li><code>NOT (status == "resolved") AND credentialId != ""</code></li>
+                    <li><code>(mode == "intercept" OR mode == "manual") AND modification != "None"</code></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for viewing full entry details -->
+<div class="modal fade" id="historyDetailsModal" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">History Entry Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>Overview</h6>
+                        <pre class="border rounded p-2" id="historyDetailsInfo"></pre>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Controls</h6>
+                        <table class="table table-sm table-bordered">
+                            <tbody>
+                                <tr>
+                                    <th scope="row" style="width: 40%;">Status:</th>
+                                    <td id="historyDetailsStatus" style="word-break: break-all;"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Credential ID:</th>
+                                    <td id="historyDetailsCredentialId" style="word-break: break-all;"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Key:</th>
+                                    <td id="historyDetailsKey" style="word-break: break-all;"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">User Handle:</th>
+                                    <td id="historyDetailsUserHandle" style="word-break: break-all;"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Modification:</th>
+                                    <td id="historyDetailsModification" style="word-break: break-all;"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <h6>Request</h6>
+                        <pre class="border rounded p-2" id="historyDetailsRequest" style="max-height: 300px; overflow-y: auto;"></pre>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Response</h6>
+                        <pre class="border rounded p-2" id="historyDetailsResponse" style="max-height: 300px; overflow-y: auto;"></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="historyDetailsCopyBtn">
+                    <i class="bi bi-clipboard"></i> Copy Full Entry
+                </button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

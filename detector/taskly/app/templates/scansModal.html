@@ -1,0 +1,187 @@
+<div class="modal" tabindex="-1" id="scansModal">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Scans</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div id="scansTable"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let scansGrid
+
+    scansModal.addEventListener("show.bs.modal", (e) => {
+        const modalButton = e.relatedTarget
+        scansGrid = initScansGrid(modalButton.getAttribute("task-name"))
+        setTimeout(() => {scansGrid.render(scansTable)}, 250)
+    })
+
+    scansModal.addEventListener("hide.bs.modal", (e) => {
+        scansGrid.destroy()
+    })
+
+    const initScansGrid = (task_name) => {
+        return new gridjs.Grid({
+            columns: ["Scan ID", "Scan Date (First)", "Scan Date (Last)", "\#All", "\#Started", "\#Success", "\#Retry", "\#Failure", "Configs", "Tags", "Admin"],
+            style: {table: {"white-space": "nowrap"}},
+            pagination: {
+                limit: 10,
+                server: {
+                    url: (prev, page, limit) => {
+                        const url = new URL(prev.startsWith("/") ? `${location.origin}${prev}` : prev)
+                        url.searchParams.set("offset", page * limit)
+                        url.searchParams.set("limit", limit)
+                        return url.toString()
+                    }
+                }
+            },
+            search: {
+                debounceTimeout: 1000,
+                server: {
+                    url: (prev, keyword) => `${prev}&tag_name=${keyword}`,
+                }
+            },
+            server: {
+                url: `/scans?task_name=${task_name}`,
+                total: d => d.data.total,
+                then: d => {
+                    return d.data.filtered.map(f => {
+
+                        // configs
+                        const configs = [
+                            ["scan_config_first", "Scan Config (First)"],
+                            ["task_config_first", "Task Config (First)"],
+                            ["analysis_config_first", "Analysis Config (First)"],
+                            ["scan_config_last", "Scan Config (Last)"],
+                            ["task_config_last", "Task Config (Last)"],
+                            ["analysis_config_last", "Analysis Config (Last)"],
+                        ]
+                        let configsCell = gridjs.h("div", {}, "")
+                        configsCell.props.children = []
+                        configs.forEach((config) => {
+                            const configBtn = gridjs.h("button", {
+                                type: "button",
+                                className: "btn btn-outline-secondary btn-sm me-1 mb-1",
+                                "data-bs-toggle": "modal",
+                                "data-bs-target": "#codeModal",
+                                "back-modal": "#scansModal",
+                                "back-modal-props": JSON.stringify({"task-name": task_name}),
+                                onClick: () => initCodeModal(config[1], JSON.stringify(f[config[0]], null, 4))
+                            }, config[1])
+                            configsCell.props.children.push(configBtn)
+                        })
+
+                        // tags
+                        const tagsCell = gridjs.h("div", {}, "")
+                        tagsCell.props.children = []
+                        for (const tag_name of f.tag_names) {
+                            const tagBadge = gridjs.h("span", {className: "badge text-bg-primary me-2"}, "")
+                            tagBadge.props.children = [
+                                gridjs.h("i", {className: `bi bi-tag me-1`}),
+                                gridjs.h("span", {}, tag_name)
+                            ]
+                            tagsCell.props.children.push(tagBadge)
+                        }
+                        const addTagsBtn = gridjs.h("button", {
+                            type: "button",
+                            className: "btn btn-outline-primary btn-sm me-1 mb-1",
+                            onClick: () => {
+                                const tagName = prompt("Enter tag name:")
+                                if (!tagName) return
+                                fetch(`/tags?scan_id=${f.scan_id}&tag_name=${tagName}`, {method: "POST"}).then(r => r.json()).then(d => {
+                                    if (d.success) {
+                                        scansGrid.forceRender()
+                                    } else {
+                                        alert(`Error: ${d.error}`)
+                                    }
+                                }).catch(e => {
+                                    alert(`Error: ${e}`)
+                                })
+                            }
+                        }, "Add Tag")
+                        tagsCell.props.children.push(addTagsBtn)
+                        const deleteTagsBtn = gridjs.h("button", {
+                            type: "button",
+                            className: "btn btn-outline-danger btn-sm me-1 mb-1",
+                            onClick: () => {
+                                const tagName = prompt("Enter tag name:")
+                                if (!tagName) return
+                                fetch(`/tags?scan_id=${f.scan_id}&tag_name=${tagName}`, {method: "DELETE"}).then(r => r.json()).then(d => {
+                                    if (d.success) {
+                                        scansGrid.forceRender()
+                                    } else {
+                                        alert(`Error: ${d.error}`)
+                                    }
+                                }).catch(e => {
+                                    alert(`Error: ${e}`)
+                                })
+                            }
+                        }, "Delete Tag")
+                        tagsCell.props.children.push(deleteTagsBtn)
+
+                        // admin
+                        let adminCell = gridjs.h("div", {}, "")
+                        const rescanScanBtn = gridjs.h("button", {
+                            type: "button",
+                            className: "btn btn-outline-warning btn-sm me-1 mb-1",
+                            onClick: () => {
+                                const check = confirm("Rescan?")
+                                if (check != true) return
+                                fetch(`/scans?task_name=${task_name}&scan_id=${f.scan_id}`, {method: "PUT"}).then(r => r.json()).then(d => {
+                                    if (d.success) {
+                                        scansGrid.forceRender()
+                                    } else {
+                                        alert(`Error: ${d.error}`)
+                                    }
+                                }).catch(e => {
+                                    alert(`Error: ${e}`)
+                                })
+                            }
+                        }, "Rescan Scan")
+                        const deleteScanBtn = gridjs.h("button", {
+                            type: "button",
+                            className: "btn btn-outline-danger btn-sm me-1 mb-1",
+                            onClick: () => {
+                                const check = confirm("Delete?")
+                                if (check != true) return
+                                fetch(`/scans?task_name=${task_name}&scan_id=${f.scan_id}`, {method: "DELETE"}).then(r => r.json()).then(d => {
+                                    if (d.success) {
+                                        scansGrid.forceRender()
+                                    } else {
+                                        alert(`Error: ${d.error}`)
+                                    }
+                                }).catch(e => {
+                                    alert(`Error: ${e}`)
+                                })
+                            }
+                        }, "Delete Scan")
+                        adminCell.props.children = [rescanScanBtn, deleteScanBtn]
+
+                        const cells = []
+                        cells.push(f.scan_id)
+                        cells.push(f.scan_date_first)
+                        cells.push(f.scan_date_last)
+                        cells.push(f.count_all)
+                        cells.push(f.count_started)
+                        cells.push(f.count_success)
+                        cells.push(f.count_retry)
+                        cells.push(f.count_failure)
+                        cells.push(configsCell)
+                        cells.push(tagsCell)
+                        cells.push(adminCell)
+
+                        return cells
+                    })
+                }
+            }
+        })
+    }
+</script>

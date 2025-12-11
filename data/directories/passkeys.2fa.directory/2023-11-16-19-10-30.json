@@ -1,0 +1,1714 @@
+[
+    {
+        "domain": "roblox.com",
+        "name": "Roblox",
+        "mfa": "allowed",
+        "documentation": "https://en.help.roblox.com/hc/en-us/articles/212459863",
+        "notes": "Security keys are currently only supported in web browsers and requires TOTP 2FA to be setup.",
+        "categories": "gaming"
+    },
+    {
+        "domain": "registro.br",
+        "name": "Registro.br",
+        "mfa": "allowed",
+        "documentation": "https://registro.br/ajuda/gerenciamento-de-conta/token/",
+        "regions": [
+            "br"
+        ],
+        "categories": "domains"
+    },
+    {
+        "domain": "uidaho.edu",
+        "name": "University of Idaho",
+        "mfa": "allowed",
+        "documentation": "https://support.uidaho.edu/TDClient/KB/ArticleDet?ID=109",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "ucmerced.edu",
+        "name": "University of California, Merced",
+        "mfa": "allowed",
+        "documentation": "https://it.ucmerced.edu/2FA",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "umich.edu",
+        "name": "University of Michigan",
+        "mfa": "allowed",
+        "documentation": "https://www.safecomputing.umich.edu/two-factor-authentication",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "uwaterloo.ca",
+        "name": "University of Waterloo",
+        "mfa": "allowed",
+        "documentation": "https://uwaterloo.ca/two-factor-authentication/",
+        "img": "uwaterloo.ca.png",
+        "regions": [
+            "ca"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "ubc.ca",
+        "name": "University of British Columbia",
+        "mfa": "allowed",
+        "documentation": "https://privacymatters.ubc.ca/test-faqs",
+        "regions": [
+            "ca"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "ui.com",
+        "name": "Ubiquiti",
+        "contact": {
+            "facebook": "uieverywhere",
+            "twitter": "ubiquiti"
+        },
+        "categories": "iot"
+    },
+    {
+        "domain": "uber.com",
+        "name": "Uber",
+        "passwordless": "allowed",
+        "documentation": "https://help.uber.com/riders/article/-?nodeId=61701cda-3615-43b2-8187-1440e91035d8",
+        "categories": "transport"
+    },
+    {
+        "domain": "uq.edu.au",
+        "name": "The University of Queensland",
+        "mfa": "allowed",
+        "documentation": "https://my.uq.edu.au/information-and-services/information-technology/uq-accounts-and-passwords/multi-factor-authentication-mfa",
+        "regions": [
+            "au"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "icedrive.net",
+        "name": "Icedrive",
+        "mfa": "allowed",
+        "documentation": "https://twitter.com/icedrivecloud/status/1412044506447364097",
+        "categories": "backup"
+    },
+    {
+        "domain": "ing.pl",
+        "name": "ING Bank Slaski [PL]",
+        "mfa": "allowed",
+        "documentation": "https://www.ing.pl/indywidualni/bankowosc-internetowa/bezpieczenstwo/klucze-zabezpieczen-u2f",
+        "notes": "The first security key requires confirmation at a bank branch.",
+        "img": "ing.svg",
+        "regions": [
+            "pl"
+        ],
+        "categories": "banking"
+    },
+    {
+        "domain": "icloud.com",
+        "name": "Apple iCloud",
+        "mfa": "allowed",
+        "documentation": "https://support.apple.com/en-us/HT204915",
+        "notes": "Passwordless authentication only works on Apple devices.",
+        "categories": "backup"
+    },
+    {
+        "domain": "islonline.com",
+        "name": "ISL Online",
+        "mfa": "allowed",
+        "documentation": "https://help.islonline.com/35746/286527",
+        "categories": "remote"
+    },
+    {
+        "domain": "id.me",
+        "name": "ID.me",
+        "mfa": "allowed",
+        "documentation": "https://help.id.me/hc/en-us/articles/360018113053",
+        "regions": [
+            "us"
+        ],
+        "categories": "identity"
+    },
+    {
+        "domain": "irs.gov",
+        "name": "US Internal Revenue Service",
+        "mfa": "allowed",
+        "documentation": "https://www.irs.gov/privacy-disclosure/secure-access-how-to-register-for-certain-online-self-help-tools",
+        "regions": [
+            "us"
+        ],
+        "categories": "government"
+    },
+    {
+        "domain": "npmjs.com",
+        "name": "npm",
+        "mfa": "allowed",
+        "documentation": "https://docs.npmjs.com/configuring-two-factor-authentication",
+        "recovery": "https://docs.npmjs.com/recovering-your-2fa-enabled-account",
+        "categories": "developer"
+    },
+    {
+        "domain": "norton.com",
+        "name": "Norton",
+        "mfa": "allowed",
+        "documentation": "https://support.norton.com/sp/en/us/home/current/solutions/v100023155_NortonM_Retail_1_en_us",
+        "categories": "security"
+    },
+    {
+        "domain": "nordvpn.com",
+        "name": "NordVPN",
+        "additional-domains": [
+            "nordaccount.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://support.nordvpn.com/1755768802/",
+        "categories": "vpn"
+    },
+    {
+        "domain": "nulab.com",
+        "name": "Nulab",
+        "mfa": "allowed",
+        "documentation": "https://support.nulab.com/hc/en-us/articles/7732936736537",
+        "categories": "communication"
+    },
+    {
+        "domain": "nordpass.com",
+        "name": "NordPass",
+        "additional-domains": [
+            "nordaccount.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://support.nordpass.com/hc/en-us/articles/360002770497",
+        "categories": "identity"
+    },
+    {
+        "domain": "nordlocker.com",
+        "name": "NordLocker",
+        "additional-domains": [
+            "nordaccount.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://support.nordpass.com/hc/en-us/articles/360002770497",
+        "categories": "backup"
+    },
+    {
+        "domain": "nuget.org",
+        "name": "NuGet",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "developer"
+    },
+    {
+        "domain": "nest.com",
+        "name": "Google Nest",
+        "additional-domains": [
+            "nest.google.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://support.google.com/googlenest/answer/9295081",
+        "categories": "iot"
+    },
+    {
+        "domain": "nd.edu",
+        "name": "University of Notre Dame",
+        "mfa": "allowed",
+        "documentation": "https://nd.service-now.com/nd_portal?id=kb_article_view&sysparm_article=KB0017218",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "ncsu.edu",
+        "name": "North Carolina State University",
+        "mfa": "allowed",
+        "documentation": "https://oit.ncsu.edu/it-security/2fa/",
+        "recovery": "https://go.ncsu.edu/2fa-bypass",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "namecheap.com",
+        "name": "Namecheap",
+        "mfa": "allowed",
+        "documentation": "https://www.namecheap.com/security/2fa-two-factor-authentication/",
+        "categories": "domains"
+    },
+    {
+        "domain": "gatech.edu",
+        "name": "Georgia Institute of Technology",
+        "mfa": "allowed",
+        "documentation": "https://oit.gatech.edu/two-factor-authentication",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "goteleport.com",
+        "name": "Teleport",
+        "mfa": "allowed",
+        "documentation": "https://goteleport.com/docs/access-controls/guides/webauthn/",
+        "categories": "developer"
+    },
+    {
+        "domain": "geforce.com",
+        "name": "Nvidia GeForce",
+        "additional-domains": [
+            "nvidia.com",
+            "login.nvgs.nvidia.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://login.nvgs.nvidia.com/v1/help/nfactor",
+        "categories": "gaming"
+    },
+    {
+        "domain": "gitlab.com",
+        "name": "GitLab",
+        "mfa": "allowed",
+        "documentation": "https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html",
+        "categories": "developer"
+    },
+    {
+        "domain": "godaddy.com",
+        "name": "GoDaddy",
+        "mfa": "allowed",
+        "documentation": "https://www.godaddy.com/help/enable-two-step-verification-7502",
+        "notes": "If hardware 2FA enabled, customer support by phone requires enabling back-up method.",
+        "categories": "domains"
+    },
+    {
+        "domain": "github.com",
+        "name": "GitHub",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication",
+        "recovery": "https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials",
+        "categories": "developer"
+    },
+    {
+        "domain": "gandi.net",
+        "name": "Gandi",
+        "mfa": "allowed",
+        "documentation": "https://docs.gandi.net/en/account_management/security/",
+        "categories": "domains"
+    },
+    {
+        "domain": "groupme.com",
+        "name": "GroupMe",
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "communication"
+    },
+    {
+        "domain": "gemini.com",
+        "name": "Gemini",
+        "mfa": "allowed",
+        "documentation": "https://support.gemini.com/hc/en-us/articles/204732985",
+        "regions": [
+            "us",
+            "ca",
+            "hk",
+            "sg",
+            "kr",
+            "gb",
+            "au"
+        ],
+        "categories": "cryptocurrencies"
+    },
+    {
+        "domain": "zoho.com",
+        "name": "Zoho",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://help.zoho.com/portal/en/kb/accounts/multi-factor-authentication/articles/mfa-security-key",
+        "categories": [
+            "communication",
+            "email",
+            "marketing",
+            "remote"
+        ]
+    },
+    {
+        "domain": "1password.com",
+        "name": "1Password",
+        "additional-domains": [
+            "1password.ca",
+            "1password.eu"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://support.1password.com/two-factor-authentication/",
+        "recovery": "https://support.1password.com/recovery/",
+        "categories": "identity"
+    },
+    {
+        "domain": "talkdesk.com",
+        "name": "Talkdesk",
+        "mfa": "allowed",
+        "documentation": "https://support.talkdesk.com/hc/en-us/articles/360015179592",
+        "categories": "other"
+    },
+    {
+        "domain": "twitter.com",
+        "name": "X (Twitter)",
+        "additional-domains": [
+            "x.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://help.twitter.com/en/managing-your-account/two-factor-authentication",
+        "recovery": "https://help.twitter.com/en/managing-your-account/issues-with-login-authentication",
+        "categories": "social"
+    },
+    {
+        "domain": "torontomu.ca",
+        "name": "Toronto Metropolitan University",
+        "mfa": "allowed",
+        "documentation": "https://www.torontomu.ca/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/",
+        "regions": [
+            "ca"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "todo.microsoft.com",
+        "name": "Microsoft To-Do",
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "task"
+    },
+    {
+        "domain": "tutanota.com",
+        "name": "Tutanota",
+        "mfa": "allowed",
+        "documentation": "https://tutanota.com/howto/#2fa",
+        "categories": "email"
+    },
+    {
+        "domain": "standardnotes.com",
+        "name": "Standard Notes",
+        "mfa": "allowed",
+        "documentation": "https://standardnotes.com/help/25",
+        "recovery": "https://standardnotes.com/help/22",
+        "notes": "Professional Subscription required to use security keys.",
+        "categories": "backup"
+    },
+    {
+        "domain": "skype.com",
+        "name": "Skype",
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "communication"
+    },
+    {
+        "domain": "salesforce.com",
+        "name": "Salesforce",
+        "mfa": "allowed",
+        "documentation": "https://help.salesforce.com/s/articleView?id=sf.register_built_in_authenticator.htm",
+        "categories": "communication"
+    },
+    {
+        "domain": "server.nitrado.net",
+        "name": "Nitrado",
+        "mfa": "allowed",
+        "documentation": "https://server.nitrado.net/en-US/guides/two-factor-authentication-en",
+        "categories": "hosting"
+    },
+    {
+        "domain": "synology.com",
+        "name": "Synology",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://kb.synology.com/en-us/DSM/help/DSM/SecureSignIn/hardware_security_key",
+        "categories": "backup"
+    },
+    {
+        "domain": "simplelogin.io",
+        "name": "SimpleLogin",
+        "mfa": "allowed",
+        "categories": "email"
+    },
+    {
+        "domain": "shopify.com",
+        "name": "Shopify",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://help.shopify.com/manual/your-account/account-security/two-step-authentication",
+        "categories": "other"
+    },
+    {
+        "domain": "shadow.tech",
+        "name": "Shadow",
+        "mfa": "allowed",
+        "documentation": "https://support.shadow.tech/hc/en-us/articles/8741331563676",
+        "categories": "gaming"
+    },
+    {
+        "domain": "skiff.com",
+        "name": "Skiff",
+        "additional-domains": [
+            "bitkeep.app",
+            "ethereum.email",
+            "keplr.xyz",
+            "solana.email"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://www.youtube.com/watch?v=ImSqwEbn3fc",
+        "notes": "Security key MFA required TOTP to be enabled.",
+        "categories": [
+            "email",
+            "backup"
+        ]
+    },
+    {
+        "domain": "stanford.edu",
+        "name": "Stanford University",
+        "mfa": "allowed",
+        "documentation": "https://uit.stanford.edu/service/webauth/twostep",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "shu.edu",
+        "name": "Seton Hall University",
+        "mfa": "allowed",
+        "documentation": "https://tech-shu-edu.refined.site/space/PUBLICKBA/2096431118/Guide%20to%20Enrolling%20a%20Device%20in%20Duo",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "sentry.io",
+        "name": "Sentry",
+        "mfa": "allowed",
+        "documentation": "https://blog.sentry.io/2016/06/22/introducing-2fa",
+        "categories": "developer"
+    },
+    {
+        "domain": "scu.edu",
+        "name": "Santa Clara University",
+        "mfa": "allowed",
+        "documentation": "https://scu.edu/technology/get-connected/duo/learn-more-about-2fa/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "stripe.com",
+        "name": "Stripe",
+        "mfa": "allowed",
+        "documentation": "https://support.stripe.com/questions/how-do-i-enable-two-step-verification",
+        "recovery": "https://support.stripe.com/questions/sign-in-to-your-stripe-account-without-a-2fa-device-and-or-backup-code",
+        "categories": "payments"
+    },
+    {
+        "domain": "sydney.edu.au",
+        "name": "The University of Sydney",
+        "mfa": "allowed",
+        "documentation": "https://www.sydney.edu.au/students/log-in-to-university-systems.html",
+        "regions": [
+            "au"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "appleid.apple.com",
+        "name": "Apple",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://support.apple.com/en-us/HT204915",
+        "notes": "Passwordless authentication only works on Apple devices.",
+        "categories": "retail"
+    },
+    {
+        "domain": "aws.amazon.com",
+        "name": "Amazon Web Services",
+        "mfa": "allowed",
+        "documentation": "https://aws.amazon.com/iam/features/mfa/",
+        "categories": [
+            "cloud",
+            "domains",
+            "hosting"
+        ]
+    },
+    {
+        "domain": "adafruit.com",
+        "name": "Adafruit",
+        "mfa": "allowed",
+        "documentation": "https://learn.adafruit.com/how-to-set-up-2-factor-authentication-on-adafruit",
+        "categories": "retail"
+    },
+    {
+        "domain": "adobe.com",
+        "name": "Adobe",
+        "passwordless": "allowed",
+        "documentation": "https://helpx.adobe.com/manage-account/using/secure-sign-in-with-passkey.html",
+        "categories": "creativity"
+    },
+    {
+        "domain": "asu.edu",
+        "name": "Arizona State University",
+        "mfa": "allowed",
+        "documentation": "https://getprotected.asu.edu/services/identity-and-access-management/duo-two-factor-authentication",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "aha.io",
+        "name": "Aha!",
+        "mfa": "allowed",
+        "documentation": "https://www.aha.io/support/ideas/ideas/settings/account-settings#security-and-single-sign-on",
+        "categories": "developer"
+    },
+    {
+        "domain": "accounts.nintendo.com",
+        "name": "Nintendo Account",
+        "passwordless": "allowed",
+        "documentation": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/62531",
+        "categories": "gaming"
+    },
+    {
+        "domain": "auth0.com",
+        "name": "Auth0",
+        "mfa": "allowed",
+        "documentation": "https://auth0.com/docs/secure/multi-factor-authentication/enable-mfa",
+        "recovery": "https://auth0.com/docs/secure/multi-factor-authentication/reset-user-mfa",
+        "categories": "identity"
+    },
+    {
+        "domain": "azure.microsoft.com",
+        "name": "Microsoft Azure",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "passwordless": "allowed",
+        "categories": "cloud"
+    },
+    {
+        "domain": "fi.google.com",
+        "name": "Google Fi",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "regions": [
+            "us"
+        ],
+        "categories": "utilities"
+    },
+    {
+        "domain": "fastmail.com",
+        "name": "Fastmail",
+        "mfa": "allowed",
+        "documentation": "https://www.fastmail.com/help/account/2fa.html",
+        "notes": "Setup requires SMS verification.",
+        "categories": "email"
+    },
+    {
+        "domain": "fiber.google.com",
+        "name": "Google Fiber",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "regions": [
+            "us"
+        ],
+        "categories": "utilities"
+    },
+    {
+        "domain": "fragdenstaat.de",
+        "name": "FragDenStaat",
+        "mfa": "allowed",
+        "documentation": "https://fragdenstaat.de/hilfe/ihr-konto-verwalten/zwei-faktor-login/",
+        "regions": [
+            "de"
+        ],
+        "categories": "government"
+    },
+    {
+        "domain": "facebook.com",
+        "name": "Facebook",
+        "additional-domains": [
+            "messenger.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://www.facebook.com/help/148233965247823",
+        "categories": "social"
+    },
+    {
+        "domain": "files.com",
+        "name": "Files.com",
+        "mfa": "allowed",
+        "documentation": "https://www.files.com/docs/features/twofactor-authentication-2fa",
+        "categories": "backup"
+    },
+    {
+        "domain": "fit.google.com",
+        "name": "Google Fit",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "categories": "health"
+    },
+    {
+        "domain": "onet.pl",
+        "name": "Onet",
+        "mfa": "allowed",
+        "documentation": "https://pomoc.poczta.onet.pl/baza-wiedzy/czym-jest-weryfikacja-dwuetapowa/",
+        "regions": [
+            "pl"
+        ],
+        "categories": "email"
+    },
+    {
+        "domain": "office.com",
+        "name": "Microsoft 365",
+        "additional-domains": [
+            "login.microsoftonline.com",
+            "office.microsoft.com",
+            "microsoft365.com",
+            "office365.com"
+        ],
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "other"
+    },
+    {
+        "domain": "onedrive.live.com",
+        "name": "OneDrive",
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "backup"
+    },
+    {
+        "domain": "opencollective.com",
+        "name": "Open Collective",
+        "mfa": "allowed",
+        "documentation": "https://docs.opencollective.com/help/product/two-factor-authentication",
+        "categories": "crowdfunding"
+    },
+    {
+        "domain": "osu.edu",
+        "name": "The Ohio State University",
+        "mfa": "allowed",
+        "documentation": "https://buckeyepass.osu.edu",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "otago.ac.nz",
+        "name": "University of Otago",
+        "mfa": "allowed",
+        "documentation": "https://otago.custhelp.com/app/answers/detail/a_id/3073",
+        "notes": "Security key MFA is only available to staff.",
+        "regions": [
+            "nz"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "o2.pl",
+        "name": "o2",
+        "mfa": "allowed",
+        "documentation": "https://pomoc.o2.pl/1login/jak-wlaczyc-i-wylaczyc-logowanie-dwustopniowe",
+        "regions": [
+            "pl"
+        ],
+        "categories": "email"
+    },
+    {
+        "domain": "oregonstate.edu",
+        "name": "Oregon State University",
+        "mfa": "allowed",
+        "documentation": "https://oregonstate.teamdynamix.com/TDClient/1935/Portal/KB/?CategoryID=8235",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "outlook.com",
+        "name": "Outlook.com",
+        "additional-domains": [
+            "outlook.live.com",
+            "hotmail.com"
+        ],
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "email"
+    },
+    {
+        "domain": "onelogin.com",
+        "name": "OneLogin",
+        "mfa": "allowed",
+        "documentation": "https://support.onelogin.com/kb/4266569",
+        "categories": "identity"
+    },
+    {
+        "domain": "okta.com",
+        "name": "Okta",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://help.okta.com/en-us/content/topics/security/mfa/mfa-factors.htm",
+        "notes": "Passkeys can only be set up on an Android, iOS or macOS device.",
+        "categories": "identity"
+    },
+    {
+        "domain": "ovh.com",
+        "name": "OVH",
+        "mfa": "allowed",
+        "documentation": "https://docs.ovh.com/gb/en/customer/secure-account-with-2FA/",
+        "categories": [
+            "hosting",
+            "domains"
+        ]
+    },
+    {
+        "domain": "hey.com",
+        "name": "HEY",
+        "mfa": "allowed",
+        "documentation": "https://hey.com/security/",
+        "categories": "email"
+    },
+    {
+        "domain": "hmc.edu",
+        "name": "Harvey Mudd College",
+        "mfa": "allowed",
+        "documentation": "https://www.hmc.edu/cis/duo-two-factor-authentication/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "heroku.com",
+        "name": "Heroku",
+        "mfa": "allowed",
+        "documentation": "https://devcenter.heroku.com/articles/multi-factor-authentication",
+        "recovery": "https://devcenter.heroku.com/articles/recovery-codes",
+        "categories": "cloud"
+    },
+    {
+        "domain": "mail.sapo.pt",
+        "name": "SAPO Mail",
+        "mfa": "allowed",
+        "documentation": "https://ajuda.sapo.pt/id-67553",
+        "regions": [
+            "pt"
+        ],
+        "categories": "email"
+    },
+    {
+        "domain": "mail.yahoo.com",
+        "name": "Yahoo Mail",
+        "mfa": "allowed",
+        "documentation": "https://help.yahoo.com/kb/SLN5013.html",
+        "categories": "email"
+    },
+    {
+        "domain": "msu.edu",
+        "name": "Michigan State University",
+        "mfa": "allowed",
+        "documentation": "https://secureit.msu.edu/multi-factor/index.html",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "mines.edu",
+        "name": "Colorado School of Mines",
+        "mfa": "allowed",
+        "documentation": "https://its.mines.edu/mfa/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "minecraft.net",
+        "name": "Minecraft",
+        "additional-domains": [
+            "mojang.com"
+        ],
+        "img": "minecraft.net.png",
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "gaming"
+    },
+    {
+        "domain": "myfritz.net",
+        "name": "MyFRITZ!Net",
+        "mfa": "allowed",
+        "documentation": "https://en.avm.de/myfritz/faqs/security-tips-for-using-myfritz/",
+        "categories": "remote"
+    },
+    {
+        "domain": "mail.ru",
+        "name": "Mail.Ru",
+        "mfa": "allowed",
+        "documentation": "https://help.mail.ru/mail/settings/2fa",
+        "regions": [
+            "ru"
+        ],
+        "categories": "email"
+    },
+    {
+        "domain": "mail.de",
+        "name": "mail.de",
+        "mfa": "allowed",
+        "documentation": "https://mail.de/hilfe/u2f-authenticator",
+        "categories": "email"
+    },
+    {
+        "domain": "morganstanley.com",
+        "name": "Morgan Stanley",
+        "mfa": "allowed",
+        "documentation": "https://www.morganstanley.com/what-we-do/wealth-management/online-security/authentication",
+        "regions": [
+            "us"
+        ],
+        "categories": [
+            "investing",
+            "banking"
+        ]
+    },
+    {
+        "domain": "mercury.com",
+        "name": "Mercury",
+        "mfa": "allowed",
+        "documentation": "https://help.mercury.com/t/m1h3d07",
+        "regions": [
+            "us"
+        ],
+        "categories": "banking"
+    },
+    {
+        "domain": "monash.edu",
+        "name": "Monash University",
+        "additional-domains": [
+            "monash.edu.my"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://www.monash.edu/esolutions/accounts-passwords/multi-factor-authentication",
+        "img": "monash.edu.png",
+        "regions": [
+            "au"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "muni.cz",
+        "name": "Masaryk University",
+        "mfa": "allowed",
+        "documentation": "https://it.muni.cz/en/services/jednotne-prihlaseni-na-muni/navody/how-to-set-up-multi-factor-authentication",
+        "recovery": "https://it.muni.cz/en/forms/report-a-problem-with-single-sign-on",
+        "regions": [
+            "cz"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "miamioh.edu",
+        "name": "Miami University",
+        "mfa": "allowed",
+        "documentation": "https://www.miamioh.edu/it-services/special-groups/info-security/duo/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "mail.aol.com",
+        "name": "Aol Mail",
+        "mfa": "allowed",
+        "documentation": "https://help.aol.com/articles/2-step-verification-stronger-than-your-password-alone",
+        "categories": "email"
+    },
+    {
+        "domain": "mail.google.com",
+        "name": "Gmail",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "categories": "email"
+    },
+    {
+        "domain": "mongodb.com",
+        "name": "MongoDB",
+        "mfa": "allowed",
+        "documentation": "https://docs.atlas.mongodb.com/security-multi-factor-authentication/",
+        "categories": "developer"
+    },
+    {
+        "domain": "meet.google.com",
+        "name": "Google Meet",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "categories": "communication"
+    },
+    {
+        "domain": "jumpcloud.com",
+        "name": "JumpCloud",
+        "mfa": "allowed",
+        "documentation": "https://jumpcloud.com/support/set-up-authenticator-app-for-user-account",
+        "recovery": "https://jumpcloud.com/support/reset-mfa-in-user-portal",
+        "categories": "identity"
+    },
+    {
+        "domain": "joinmastodon.org",
+        "name": "Mastodon",
+        "additional-domains": [
+            "mastodon.social"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://github.com/McKael/mastodon-documentation/blob/master/Using-Mastodon/2FA.md",
+        "notes": "TOTP must be enabled to use a security key.",
+        "categories": "social"
+    },
+    {
+        "domain": "cloudflare.com",
+        "name": "Cloudflare",
+        "mfa": "allowed",
+        "documentation": "https://support.cloudflare.com/hc/en-us/articles/200167906",
+        "categories": [
+            "security",
+            "developer",
+            "domains"
+        ]
+    },
+    {
+        "domain": "calpoly.edu",
+        "name": "Cal Poly",
+        "mfa": "allowed",
+        "documentation": "https://calpoly.atlassian.net/wiki/spaces/CPKB/pages/3539066",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "classlink.com",
+        "name": "ClassLink",
+        "mfa": "allowed",
+        "documentation": "https://www.classlink.com/solutions/multi-factor-authentication",
+        "categories": "education"
+    },
+    {
+        "domain": "chat.google.com",
+        "name": "Google Chat",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "categories": "communication"
+    },
+    {
+        "domain": "clemson.edu",
+        "name": "Clemson University",
+        "mfa": "allowed",
+        "documentation": "https://2fa.app.clemson.edu/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "compose.com",
+        "name": "Compose",
+        "mfa": "allowed",
+        "documentation": "https://www.compose.com/articles/introducing-fido-universal-2nd-factor-authentication/",
+        "categories": "developer"
+    },
+    {
+        "domain": "cloud66.com",
+        "name": "Cloud 66",
+        "mfa": "allowed",
+        "documentation": "https://help.cloud66.com/node/account/two-factor-authentication.html",
+        "categories": "cloud"
+    },
+    {
+        "domain": "cloud.ibm.com",
+        "name": "IBM Cloud",
+        "mfa": "allowed",
+        "documentation": "https://cloud.ibm.com/docs/account?topic=account-enablemfa",
+        "categories": "cloud"
+    },
+    {
+        "domain": "cloud.oracle.com",
+        "name": "Oracle Cloud Infrastructure",
+        "additional-domains": [
+            "oraclecloud.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://docs.oracle.com/en/cloud/paas/identity-cloud/uaids/configure-authentication-factors.html",
+        "categories": "cloud"
+    },
+    {
+        "domain": "cornell.edu",
+        "name": "Cornell University",
+        "mfa": "allowed",
+        "documentation": "https://it.cornell.edu/twostep",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "coinbase.com",
+        "name": "Coinbase",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://help.coinbase.com/en/coinbase/getting-started/verify-my-account/how-do-i-set-up-2-factor-authentication",
+        "recovery": "https://help.coinbase.com/en/coinbase/managing-my-account/get-back-into-my-account/2-step-verification-troubleshooting",
+        "categories": "cryptocurrencies"
+    },
+    {
+        "domain": "cloud.google.com",
+        "name": "Google Cloud Platform",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "categories": "cloud"
+    },
+    {
+        "domain": "codeberg.org",
+        "name": "Codeberg",
+        "mfa": "allowed",
+        "documentation": "https://docs.codeberg.org/security/2fa/",
+        "categories": "developer"
+    },
+    {
+        "domain": "crowdsupply.com",
+        "name": "Crowd Supply",
+        "mfa": "allowed",
+        "categories": [
+            "crowdfunding",
+            "retail"
+        ]
+    },
+    {
+        "domain": "cmu.edu",
+        "name": "Carnegie Mellon University",
+        "mfa": "allowed",
+        "documentation": "https://www.cmu.edu/computing/services/security/identity-access/authentication/how-to/use2fa-weblogin.html",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "cpp.edu",
+        "name": "Cal Poly Pomona",
+        "mfa": "allowed",
+        "documentation": "https://cpp.service-now.com/ehelp?id=kb_article&sys_id=ed4dcbc3dbeb1f449bba68461b96198e",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "deakin.edu.au",
+        "name": "Deakin University",
+        "mfa": "allowed",
+        "documentation": "https://help.deakin.edu.au/ithelp?id=kb_article&sysparm_article=KB0014662",
+        "regions": [
+            "au"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "doppler.com",
+        "name": "Doppler",
+        "mfa": "allowed",
+        "documentation": "https://docs.doppler.com/docs/security-fact-sheet#user-authentication",
+        "categories": "developer"
+    },
+    {
+        "domain": "dropbox.com",
+        "name": "Dropbox",
+        "additional-domains": [
+            "getdropbox.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://help.dropbox.com/security/enable-two-step-verification",
+        "recovery": "https://help.dropbox.com/accounts-billing/security/issues-two-step-verification",
+        "notes": "Software or SMS 2FA must be enabled for passkeys to be registered.",
+        "categories": "backup"
+    },
+    {
+        "domain": "dnsimple.com",
+        "name": "DNSimple",
+        "mfa": "allowed",
+        "documentation": "https://support.dnsimple.com/articles/two-factor-authentication/",
+        "categories": "domains"
+    },
+    {
+        "domain": "dmarcian.com",
+        "name": "dmarcian",
+        "mfa": "allowed",
+        "documentation": "https://dmarcian.com/secure-dmarcian-2fa/",
+        "categories": "security"
+    },
+    {
+        "domain": "docusign.com",
+        "name": "DocuSign",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://support.docusign.com/s/document-item?bundleId=jux1643235969954&topicId=niw1651694673085.html",
+        "categories": "legal"
+    },
+    {
+        "domain": "dynadot.com",
+        "name": "Dynadot",
+        "mfa": "allowed",
+        "documentation": "https://www.dynadot.com/community/help/question/2-step-verification",
+        "categories": "domains"
+    },
+    {
+        "domain": "delinea.com",
+        "name": "Delinea",
+        "mfa": "allowed",
+        "documentation": "https://docs.delinea.com/ss/10.8.0/authentication/two-factor-authentication",
+        "categories": "identity"
+    },
+    {
+        "domain": "drive.google.com",
+        "name": "Google Drive",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "recovery": "https://support.google.com/accounts/answer/185834",
+        "categories": "backup"
+    },
+    {
+        "domain": "va.gov",
+        "name": "US Veteran Affairs",
+        "mfa": "allowed",
+        "documentation": "https://www.va.gov/resources/verifying-your-identity-on-vagov",
+        "regions": [
+            "us"
+        ],
+        "categories": "government"
+    },
+    {
+        "domain": "vivaldi.com",
+        "name": "Vivaldi",
+        "additional-domains": [
+            "vivaldi.net"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://help.vivaldi.com/services/account/two-factor-authentication/",
+        "categories": "other"
+    },
+    {
+        "domain": "visma.com",
+        "name": "Visma",
+        "additional-domains": [
+            "dinero.dk",
+            "easycruit.com",
+            "visma.fi",
+            "visma.net",
+            "visma.no",
+            "visma.se"
+        ],
+        "passwordless": "allowed",
+        "categories": "finance"
+    },
+    {
+        "domain": "visualstudio.microsoft.com",
+        "name": "Visual Studio Codespaces",
+        "passwordless": "allowed",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "developer"
+    },
+    {
+        "domain": "vse.cz",
+        "name": "Vysok\u00e1 \u0161kola ekonomick\u00e1 v Praze",
+        "mfa": "allowed",
+        "documentation": "https://ci.vse.cz/english/support/procedures/multi-factor-authentication-in-microsoft-365/",
+        "regions": [
+            "cz"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "vcu.edu",
+        "name": "Virginia Commonwealth University",
+        "mfa": "allowed",
+        "documentation": "https://ts.vcu.edu/askit/essential-computing/information-security/2factor/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "veracode.com",
+        "name": "Veracode",
+        "mfa": "allowed",
+        "documentation": "https://help.veracode.com/r/t_configure_mfa",
+        "categories": [
+            "developer",
+            "security"
+        ]
+    },
+    {
+        "domain": "vanguard.com",
+        "name": "Vanguard",
+        "mfa": "allowed",
+        "documentation": "https://investor.vanguard.com/security/security-keys",
+        "notes": "Security key support requires a phone number as a backup.",
+        "img": "vanguard.svg",
+        "regions": [
+            "-gb",
+            "-au"
+        ],
+        "categories": "investing"
+    },
+    {
+        "domain": "xbox.com",
+        "name": "Xbox Live",
+        "passwordless": "allowed",
+        "url": "https://www.xbox.com/live",
+        "documentation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless",
+        "categories": "gaming"
+    },
+    {
+        "domain": "erau.edu",
+        "name": "Embry-Riddle Aeronautical University",
+        "mfa": "allowed",
+        "categories": "universities"
+    },
+    {
+        "domain": "ebay.com",
+        "name": "eBay",
+        "additional-domains": [
+            "ebay.com.au",
+            "ebay.at",
+            "ebay.be",
+            "ebay.ca",
+            "ebay.cn",
+            "ebay.fr",
+            "ebay.de",
+            "ebay.com.hk",
+            "ebay.in",
+            "ebay.ie",
+            "ebay.it",
+            "ebay.co.jp",
+            "gmarket.co.kr",
+            "ebay.com.my",
+            "ebay.nl",
+            "ebay.ph",
+            "ebay.pl",
+            "ebay.com.sg",
+            "ebay.es",
+            "ebay.ch",
+            "ebay.com.tw",
+            "ebay.co.uk"
+        ],
+        "img": "ebay.svg",
+        "passwordless": "allowed",
+        "documentation": "https://www.ebay.com/help/account/signing-account/signing-account?id=4189#section2",
+        "categories": "retail",
+        "regions": [
+            "-cu",
+            "-kp",
+            "-ir",
+            "-sy",
+            "-ve",
+            "-ru",
+            "-tr"
+        ]
+    },
+    {
+        "domain": "epayslips.co.uk",
+        "name": "Epayslips",
+        "mfa": "allowed",
+        "regions": [
+            "gb"
+        ],
+        "categories": "finance"
+    },
+    {
+        "domain": "bitfinex.com",
+        "name": "Bitfinex",
+        "mfa": "allowed",
+        "documentation": "https://support.bitfinex.com/hc/en-us/sections/900000097443",
+        "recovery": "https://support.bitfinex.com/hc/en-us/articles/360021325054",
+        "categories": "cryptocurrencies"
+    },
+    {
+        "domain": "bestbuy.com",
+        "name": "Best Buy [US]",
+        "passwordless": "allowed",
+        "categories": "retail",
+        "regions": [
+            "us"
+        ]
+    },
+    {
+        "domain": "bitbucket.org",
+        "name": "Bitbucket",
+        "mfa": "allowed",
+        "documentation": "https://support.atlassian.com/bitbucket-cloud/docs/enable-two-step-verification/",
+        "notes": "An SSH key must be associated with your account to enable 2FA.",
+        "categories": "developer"
+    },
+    {
+        "domain": "byu.edu",
+        "name": "Brigham Young University",
+        "mfa": "allowed",
+        "documentation": "https://duo.byu.edu/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "bankofamerica.com",
+        "name": "Bank of America",
+        "additional-domains": [
+            "bofa.com",
+            "mbna.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://www.bankofamerica.com/security-center/online-banking/",
+        "regions": [
+            "us"
+        ],
+        "categories": "banking"
+    },
+    {
+        "domain": "berkeley.edu",
+        "name": "University of California, Berkeley",
+        "mfa": "allowed",
+        "documentation": "https://calnetweb.berkeley.edu/calnet-2-step",
+        "img": "berkeley.edu.png",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "braintreepayments.com",
+        "name": "Braintree",
+        "mfa": "allowed",
+        "documentation": "https://articles.braintreepayments.com/reference/security/two-factor-authentication",
+        "categories": "payments"
+    },
+    {
+        "domain": "bu.edu",
+        "name": "Boston University",
+        "mfa": "allowed",
+        "documentation": "https://www.bu.edu/tech/support/duo/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "bitwarden.com",
+        "name": "Bitwarden",
+        "mfa": "allowed",
+        "documentation": "https://bitwarden.com/help/setup-two-step-login-fido/",
+        "categories": "identity"
+    },
+    {
+        "domain": "basecamp.com",
+        "name": "Basecamp",
+        "mfa": "allowed",
+        "documentation": "https://3.basecamp-help.com/article/443--",
+        "categories": "communication"
+    },
+    {
+        "domain": "binance.com",
+        "name": "Binance",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://www.binance.com/en/support/faq/c-1?navId=1#11",
+        "categories": "cryptocurrencies"
+    },
+    {
+        "domain": "bitgo.com",
+        "name": "BitGo",
+        "mfa": "allowed",
+        "categories": "cryptocurrencies"
+    },
+    {
+        "domain": "keepersecurity.com",
+        "name": "Keeper",
+        "mfa": "allowed",
+        "documentation": "https://www.keepersecurity.com/security#twoFactor",
+        "categories": "identity"
+    },
+    {
+        "domain": "kraken.com",
+        "name": "Kraken",
+        "mfa": "allowed",
+        "documentation": "https://support.kraken.com/hc/en-us/articles/360000426923",
+        "categories": "cryptocurrencies"
+    },
+    {
+        "domain": "login.gov",
+        "name": "login.gov",
+        "mfa": "allowed",
+        "documentation": "https://www.login.gov/help/creating-an-account/two-factor-authentication/",
+        "regions": [
+            "us"
+        ],
+        "categories": "government"
+    },
+    {
+        "domain": "lastpass.com",
+        "name": "LastPass",
+        "mfa": "allowed",
+        "documentation": "https://support.logmeininc.com/lastpass/help/enable-multifactor-authentication-lp010002",
+        "recovery": "https://support.logmeininc.com/lastpass/help/i-lost-my-phone-ndash-how-do-i-disable-multifactor-authentication-for-lastpass",
+        "notes": "Security key MFA is available through Duo integration.",
+        "categories": "identity"
+    },
+    {
+        "domain": "youtube.com",
+        "name": "YouTube",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "categories": "entertainment"
+    },
+    {
+        "domain": "yorku.ca",
+        "name": "York University",
+        "mfa": "allowed",
+        "documentation": "https://infosec.yorku.ca/2FA",
+        "regions": [
+            "ca"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "yahoo.com",
+        "name": "Yahoo!",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://help.yahoo.com/kb/account/--sln35380.html",
+        "notes": "Linked phone number required for MFA.",
+        "categories": "email",
+        "regions": [
+            "-jp"
+        ]
+    },
+    {
+        "domain": "yahoo.co.jp",
+        "name": "Yahoo! [JP]",
+        "passwordless": "allowed",
+        "img": "yahoo.com.svg",
+        "categories": "email",
+        "regions": [
+            "jp"
+        ]
+    },
+    {
+        "domain": "porkbun.com",
+        "name": "Porkbun",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://kb.porkbun.com/article/19--",
+        "categories": "domains"
+    },
+    {
+        "domain": "pypi.org",
+        "name": "PyPI",
+        "mfa": "allowed",
+        "documentation": "https://pypi.org/help/#twofa",
+        "categories": "developer"
+    },
+    {
+        "domain": "publishers.basicattentiontoken.org",
+        "name": "Basic Attention Token",
+        "mfa": "allowed",
+        "documentation": "https://support.brave.com/hc/en-us/articles/360021649491",
+        "categories": "other"
+    },
+    {
+        "domain": "paypal.com",
+        "name": "PayPal",
+        "additional-domains": [
+            "paypal-search.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://www.paypal.com/us/smarthelp/article/faq4057",
+        "categories": "payments"
+    },
+    {
+        "domain": "pay.google.com",
+        "name": "Google Pay",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "categories": "payments"
+    },
+    {
+        "domain": "play.eslgaming.com",
+        "name": "ESL Play",
+        "mfa": "allowed",
+        "categories": "gaming"
+    },
+    {
+        "domain": "probit.com",
+        "name": "ProBit",
+        "mfa": "allowed",
+        "documentation": "https://www.probit.com/en-us/hc/360018127111",
+        "categories": "cryptocurrencies"
+    },
+    {
+        "domain": "play.google.com",
+        "name": "Google Play",
+        "mfa": "allowed",
+        "passwordless": "allowed",
+        "documentation": "https://safety.google/authentication/passkey/",
+        "categories": "entertainment"
+    },
+    {
+        "domain": "perimeter81.com",
+        "name": "Perimeter 81",
+        "mfa": "allowed",
+        "documentation": "https://support.perimeter81.com/docs/two-factor-authentication",
+        "notes": "Security key MFA is available through Duo integration.",
+        "categories": "security"
+    },
+    {
+        "domain": "proton.me",
+        "name": "Proton",
+        "additional-domains": [
+            "pm.me",
+            "protonmail.com",
+            "protonvpn.com"
+        ],
+        "mfa": "allowed",
+        "documentation": "https://proton.me/support/two-factor-authentication-2fa",
+        "notes": "TOTP must be enabled to use a security key.",
+        "categories": [
+            "email",
+            "backup",
+            "vpn",
+            "identity"
+        ]
+    },
+    {
+        "domain": "psu.edu",
+        "name": "Pennsylvania State University",
+        "mfa": "allowed",
+        "documentation": "https://get2fa.psu.edu",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "weclapp.com",
+        "name": "Weclapp",
+        "mfa": "allowed",
+        "documentation": "https://doc.weclapp.com/en/documentation/dein-start-mit-weclapp/2-my-weclapp-personal-master-and-contact-data/2-4-security/2-factor-authentication/",
+        "categories": "other"
+    },
+    {
+        "domain": "webgate.ec.europa.eu",
+        "name": "European Commission",
+        "mfa": "allowed",
+        "documentation": "https://webgate.ec.europa.eu/cas/manuals/EU_Login_Tutorial.pdf",
+        "regions": [
+            "at",
+            "be",
+            "bg",
+            "hr",
+            "cy",
+            "cz",
+            "dk",
+            "ee",
+            "fi",
+            "fr",
+            "de",
+            "gr",
+            "hu",
+            "ie",
+            "it",
+            "lv",
+            "lt",
+            "lu",
+            "mt",
+            "nl",
+            "pl",
+            "pt",
+            "ro",
+            "sk",
+            "si",
+            "es",
+            "se"
+        ],
+        "categories": "government"
+    },
+    {
+        "domain": "wisc.edu",
+        "name": "University of Wisconsin Madison",
+        "mfa": "allowed",
+        "documentation": "https://it.wisc.edu/services/duo-multi-factor-authentication-mfa/",
+        "regions": [
+            "us"
+        ],
+        "categories": "universities"
+    },
+    {
+        "domain": "wp.pl",
+        "name": "Wirtualna Polska",
+        "mfa": "allowed",
+        "documentation": "https://pomoc.wp.pl/1login/jak-wlaczyc-i-wylaczyc-logowanie-dwustopniowe",
+        "regions": [
+            "pl"
+        ],
+        "categories": "email"
+    },
+    {
+        "domain": "wefunder.com",
+        "name": "Wefunder",
+        "mfa": "allowed",
+        "documentation": "https://help.wefunder.com/en_US/multifactor-authentication",
+        "categories": "crowdfunding"
+    },
+    {
+        "domain": "wordpress.com",
+        "name": "WordPress.com",
+        "mfa": "allowed",
+        "documentation": "https://en.support.wordpress.com/security/two-step-authentication/",
+        "categories": "social"
+    },
+    {
+        "domain": "wikipedia.org",
+        "name": "Wikipedia",
+        "mfa": "allowed",
+        "documentation": "https://meta.wikimedia.org/wiki/Help:Two-factor_authentication",
+        "notes": "Currently limited to accounts with certain roles. See documentation for a full list.",
+        "categories": "other"
+    },
+    {
+        "domain": "woltlab.com",
+        "name": "WoltLab",
+        "mfa": "allowed",
+        "categories": "communication"
+    }
+]

@@ -1,0 +1,1130 @@
+[
+    {
+        "name": "Adobe",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "ADP",
+        "category": "Other",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Affirm",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Air New Zealand",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Albert Heijn",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Amazon",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Anki Forums",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Apple",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Arcalive",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Armstrong Bank",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Arpari",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "au",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Authgear",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Authsignal",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Bagou450",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Best Buy",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Beyond Identity",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Binance",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Bitwarden",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "BMW",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Bolt",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Boursorama",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Bridgecrest",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Cape Cod 5",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Card Pointers",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Caremark",
+        "category": "Health & Wellness",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Carnival",
+        "category": "Travel & Leisure",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Chek",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Cloudflare",
+        "category": "Information Technology",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Cloze",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Coinbase",
+        "category": "Finance",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Corbado",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Credit Union of Texas",
+        "category": "Finance",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Crowdin",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "CustomerPing.AI",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "CVS",
+        "category": "Health & Wellness",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "CVS Specialty",
+        "category": "Health & Wellness",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "DataPacket",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Daylite",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "DeLonghi",
+        "category": "E-Commerce",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Descope",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Deutsche Bahn",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Devolutions",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Dinero",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Discord",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Discourse",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Docomo",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Documenso",
+        "category": "Productivity",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "DocuSign",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Dropbox",
+        "category": "Information Technology",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Duke University",
+        "category": "Education",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Duo Security",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "eBay",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "ESL",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Facebook",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Fairfax County, Virginia",
+        "category": "Government",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Finom",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "First Financial Bank",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Fleeps",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "FormX.ai",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Forward Email",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "FreePrints",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "FusionAuth",
+        "category": "Authentication Provider",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Gemini",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Github",
+        "category": "Information Technology",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Gitlab",
+        "category": "Information Technology",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Google",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "haeppie",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Hancock",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Hanko.io",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Hard Wax",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Hatena",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Home Assistant",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Home Depot",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Horizon Pics",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "iCloud",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Instacart",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Intastellar Accounts",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Kayak",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "KEMBA Financial Credit Union",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Klemn",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Kraken Pro",
+        "category": "Finance",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "L\u00c3\u00a4\u00c3\u00a4k\u00c3\u00a4ri.chat",
+        "category": "Health & Wellness",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "LGTM.lol",
+        "category": "Other",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Linear",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Link by Stripe",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Link3",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Linkedin",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "live.com",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Lnk.Bio",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Locker",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "LogitechG",
+        "category": "Information Technology",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Lowe's",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "LuxID",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Mangadex",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Marshmallow",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Mercari",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Microsoft",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Microsoft Entra",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Microsoft Entra ID",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "MINI",
+        "category": "Automotive",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Miniflux",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Mintbase Wallet",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Minter.io",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "MIXI M",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Money Forward ID",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Moneybird",
+        "category": "Finance",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "My Helsana (App Only)",
+        "category": "Health & Wellness",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "mySites.guru",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "NHS",
+        "category": "Health & Wellness",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "NinjaOne",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Nintendo",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "nulab",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Nvidia",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Okta",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "OKX",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "omg.lol",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Onedrive",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "OneLog",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "OnlyFans",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Outbrain",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Outlook Mail",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Passage",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Passkey",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Pastery",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "PayFit",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "PayPal",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Poloniex",
+        "category": "Finance",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Porkbun",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Proton",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Qapital",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "rad.dad",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Robinhood",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Roblox",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Salesforce",
+        "category": "Information Technology",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Samsung",
+        "category": "Information Technology",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "Scrooge Games",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Shakepay",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Shop Pay",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Shopify",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Simply.com",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "SiriusXM",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "So-net",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Sony",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Sony Playstation",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Spaceship",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Stall-Frei.de",
+        "category": "Travel & Leisure",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "State of Michigan",
+        "category": "Government",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Station-Drivers",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Stripe",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Stuudium",
+        "category": "Education",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "SumUp",
+        "category": "E-Commerce",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Switch edu-ID",
+        "category": "Education",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Synology",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Tailscale",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Target",
+        "category": "E-Commerce",
+        "signin": false,
+        "mfa": false
+    },
+    {
+        "name": "Telstra",
+        "category": "Other",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Tender",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "The Hendrix",
+        "category": "Real Estate",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Thunder",
+        "category": "Finance",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "TikTok",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "TOKYU",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Tripletex",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Trusona Authentication Cloud",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Trustworthy",
+        "category": "Health & Wellness",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Turnkey",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Tuta",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Uber",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Uninbox",
+        "category": "Other",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "United Southeast Federal Credit Union",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "usesarchbtw.lol",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Vault Vision",
+        "category": "Authentication Provider",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Vercel",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Virgin Media",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Visma",
+        "category": "Finance",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "VK",
+        "category": "Social Media",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Voura",
+        "category": "Finance",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "WebAuthn.io",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "WhatsApp (iOS and Android)",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "World of Hyatt",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "X / Twitter",
+        "category": "Social Media",
+        "signin": false,
+        "mfa": true
+    },
+    {
+        "name": "xenForo",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Yahoo!",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    },
+    {
+        "name": "Yahoo! Mail",
+        "category": "Other",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Yahoo! Japan",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Yandex",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Zitadel",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": false
+    },
+    {
+        "name": "Zoho",
+        "category": "Information Technology",
+        "signin": true,
+        "mfa": true
+    }
+]

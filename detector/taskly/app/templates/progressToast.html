@@ -1,0 +1,44 @@
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div class="toast" id="progressToast" data-bs-autohide="false">
+        <div class="toast-header">
+            <div class="spinner-grow spinner-grow-sm text-secondary me-2"></div>
+            <strong class="me-auto">Progress</strong>
+            <small><span id="openProgressTasksNumber">X</span>/<span id="totalProgressTasksNumber">Y</span></small>
+        </div>
+        <div class="toast-body">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" id="progressBar" style="width: 75%"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const progressToastBs = bootstrap.Toast.getOrCreateInstance(progressToast)
+
+    let openProgressTasks = 0
+    let totalProgressTasks = 0
+
+    const pushProgress = () => {
+        openProgressTasks += 1
+        totalProgressTasks += 1
+        refreshProgress()
+    }
+
+    const popProgress = () => {
+        if (totalProgressTasks) openProgressTasks -= 1
+        refreshProgress()
+    }
+
+    const refreshProgress = () => {
+        if (openProgressTasks == 0) {
+            totalProgressTasks = 0
+            progressToastBs.hide()
+        } else {
+            progressBar.style.width = `${((totalProgressTasks - openProgressTasks) / totalProgressTasks) * 100}%`
+            if (!progressToastBs.isShown()) progressToastBs.show()
+        }
+        openProgressTasksNumber.innerText = (totalProgressTasks - openProgressTasks)
+        totalProgressTasksNumber.innerText = totalProgressTasks
+    }
+</script>

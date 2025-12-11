@@ -1,0 +1,72 @@
+<div class="row">
+    <div class="col text-center">
+        <h1>Keys</h1>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <div class="action-toolbar">
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-key me-2"></i>Generate Key</span>
+                <input type="text" class="form-control" id="keysGenerateKeyNameInput" placeholder="Key name...">
+                <select class="form-select" id="keysGenerateKeyAlgSelect"></select>
+                <button class="btn btn-primary" id="keysGenerateKeyBtn">Generate</button>
+            </div>
+        </div>
+        <div class="action-toolbar toolbar-secondary">
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-pencil me-2"></i>Update Credential ID</span>
+                <input type="text" class="form-control" id="keysUpdateCredentialIdHexInput" placeholder="Hex">
+                <input type="text" class="form-control" id="keysUpdateCredentialIdB64urlInput" placeholder="B64URL">
+                <input type="text" class="form-control" id="keysUpdateCredentialIdB64Input" placeholder="B64">
+                <select class="form-select" id="keysUpdateCredentialIdSelect"></select>
+                <button class="btn btn-secondary" id="keysUpdateCredentialIdBtn">Update</button>
+            </div>
+        </div>
+        <div class="action-toolbar toolbar-danger">
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-trash me-2"></i>Delete Key</span>
+                <select class="form-select" id="keysDeleteKeyNameSelect"></select>
+                <button class="btn btn-danger" id="keysDeleteKeyBtn">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>Stored Keys</span>
+                <div>
+                    <button class="btn btn-sm btn-secondary" id="importKeysBtn">
+                        <i class="bi bi-upload"></i> Import JSON
+                    </button>
+                    <button class="btn btn-sm btn-secondary" id="exportKeysBtn">
+                        <i class="bi bi-download"></i> Export JSON
+                    </button>
+                    <button class="btn btn-sm btn-danger" id="clearKeysBtn">
+                        <i class="bi bi-trash"></i> Clear All
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-hover mb-0 keys-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Credential ID</th>
+                            <th scope="col">Public Key</th>
+                            <th scope="col">Private Key</th>
+                        </tr>
+                    </thead>
+                    <tbody id="keysTable"></tbody>
+                </table>
+                <div id="keysEmptyMessage" class="text-center text-muted py-4" style="display: none;">
+                    No keys stored yet. Generate a key above to get started.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

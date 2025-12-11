@@ -1,0 +1,3405 @@
+[
+    [
+        "name mismatch",
+        {
+            "name": "NuGet",
+            "domain": "nuget.org",
+            "alt": [
+                "Microsoft To-Do",
+                "Skype",
+                "Microsoft Azure",
+                "OneDrive",
+                "Office 365",
+                "Outlook.com",
+                "Visual Studio Codespaces",
+                "Xbox Live"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "nuget.org",
+                        "name": "NuGet",
+                        "url": "https://www.nuget.org",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "todo.microsoft.com",
+                        "name": "Microsoft To-Do",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "task"
+                        ]
+                    },
+                    {
+                        "domain": "skype.com",
+                        "name": "Skype",
+                        "url": "https://www.skype.com",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "Must be associated with a Microsoft Account.",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "azure.microsoft.com",
+                        "name": "Microsoft Azure",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "onedrive.live.com",
+                        "name": "OneDrive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "office.microsoft.com",
+                        "name": "Office 365",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
+                        "keywords": [
+                            "other"
+                        ]
+                    },
+                    {
+                        "domain": "outlook.com",
+                        "name": "Outlook.com",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "visualstudio.microsoft.com",
+                        "name": "Visual Studio Codespaces",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "xbox.com",
+                        "name": "Xbox Live",
+                        "url": "https://www.xbox.com/live",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "call",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "gaming"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "NuGet",
+            "domain": "nuget.org",
+            "alt": [
+                "Microsoft To-Do",
+                "Skype",
+                "Microsoft Azure",
+                "OneDrive",
+                "Office 365",
+                "Outlook.com",
+                "Visual Studio Codespaces",
+                "Xbox Live"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "nuget.org",
+                        "name": "NuGet",
+                        "url": "https://www.nuget.org",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "todo.microsoft.com",
+                        "name": "Microsoft To-Do",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "task"
+                        ]
+                    },
+                    {
+                        "domain": "skype.com",
+                        "name": "Skype",
+                        "url": "https://www.skype.com",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "Must be associated with a Microsoft Account.",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "azure.microsoft.com",
+                        "name": "Microsoft Azure",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "onedrive.live.com",
+                        "name": "OneDrive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "office.microsoft.com",
+                        "name": "Office 365",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
+                        "keywords": [
+                            "other"
+                        ]
+                    },
+                    {
+                        "domain": "outlook.com",
+                        "name": "Outlook.com",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "visualstudio.microsoft.com",
+                        "name": "Visual Studio Codespaces",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "xbox.com",
+                        "name": "Xbox Live",
+                        "url": "https://www.xbox.com/live",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "call",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "gaming"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "NuGet",
+            "domain": "nuget.org",
+            "alt": [
+                "Microsoft To-Do",
+                "Skype",
+                "Microsoft Azure",
+                "OneDrive",
+                "Office 365",
+                "Outlook.com",
+                "Visual Studio Codespaces",
+                "Xbox Live"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "nuget.org",
+                        "name": "NuGet",
+                        "url": "https://www.nuget.org",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "todo.microsoft.com",
+                        "name": "Microsoft To-Do",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "task"
+                        ]
+                    },
+                    {
+                        "domain": "skype.com",
+                        "name": "Skype",
+                        "url": "https://www.skype.com",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "Must be associated with a Microsoft Account.",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "azure.microsoft.com",
+                        "name": "Microsoft Azure",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "onedrive.live.com",
+                        "name": "OneDrive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "office.microsoft.com",
+                        "name": "Office 365",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
+                        "keywords": [
+                            "other"
+                        ]
+                    },
+                    {
+                        "domain": "outlook.com",
+                        "name": "Outlook.com",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "visualstudio.microsoft.com",
+                        "name": "Visual Studio Codespaces",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "xbox.com",
+                        "name": "Xbox Live",
+                        "url": "https://www.xbox.com/live",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "call",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "gaming"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "NuGet",
+            "domain": "nuget.org",
+            "alt": [
+                "Microsoft To-Do",
+                "Skype",
+                "Microsoft Azure",
+                "OneDrive",
+                "Office 365",
+                "Outlook.com",
+                "Visual Studio Codespaces",
+                "Xbox Live"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "nuget.org",
+                        "name": "NuGet",
+                        "url": "https://www.nuget.org",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "todo.microsoft.com",
+                        "name": "Microsoft To-Do",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "task"
+                        ]
+                    },
+                    {
+                        "domain": "skype.com",
+                        "name": "Skype",
+                        "url": "https://www.skype.com",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "Must be associated with a Microsoft Account.",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "azure.microsoft.com",
+                        "name": "Microsoft Azure",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "onedrive.live.com",
+                        "name": "OneDrive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "office.microsoft.com",
+                        "name": "Office 365",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
+                        "keywords": [
+                            "other"
+                        ]
+                    },
+                    {
+                        "domain": "outlook.com",
+                        "name": "Outlook.com",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "visualstudio.microsoft.com",
+                        "name": "Visual Studio Codespaces",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "xbox.com",
+                        "name": "Xbox Live",
+                        "url": "https://www.xbox.com/live",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "call",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "gaming"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "NuGet",
+            "domain": "nuget.org",
+            "alt": [
+                "Microsoft To-Do",
+                "Skype",
+                "Microsoft Azure",
+                "OneDrive",
+                "Office 365",
+                "Outlook.com",
+                "Visual Studio Codespaces",
+                "Xbox Live"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "nuget.org",
+                        "name": "NuGet",
+                        "url": "https://www.nuget.org",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "todo.microsoft.com",
+                        "name": "Microsoft To-Do",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "task"
+                        ]
+                    },
+                    {
+                        "domain": "skype.com",
+                        "name": "Skype",
+                        "url": "https://www.skype.com",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "Must be associated with a Microsoft Account.",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "azure.microsoft.com",
+                        "name": "Microsoft Azure",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "onedrive.live.com",
+                        "name": "OneDrive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "office.microsoft.com",
+                        "name": "Office 365",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
+                        "keywords": [
+                            "other"
+                        ]
+                    },
+                    {
+                        "domain": "outlook.com",
+                        "name": "Outlook.com",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "visualstudio.microsoft.com",
+                        "name": "Visual Studio Codespaces",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "xbox.com",
+                        "name": "Xbox Live",
+                        "url": "https://www.xbox.com/live",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "call",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "gaming"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "NuGet",
+            "domain": "nuget.org",
+            "alt": [
+                "Microsoft To-Do",
+                "Skype",
+                "Microsoft Azure",
+                "OneDrive",
+                "Office 365",
+                "Outlook.com",
+                "Visual Studio Codespaces",
+                "Xbox Live"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "nuget.org",
+                        "name": "NuGet",
+                        "url": "https://www.nuget.org",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "todo.microsoft.com",
+                        "name": "Microsoft To-Do",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "task"
+                        ]
+                    },
+                    {
+                        "domain": "skype.com",
+                        "name": "Skype",
+                        "url": "https://www.skype.com",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "Must be associated with a Microsoft Account.",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "azure.microsoft.com",
+                        "name": "Microsoft Azure",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "onedrive.live.com",
+                        "name": "OneDrive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "office.microsoft.com",
+                        "name": "Office 365",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
+                        "keywords": [
+                            "other"
+                        ]
+                    },
+                    {
+                        "domain": "outlook.com",
+                        "name": "Outlook.com",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "visualstudio.microsoft.com",
+                        "name": "Visual Studio Codespaces",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "xbox.com",
+                        "name": "Xbox Live",
+                        "url": "https://www.xbox.com/live",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "call",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "gaming"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Yahoo Mail",
+            "domain": "yahoo.com",
+            "alt": [
+                "Aol Mail"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "mail.yahoo.com",
+                        "name": "Yahoo Mail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://help.yahoo.com/kb/SLN5013.html",
+                        "notes": "Linked phone number required for 2FA.",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "mail.aol.com",
+                        "name": "Aol Mail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "u2f"
+                        ],
+                        "documentation": "https://help.aol.com/articles/2-step-verification-stronger-than-your-password-alone",
+                        "keywords": [
+                            "email"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "NuGet",
+            "domain": "nuget.org",
+            "alt": [
+                "Microsoft To-Do",
+                "Skype",
+                "Microsoft Azure",
+                "OneDrive",
+                "Office 365",
+                "Outlook.com",
+                "Visual Studio Codespaces",
+                "Xbox Live"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "nuget.org",
+                        "name": "NuGet",
+                        "url": "https://www.nuget.org",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "todo.microsoft.com",
+                        "name": "Microsoft To-Do",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "task"
+                        ]
+                    },
+                    {
+                        "domain": "skype.com",
+                        "name": "Skype",
+                        "url": "https://www.skype.com",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "Must be associated with a Microsoft Account.",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "azure.microsoft.com",
+                        "name": "Microsoft Azure",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "onedrive.live.com",
+                        "name": "OneDrive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "office.microsoft.com",
+                        "name": "Office 365",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
+                        "keywords": [
+                            "other"
+                        ]
+                    },
+                    {
+                        "domain": "outlook.com",
+                        "name": "Outlook.com",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "visualstudio.microsoft.com",
+                        "name": "Visual Studio Codespaces",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "xbox.com",
+                        "name": "Xbox Live",
+                        "url": "https://www.xbox.com/live",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "call",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "gaming"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "NuGet",
+            "domain": "nuget.org",
+            "alt": [
+                "Microsoft To-Do",
+                "Skype",
+                "Microsoft Azure",
+                "OneDrive",
+                "Office 365",
+                "Outlook.com",
+                "Visual Studio Codespaces",
+                "Xbox Live"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "nuget.org",
+                        "name": "NuGet",
+                        "url": "https://www.nuget.org",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "todo.microsoft.com",
+                        "name": "Microsoft To-Do",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "task"
+                        ]
+                    },
+                    {
+                        "domain": "skype.com",
+                        "name": "Skype",
+                        "url": "https://www.skype.com",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "Must be associated with a Microsoft Account.",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "azure.microsoft.com",
+                        "name": "Microsoft Azure",
+                        "tfa": [
+                            "sms",
+                            "custom-software",
+                            "totp",
+                            "u2f",
+                            "call"
+                        ],
+                        "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "onedrive.live.com",
+                        "name": "OneDrive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "office.microsoft.com",
+                        "name": "Office 365",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.office.com/en-US/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6",
+                        "keywords": [
+                            "other"
+                        ]
+                    },
+                    {
+                        "domain": "outlook.com",
+                        "name": "Outlook.com",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "visualstudio.microsoft.com",
+                        "name": "Visual Studio Codespaces",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "keywords": [
+                            "developer"
+                        ]
+                    },
+                    {
+                        "domain": "xbox.com",
+                        "name": "Xbox Live",
+                        "url": "https://www.xbox.com/live",
+                        "tfa": [
+                            "sms",
+                            "email",
+                            "custom-software",
+                            "call",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://support.microsoft.com/en-us/help/12408/",
+                        "notes": "2FA phone calls may not be available in all regions",
+                        "keywords": [
+                            "gaming"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ],
+    [
+        "name mismatch",
+        {
+            "name": "Google Fi",
+            "domain": "google.com",
+            "alt": [
+                "Google Fiber",
+                "Google Fit",
+                "Hangouts",
+                "Gmail",
+                "Google Cloud Platform",
+                "Google Domains",
+                "Google Drive",
+                "YouTube",
+                "Google Pay",
+                "Google Play"
+            ],
+            "signin": null,
+            "mfa": true,
+            "directories": {
+                "2fa.directory": [
+                    {
+                        "domain": "fi.google.com",
+                        "name": "Google Fi",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fiber.google.com",
+                        "name": "Google Fiber",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "utilities"
+                        ],
+                        "regions": [
+                            "us"
+                        ]
+                    },
+                    {
+                        "domain": "fit.google.com",
+                        "name": "Google Fit",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "health"
+                        ]
+                    },
+                    {
+                        "domain": "hangouts.google.com",
+                        "name": "Hangouts",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "communication"
+                        ]
+                    },
+                    {
+                        "domain": "mail.google.com",
+                        "name": "Gmail",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "email"
+                        ]
+                    },
+                    {
+                        "domain": "cloud.google.com",
+                        "name": "Google Cloud Platform",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "cloud"
+                        ]
+                    },
+                    {
+                        "domain": "domains.google.com",
+                        "name": "Google Domains",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "domains"
+                        ]
+                    },
+                    {
+                        "domain": "drive.google.com",
+                        "name": "Google Drive",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "backup"
+                        ]
+                    },
+                    {
+                        "domain": "youtube.com",
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    },
+                    {
+                        "domain": "pay.google.com",
+                        "name": "Google Pay",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "custom-software",
+                            "totp",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "payments"
+                        ]
+                    },
+                    {
+                        "domain": "play.google.com",
+                        "name": "Google Play",
+                        "tfa": [
+                            "sms",
+                            "call",
+                            "totp",
+                            "custom-software",
+                            "u2f"
+                        ],
+                        "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                        "keywords": [
+                            "entertainment"
+                        ]
+                    }
+                ]
+            },
+            "wellknown": {}
+        }
+    ]
+]

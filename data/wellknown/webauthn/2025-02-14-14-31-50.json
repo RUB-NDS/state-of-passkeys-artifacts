@@ -1,0 +1,378 @@
+[
+    {
+        "origin": "https://www.kuda.com",
+        "data": {
+            "origins": [
+                "https://kuda.com",
+                "https://app-staging.kuda.com",
+                "https://app.kuda.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.cloud.yandex.ru",
+        "data": {
+            "origins": [
+                "https://auth.cloud.yandex.ru",
+                "https://auth.cloud.yandex.com",
+                "https://auth.yandex.cloud"
+            ]
+        }
+    },
+    {
+        "origin": "https://auth.yandex.cloud",
+        "data": {
+            "origins": [
+                "https://auth.cloud.yandex.ru",
+                "https://auth.cloud.yandex.com",
+                "https://auth.yandex.cloud"
+            ]
+        }
+    },
+    {
+        "origin": "https://superpay.supervin.dk",
+        "data": {
+            "origins": [
+                "https://superpay.supervin.dk",
+                "https://www.supervin.dk"
+            ]
+        }
+    },
+    {
+        "origin": "https://identity.internetcomputer.org",
+        "data": {
+            "origins": [
+                "https://identity.ic0.app",
+                "https://identity.internetcomputer.org",
+                "https://identity.icp0.io"
+            ]
+        }
+    },
+    {
+        "origin": "https://app.basewallet.co",
+        "data": {
+            "origins": [
+                "android:apk-key-hash:mn1QymQTD256aybtmgWh8qD8Wy1U2KXsSfz0Cv48914",
+                "https://app.basewallet.co",
+                "https://basewallet.co"
+            ]
+        }
+    },
+    {
+        "origin": "https://app.apexnetwork.co",
+        "data": {
+            "origins": [
+                "localhost",
+                "http://localhost",
+                "http://localhost:5173",
+                "http://127.0.0.1",
+                "http://127.0.0.1:5173",
+                "https://amanam.helloapex.dev",
+                "https://wtrader.apex-middleware.dev"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.neuronation.com",
+        "data": {
+            "origins": [
+                "https://sso.neuronation.com",
+                "https://sso.dev.neuronation.com",
+                "https://www.neuronation.com",
+                "https://www.dev.neuronation.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.kayak.com",
+        "data": {
+            "origins": [
+                "https://www.kayak.de",
+                "https://www.tw.kayak.com",
+                "https://www.kayak.com.hk",
+                "https://www.kayak.pt",
+                "https://www.kayak.dk",
+                "https://www.ua.kayak.com",
+                "https://www.kayak.qa",
+                "https://www.kayak.co.id",
+                "https://www.kayak.ie",
+                "https://www.ee.kayak.com",
+                "https://www.il.kayak.com",
+                "https://www.es.kayak.com",
+                "https://www.kayak.ae",
+                "https://www.kayak.co.in",
+                "https://www.za.kayak.com",
+                "https://www.kayak.com.mx",
+                "https://www.kayak.it",
+                "https://www.kayak.com.my",
+                "https://www.kayak.es",
+                "https://www.kayak.com.ar",
+                "https://www.at.kayak.com",
+                "https://www.kayak.com.au",
+                "https://www.vn.kayak.com",
+                "https://www.ro.kayak.com",
+                "https://www.kayak.nl",
+                "https://www.kayak.no",
+                "https://www.fi.kayak.com",
+                "https://www.be.kayak.com",
+                "https://www.kayak.co.jp",
+                "https://www.nz.kayak.com",
+                "https://www.kayak.fr",
+                "https://www.kayak.sa",
+                "https://www.kayak.com.br",
+                "https://www.kayak.se",
+                "https://www.kayak.sg",
+                "https://www.kayak.co.uk",
+                "https://www.ca.kayak.com",
+                "https://www.kayak.gl",
+                "https://www.kayak.ch",
+                "https://www.kayak.co.kr",
+                "https://www.kayak.cl",
+                "https://www.gr.kayak.com",
+                "https://www.cn.kayak.com",
+                "https://www.kayak.com.co",
+                "https://www.kayak.co.th",
+                "https://www.kayak.com.pe",
+                "https://www.cz.kayak.com",
+                "https://www.kayak.com.ph",
+                "https://www.kayak.pl",
+                "https://www.kayak.com.tr"
+            ]
+        }
+    },
+    {
+        "origin": "https://id.moneyforward.com",
+        "data": {
+            "origins": [
+                "https://id.moneyforward.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://dimo.org",
+        "data": {
+            "origins": [
+                "https://dimo.org",
+                "https://dimo.co",
+                "https://dimo.zone",
+                "https://dimo.xyz"
+            ]
+        }
+    },
+    {
+        "origin": "https://identity.ic0.app",
+        "data": {
+            "origins": [
+                "https://identity.ic0.app",
+                "https://identity.internetcomputer.org",
+                "https://identity.icp0.io"
+            ]
+        }
+    },
+    {
+        "origin": "https://login.dimo.org",
+        "data": {
+            "origins": [
+                "https://dimo.org",
+                "https://dimo.co",
+                "https://dimo.zone",
+                "https://dimo.xyz"
+            ]
+        }
+    },
+    {
+        "origin": "https://kcex.io",
+        "data": {
+            "origins": [
+                "https://www.kcex.io",
+                "https://www.kcex.cc",
+                "https://www.kcex.vip",
+                "https://www.kcexpre.com",
+                "https://www.kcextest.com",
+                "https://www.kcdva.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.kcex.com",
+        "data": {
+            "origins": [
+                "https://www.kcex.io",
+                "https://www.kcex.cc",
+                "https://www.kcex.vip",
+                "https://www.kcexpre.com",
+                "https://www.kcextest.com",
+                "https://www.kcdva.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://id.test.mfw.work",
+        "data": {
+            "origins": [
+                "https://id.test.mfw.work"
+            ]
+        }
+    },
+    {
+        "origin": "https://kuda.com",
+        "data": {
+            "origins": [
+                "https://kuda.com",
+                "https://app-staging.kuda.com",
+                "https://app.kuda.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://swissborg.com",
+        "data": {
+            "origins": [
+                "https://web.swissborg-stage.local"
+            ]
+        }
+    },
+    {
+        "origin": "https://wpengine.com",
+        "data": {
+            "origins": [
+                "https://my.wpengine.com",
+                "https://my.dev.wpesvc.net",
+                "https://my.stg.wpesvc.net"
+            ]
+        }
+    },
+    {
+        "origin": "http://www.kayak.com",
+        "data": {
+            "origins": [
+                "https://www.kayak.de",
+                "https://www.tw.kayak.com",
+                "https://www.kayak.com.hk",
+                "https://www.kayak.pt",
+                "https://www.kayak.dk",
+                "https://www.ua.kayak.com",
+                "https://www.kayak.qa",
+                "https://www.kayak.co.id",
+                "https://www.kayak.ie",
+                "https://www.ee.kayak.com",
+                "https://www.il.kayak.com",
+                "https://www.es.kayak.com",
+                "https://www.kayak.ae",
+                "https://www.kayak.co.in",
+                "https://www.za.kayak.com",
+                "https://www.kayak.com.mx",
+                "https://www.kayak.it",
+                "https://www.kayak.com.my",
+                "https://www.kayak.es",
+                "https://www.kayak.com.ar",
+                "https://www.at.kayak.com",
+                "https://www.kayak.com.au",
+                "https://www.vn.kayak.com",
+                "https://www.ro.kayak.com",
+                "https://www.kayak.nl",
+                "https://www.kayak.no",
+                "https://www.fi.kayak.com",
+                "https://www.be.kayak.com",
+                "https://www.kayak.co.jp",
+                "https://www.nz.kayak.com",
+                "https://www.kayak.fr",
+                "https://www.kayak.sa",
+                "https://www.kayak.com.br",
+                "https://www.kayak.se",
+                "https://www.kayak.sg",
+                "https://www.kayak.co.uk",
+                "https://www.ca.kayak.com",
+                "https://www.kayak.gl",
+                "https://www.kayak.ch",
+                "https://www.kayak.co.kr",
+                "https://www.kayak.cl",
+                "https://www.gr.kayak.com",
+                "https://www.cn.kayak.com",
+                "https://www.kayak.com.co",
+                "https://www.kayak.co.th",
+                "https://www.kayak.com.pe",
+                "https://www.cz.kayak.com",
+                "https://www.kayak.com.ph",
+                "https://www.kayak.pl",
+                "https://www.kayak.com.tr"
+            ]
+        }
+    },
+    {
+        "origin": "https://kz.auth.yandex.cloud",
+        "data": {
+            "origins": [
+                "https://kz.auth.yandex.cloud",
+                "https://kz.auth.yandex.cloud"
+            ]
+        }
+    },
+    {
+        "origin": "https://app.connectedfi.com",
+        "data": {
+            "origins": [
+                "https://checkout.connected.financial",
+                "https://us-dev.connected.financial",
+                "https://demo.connectedfi.com",
+                "https://app.connectedfi.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://coin.space",
+        "data": {
+            "origins": [
+                "https://coin.space",
+                "https://coinspacezp5mmyuicbz2hoafbnduj4vzkttq3grn5mnwdue5t343zid.onion"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.ruten.com.tw",
+        "data": {
+            "origins": [
+                "https://ruten.com.tw",
+                "https://www.ruten.com.tw",
+                "https://www.beta.ruten.com.tw",
+                "https://www.stage.ruten.com.tw"
+            ]
+        }
+    },
+    {
+        "origin": "https://www.kcex.io",
+        "data": {
+            "origins": [
+                "https://www.kcex.io",
+                "https://www.kcex.cc",
+                "https://www.kcex.vip",
+                "https://www.kcexpre.com",
+                "https://www.kcextest.com",
+                "https://www.kcdva.com"
+            ]
+        }
+    },
+    {
+        "origin": "https://dashboard.v4guard.io",
+        "data": {
+            "origins": [
+                "https://dashboard.v4guard.io",
+                "https://v4guard.io",
+                "https://v4guard.me"
+            ]
+        }
+    },
+    {
+        "origin": "https://kcex.com",
+        "data": {
+            "origins": [
+                "https://www.kcex.io",
+                "https://www.kcex.cc",
+                "https://www.kcex.vip",
+                "https://www.kcexpre.com",
+                "https://www.kcextest.com",
+                "https://www.kcdva.com"
+            ]
+        }
+    }
+]

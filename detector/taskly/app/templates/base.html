@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskly</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', path='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/bootstrap-icons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/mermaid.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+
+    <script src="{{ url_for('static', path='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', path='js/gridjs.umd.js') }}"></script>
+    <script src="{{ url_for('static', path='js/jsoneditor.js') }}"></script>
+</head>
+<body>
+    {% include "navbar.html" %}
+    {% include "progressToast.html" %}
+    {% include "codeModal.html" %}
+    {% include "scansModal.html" %}
+    {% block content %}{% endblock %}
+</body>
+</html>

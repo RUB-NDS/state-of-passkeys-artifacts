@@ -1,0 +1,3591 @@
+[
+    {
+        "name": "Rumble Network Discovery",
+        "domain": "rumble.run",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "rumble.run",
+                    "name": "Rumble Network Discovery",
+                    "tfa": [
+                        "u2f"
+                    ],
+                    "documentation": "https://www.rumble.run/docs/managing-your-team/#multi-factor-authentication-mfa",
+                    "keywords": [
+                        "security",
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Registro.br",
+        "domain": "registro.br",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "registro.br",
+                    "name": "Registro.br",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://registro.br/ajuda/gerenciamento-de-conta/token/",
+                    "keywords": [
+                        "domains"
+                    ],
+                    "regions": [
+                        "br"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "University of Idaho",
+        "domain": "uidaho.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "uidaho.edu",
+                    "name": "University of Idaho",
+                    "url": "https://www.uidaho.edu",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.uidaho.edu/TDClient/KB/ArticleDet?ID=109",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "University of Michigan",
+        "domain": "umich.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "umich.edu",
+                    "name": "University of Michigan",
+                    "url": "https://www.umich.edu",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.safecomputing.umich.edu/two-factor-authentication",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "University of Waterloo",
+        "domain": "uwaterloo.ca",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "uwaterloo.ca",
+                    "name": "University of Waterloo",
+                    "img": "uwaterloo.ca.png",
+                    "tfa": [
+                        "u2f",
+                        "custom-software",
+                        "custom-hardware",
+                        "sms",
+                        "call"
+                    ],
+                    "custom-software": [
+                        "Duo Mobile"
+                    ],
+                    "custom-hardware": [
+                        "Duo token"
+                    ],
+                    "documentation": "https://uwaterloo.ca/two-factor-authentication/",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "ca"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "University of British Columbia",
+        "domain": "ubc.ca",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "ubc.ca",
+                    "name": "University of British Columbia",
+                    "tfa": [
+                        "u2f",
+                        "custom-software",
+                        "custom-hardware",
+                        "sms",
+                        "call"
+                    ],
+                    "custom-software": [
+                        "Duo Mobile"
+                    ],
+                    "custom-hardware": [
+                        "Duo token"
+                    ],
+                    "documentation": "https://privacymatters.ubc.ca/test-faqs",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "ca"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "ISL Online",
+        "domain": "islonline.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "islonline.com",
+                    "name": "ISL Online",
+                    "tfa": [
+                        "totp",
+                        "sms",
+                        "email",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.islonline.com/35746/286527",
+                    "keywords": [
+                        "remote"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "ID.me",
+        "domain": "id.me",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "id.me",
+                    "name": "ID.me",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "u2f",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "ID.me Authenticator"
+                    ],
+                    "documentation": "https://help.id.me/hc/en-us/articles/360025737794",
+                    "keywords": [
+                        "identity"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "npm",
+        "domain": "npmjs.com",
+        "alt": [
+            "GitHub"
+        ],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "npmjs.com",
+                    "name": "npm",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "notes": "The security-key flow using WebAuthn is currently in beta.",
+                    "documentation": "https://docs.npmjs.com/configuring-two-factor-authentication",
+                    "recovery": "https://docs.npmjs.com/recovering-your-2fa-enabled-account",
+                    "keywords": [
+                        "developer"
+                    ]
+                },
+                {
+                    "domain": "github.com",
+                    "name": "GitHub",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "GitHub Mobile"
+                    ],
+                    "documentation": "https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication",
+                    "recovery": "https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials",
+                    "notes": "Hardware tokens must have a backup method, either SMS or software token.",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Norton",
+        "domain": "norton.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "norton.com",
+                    "name": "Norton",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.norton.com/sp/en/us/home/current/solutions/v100023155_NortonM_Retail_1_en_us",
+                    "keywords": [
+                        "security"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "NordVPN",
+        "domain": "nordvpn.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "nordvpn.com",
+                    "name": "NordVPN",
+                    "additional-domains": [
+                        "nordaccount.com"
+                    ],
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.nordvpn.com/1755768802/",
+                    "keywords": [
+                        "vpn"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Nulab",
+        "domain": "nulab.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "nulab.com",
+                    "name": "Nulab",
+                    "tfa": [
+                        "u2f",
+                        "totp",
+                        "sms"
+                    ],
+                    "documentation": "https://support.nulab.com/hc/en-us/articles/115001025087",
+                    "keywords": [
+                        "communication"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "NordPass",
+        "domain": "nordpass.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "nordpass.com",
+                    "name": "NordPass",
+                    "additional-domains": [
+                        "nordaccount.com"
+                    ],
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.nordpass.com/hc/en-us/articles/360002770497",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "NordLocker",
+        "domain": "nordlocker.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "nordlocker.com",
+                    "name": "NordLocker",
+                    "additional-domains": [
+                        "nordaccount.com"
+                    ],
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "keywords": [
+                        "backup"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "NuGet",
+        "domain": "nuget.org",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "nuget.org",
+                    "name": "NuGet",
+                    "url": "https://www.nuget.org",
+                    "tfa": [
+                        "sms",
+                        "custom-software",
+                        "totp",
+                        "u2f",
+                        "call"
+                    ],
+                    "custom-software": [
+                        "Microsoft Authenticator"
+                    ],
+                    "documentation": "https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Nest",
+        "domain": "nest.com",
+        "alt": [
+            "Google Fi",
+            "Google Fiber",
+            "Google Fit",
+            "Hangouts",
+            "Gmail",
+            "Google Meet",
+            "Google Chat",
+            "Google Cloud Platform",
+            "Google Domains",
+            "Google Drive",
+            "YouTube",
+            "Google Pay",
+            "Google Play"
+        ],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "nest.com",
+                    "name": "Nest",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "notes": "Non-migrated accounts only have SMS & Email 2FA available.",
+                    "documentation": "https://support.google.com/googlenest/answer/9295081",
+                    "keywords": [
+                        "iot"
+                    ]
+                },
+                {
+                    "domain": "fi.google.com",
+                    "name": "Google Fi",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "utilities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                },
+                {
+                    "domain": "fiber.google.com",
+                    "name": "Google Fiber",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "utilities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                },
+                {
+                    "domain": "fit.google.com",
+                    "name": "Google Fit",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "health"
+                    ]
+                },
+                {
+                    "domain": "hangouts.google.com",
+                    "name": "Hangouts",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "totp",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "communication"
+                    ]
+                },
+                {
+                    "domain": "mail.google.com",
+                    "name": "Gmail",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "email"
+                    ]
+                },
+                {
+                    "domain": "meet.google.com",
+                    "name": "Google Meet",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "communication"
+                    ]
+                },
+                {
+                    "domain": "chat.google.com",
+                    "name": "Google Chat",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "communication"
+                    ]
+                },
+                {
+                    "domain": "cloud.google.com",
+                    "name": "Google Cloud Platform",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "cloud"
+                    ]
+                },
+                {
+                    "domain": "domains.google.com",
+                    "name": "Google Domains",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "totp",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "domains"
+                    ]
+                },
+                {
+                    "domain": "drive.google.com",
+                    "name": "Google Drive",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "totp",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "recovery": "https://support.google.com/accounts/answer/185834",
+                    "keywords": [
+                        "backup"
+                    ]
+                },
+                {
+                    "domain": "youtube.com",
+                    "name": "YouTube",
+                    "url": "https://www.youtube.com/",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "entertainment"
+                    ]
+                },
+                {
+                    "domain": "pay.google.com",
+                    "name": "Google Pay",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "totp",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "payments"
+                    ]
+                },
+                {
+                    "domain": "play.google.com",
+                    "name": "Google Play",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Google Prompts",
+                        "Google Smart Lock"
+                    ],
+                    "documentation": "https://www.google.com/intl/en-US/landing/2step/features.html",
+                    "keywords": [
+                        "entertainment"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "University of Notre Dame",
+        "domain": "nd.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "nd.edu",
+                    "name": "University of Notre Dame",
+                    "url": "https://www.nd.edu",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "u2f",
+                        "totp"
+                    ],
+                    "custom-software": [
+                        "Okta Verify"
+                    ],
+                    "documentation": "https://nd.service-now.com/nd_portal?id=kb_article_view&sysparm_article=KB0017218",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "North Carolina State University",
+        "domain": "ncsu.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "ncsu.edu",
+                    "name": "North Carolina State University",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://oit.ncsu.edu/it-security/2fa/",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Namecheap",
+        "domain": "namecheap.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "namecheap.com",
+                    "name": "Namecheap",
+                    "url": "https://www.namecheap.com/",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.namecheap.com/security/2fa-two-factor-authentication/",
+                    "keywords": [
+                        "domains"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Teleport",
+        "domain": "goteleport.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "goteleport.com",
+                    "name": "Teleport",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://goteleport.com/docs/access-controls/guides/webauthn/",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "GeForce (Nvidia)",
+        "domain": "geforce.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "geforce.com",
+                    "name": "GeForce (Nvidia)",
+                    "additional-domains": [
+                        "nvidia.com",
+                        "login.nvgs.nvidia.com"
+                    ],
+                    "tfa": [
+                        "email",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://login.nvgs.nvidia.com/v1/help/nfactor",
+                    "notes": "Email 2FA is always enabled.",
+                    "keywords": [
+                        "gaming"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "GitLab",
+        "domain": "gitlab.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "gitlab.com",
+                    "name": "GitLab",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "GoDaddy",
+        "domain": "godaddy.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "godaddy.com",
+                    "name": "GoDaddy",
+                    "url": "https://www.godaddy.com/",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.godaddy.com/help/enable-two-step-verification-7502",
+                    "notes": "If hardware 2FA enabled, customer support by phone requires enabling back-up method.",
+                    "keywords": [
+                        "domains"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Gandi",
+        "domain": "gandi.net",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "gandi.net",
+                    "name": "Gandi",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://docs.gandi.net/en/account_management/security/",
+                    "keywords": [
+                        "domains"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Gemini",
+        "domain": "gemini.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "gemini.com",
+                    "name": "Gemini",
+                    "tfa": [
+                        "sms",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Authy"
+                    ],
+                    "documentation": "https://support.gemini.com/hc/en-us/articles/204732985",
+                    "keywords": [
+                        "cryptocurrencies"
+                    ],
+                    "regions": [
+                        "us",
+                        "ca",
+                        "hk",
+                        "sg",
+                        "kr",
+                        "gb",
+                        "au"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Zoho",
+        "domain": "zoho.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "zoho.com",
+                    "name": "Zoho",
+                    "tfa": [
+                        "sms",
+                        "custom-software",
+                        "totp",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Zoho OneAuth"
+                    ],
+                    "documentation": "https://help.zoho.com/portal/kb/articles/mfa-introduction",
+                    "keywords": [
+                        "communication",
+                        "email",
+                        "marketing",
+                        "remote"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "1Password",
+        "domain": "1password.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "1password.com",
+                    "name": "1Password",
+                    "additional-domains": [
+                        "1password.ca",
+                        "1password.eu"
+                    ],
+                    "tfa": [
+                        "totp",
+                        "u2f",
+                        "custom-hardware",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "documentation": "https://support.1password.com/two-factor-authentication/",
+                    "notes": "TOTP 2FA must be enabled before U2F 2FA can be enabled. Teams using Duo with 1Password can't enable other 2FA methods. Non-U2F Hardware tokens and custom software methods are only available through Duo.",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Talkdesk",
+        "domain": "talkdesk.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "talkdesk.com",
+                    "name": "Talkdesk",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.talkdesk.com/hc/en-us/articles/360015179592",
+                    "keywords": [
+                        "other"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Twitter",
+        "domain": "twitter.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "twitter.com",
+                    "name": "Twitter",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.twitter.com/en/managing-your-account/two-factor-authentication",
+                    "recovery": "https://help.twitter.com/en/managing-your-account/issues-with-login-authentication",
+                    "notes": "SMS only available on select providers.",
+                    "keywords": [
+                        "social"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Toronto Metropolitan University",
+        "domain": "torontomu.ca",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "torontomu.ca",
+                    "name": "Toronto Metropolitan University",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.torontomu.ca/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "ca"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Tutanota",
+        "domain": "tutanota.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "tutanota.com",
+                    "name": "Tutanota",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://tutanota.com/howto/#2fa",
+                    "notes": "Hardware 2FA not yet supported for their desktop & mobile apps.",
+                    "keywords": [
+                        "email"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Salesforce",
+        "domain": "salesforce.com",
+        "alt": [
+            "Heroku"
+        ],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "salesforce.com",
+                    "name": "Salesforce",
+                    "tfa": [
+                        "sms",
+                        "email",
+                        "totp",
+                        "u2f",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "Salesforce Authenticator"
+                    ],
+                    "documentation": "https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/add_time-based_token.htm",
+                    "keywords": [
+                        "communication"
+                    ]
+                },
+                {
+                    "domain": "heroku.com",
+                    "name": "Heroku",
+                    "tfa": [
+                        "totp",
+                        "custom-software",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Salesforce Authenticator"
+                    ],
+                    "custom-hardware": [
+                        "Built-in Authenticator (Biometrics)"
+                    ],
+                    "documentation": "https://devcenter.heroku.com/articles/multi-factor-authentication",
+                    "recovery": "https://devcenter.heroku.com/articles/recovery-codes",
+                    "keywords": [
+                        "cloud"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Synology",
+        "domain": "synology.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "synology.com",
+                    "name": "Synology",
+                    "url": "https://www.synology.com/",
+                    "tfa": [
+                        "email",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://originwww.synology.com/en-us/knowledgebase/tutorials/615#t5",
+                    "keywords": [
+                        "backup"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "SimpleLogin",
+        "domain": "simplelogin.io",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "simplelogin.io",
+                    "name": "SimpleLogin",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "keywords": [
+                        "email"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Shopify",
+        "domain": "shopify.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "shopify.com",
+                    "name": "Shopify",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.shopify.com/manual/your-account/account-security/two-step-authentication",
+                    "notes": "U2F requires using a Shopify ID. U2F can't be used on the Shopify mobile app, the Shopify POS app, or the Shopify Inbox app.",
+                    "keywords": [
+                        "other"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "MyFRITZ!",
+        "domain": "myfritz.net",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "sso.myfritz.net",
+                    "name": "MyFRITZ!",
+                    "tfa": [
+                        "totp",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "custom-hardware": [
+                        "Smartphone biometrics (fingerprint, face recognition)"
+                    ],
+                    "documentation": "https://en.avm.de/service/knowledge-base/dok/FRITZ-Box-7590/3602_Security-tips-for-using-MyFRITZ/",
+                    "keywords": [
+                        "remote"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Sentry",
+        "domain": "sentry.io",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "sentry.io",
+                    "name": "Sentry",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://blog.sentry.io/2016/06/22/introducing-2fa",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "STEX",
+        "domain": "stex.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "stex.com",
+                    "name": "STEX",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.stex.com/en/articles/5866051",
+                    "keywords": [
+                        "cryptocurrencies"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Santa Clara University",
+        "domain": "scu.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "scu.edu",
+                    "name": "Santa Clara University",
+                    "tfa": [
+                        "sms",
+                        "custom-software",
+                        "u2f",
+                        "call"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "documentation": "https://scu.edu/technology/get-connected/duo/learn-more-about-2fa/",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Stripe",
+        "domain": "stripe.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "stripe.com",
+                    "name": "Stripe",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f",
+                        "custom-hardware"
+                    ],
+                    "custom-hardware": [
+                        "Built-in Authenticator (Biometrics)"
+                    ],
+                    "documentation": "https://support.stripe.com/questions/how-do-i-enable-two-step-verification",
+                    "recovery": "https://support.stripe.com/questions/sign-in-to-your-stripe-account-without-a-2fa-device-and-or-backup-code",
+                    "keywords": [
+                        "payments"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Amazon Web Services",
+        "domain": "amazon.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "aws.amazon.com",
+                    "name": "Amazon Web Services",
+                    "tfa": [
+                        "totp",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "custom-hardware": [
+                        "SafeNet IDProve 110 6-digit OTP Token",
+                        "SafeNet IDProve 700 OTP Card"
+                    ],
+                    "documentation": "https://aws.amazon.com/iam/features/mfa/",
+                    "keywords": [
+                        "cloud"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Arizona State University",
+        "domain": "asu.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "asu.edu",
+                    "name": "Arizona State University",
+                    "tfa": [
+                        "custom-software",
+                        "call",
+                        "sms",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "documentation": "https://getprotected.asu.edu/services/identity-and-access-management/duo-two-factor-authentication",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Aha!",
+        "domain": "aha.io",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "aha.io",
+                    "name": "Aha!",
+                    "url": "https://www.aha.io/",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "notes": "2FA is only available through Duo.",
+                    "documentation": "https://www.aha.io/support/ideas/ideas/settings/account-settings#security-and-single-sign-on",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Auth0",
+        "domain": "auth0.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "auth0.com",
+                    "name": "Auth0",
+                    "tfa": [
+                        "custom-software",
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Auth0 Guardian"
+                    ],
+                    "documentation": "https://auth0.com/docs/secure/multi-factor-authentication/enable-mfa",
+                    "recovery": "https://auth0.com/docs/secure/multi-factor-authentication/reset-user-mfa",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "AnonAddy",
+        "domain": "anonaddy.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "anonaddy.com",
+                    "name": "AnonAddy",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://anonaddy.com/security/",
+                    "keywords": [
+                        "email",
+                        "security"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "FTX",
+        "domain": "ftx.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "ftx.com",
+                    "name": "FTX",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.ftx.com/hc/en-us/articles/360033774352",
+                    "keywords": [
+                        "cryptocurrencies"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Fastmail",
+        "domain": "fastmail.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "fastmail.com",
+                    "name": "Fastmail",
+                    "url": "https://www.fastmail.com/",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "custom-hardware": [
+                        "Yubico OTP"
+                    ],
+                    "documentation": "https://www.fastmail.com/help/account/2fa.html",
+                    "notes": "Setup requires SMS verification.",
+                    "keywords": [
+                        "email"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "FragDenStaat",
+        "domain": "fragdenstaat.de",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "fragdenstaat.de",
+                    "name": "FragDenStaat",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://fragdenstaat.de/hilfe/ihr-konto-verwalten/zwei-faktor-login/",
+                    "keywords": [
+                        "government"
+                    ],
+                    "regions": [
+                        "de"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Facebook",
+        "domain": "facebook.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "facebook.com",
+                    "name": "Facebook",
+                    "additional-domains": [
+                        "messenger.com"
+                    ],
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.facebook.com/help/148233965247823",
+                    "notes": "Hardware 2FA requires also enabling a back-up method",
+                    "keywords": [
+                        "social"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Files.com",
+        "domain": "files.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "files.com",
+                    "name": "Files.com",
+                    "tfa": [
+                        "sms",
+                        "custom-hardware",
+                        "u2f",
+                        "totp"
+                    ],
+                    "custom-hardware": [
+                        "Yubico OTP"
+                    ],
+                    "documentation": "https://www.files.com/docs/features/twofactor-authentication-2fa",
+                    "keywords": [
+                        "backup"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Onet",
+        "domain": "onet.pl",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "onet.pl",
+                    "name": "Onet",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://pomoc.poczta.onet.pl/baza-wiedzy/czym-jest-weryfikacja-dwuetapowa/",
+                    "keywords": [
+                        "email"
+                    ],
+                    "regions": [
+                        "pl"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "The Ohio State University",
+        "domain": "osu.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "osu.edu",
+                    "name": "The Ohio State University",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f",
+                        "custom-hardware",
+                        "custom-software"
+                    ],
+                    "custom-hardware": [
+                        "Duo token"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "documentation": "https://buckeyepass.osu.edu",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "University of Otago",
+        "domain": "otago.ac.nz",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "otago.ac.nz",
+                    "name": "University of Otago",
+                    "tfa": [
+                        "u2f",
+                        "totp",
+                        "call",
+                        "sms",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "Microsoft Authenticator push notification",
+                        "Authy"
+                    ],
+                    "documentation": "https://otago.custhelp.com/app/answers/detail/a_id/3073",
+                    "notes": "U2F is available to staff only",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "nz"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "o2",
+        "domain": "o2.pl",
+        "alt": [
+            "Wirtualna Polska"
+        ],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "o2.pl",
+                    "name": "o2",
+                    "tfa": [
+                        "u2f",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "1login od WP"
+                    ],
+                    "documentation": "https://pomoc.o2.pl/1login/jak-wlaczyc-i-wylaczyc-logowanie-dwustopniowe",
+                    "keywords": [
+                        "email"
+                    ],
+                    "regions": [
+                        "pl"
+                    ]
+                },
+                {
+                    "domain": "wp.pl",
+                    "name": "Wirtualna Polska",
+                    "tfa": [
+                        "u2f",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "1login od WP"
+                    ],
+                    "documentation": "https://pomoc.wp.pl/1login/jak-wlaczyc-i-wylaczyc-logowanie-dwustopniowe",
+                    "keywords": [
+                        "email"
+                    ],
+                    "regions": [
+                        "pl"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "OneLogin",
+        "domain": "onelogin.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "onelogin.com",
+                    "name": "OneLogin",
+                    "url": "https://www.onelogin.com/",
+                    "tfa": [
+                        "custom-software",
+                        "sms",
+                        "totp",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "documentation": "https://onelogin.service-now.com/support?id=kb_article&sys_id=43d99143db109700d5505eea4b96197a",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Okta",
+        "domain": "okta.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "okta.com",
+                    "name": "Okta",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "email",
+                        "totp",
+                        "custom-hardware",
+                        "u2f",
+                        "custom-software"
+                    ],
+                    "custom-hardware": [
+                        "Yubico OTP"
+                    ],
+                    "custom-software": [
+                        "Okta Verify"
+                    ],
+                    "documentation": "https://help.okta.com/en/prod/Content/Topics/Security/MFA.htm",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "OVH",
+        "domain": "ovh.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "ovh.com",
+                    "name": "OVH",
+                    "url": "https://www.ovh.com/",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://docs.ovh.com/gb/en/customer/secure-account-with-2FA/",
+                    "keywords": [
+                        "hosting",
+                        "domains"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "HEY",
+        "domain": "hey.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "hey.com",
+                    "name": "HEY",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://hey.com/security/",
+                    "keywords": [
+                        "email"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "SAPO Mail",
+        "domain": "sapo.pt",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "mail.sapo.pt",
+                    "name": "SAPO Mail",
+                    "tfa": [
+                        "totp",
+                        "sms",
+                        "u2f"
+                    ],
+                    "documentation": "https://ajuda.sapo.pt/id-67553",
+                    "keywords": [
+                        "email"
+                    ],
+                    "regions": [
+                        "pt"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Yahoo Mail",
+        "domain": "yahoo.com",
+        "alt": [
+            "Aol Mail"
+        ],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "mail.yahoo.com",
+                    "name": "Yahoo Mail",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.yahoo.com/kb/SLN5013.html",
+                    "notes": "Linked phone number required for 2FA.",
+                    "keywords": [
+                        "email"
+                    ]
+                },
+                {
+                    "domain": "mail.aol.com",
+                    "name": "Aol Mail",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "email",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.aol.com/articles/2-step-verification-stronger-than-your-password-alone",
+                    "keywords": [
+                        "email"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Michigan State University",
+        "domain": "msu.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "msu.edu",
+                    "name": "Michigan State University",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "u2f",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "Okta Verify"
+                    ],
+                    "documentation": "https://secureit.msu.edu/multi-factor/index.html",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Colorado School of Mines",
+        "domain": "mines.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "mines.edu",
+                    "name": "Colorado School of Mines",
+                    "url": "https://www.mines.edu/",
+                    "tfa": [
+                        "custom-software",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "documentation": "https://its.mines.edu/mfa/",
+                    "notes": "Only available for employees",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Morgan Stanley",
+        "domain": "morganstanley.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "morganstanley.com",
+                    "name": "Morgan Stanley",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.morganstanley.com/what-we-do/wealth-management/online-security/authentication",
+                    "regions": [
+                        "us"
+                    ],
+                    "keywords": [
+                        "investing",
+                        "banking"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Mercury",
+        "domain": "mercury.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "mercury.com",
+                    "name": "Mercury",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.mercury.com/t/m1h3d07",
+                    "keywords": [
+                        "banking"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Masaryk University",
+        "domain": "muni.cz",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "muni.cz",
+                    "name": "Masaryk University",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://it.muni.cz/en/services/jednotne-prihlaseni-na-muni/navody/how-to-set-up-multi-factor-authentication",
+                    "recovery": "https://it.muni.cz/en/forms/report-a-problem-with-single-sign-on",
+                    "regions": [
+                        "cz"
+                    ],
+                    "keywords": [
+                        "universities"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "MongoDB",
+        "domain": "mongodb.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "mongodb.com",
+                    "name": "MongoDB",
+                    "tfa": [
+                        "totp",
+                        "email",
+                        "custom-software",
+                        "sms",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Okta Verify"
+                    ],
+                    "documentation": "https://docs.atlas.mongodb.com/security-multi-factor-authentication/",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Cloudflare",
+        "domain": "cloudflare.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "cloudflare.com",
+                    "name": "Cloudflare",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.cloudflare.com/hc/en-us/articles/200167906",
+                    "keywords": [
+                        "security",
+                        "developer",
+                        "domains"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Compose",
+        "domain": "compose.com",
+        "alt": [
+            "IBM Cloud"
+        ],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "compose.com",
+                    "name": "Compose",
+                    "url": "https://www.compose.com/",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.compose.com/articles/introducing-fido-universal-2nd-factor-authentication/",
+                    "keywords": [
+                        "developer"
+                    ]
+                },
+                {
+                    "domain": "cloud.ibm.com",
+                    "name": "IBM Cloud",
+                    "tfa": [
+                        "email",
+                        "u2f",
+                        "totp",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "Symantec VIP"
+                    ],
+                    "documentation": "https://cloud.ibm.com/docs/account?topic=account-enablemfa",
+                    "keywords": [
+                        "cloud"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Cloud 66",
+        "domain": "cloud66.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "cloud66.com",
+                    "name": "Cloud 66",
+                    "url": "https://www.cloud66.com",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.cloud66.com/node/account/two-factor-authentication.html",
+                    "keywords": [
+                        "cloud"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Oracle Cloud Infrastructure",
+        "domain": "oracle.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "cloud.oracle.com",
+                    "name": "Oracle Cloud Infrastructure",
+                    "additional-domains": [
+                        "oraclecloud.com"
+                    ],
+                    "url": "https://www.oracle.com/cloud/",
+                    "tfa": [
+                        "totp",
+                        "custom-software",
+                        "sms",
+                        "call",
+                        "email",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Duo",
+                        "Oracle Mobile Authenticator"
+                    ],
+                    "documentation": "https://docs.oracle.com/en/cloud/paas/identity-cloud/uaids/configure-authentication-factors.html",
+                    "keywords": [
+                        "cloud"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Cornell University",
+        "domain": "cornell.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "cornell.edu",
+                    "name": "Cornell University",
+                    "tfa": [
+                        "sms",
+                        "custom-software",
+                        "custom-hardware",
+                        "u2f",
+                        "call"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "custom-hardware": [
+                        "Duo D100 Token"
+                    ],
+                    "documentation": "https://it.cornell.edu/twostep",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Coinbase",
+        "domain": "coinbase.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "coinbase.com",
+                    "name": "Coinbase",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.coinbase.com/en/coinbase/getting-started/verify-my-account/how-do-i-set-up-2-factor-authentication",
+                    "recovery": "https://help.coinbase.com/en/coinbase/managing-my-account/get-back-into-my-account/2-step-verification-troubleshooting",
+                    "keywords": [
+                        "cryptocurrencies"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Codeberg",
+        "domain": "codeberg.org",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "codeberg.org",
+                    "name": "Codeberg",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://docs.codeberg.org/security/2fa/",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Crowd Supply",
+        "domain": "crowdsupply.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "crowdsupply.com",
+                    "name": "Crowd Supply",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "url": "https://www.crowdsupply.com",
+                    "keywords": [
+                        "crowdfunding",
+                        "retail"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Carnegie Mellon University",
+        "domain": "cmu.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "cmu.edu",
+                    "name": "Carnegie Mellon University",
+                    "url": "https://www.cmu.edu/",
+                    "tfa": [
+                        "custom-software",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "custom-hardware": [
+                        "Duo D100 Token"
+                    ],
+                    "documentation": "https://www.cmu.edu/computing/services/security/identity-access/authentication/how-to/use2fa-weblogin.html",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Centrify",
+        "domain": "centrify.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "centrify.com",
+                    "name": "Centrify",
+                    "url": "https://www.centrify.com",
+                    "tfa": [
+                        "call",
+                        "totp",
+                        "custom-software",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.centrify.com/pam/authentication-service/mfa/",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Doppler",
+        "domain": "doppler.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "doppler.com",
+                    "name": "Doppler",
+                    "url": "https://www.doppler.com/",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://docs.doppler.com/docs/security-fact-sheet#user-authentication",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Dropbox",
+        "domain": "dropbox.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "dropbox.com",
+                    "name": "Dropbox",
+                    "additional-domains": [
+                        "getdropbox.com"
+                    ],
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.dropbox.com/security/enable-two-step-verification",
+                    "recovery": "https://help.dropbox.com/accounts-billing/security/issues-two-step-verification",
+                    "notes": "Hardware 2FA requires also enabling Software or SMS 2FA as a back-up.",
+                    "keywords": [
+                        "backup"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "DNSimple",
+        "domain": "dnsimple.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "dnsimple.com",
+                    "name": "DNSimple",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.dnsimple.com/articles/two-factor-authentication/",
+                    "keywords": [
+                        "domains"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "dmarcian",
+        "domain": "dmarcian.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "dmarcian.com",
+                    "name": "dmarcian",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://dmarcian.com/secure-dmarcian-2fa/",
+                    "keywords": [
+                        "security"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Virginia Tech",
+        "domain": "vt.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "vt.edu",
+                    "name": "Virginia Tech",
+                    "url": "https://www.vt.edu/",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.tech.it.vt.edu/2factor/",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Vysok\u00e1 \u0161kola ekonomick\u00e1 v Praze",
+        "domain": "vse.cz",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "vse.cz",
+                    "name": "Vysok\u00e1 \u0161kola ekonomick\u00e1 v Praze",
+                    "tfa": [
+                        "totp",
+                        "sms",
+                        "u2f",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "Microsoft Authenticator"
+                    ],
+                    "documentation": "https://ci.vse.cz/english/support/procedures/multi-factor-authentication-in-microsoft-365/",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "cz"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Virginia Commonwealth University",
+        "domain": "vcu.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "vcu.edu",
+                    "name": "Virginia Commonwealth University",
+                    "url": "https://www.vcu.edu",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "u2f"
+                    ],
+                    "documentation": "https://ts.vcu.edu/askit/essential-computing/information-security/2factor/",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Veracode",
+        "domain": "veracode.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "veracode.com",
+                    "name": "Veracode",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://help.veracode.com/r/t_configure_mfa",
+                    "keywords": [
+                        "developer",
+                        "security"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Vanguard",
+        "domain": "vanguard.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "vanguard.com",
+                    "name": "Vanguard",
+                    "url": "https://www.vanguard.com/",
+                    "img": "vanguard.svg",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "u2f",
+                        "custom-hardware"
+                    ],
+                    "custom-hardware": [
+                        "Voice Verification"
+                    ],
+                    "documentation": "https://investor.vanguard.com/security/security-keys",
+                    "notes": "Hardware based 2FA requires SMS / Phone call 2FA as a backup.",
+                    "keywords": [
+                        "investing"
+                    ],
+                    "regions": [
+                        "-gb",
+                        "-au"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "ESL",
+        "domain": "eslgaming.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "eslgaming.com",
+                    "name": "ESL",
+                    "url": "https://www.eslgaming.com",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "keywords": [
+                        "gaming"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Bitfinex",
+        "domain": "bitfinex.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "bitfinex.com",
+                    "name": "Bitfinex",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.bitfinex.com/hc/en-us/sections/900000097443",
+                    "recovery": "https://support.bitfinex.com/hc/en-us/articles/360021325054",
+                    "keywords": [
+                        "cryptocurrencies"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Bitbucket",
+        "domain": "bitbucket.org",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "bitbucket.org",
+                    "name": "Bitbucket",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.atlassian.com/bitbucket-cloud/docs/enable-two-step-verification/",
+                    "notes": "An SSH key must be associated with your account to enable 2FA.",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Bank of America",
+        "domain": "bankofamerica.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "bankofamerica.com",
+                    "name": "Bank of America",
+                    "additional-domains": [
+                        "bofa.com",
+                        "mbna.com"
+                    ],
+                    "url": "https://www.bankofamerica.com/",
+                    "tfa": [
+                        "sms",
+                        "email",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.bankofamerica.com/security-center/online-banking/",
+                    "regions": [
+                        "us"
+                    ],
+                    "keywords": [
+                        "banking"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Boxcryptor",
+        "domain": "boxcryptor.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "boxcryptor.com",
+                    "name": "Boxcryptor",
+                    "url": "https://www.boxcryptor.com",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.boxcryptor.com/help/boxcryptor-account/#two-factor-authentication",
+                    "keywords": [
+                        "security"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Braintree",
+        "domain": "braintreepayments.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "braintreepayments.com",
+                    "name": "Braintree",
+                    "url": "https://www.braintreepayments.com/",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://articles.braintreepayments.com/reference/security/two-factor-authentication",
+                    "keywords": [
+                        "payments"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Bitwarden",
+        "domain": "bitwarden.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "bitwarden.com",
+                    "name": "Bitwarden",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "email",
+                        "totp",
+                        "u2f",
+                        "custom-hardware",
+                        "custom-software"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "custom-hardware": [
+                        "Yubico OTP"
+                    ],
+                    "documentation": "https://help.bitwarden.com/article/setup-two-step-login/",
+                    "notes": "2FA options other than email and TOTP are only available on paid plans",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Basecamp",
+        "domain": "basecamp.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "basecamp.com",
+                    "name": "Basecamp",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://3.basecamp-help.com/article/443--",
+                    "keywords": [
+                        "communication"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Binance",
+        "domain": "binance.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "binance.com",
+                    "name": "Binance",
+                    "url": "https://www.binance.com/",
+                    "tfa": [
+                        "totp",
+                        "u2f",
+                        "sms"
+                    ],
+                    "documentation": "https://www.binance.com/en/support/faq/c-1?navId=1#11",
+                    "keywords": [
+                        "cryptocurrencies"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "BitGo",
+        "domain": "bitgo.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "bitgo.com",
+                    "name": "BitGo",
+                    "url": "https://www.bitgo.com",
+                    "tfa": [
+                        "totp",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "keywords": [
+                        "cryptocurrencies"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Keeper",
+        "domain": "keepersecurity.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "keepersecurity.com",
+                    "name": "Keeper",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.keepersecurity.com/security#twoFactor",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Kraken",
+        "domain": "kraken.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "kraken.com",
+                    "name": "Kraken",
+                    "tfa": [
+                        "totp",
+                        "custom-hardware",
+                        "u2f",
+                        "email"
+                    ],
+                    "custom-hardware": [
+                        "OATH OTP keys"
+                    ],
+                    "notes": "Email 2FA is mandatory for all users but only requested for unknown devices",
+                    "documentation": "https://support.kraken.com/hc/en-us/articles/360000426923",
+                    "keywords": [
+                        "cryptocurrencies"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "login.gov",
+        "domain": "login.gov",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "login.gov",
+                    "name": "login.gov",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://www.login.gov/help/creating-an-account/two-factor-authentication/",
+                    "keywords": [
+                        "government"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "LastPass",
+        "domain": "lastpass.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "lastpass.com",
+                    "name": "LastPass",
+                    "tfa": [
+                        "totp",
+                        "custom-hardware",
+                        "custom-software",
+                        "u2f",
+                        "sms"
+                    ],
+                    "custom-hardware": [
+                        "Yubico OTP",
+                        "Windows Fingerprint",
+                        "Smart Card"
+                    ],
+                    "custom-software": [
+                        "LastPass Authenticator",
+                        "Duo",
+                        "RSA SecurID",
+                        "Symantec VIP",
+                        "SecureAuth Authenticate"
+                    ],
+                    "documentation": "https://support.logmeininc.com/lastpass/help/enable-multifactor-authentication-lp010002",
+                    "recovery": "https://support.logmeininc.com/lastpass/help/i-lost-my-phone-ndash-how-do-i-disable-multifactor-authentication-for-lastpass",
+                    "notes": "Availability of 2FA options depends on your account type. U2F is available through Duo integration on all plans. Yubico OTP is only available on paid plans.",
+                    "keywords": [
+                        "identity"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "York University",
+        "domain": "yorku.ca",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "yorku.ca",
+                    "name": "York University",
+                    "tfa": [
+                        "u2f",
+                        "custom-software",
+                        "custom-hardware",
+                        "sms",
+                        "call"
+                    ],
+                    "custom-software": [
+                        "Duo Mobile"
+                    ],
+                    "custom-hardware": [
+                        "Duo token",
+                        "Touch ID"
+                    ],
+                    "documentation": "https://infosec.yorku.ca/2FA",
+                    "notes": "2FA via SMS or phone call can only be enabled by the support team.",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "ca"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Porkbun",
+        "domain": "porkbun.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "porkbun.com",
+                    "name": "Porkbun",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://kb.porkbun.com/category/20--",
+                    "keywords": [
+                        "domains"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "PyPI",
+        "domain": "pypi.org",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "pypi.org",
+                    "name": "PyPI",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://pypi.org/help/#twofa",
+                    "keywords": [
+                        "developer"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Basic Attention Token",
+        "domain": "basicattentiontoken.org",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "publishers.basicattentiontoken.org",
+                    "name": "Basic Attention Token",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.brave.com/hc/en-us/articles/360021649491",
+                    "keywords": [
+                        "other"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "PayPal",
+        "domain": "paypal.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "paypal.com",
+                    "name": "PayPal",
+                    "additional-domains": [
+                        "paypal-search.com"
+                    ],
+                    "url": "https://www.paypal.com/",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "notes": "Some methods of 2FA are only available in a few countries. Contact PayPal for more information.",
+                    "documentation": "https://www.paypal.com/us/smarthelp/article/faq4057",
+                    "keywords": [
+                        "payments"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "ProBit",
+        "domain": "probit.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "probit.com",
+                    "name": "ProBit",
+                    "url": "https://www.probit.com/",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://support.probit.com/hc/en-us/sections/900000153103",
+                    "keywords": [
+                        "cryptocurrencies"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Perimeter 81",
+        "domain": "perimeter81.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "perimeter81.com",
+                    "name": "Perimeter 81",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "custom-software",
+                        "u2f",
+                        "call"
+                    ],
+                    "custom-software": [
+                        "Perimeter 81 App Push Notification",
+                        "Duo"
+                    ],
+                    "documentation": "https://support.perimeter81.com/docs/two-factor-authentication",
+                    "notes": "Hardware 2FA is only available via Duo.",
+                    "keywords": [
+                        "security"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Proton",
+        "domain": "proton.me",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "proton.me",
+                    "name": "Proton",
+                    "additional-domains": [
+                        "pm.me",
+                        "protonmail.com",
+                        "protonvpn.com"
+                    ],
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://proton.me/support/two-factor-authentication-2fa",
+                    "keywords": [
+                        "email",
+                        "backup",
+                        "vpn"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Pennsylvania State University",
+        "domain": "psu.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "psu.edu",
+                    "name": "Pennsylvania State University",
+                    "url": "https://www.psu.edu/",
+                    "tfa": [
+                        "sms",
+                        "call",
+                        "custom-software",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "documentation": "https://get2fa.psu.edu",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Weclapp",
+        "domain": "weclapp.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "weclapp.com",
+                    "name": "Weclapp",
+                    "tfa": [
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://doc.weclapp.com/en/documentation/dein-start-mit-weclapp/2-my-weclapp-personal-master-and-contact-data/2-4-security/2-factor-authentication/",
+                    "keywords": [
+                        "other"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "University of Wisconsin Madison",
+        "domain": "wisc.edu",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "wisc.edu",
+                    "name": "University of Wisconsin Madison",
+                    "tfa": [
+                        "custom-software",
+                        "custom-hardware",
+                        "u2f"
+                    ],
+                    "custom-software": [
+                        "Duo"
+                    ],
+                    "custom-hardware": [
+                        "Duo TOTP key"
+                    ],
+                    "documentation": "https://it.wisc.edu/services/duo-multi-factor-authentication-mfa/",
+                    "keywords": [
+                        "universities"
+                    ],
+                    "regions": [
+                        "us"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "Wefunder",
+        "domain": "wefunder.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "wefunder.com",
+                    "name": "Wefunder",
+                    "tfa": [
+                        "u2f"
+                    ],
+                    "documentation": "https://help.wefunder.com/en_US/multifactor-authentication",
+                    "keywords": [
+                        "crowdfunding"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "WordPress.com",
+        "domain": "wordpress.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "wordpress.com",
+                    "name": "WordPress.com",
+                    "tfa": [
+                        "sms",
+                        "totp",
+                        "u2f"
+                    ],
+                    "documentation": "https://en.support.wordpress.com/security/two-step-authentication/",
+                    "keywords": [
+                        "social"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    },
+    {
+        "name": "WoltLab",
+        "domain": "woltlab.com",
+        "alt": [],
+        "signin": null,
+        "mfa": true,
+        "directories": {
+            "2fa.directory": [
+                {
+                    "domain": "woltlab.com",
+                    "name": "WoltLab",
+                    "tfa": [
+                        "totp",
+                        "u2f",
+                        "email"
+                    ],
+                    "keywords": [
+                        "communication"
+                    ]
+                }
+            ]
+        },
+        "wellknown": {}
+    }
+]

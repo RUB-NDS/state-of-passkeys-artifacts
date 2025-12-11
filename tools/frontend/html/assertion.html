@@ -1,0 +1,147 @@
+<div class="row">
+    <div class="col text-center">
+        <h1>clientDataJSON</h1>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <div class="card full-height">
+            <div class="card-header">DECODED</div>
+            <div class="card-body" id="assertionClientDataJSONDecCard">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="d-flex flex-column justify-content-between full-height">
+            <div class="card mb-3 quarter-height">
+                <div class="card-header">B64URL</div>
+                <div class="card-body p-0">
+                    <textarea class="form-control border-0" id="assertionClientDataJSONEncB64urlTextarea"></textarea>
+                </div>
+            </div>
+            <div class="card mb-3 quarter-height">
+                <div class="card-header">B64</div>
+                <div class="card-body p-0">
+                    <textarea class="form-control border-0" id="assertionClientDataJSONEncB64Textarea"></textarea>
+                </div>
+            </div>
+            <div class="card mb-3 quarter-height">
+                <div class="card-header">HEX</div>
+                <div class="card-body p-0">
+                    <textarea class="form-control border-0" id="assertionClientDataJSONEncHexTextarea"></textarea>
+                </div>
+            </div>
+            <div class="card quarter-height">
+                <div class="card-header">SHA256</div>
+                <div class="card-body p-0">
+                    <textarea class="form-control border-0" id="assertionClientDataJSONHashHexTextarea" disabled></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col text-center">
+        <h1>authenticatorData</h1>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <div class="action-toolbar toolbar-secondary">
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-hash me-2"></i>Set RP ID Hash</span>
+                <input type="text" class="form-control" id="assertionRpIdInput" placeholder="RP ID...">
+                <input type="text" class="form-control" id="assertionRpIdHashInput" placeholder="Hash (auto)" disabled>
+                <button class="btn btn-secondary" id="assertionRpIdBtn">Apply</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <div class="card full-height">
+            <div class="card-header">DECODED</div>
+            <div class="card-body" id="assertionAuthenticatorDataDecCard">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="d-flex flex-column justify-content-between full-height">
+            <div class="card mb-3 one-third-height">
+                <div class="card-header">B64URL</div>
+                <div class="card-body p-0">
+                    <textarea class="form-control border-0" id="assertionAuthenticatorDataEncB64urlTextarea"></textarea>
+                </div>
+            </div>
+            <div class="card mb-3 one-third-height">
+                <div class="card-header">B64</div>
+                <div class="card-body p-0">
+                    <textarea class="form-control border-0" id="assertionAuthenticatorDataEncB64Textarea"></textarea>
+                </div>
+            </div>
+            <div class="card one-third-height">
+                <div class="card-header">HEX</div>
+                <div class="card-body p-0">
+                    <textarea class="form-control border-0" id="assertionAuthenticatorDataEncHexTextarea"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col text-center">
+        <h1>signature</h1>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <div class="action-toolbar">
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-shield-check me-2"></i>Verify Signature</span>
+                <select class="form-select" id="verifyAssertionWithStoredKeySelect"></select>
+                <button class="btn btn-primary" id="verifyAssertionWithStoredKeyBtn">Use Selected Key</button>
+                <button class="btn btn-secondary" id="verifyAssertionWithAttestationKeyBtn">Use Attestation Key</button>
+            </div>
+        </div>
+        <div class="action-toolbar">
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-vector-pen me-2"></i>Sign Assertion</span>
+                <select class="form-select" id="signAssertionWithStoredKeySelect"></select>
+                <button class="btn btn-primary" id="signAssertionWithStoredKeyBtn">Sign</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <div class="card one-third-height">
+            <div class="card-header">B64URL</div>
+            <div class="card-body p-0">
+                <textarea class="form-control border-0" id="assertionSignatureEncB64urlTextarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card one-third-height">
+            <div class="card-header">B64</div>
+            <div class="card-body p-0">
+                <textarea class="form-control border-0" id="assertionSignatureEncB64Textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card one-third-height">
+            <div class="card-header">HEX</div>
+            <div class="card-body p-0">
+                <textarea class="form-control border-0" id="assertionSignatureEncHexTextarea"></textarea>
+            </div>
+        </div>
+    </div>
+</div>

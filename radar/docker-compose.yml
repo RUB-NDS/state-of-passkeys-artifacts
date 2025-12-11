@@ -1,0 +1,26 @@
+services:
+
+  radar:
+    build: .
+    restart: unless-stopped
+    ports:
+      - 127.0.0.1:8090:8090
+    networks:
+      - passkey-network
+    volumes:
+      - ../data:/data
+    environment:
+      - DATA_DIR=/data
+      - ADMIN_USERNAME=${ADMIN_USERNAME:-admin}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-changeme}
+      - TZ=UTC
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.radar.rule=Host(`radar.passkeys.tools`)"
+      - "traefik.http.routers.radar.entrypoints=websecure"
+      - "traefik.http.routers.radar.tls.certresolver=letsencrypt"
+      - "traefik.http.services.radar.loadbalancer.server.port=8090"
+
+networks:
+  passkey-network:
+    external: true

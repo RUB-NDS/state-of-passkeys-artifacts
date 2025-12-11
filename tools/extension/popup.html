@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passkeys.Tools - Interceptor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            width: 400px;
+        }
+        .mode-option {
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .mode-option:hover {
+            box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.25);
+        }
+        .mode-option.selected {
+            background-color: #f0f7ff;
+            border-color: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container p-4">
+        <h4 class="mb-3">Passkeys.Tools - Interceptor</h4>
+
+        <div class="form-check form-switch mb-3">
+            <input class="form-check-input" type="checkbox" id="enableToggle">
+            <label class="form-check-label" for="enableToggle">
+                <strong>Enable Extension</strong>
+            </label>
+        </div>
+
+        <hr class="my-3">
+
+        <p class="text-muted">Frontend URL:</p>
+
+        <div class="mb-3">
+            <div class="input-group">
+                <input type="url" class="form-control" id="frontendUrl" placeholder="https://passkeys.tools">
+                <button class="btn btn-outline-danger btn-sm" type="button" id="resetUrl" title="Reset to default">Reset</button>
+            </div>
+            <small class="text-muted">URL where the passkeys.tools frontend is hosted</small>
+        </div>
+
+        <hr class="my-3">
+
+        <p class="text-muted">Select operation mode:</p>
+
+        <div class="d-grid gap-2">
+            <div class="form-check p-3 border rounded mode-option" data-mode="default">
+                <input class="form-check-input" type="radio" name="mode" value="default" id="mode-default">
+                <label class="form-check-label w-100" for="mode-default">
+                    <strong>Default</strong>
+                    <br>
+                    <small class="text-muted">Each website gets its own credential scoped to that website (normal behavior).</small>
+                </label>
+            </div>
+
+            <div class="form-check p-3 border rounded mode-option" data-mode="profile1">
+                <input class="form-check-input" type="radio" name="mode" value="profile1" id="mode-profile1">
+                <label class="form-check-label w-100" for="mode-profile1">
+                    <strong>Profile 1</strong>
+                    <br>
+                    <small class="text-muted">All websites share the same credential scoped to Profile 1. Use in browser profile 1 (e.g., attacker browser) when cross-browser testing is desired.</small>
+                </label>
+            </div>
+
+            <div class="form-check p-3 border rounded mode-option" data-mode="profile2">
+                <input class="form-check-input" type="radio" name="mode" value="profile2" id="mode-profile2">
+                <label class="form-check-label w-100" for="mode-profile2">
+                    <strong>Profile 2</strong>
+                    <br>
+                    <small class="text-muted">All websites share the same credential scoped to Profile 2. Use in browser profile 2 (e.g., victim browser) when cross-browser testing is desired.</small>
+                </label>
+            </div>
+        </div>
+
+        <div class="alert alert-info mt-2 py-2 small">
+            <strong>Profile modes:</strong> Unlike default mode where each website gets its own credential, profile modes share the same credential across all websites. This enables cross-browser credential swapping tests (e.g., replacing victim's challenge with attacker's challenge).
+        </div>
+
+        <hr class="my-3">
+
+        <p class="text-muted">Popup display mode:</p>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="popupMode" value="detached" id="popup-detached">
+            <label class="form-check-label" for="popup-detached">
+                <strong>Detached Window</strong>
+                <br>
+                <small class="text-muted">Opens in a separate window (1200x800)</small>
+            </label>
+        </div>
+
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="radio" name="popupMode" value="inline" id="popup-inline">
+            <label class="form-check-label" for="popup-inline">
+                <strong>Inline Popup</strong>
+                <br>
+                <small class="text-muted">Opens as an inline popup</small>
+            </label>
+        </div>
+
+        <div class="alert mt-3 d-none" role="alert" id="status"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Passkey Radar - Track Global Passkey Adoption</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.js"></script>
+    <!-- Chart.js date adapter - bundle includes date-fns -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #7c3aed;
+            --success-color: #10b981;
+            --danger-color: #ef4444;
+            --warning-color: #f59e0b;
+            --info-color: #3b82f6;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --border-radius: 12px;
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* Modern Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95) !important;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            padding: 1rem 0;
+            border-bottom: none;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--dark) !important;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .navbar-brand i {
+            font-size: 1.75rem;
+            color: var(--primary-color);
+        }
+
+        .navbar-nav {
+            gap: 0.5rem;
+        }
+
+        .nav-link {
+            color: var(--gray) !important;
+            font-weight: 500;
+            padding: 0.5rem 1.25rem !important;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+            background-color: rgba(37, 99, 235, 0.1);
+        }
+
+        .nav-link.active {
+            color: var(--primary-color) !important;
+            background-color: rgba(37, 99, 235, 0.1);
+        }
+
+        /* Dropdown menu styling */
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border-radius: var(--border-radius);
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .dropdown-item {
+            border-radius: 8px;
+            padding: 0.5rem 1rem;
+            transition: var(--transition);
+            color: var(--gray);
+            font-weight: 500;
+        }
+
+        .dropdown-item:hover {
+            background-color: rgba(37, 99, 235, 0.1);
+            color: var(--primary-color);
+        }
+
+        .dropdown-item i {
+            width: 20px;
+            text-align: center;
+        }
+
+        /* Modern Cards */
+        .card {
+            border: none;
+            border-radius: var(--border-radius);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            background: white;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            background: none;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 1.5rem;
+        }
+
+        .card-header h5 {
+            color: var(--dark);
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .card-header small {
+            color: var(--gray);
+            font-size: 0.875rem;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        /* Stat Cards */
+        .stat-card {
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(37, 99, 235, 0) 100%);
+            border-radius: 50%;
+            transform: translate(20px, -20px);
+        }
+
+        .stat-card .card-body {
+            position: relative;
+            z-index: 1;
+        }
+
+        .stat-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .stat-icon.primary {
+            background: rgba(37, 99, 235, 0.1);
+            color: var(--primary-color);
+        }
+
+        .stat-icon.success {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success-color);
+        }
+
+        .stat-icon.warning {
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--warning-color);
+        }
+
+        .stat-icon.info {
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--info-color);
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-label {
+            color: var(--gray);
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        /* Chart Container */
+        .chart-container {
+            position: relative;
+            height: 400px;
+        }
+
+        /* Loading Spinner */
+        .loading-spinner {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .spinner-border {
+            width: 3rem;
+            height: 3rem;
+            border-width: 0.3em;
+        }
+
+        /* Section Headers */
+        .section-header {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-description {
+            color: var(--gray);
+            font-size: 1.125rem;
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 0.625rem 1.25rem;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: var(--transition);
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #1d4ed8;
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: #f3f4f6;
+            color: var(--gray);
+        }
+
+        .btn-secondary:hover {
+            background: #e5e7eb;
+            color: var(--dark);
+        }
+
+        /* Forms */
+        .form-control, .form-select {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .form-label {
+            font-weight: 500;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Badges */
+        .badge {
+            padding: 0.375rem 0.75rem;
+            border-radius: 6px;
+            font-weight: 500;
+        }
+
+        .directory-badge {
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .directory-badge:hover {
+            transform: scale(1.1);
+        }
+
+        /* Table header styling */
+        #scanDataTable thead th {
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        #scanDataTable thead tr:first-child th {
+            background: var(--bg-light);
+            font-weight: 600;
+        }
+
+        #directoryHeaders th {
+            border-top: none;
+            background: var(--bg-light);
+            padding: 8px 4px;
+        }
+
+        #scanDataTable tbody td {
+            vertical-align: middle;
+        }
+
+        /* Column width constraints */
+        #scanDataTable th:nth-child(1),
+        #scanDataTable td:nth-child(1) { /* Name */
+            max-width: 150px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        #scanDataTable th:nth-child(2),
+        #scanDataTable td:nth-child(2) { /* Domain */
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* Table */
+        .table {
+            font-size: 0.875rem;
+        }
+
+        .table th {
+            font-weight: 600;
+            color: var(--dark);
+            border-bottom: 2px solid #e5e7eb;
+            padding: 1rem;
+        }
+
+        .table td {
+            padding: 1rem;
+            vertical-align: middle;
+        }
+
+        /* Sections */
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Admin nav tabs styling */
+        #admin-section .nav-tabs {
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        #admin-section .nav-tabs .nav-link {
+            border: none;
+            border-bottom: 3px solid transparent;
+            background: none;
+            color: var(--text-muted);
+            padding: 0.75rem 1.5rem;
+            margin-bottom: -2px;
+            transition: var(--transition);
+        }
+
+        #admin-section .nav-tabs .nav-link:hover {
+            color: var(--primary-color);
+            border-bottom-color: rgba(37, 99, 235, 0.3);
+        }
+
+        #admin-section .nav-tabs .nav-link.active {
+            color: var(--primary-color);
+            background: white;
+            border: 1px solid var(--border-color);
+            border-bottom: 3px solid white;
+            border-radius: var(--border-radius) var(--border-radius) 0 0;
+            font-weight: 600;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar-nav {
+                margin-top: 1rem;
+            }
+
+            .stat-value {
+                font-size: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Alert */
+        .alert {
+            border: none;
+            border-radius: var(--border-radius);
+            padding: 1rem 1.5rem;
+        }
+
+        /* Checkbox styling */
+        .form-check-input:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .form-check-input:focus {
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-radar"></i>
+                The Passkey Radar
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="showSection('overview'); return false;">
+                            <i class="bi bi-grid-3x3-gap me-2"></i>Overview
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('history'); return false;">
+                            <i class="bi bi-clock-history me-2"></i>History
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('scans'); return false;">
+                            <i class="bi bi-search me-2"></i>Explore
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('admin'); return false;">
+                            <i class="bi bi-gear me-2"></i>Admin
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- API Documentation Links -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-code-slash me-2"></i>API Docs
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <a class="dropdown-item" href="/docs" target="_blank">
+                                    <i class="bi bi-file-earmark-code me-2"></i>Swagger UI
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/redoc" target="_blank">
+                                    <i class="bi bi-book me-2"></i>ReDoc
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="/openapi.json" target="_blank">
+                                    <i class="bi bi-filetype-json me-2"></i>OpenAPI Spec
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner">
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-3 mb-0">Loading data...</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container-fluid px-4 py-4">
+        <!-- Overview Section -->
+        <section id="overview-section" class="section active">
+            <div class="section-header">
+                <h1 class="section-title">Passkey Adoption Overview</h1>
+                <p class="section-description">Real-time insights into global passkey adoption across major platforms and services</p>
+            </div>
+
+            <!-- Summary Statistics -->
+            <div class="row g-4 mb-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="stat-icon primary">
+                                <i class="bi bi-globe"></i>
+                            </div>
+                            <div class="stat-value" id="totalDomains">-</div>
+                            <div class="stat-label">Total Domains</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="stat-icon success">
+                                <i class="bi bi-folder2-open"></i>
+                            </div>
+                            <div class="stat-value" id="totalDirectories">12</div>
+                            <div class="stat-label">Directories Tracked</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="stat-icon warning">
+                                <i class="bi bi-calendar-check"></i>
+                            </div>
+                            <div class="stat-value" id="latestScan">-</div>
+                            <div class="stat-label">Latest Update</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="stat-icon info">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <div class="stat-value" id="totalDataPoints">-</div>
+                            <div class="stat-label">Historical Data Points</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Growth Chart -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-1">Passkey Adoption Growth</h5>
+                            <small class="text-muted">Track the increase in passkey-enabled domains over time</small>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-container">
+                                <canvas id="temporalChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Distribution Charts -->
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-1">Domains by Directory</h5>
+                            <small class="text-muted">Distribution of passkey-enabled sites across tracking directories</small>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-container">
+                                <canvas id="directoryChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-1">Coverage Distribution</h5>
+                            <small class="text-muted">Relative share of domains tracked by each directory</small>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-container">
+                                <canvas id="coverageChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history-section" class="section">
+            <div class="section-header">
+                <h1 class="section-title">Historical Analysis</h1>
+                <p class="section-description">Explore how passkey adoption has evolved across different platforms and directories</p>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <label class="form-label">Time Range</label>
+                    <div class="btn-group d-flex" role="group">
+                        <button type="button" class="btn btn-secondary active" onclick="setHistoryTimeRange('all')">All Time</button>
+                        <button type="button" class="btn btn-secondary" onclick="setHistoryTimeRange('year')">Last Year</button>
+                        <button type="button" class="btn btn-secondary" onclick="setHistoryTimeRange('6months')">6 Months</button>
+                        <button type="button" class="btn btn-secondary" onclick="setHistoryTimeRange('3months')">3 Months</button>
+                        <button type="button" class="btn btn-secondary" onclick="setHistoryTimeRange('month')">Last Month</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-1">Passkey Adoption Timeline</h5>
+                            <small class="text-muted">Compare adoption trends across different directories and platforms</small>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-container" style="height: 500px;">
+                                <canvas id="historyChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scans Section -->
+        <section id="scans-section" class="section">
+            <div class="section-header">
+                <h1 class="section-title">Explore Historical Data</h1>
+                <p class="section-description">Browse passkey adoption data from any point in time</p>
+            </div>
+
+            <!-- Date Selection -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <label for="scanDatePicker" class="form-label">Select Date</label>
+                            <input type="date" class="form-control mb-3" id="scanDatePicker" value="">
+                            <button class="btn btn-primary w-100" onclick="loadScanForDate()">
+                                <i class="bi bi-search me-2"></i>Load Data
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="alert alert-info d-none" id="scanInfo">
+                        <i class="bi bi-info-circle me-2"></i>
+                        <strong>Data Source:</strong> <span id="scanInfoText"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Filters -->
+            <div class="row mb-4 d-none" id="scanFilters">
+                <div class="col-md-4">
+                    <label for="scanDomainFilter" class="form-label">Filter by Domain</label>
+                    <input type="text" class="form-control" id="scanDomainFilter" placeholder="e.g., google">
+                </div>
+                <div class="col-md-4">
+                    <label for="scanDirectoryFilter" class="form-label">Filter by Directory</label>
+                    <select class="form-select" id="scanDirectoryFilter">
+                        <option value="">All Directories</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Quick Filters</label>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-sm btn-secondary" onclick="filterScanByWellKnown()">
+                            <i class="bi bi-shield-check me-1"></i>Well-Known
+                        </button>
+                        <button class="btn btn-sm btn-secondary" onclick="filterScanBySignIn()">
+                            <i class="bi bi-key me-1"></i>Sign-In
+                        </button>
+                        <button class="btn btn-sm btn-secondary" onclick="filterScanByMFA()">
+                            <i class="bi bi-shield-lock me-1"></i>MFA
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Table -->
+            <div class="card d-none" id="scanDataCard">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Passkey-Enabled Domains</h5>
+                    <span class="badge bg-primary" id="scanResultCount">0 results</span>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive" style="overflow-x: auto;">
+                        <table class="table table-hover mb-0" id="scanDataTable">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">Name</th>
+                                    <th rowspan="2">Domain</th>
+                                    <th rowspan="2">Sign-In</th>
+                                    <th rowspan="2">MFA</th>
+                                    <th colspan="12" class="text-center">Directory Coverage</th>
+                                    <th colspan="2" class="text-center">Well-Known</th>
+                                </tr>
+                                <tr id="directoryHeaders">
+                                    <!-- Directory headers will be populated by JavaScript -->
+                                </tr>
+                            </thead>
+                            <tbody id="scanDataTableBody">
+                                <tr>
+                                    <td colspan="18" class="text-center py-5 text-muted">
+                                        <i class="bi bi-calendar-search display-4 d-block mb-3"></i>
+                                        Select a date to explore historical data
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admin Section -->
+        <section id="admin-section" class="section">
+            <div class="section-header">
+                <h1 class="section-title">Admin Dashboard</h1>
+                <p class="section-description">Manage data collection and system operations</p>
+            </div>
+
+            <!-- System Overview -->
+            <div class="row g-4 mb-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="stat-icon primary">
+                                <i class="bi bi-layers"></i>
+                            </div>
+                            <div class="stat-value" id="statCombined">-</div>
+                            <div class="stat-label">Combined Files</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="stat-icon success">
+                                <i class="bi bi-intersect"></i>
+                            </div>
+                            <div class="stat-value" id="statMerged">-</div>
+                            <div class="stat-label">Merged Files</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="stat-icon warning">
+                                <i class="bi bi-exclamation-triangle"></i>
+                            </div>
+                            <div class="stat-value" id="statConflicts">-</div>
+                            <div class="stat-label">Conflicts</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card stat-card">
+                        <div class="card-body">
+                            <div class="stat-icon info">
+                                <i class="bi bi-folder2"></i>
+                            </div>
+                            <div class="stat-value" id="statDirectories">-</div>
+                            <div class="stat-label">Active Directories</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nav Tabs -->
+            <ul class="nav nav-tabs mb-4" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#operations-tab" type="button">
+                        <i class="bi bi-play-circle me-2"></i>Operations
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#status-tab" type="button">
+                        <i class="bi bi-activity me-2"></i>Directory Status
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#browser-tab" type="button">
+                        <i class="bi bi-folder2-open me-2"></i>Data Browser
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tasks-tab" type="button">
+                        <i class="bi bi-clock-history me-2"></i>Task History
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- Operations Tab -->
+                <div class="tab-pane fade show active" id="operations-tab" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-header">
+                                    <h5 class="mb-1">Data Collection</h5>
+                                    <small class="text-muted">Fetch latest passkey data from all directories</small>
+                                </div>
+                                <div class="card-body">
+                                    <p class="text-muted mb-4">
+                                        Trigger a new data collection run to fetch the latest passkey information from all configured directories.
+                                    </p>
+                                    <button class="btn btn-primary" onclick="showFetchModal()">
+                                        <i class="bi bi-download me-2"></i>Select & Fetch
+                                    </button>
+                                    <button class="btn btn-secondary ms-2" onclick="fetchData()">
+                                        <i class="bi bi-arrow-repeat me-2"></i>Fetch All
+                                    </button>
+                                    <div id="fetchResult" class="mt-3"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-header">
+                                    <h5 class="mb-1">Data Processing</h5>
+                                    <small class="text-muted">Combine and merge collected data</small>
+                                </div>
+                                <div class="card-body">
+                                    <p class="text-muted mb-4">
+                                        Process raw data from directories to create unified datasets for analysis.
+                                    </p>
+                                    <div class="d-flex gap-2">
+                                        <button class="btn btn-primary" onclick="combineData()">
+                                            <i class="bi bi-layers me-2"></i>Combine
+                                        </button>
+                                        <button class="btn btn-primary" onclick="showMergeModal()">
+                                            <i class="bi bi-intersect me-2"></i>Merge
+                                        </button>
+                                    </div>
+                                    <div id="processResult" class="mt-3"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mb-1">System Health</h5>
+                                    <small class="text-muted">Monitor system status and performance</small>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-muted">API Status</span>
+                                            <span class="badge bg-success">Operational</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-muted">Last Update</span>
+                                            <span id="lastUpdateTime">-</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-muted">Data Points</span>
+                                            <span id="dataPointCount">-</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="text-muted">API Endpoint</span>
+                                            <span class="text-monospace">/api/*</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-sm btn-secondary" onclick="refreshStatus()">
+                                        <i class="bi bi-arrow-clockwise me-1"></i>Refresh
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Directory Status Tab -->
+                <div class="tab-pane fade" id="status-tab" role="tabpanel">
+                    <div class="row g-4" id="directoryStatus">
+                        <!-- Directory status cards will be populated here -->
+                        <div class="col-12 text-center text-muted py-5">
+                            <i class="bi bi-hourglass-split display-4 d-block mb-3"></i>
+                            Loading directory status...
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Browser Tab -->
+                <div class="tab-pane fade" id="browser-tab" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="list-group">
+                                <button class="list-group-item list-group-item-action active" onclick="browseData('directories')">
+                                    <i class="bi bi-folder me-2"></i>Directories
+                                </button>
+                                <button class="list-group-item list-group-item-action" onclick="browseData('wellknown')">
+                                    <i class="bi bi-shield-check me-2"></i>Well-Known
+                                </button>
+                                <button class="list-group-item list-group-item-action" onclick="browseData('combined')">
+                                    <i class="bi bi-layers me-2"></i>Combined
+                                </button>
+                                <button class="list-group-item list-group-item-action" onclick="browseData('merged')">
+                                    <i class="bi bi-intersect me-2"></i>Merged
+                                </button>
+                                <button class="list-group-item list-group-item-action" onclick="browseData('conflicts')">
+                                    <i class="bi bi-exclamation-triangle me-2"></i>Conflicts
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mb-0" id="browserTitle">Directories</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div id="fileList" class="file-list">
+                                        <div class="text-center text-muted py-5">
+                                            <i class="bi bi-folder-open display-4 d-block mb-3"></i>
+                                            Select a data type to browse
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task History Tab -->
+                <div class="tab-pane fade" id="tasks-tab" role="tabpanel">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">Recent Tasks</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="taskList" class="list-group">
+                                <div class="text-center text-muted py-5">
+                                    <i class="bi bi-clock-history display-4 d-block mb-3"></i>
+                                    No recent tasks
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Fetch Modal -->
+    <div class="modal fade" id="fetchModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Select Directories to Fetch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="directoryList">
+                        <!-- Directory checkboxes will be populated here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="executeFetch()">
+                        <i class="bi bi-download me-2"></i>Fetch Selected
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Merge Modal -->
+    <div class="modal fade" id="mergeModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Select Files to Merge</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info mb-3">
+                        <i class="bi bi-info-circle me-2"></i>
+                        Select combined files to merge. Already merged files can be re-merged to update them with the latest merging algorithm.
+                    </div>
+                    <div id="mergeFileList">
+                        <!-- Combined files will be populated here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="executeMerge()">
+                        <i class="bi bi-intersect me-2"></i>Merge Selected
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detail Modal -->
+    <div class="modal fade" id="detailModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entry Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <pre id="detailContent" class="bg-light p-3 rounded"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Application JavaScript -->
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/admin.js"></script>
+
+    <script>
+        // Prevent scroll restoration on page reload
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        // Force scroll to top on page load
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                window.scrollTo(0, 0);
+            }, 0);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row mb-4">
+        <div class="col mb-4">
+            <h1>Tasks</h1>
+            {% for task_name in task_names %}
+                <hr>
+                <div class="wrapper" task-name="{{ task_name }}">
+                    <p><form></form></p>
+                    <p>
+                        <button class="btn btn-primary btn-create"><i class="bi bi-plus-circle"></i> Create</button>
+                        <button class="btn btn-primary btn-manage" data-bs-toggle="modal" data-bs-target="#scansModal" task-name="{{ task_name }}"><i class="bi bi-gear"></i> Manage</button>
+                    </p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+    JSONEditor.defaults.editors.object.options.collapsed = true
+
+    document.querySelectorAll(".wrapper").forEach((wrapper) => {
+        const task_name = wrapper.getAttribute("task-name")
+        const form = wrapper.querySelector("form")
+        const button = wrapper.querySelector("button.btn-create")
+        fetch(`/tasks/${task_name}`).then(r => r.json()).then(d => {
+            if (d.success) {
+                const editor = new JSONEditor(form, {
+                    theme: "bootstrap5",
+                    iconlib: "bootstrap",
+                    disable_array_delete_all_rows: true,
+                    disable_array_delete_last_row: true,
+                    disable_edit_json: true,
+                    disable_properties: true,
+                    no_additional_properties: true,
+                    schema: {
+                        ...d.data,
+                        title: task_name
+                    }
+                })
+                button.onclick = () => {
+                    const check = confirm("Create?")
+                    if (check != true) return
+                    const errors = editor.validate()
+                    if (errors.length) {
+                        alert(`Error: ${errors}`)
+                        return
+                    }
+                    const value = editor.getValue()
+                    fetch(`/tasks/${task_name}`, {
+                        method: "POST",
+                        headers: {"Content-Type": "application/json"},
+                        body: JSON.stringify(value)
+                    }).then(r => r.json()).then(d => {
+                        if (d.success) {
+                            alert("Success")
+                        } else {
+                            alert(`Error: ${d.error}`)
+                        }
+                    }).catch(e => {
+                        alert(`Error: ${e}`)
+                    })
+                }
+            } else {
+                alert(`Error: ${d.error}`)
+            }
+        }).catch(e => {
+            alert(`Error: ${e}`)
+        })
+    })
+</script>
+{% endblock %}

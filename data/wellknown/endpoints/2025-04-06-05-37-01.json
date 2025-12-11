@@ -1,0 +1,2591 @@
+[
+    {
+        "origin": "https://projects.blender.org",
+        "data": {
+            "enroll": "https://projects.blender.org/user/settings/security",
+            "manage": "https://projects.blender.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.glomdalen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.budstikka.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.macromedia.com",
+        "data": {
+            "enroll": "https://account.adobe.com/security?addPasskey",
+            "manage": "https://account.adobe.com/security"
+        }
+    },
+    {
+        "origin": "https://poblano.jp",
+        "data": {
+            "enroll": "https://poblano.jp/settings/passkey/add",
+            "manage": "https://poblano.jp/settings/passkey"
+        }
+    },
+    {
+        "origin": "http://www.chanakyya.com",
+        "data": []
+    },
+    {
+        "origin": "https://git.eaglercraft.rip",
+        "data": {
+            "enroll": "https://git.eaglercraft.rip/user/settings/security",
+            "manage": "https://git.eaglercraft.rip/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.finnmarkdebatten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://gitea.jellypro.xyz",
+        "data": {
+            "enroll": "https://gitea.jellypro.xyz/user/settings/security",
+            "manage": "https://gitea.jellypro.xyz/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.ba.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://accounts.nintendo.com",
+        "data": {
+            "enroll": "https://accounts.nintendo.com/passkey",
+            "manage": "https://accounts.nintendo.com/passkey"
+        }
+    },
+    {
+        "origin": "https://www.oyene.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.hadeland.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.intl.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://api.billmate.se",
+        "data": []
+    },
+    {
+        "origin": "https://www.ebay.ie",
+        "data": {
+            "enroll": "https://accounts.ebay.ie/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.ie/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.tvedestrandsposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://pa.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.amta.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.eikerbladet.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.nord24.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.finnmarkdagblad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://bugtracker.nextgen.limited",
+        "data": {
+            "enroll": "https://bugtracker.nextgen.limited/user/settings/security",
+            "manage": "https://bugtracker.nextgen.limited/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www-ebay-fr.translate.goog",
+        "data": {
+            "enroll": "https://accounts.ebay.fr/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.fr/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://wwww.ebay.co.uk",
+        "data": {
+            "enroll": "https://accounts.ebay.co.uk/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.co.uk/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://git.eaglercraft.win",
+        "data": {
+            "enroll": "https://git.eaglercraft.win/user/settings/security",
+            "manage": "https://git.eaglercraft.win/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.sandnesposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ebay.at",
+        "data": {
+            "enroll": "https://accounts.ebay.at/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.at/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ebay.ph",
+        "data": {
+            "enroll": "https://accounts.ebay.ph/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.ph/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.bygdebladet.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://sneleentaxi.nl",
+        "data": {
+            "enroll": "https://sneleentaxi.nl/account/instellingen/veiligheid?passkey=true",
+            "manage": "https://sneleentaxi.nl/account/instellingen/veiligheid?passkey=true"
+        }
+    },
+    {
+        "origin": "https://digistorage.es",
+        "data": {
+            "enroll": "https://digistorage.es/mfa/webauthn/add",
+            "manage": "https://digistorage.es/app/admin/preferences/two-factor-authentication"
+        }
+    },
+    {
+        "origin": "https://git.anna.lgbt",
+        "data": {
+            "enroll": "https://git.anna.lgbt/user/settings/security",
+            "manage": "https://git.anna.lgbt/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.ebay.vn",
+        "data": {
+            "enroll": "https://accounts.ebay.vn/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.vn/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://cl.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://web-va.tiktok.com",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://www-ebay-com-au.translate.goog",
+        "data": {
+            "enroll": "https://accounts.ebay.com.au/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com.au/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.adobe.com",
+        "data": {
+            "enroll": "https://account.adobe.com/security?addPasskey",
+            "manage": "https://account.adobe.com/security"
+        }
+    },
+    {
+        "origin": "https://www.avisenagder.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://bo.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.alt.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://id.tokyu.co.jp",
+        "data": {
+            "enroll": "https://id.tokyu.co.jp/user/passkey/me",
+            "manage": "https://id.tokyu.co.jp/user/passkey/me"
+        }
+    },
+    {
+        "origin": "https://gitea.it",
+        "data": {
+            "enroll": "https://gitea.it/user/settings/security",
+            "manage": "https://gitea.it/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.lubuntu.me",
+        "data": {
+            "enroll": "https://git.lubuntu.me/user/settings/security",
+            "manage": "https://git.lubuntu.me/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.smaalenene.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.lofot-tidende.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.rha.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.ebay.es",
+        "data": {
+            "enroll": "https://accounts.ebay.es/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.es/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://gitea.kood.tech",
+        "data": {
+            "enroll": "https://gitea.kood.tech/user/settings/security",
+            "manage": "https://gitea.kood.tech/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://m.ebay.nl",
+        "data": {
+            "enroll": "https://accounts.ebay.nl/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.nl/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www-ebay-co-uk.translate.goog",
+        "data": {
+            "enroll": "https://accounts.ebay.co.uk/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.co.uk/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://gitea.wildfiregames.com",
+        "data": {
+            "enroll": "https://gitea.wildfiregames.com/user/settings/security",
+            "manage": "https://gitea.wildfiregames.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.opca.ma",
+        "data": []
+    },
+    {
+        "origin": "https://ipnpb.paypal.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://gt.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.h-a.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.kvinnheringen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.bygdeposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://matthewgall.codes",
+        "data": {
+            "enroll": "https://matthewgall.codes/user/settings/security",
+            "manage": "https://matthewgall.codes/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://auth.sumup.com",
+        "data": {
+            "enroll": "https://me.sumup.com/security/passkeys/add",
+            "manage": "https://me.sumup.com/security/passkeys"
+        }
+    },
+    {
+        "origin": "https://m.ebay.ca",
+        "data": {
+            "enroll": "https://accounts.ebay.ca/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.ca/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.dalane-tidende.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://web-ttp2.us.tiktok.com",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://www.austagderblad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://grond.iut-fbleau.fr",
+        "data": {
+            "enroll": "https://grond.iut-fbleau.fr/user/settings/security",
+            "manage": "https://grond.iut-fbleau.fr/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.mittloerenskog.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.sydvesten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://lms.okeanos.nl",
+        "data": {
+            "enroll": "https://lms.okeanos.nl/user/authentication",
+            "manage": "https://lms.okeanos.nl/user/authentication"
+        }
+    },
+    {
+        "origin": "https://git.vrsal.cc",
+        "data": {
+            "enroll": "https://git.vrsal.cc/user/settings/security",
+            "manage": "https://git.vrsal.cc/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://gitea.swigg.net",
+        "data": {
+            "enroll": "https://gitea.swigg.net/user/settings/security",
+            "manage": "https://gitea.swigg.net/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.sicampus.ru",
+        "data": {
+            "enroll": "https://git.sicampus.ru/user/settings/security",
+            "manage": "https://git.sicampus.ru/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://vioc.couponforless.com",
+        "data": []
+    },
+    {
+        "origin": "https://www.paypal.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://www.helg.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://bbn.one",
+        "data": {
+            "enroll": "https://bbn.music/settings",
+            "manage": "https://bbn.music/settings"
+        }
+    },
+    {
+        "origin": "https://tutumway.com",
+        "data": {
+            "enroll": "https://tutumway.com/account/manage/passkeys/create",
+            "manage": "https://tutumway.com/account/manage/passkeys"
+        }
+    },
+    {
+        "origin": "https://git.coom.tech",
+        "data": {
+            "enroll": "https://git.coom.tech/user/settings/security",
+            "manage": "https://git.coom.tech/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.liberatedsystems.co.uk",
+        "data": {
+            "enroll": "https://git.liberatedsystems.co.uk/user/settings/security",
+            "manage": "https://git.liberatedsystems.co.uk/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://il.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ebay.com.au",
+        "data": {
+            "enroll": "https://accounts.ebay.com.au/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com.au/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.retten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.nordnorskdebatt.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.aid.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.firdaposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.kp.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://ec.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://go.sniply.page",
+        "data": ""
+    },
+    {
+        "origin": "https://www.cafr.ebay.ca",
+        "data": {
+            "enroll": "https://accounts.cafr.ebay.ca/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.cafr.ebay.ca/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ebay.com.hk",
+        "data": {
+            "enroll": "https://accounts.ebay.com.hk/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com.hk/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ui.com",
+        "data": {
+            "enroll": "https://account.ui.com/security",
+            "manage": "https://account.ui.com/security"
+        }
+    },
+    {
+        "origin": "https://chanakyya.com",
+        "data": []
+    },
+    {
+        "origin": "https://www.lyngdalsavis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.finnmarksposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.sb.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://accounts.hatena.ne.jp",
+        "data": {
+            "enroll": "https://accounts.hatena.ne.jp/settings/passkeys",
+            "manage": "https://accounts.hatena.ne.jp/settings/passkeys"
+        }
+    },
+    {
+        "origin": "https://www.rablad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.rastavanger.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.ebay.com.au",
+        "data": {
+            "enroll": "https://accounts.ebay.com.au/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com.au/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.mittlillestrom.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.befr.ebay.be",
+        "data": {
+            "enroll": "https://accounts.befr.ebay.be/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.befr.ebay.be/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://git.old-metin2.com",
+        "data": {
+            "enroll": "https://git.old-metin2.com/user/settings/security",
+            "manage": "https://git.old-metin2.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.ansol.org",
+        "data": {
+            "enroll": "https://git.ansol.org/user/settings/security",
+            "manage": "https://git.ansol.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.b612.me",
+        "data": {
+            "enroll": "https://git.b612.me/user/settings/security",
+            "manage": "https://git.b612.me/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://labs.phundrak.com",
+        "data": {
+            "enroll": "https://labs.phundrak.com/user/settings/security",
+            "manage": "https://labs.phundrak.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://projects.torsion.org",
+        "data": {
+            "enroll": "https://projects.torsion.org/user/settings/security",
+            "manage": "https://projects.torsion.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.ta.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.varingen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.solungavisa.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.ecker.tech",
+        "data": {
+            "enroll": "https://git.ecker.tech/user/settings/security",
+            "manage": "https://git.ecker.tech/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://ui.com",
+        "data": {
+            "enroll": "https://account.ui.com/security",
+            "manage": "https://account.ui.com/security"
+        }
+    },
+    {
+        "origin": "https://py.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.sva.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.ebay.pl",
+        "data": {
+            "enroll": "https://accounts.ebay.pl/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.pl/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://git.kemt.fei.tuke.sk",
+        "data": {
+            "enroll": "https://git.kemt.fei.tuke.sk/user/settings/security",
+            "manage": "https://git.kemt.fei.tuke.sk/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://id.test.mfw.work",
+        "data": {
+            "enroll": "https://id.test.mfw.work/webauthn/credentials",
+            "manage": "https://id.test.mfw.work/webauthn/credentials"
+        }
+    },
+    {
+        "origin": "https://kolaente.dev",
+        "data": {
+            "enroll": "https://kolaente.dev/user/settings/security",
+            "manage": "https://kolaente.dev/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.jeddunk.xyz",
+        "data": {
+            "enroll": "https://git.jeddunk.xyz/user/settings/security",
+            "manage": "https://git.jeddunk.xyz/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.lofotposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://onepropertee.com",
+        "data": {
+            "enroll": "https://onepropertee.com/dashboard/account/passkeys",
+            "manage": "https://onepropertee.com/dashboard/account/passkeys"
+        }
+    },
+    {
+        "origin": "https://git.dghs.gov.bd",
+        "data": {
+            "enroll": "https://git.dghs.gov.bd/user/settings/security",
+            "manage": "https://git.dghs.gov.bd/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://uy.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://m.ebay.ie",
+        "data": {
+            "enroll": "https://accounts.ebay.ie/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.ie/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://workit.nl",
+        "data": []
+    },
+    {
+        "origin": "https://www-ebay-de.translate.goog",
+        "data": {
+            "enroll": "https://accounts.ebay.de/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.de/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.eub.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.jarlsbergavis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.noblad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.scm.com",
+        "data": {
+            "enroll": "https://git.scm.com/user/settings/security",
+            "manage": "https://git.scm.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.mittjessheim.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.drmlab.io",
+        "data": {
+            "enroll": "https://git.drmlab.io/user/settings/security",
+            "manage": "https://git.drmlab.io/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.dmin.pro",
+        "data": {
+            "enroll": "https://git.dmin.pro/user/settings/security",
+            "manage": "https://git.dmin.pro/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://history.paypal.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://gitea.com",
+        "data": {
+            "enroll": "https://gitea.com/user/settings/security",
+            "manage": "https://gitea.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.merakerposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.vp.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://pep.paypal.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://repo.ravanertebat.com",
+        "data": {
+            "enroll": "https://repo.ravanertebat.com/user/settings/security",
+            "manage": "https://repo.ravanertebat.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.taurusxin.com",
+        "data": {
+            "enroll": "https://git.taurusxin.com/user/settings/security",
+            "manage": "https://git.taurusxin.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www-ebay-it.translate.goog",
+        "data": {
+            "enroll": "https://accounts.ebay.it/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.it/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "http://www.kayak.com",
+        "data": {
+            "enroll": "https://www.kayak.com/profile/account/passkeys",
+            "manage": "https://www.kayak.com/profile/account/passkeys"
+        }
+    },
+    {
+        "origin": "https://admin.api.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ebay.com.sg",
+        "data": {
+            "enroll": "https://accounts.ebay.com.sg/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com.sg/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.tromsoby.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://api.lb2.billmate.se",
+        "data": []
+    },
+    {
+        "origin": "https://git.activated.win",
+        "data": {
+            "enroll": "https://git.activated.win/user/settings/security",
+            "manage": "https://git.activated.win/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.door43.org",
+        "data": {
+            "enroll": "https://git.door43.org/user/settings/security",
+            "manage": "https://git.door43.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://gitea.ops.luminia.io",
+        "data": {
+            "enroll": "https://gitea.ops.luminia.io/user/settings/security",
+            "manage": "https://gitea.ops.luminia.io/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://forge.soutade.fr",
+        "data": {
+            "enroll": "https://forge.soutade.fr/user/settings/security",
+            "manage": "https://forge.soutade.fr/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://free-git.org",
+        "data": {
+            "enroll": "https://free-git.org/user/settings/security",
+            "manage": "https://free-git.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www-yahoo-co-jp.translate.goog",
+        "data": {
+            "enroll": "https://account.edit.yahoo.co.jp/authdevice?cpt_n=PasskeyEndpoints&cpt_m=link&cpt_s=PasskeyEndpoints",
+            "manage": "https://account.edit.yahoo.co.jp/authdevice?cpt_n=PasskeyEndpoints&cpt_m=link&cpt_s=PasskeyEndpoints"
+        }
+    },
+    {
+        "origin": "https://www.ifinnmark.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.rb.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.t-a.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.kska.io",
+        "data": {
+            "enroll": "https://git.kska.io/user/settings/security",
+            "manage": "https://git.kska.io/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.felixm.de",
+        "data": {
+            "enroll": "https://git.felixm.de/user/settings/security",
+            "manage": "https://git.felixm.de/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://dev.silverstudiogames.org",
+        "data": {
+            "enroll": "https://dev.silverstudiogames.org/user/settings/security",
+            "manage": "https://dev.silverstudiogames.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.rimmyscorner.com",
+        "data": {
+            "enroll": "https://git.rimmyscorner.com/user/settings/security",
+            "manage": "https://git.rimmyscorner.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://pe.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.canva.com",
+        "data": {
+            "enroll": "https://www.canva.com/settings/login-and-security",
+            "manage": "https://www.canva.com/settings/login-and-security"
+        }
+    },
+    {
+        "origin": "https://www.nordhordland.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.iverdal.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.kfintech.com",
+        "data": {
+            "enroll": "https://git.kfintech.com/user/settings/security",
+            "manage": "https://git.kfintech.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.is.ulstu.ru",
+        "data": {
+            "enroll": "https://git.is.ulstu.ru/user/settings/security",
+            "manage": "https://git.is.ulstu.ru/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://jp.mercari.com",
+        "data": {
+            "enroll": "https://jp.mercari.com/mypage/personal_info/passkeys",
+            "manage": "https://jp.mercari.com/mypage/personal_info/passkeys"
+        }
+    },
+    {
+        "origin": "https://www.ebay.pl",
+        "data": {
+            "enroll": "https://accounts.ebay.pl/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.pl/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.jbl.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.drangedalsposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://repo.radio",
+        "data": {
+            "enroll": "https://repo.radio/user/settings/security",
+            "manage": "https://repo.radio/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://auth3.uber.com",
+        "data": {
+            "enroll": "https://account.uber.com/passkeys",
+            "manage": "https://account.uber.com/passkeys"
+        }
+    },
+    {
+        "origin": "https://www.canva-dev.com",
+        "data": {
+            "enroll": "https://www.canva.com/settings/login-and-security",
+            "manage": "https://www.canva.com/settings/login-and-security"
+        }
+    },
+    {
+        "origin": "https://gitea.tendokyu.moe",
+        "data": {
+            "enroll": "https://gitea.tendokyu.moe/user/settings/security",
+            "manage": "https://gitea.tendokyu.moe/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.wmi.amu.edu.pl",
+        "data": {
+            "enroll": "https://git.wmi.amu.edu.pl/user/settings/security",
+            "manage": "https://git.wmi.amu.edu.pl/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://account.docusign.mil",
+        "data": {
+            "enroll": "https://account.docusign.com/me/privacy-security",
+            "manage": "https://account.docusign.com/me/privacy-security"
+        }
+    },
+    {
+        "origin": "https://www.stangeavisa.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.finnmarken.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.sa.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://mx.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ebay.co.uk",
+        "data": {
+            "enroll": "https://accounts.ebay.co.uk/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.co.uk/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ebay.de",
+        "data": {
+            "enroll": "https://accounts.ebay.de/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.de/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.steinkjer-avisa.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.ebay.it",
+        "data": {
+            "enroll": "https://accounts.ebay.it/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.it/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.strandbuen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.green-lms.app",
+        "data": {
+            "enroll": "https://git.green-lms.app/user/settings/security",
+            "manage": "https://git.green-lms.app/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://auth-theta.sam-app.ro",
+        "data": {
+            "enroll": "https://me.sumup.com/security/passkeys/add",
+            "manage": "https://me.sumup.com/security/passkeys"
+        }
+    },
+    {
+        "origin": "https://www.totenidag.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://hub.allspice.io",
+        "data": {
+            "enroll": "https://hub.allspice.io/user/settings/security",
+            "manage": "https://hub.allspice.io/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.sageneavis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "http://www.tiktok.com",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://www.bestbuy.com",
+        "data": {
+            "enroll": "https://www.bestbuy.com/identity/accountSettings/page/passkeyDetails",
+            "manage": "https://www.bestbuy.com/identity/accountSettings/page/passkeyDetails"
+        }
+    },
+    {
+        "origin": "https://www.vestbyavis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://demo.gitea.com",
+        "data": {
+            "enroll": "https://demo.gitea.com/user/settings/security",
+            "manage": "https://demo.gitea.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://m.ebay.com.my",
+        "data": {
+            "enroll": "https://accounts.ebay.com.my/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com.my/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ifinnmarkdebatten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.m.ac",
+        "data": {
+            "enroll": "https://git.m.ac/user/settings/security",
+            "manage": "https://git.m.ac/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.oa.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.namdalsavisa.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.op.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://auth.ilam.ac.ir",
+        "data": {
+            "enroll": "https://auth.ilam.ac.ir",
+            "manage": "https://auth.ilam.ac.ir"
+        }
+    },
+    {
+        "origin": "https://app.koofr.net",
+        "data": {
+            "enroll": "https://app.koofr.net/mfa/webauthn/add",
+            "manage": "https://app.koofr.net/app/admin/preferences/two-factor-authentication"
+        }
+    },
+    {
+        "origin": "https://us.tiktok.com",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://www-ttp2.tiktokw.eu",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://git.touhou.dev",
+        "data": {
+            "enroll": "https://git.touhou.dev/user/settings/security",
+            "manage": "https://git.touhou.dev/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://m.ebay.de",
+        "data": {
+            "enroll": "https://accounts.ebay.de/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.de/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.dt.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ebay.nl",
+        "data": {
+            "enroll": "https://accounts.ebay.nl/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.nl/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.aasanetidende.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ranano.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://gitea.koodsisu.fi",
+        "data": {
+            "enroll": "https://gitea.kood.tech/user/settings/security",
+            "manage": "https://gitea.kood.tech/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://gitea.geminisolutions.com",
+        "data": {
+            "enroll": "https://gitea.geminisolutions.com/user/settings/security",
+            "manage": "https://gitea.geminisolutions.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://tiktok.com",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://accounts.gameindy.com",
+        "data": {
+            "enroll": "https://accounts.gameindy.com/dashboard/passkey/",
+            "manage": "https://accounts.gameindy.com/dashboard/passkey/"
+        }
+    },
+    {
+        "origin": "https://www.telen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.sandeavis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.kolibrios.org",
+        "data": {
+            "enroll": "https://git.kolibrios.org/user/settings/security",
+            "manage": "https://git.kolibrios.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://try-webauthn.appspot.com",
+        "data": {
+            "enroll": {
+                "web": "https://try-webauthn.appspot.com"
+            },
+            "manage": {
+                "web": "https://try-webauthn.appspot.com"
+            }
+        }
+    },
+    {
+        "origin": "https://www.ao.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.kayak.com",
+        "data": {
+            "enroll": "https://www.kayak.com/profile/account/passkeys",
+            "manage": "https://www.kayak.com/profile/account/passkeys"
+        }
+    },
+    {
+        "origin": "https://www.nordlys.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.firda.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://id.nikkei.com",
+        "data": {
+            "enroll": "https://id.nikkei.com/account/security/passkeys",
+            "manage": "https://id.nikkei.com/account/security/passkeys"
+        }
+    },
+    {
+        "origin": "https://www.raumnes.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.sandbox.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://git.axenov.dev",
+        "data": {
+            "enroll": "https://git.axenov.dev/user/settings/security",
+            "manage": "https://git.axenov.dev/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www-canva-com.translate.goog",
+        "data": {
+            "enroll": "https://www.canva.com/settings/login-and-security",
+            "manage": "https://www.canva.com/settings/login-and-security"
+        }
+    },
+    {
+        "origin": "https://m.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://pr.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.aasavis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.openprivacy.ca",
+        "data": {
+            "enroll": "https://git.openprivacy.ca/user/settings/security",
+            "manage": "https://git.openprivacy.ca/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www-ebay-com.translate.goog",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.senja247.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://center.javablade.com",
+        "data": {
+            "enroll": "https://center.javablade.com/user/settings/security",
+            "manage": "https://center.javablade.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.plussalt.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://auth.sandbox.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://zettleintegrations.paypal.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://www.ebay.ca",
+        "data": {
+            "enroll": "https://accounts.ebay.ca/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.ca/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.laagendalsposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.iharstad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.indre.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.lokal-avisa.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.almalinux.org",
+        "data": {
+            "enroll": "https://git.almalinux.org/user/settings/security",
+            "manage": "https://git.almalinux.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://contentnation.net",
+        "data": []
+    },
+    {
+        "origin": "https://www.gbnett.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.mondialmontres.fr",
+        "data": []
+    },
+    {
+        "origin": "https://www.isandnessjoen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.carvel.li",
+        "data": {
+            "enroll": "https://git.carvel.li/user/settings/security",
+            "manage": "https://git.carvel.li/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.houseofchemistry.net",
+        "data": []
+    },
+    {
+        "origin": "https://git.neonteam.dev",
+        "data": {
+            "enroll": "https://git.neonteam.dev/user/settings/security",
+            "manage": "https://git.neonteam.dev/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.paypalobjects.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://passkeys-demo.appspot.com",
+        "data": {
+            "enroll": "https://passkeys-demo.appspot.com/home",
+            "manage": "https://passkeys-demo.appspot.com/home"
+        }
+    },
+    {
+        "origin": "https://git.hackliberty.org",
+        "data": {
+            "enroll": "https://git.hackliberty.org/user/settings/security",
+            "manage": "https://git.hackliberty.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.r-a.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.lierposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ringsaker-blad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.ebay.com.sg",
+        "data": {
+            "enroll": "https://accounts.ebay.com.sg/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com.sg/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://git.thomasloven.com",
+        "data": {
+            "enroll": "https://git.thomasloven.com/user/settings/security",
+            "manage": "https://git.thomasloven.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.h-avis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ranablad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ha-halden.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.nyetroms.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://web-sg.tiktok.com",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://gitea.moe",
+        "data": {
+            "enroll": "https://gitea.moe/user/settings/security",
+            "manage": "https://gitea.moe/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.hammerfestingen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.ebay.ph",
+        "data": {
+            "enroll": "https://accounts.ebay.ph/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.ph/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.nt24.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://silica.codes",
+        "data": {
+            "enroll": "https://silica.codes/user/settings/security",
+            "manage": "https://silica.codes/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.cavemanon.xyz",
+        "data": {
+            "enroll": "https://git.cavemanon.xyz/user/settings/security",
+            "manage": "https://git.cavemanon.xyz/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www-ebay-pl.translate.goog",
+        "data": {
+            "enroll": "https://accounts.ebay.pl/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.pl/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://exchange.fastex.com",
+        "data": {
+            "enroll": "https://exchange.fastex.com/account/manage/passkeys/create",
+            "manage": "https://exchange.fastex.com/account/manage/passkeys"
+        }
+    },
+    {
+        "origin": "https://www.avisagaula.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.fanaposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://techbookfest.org",
+        "data": {
+            "enroll": "https://techbookfest.org/mypage/setting",
+            "manage": "https://techbookfest.org/mypage/setting"
+        }
+    },
+    {
+        "origin": "https://www.svelviksposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.es.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.es/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.es/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://wwww.ebay.de",
+        "data": {
+            "enroll": "https://accounts.ebay.de/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.de/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://git.akyoto.dev",
+        "data": {
+            "enroll": "https://git.urbach.dev/user/settings/security",
+            "manage": "https://git.urbach.dev/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.sognavis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://ni.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www-tiktok-com.translate.goog",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://www.hardanger-folkeblad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.oblad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.traktor.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.tompkinscivilservice.org",
+        "data": []
+    },
+    {
+        "origin": "https://e97b8a9d672e4ce4845ec6947cd66ef6-sb.accounts.nintendo.com",
+        "data": {
+            "enroll": "https://accounts.nintendo.com/passkey",
+            "manage": "https://accounts.nintendo.com/passkey"
+        }
+    },
+    {
+        "origin": "https://git.uupdump.net",
+        "data": {
+            "enroll": "https://git.uupdump.net/user/settings/security",
+            "manage": "https://git.uupdump.net/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.alterware.dev",
+        "data": {
+            "enroll": "https://git.alterware.dev/user/settings/security",
+            "manage": "https://git.alterware.dev/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.alogoulogoi.com",
+        "data": {
+            "enroll": "https://git.alogoulogoi.com/user/settings/security",
+            "manage": "https://git.alogoulogoi.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.benl.ebay.be",
+        "data": {
+            "enroll": "https://accounts.benl.ebay.be/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.benl.ebay.be/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ebay.ch",
+        "data": {
+            "enroll": "https://accounts.ebay.ch/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.ch/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.bodonu.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.ebay.fr",
+        "data": {
+            "enroll": "https://accounts.ebay.fr/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.fr/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://securepayments.paypal.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://auth.sam-app.ro",
+        "data": {
+            "enroll": "https://me.sumup.com/security/passkeys/add",
+            "manage": "https://me.sumup.com/security/passkeys"
+        }
+    },
+    {
+        "origin": "https://www.norsklandbruk.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "http://tiktok.com",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://www.coinbase.com",
+        "data": {
+            "enroll": "https://accounts.coinbase.com/security/settings",
+            "manage": "https://accounts.coinbase.com/security/settings"
+        }
+    },
+    {
+        "origin": "https://www.ringblad.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://cn.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ilevanger.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://wwww.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.newperle.fr",
+        "data": []
+    },
+    {
+        "origin": "https://repo.palemoon.org",
+        "data": {
+            "enroll": "https://repo.palemoon.org/user/settings/security",
+            "manage": "https://repo.palemoon.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.tb.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://pt.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.blv.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.auraavis.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.havenandhearth.com",
+        "data": {
+            "enroll": "https://www.havenandhearth.com/portal/profile-sec",
+            "manage": "https://www.havenandhearth.com/portal/profile-sec"
+        }
+    },
+    {
+        "origin": "https://www.tronderdebatt.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.sheetjs.com",
+        "data": {
+            "enroll": "https://git.sheetjs.com/user/settings/security",
+            "manage": "https://git.sheetjs.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.pixelplanet.fun",
+        "data": {
+            "enroll": "https://git.pixelplanet.fun/user/settings/security",
+            "manage": "https://git.pixelplanet.fun/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://tilgang.amedia.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.mills.io",
+        "data": {
+            "enroll": "https://git.mills.io/user/settings/security",
+            "manage": "https://git.mills.io/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.bondebladet.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.karmoynytt.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.canva-staging.com",
+        "data": {
+            "enroll": "https://www.canva.com/settings/login-and-security",
+            "manage": "https://www.canva.com/settings/login-and-security"
+        }
+    },
+    {
+        "origin": "https://cdm-project.com",
+        "data": {
+            "enroll": "https://cdm-project.com/user/settings/security",
+            "manage": "https://cdm-project.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.ebay.fr",
+        "data": {
+            "enroll": "https://accounts.ebay.fr/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.fr/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://hn.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://cr.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.tiktok.com",
+        "data": {
+            "enroll": "https://www.tiktok.com/ucenter_web/passkey_wizard?ug_source=others.pwdmanager&awedp_require_login=normal"
+        }
+    },
+    {
+        "origin": "https://ar.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.fremover.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.an.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.krs.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.nationen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://app.getadmiral.com",
+        "data": {
+            "enroll": "https://app.getadmiral.com/account-settings",
+            "manage": "https://app.getadmiral.com/account-settings"
+        }
+    },
+    {
+        "origin": "https://m.ebay.ch",
+        "data": {
+            "enroll": "https://accounts.ebay.ch/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.ch/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://git.onlyoffice.com",
+        "data": {
+            "enroll": "https://git.onlyoffice.com/user/settings/security",
+            "manage": "https://git.onlyoffice.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.unlock-music.dev",
+        "data": {
+            "enroll": "https://git.unlock-music.dev/user/settings/security",
+            "manage": "https://git.unlock-music.dev/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.frostingen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.torrents-csv.com",
+        "data": {
+            "enroll": "https://git.torrents-csv.com/user/settings/security",
+            "manage": "https://git.torrents-csv.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.pika-os.com",
+        "data": {
+            "enroll": "https://git.pika-os.com/user/settings/security",
+            "manage": "https://git.pika-os.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://gitea.1f0.de",
+        "data": {
+            "enroll": "https://gitea.1f0.de/user/settings/security",
+            "manage": "https://gitea.1f0.de/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.ishanjain.me",
+        "data": {
+            "enroll": "https://git.ishanjain.me/user/settings/security",
+            "manage": "https://git.ishanjain.me/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://git.lsd.cat",
+        "data": {
+            "enroll": "https://git.lsd.cat/user/settings/security",
+            "manage": "https://git.lsd.cat/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://safebreach.paypal.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://www.gd.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ebay.it",
+        "data": {
+            "enroll": "https://accounts.ebay.it/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.it/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.pd.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://sv.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.vise.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "http://www.macromedia.com",
+        "data": {
+            "enroll": "https://account.adobe.com/security?addPasskey",
+            "manage": "https://account.adobe.com/security"
+        }
+    },
+    {
+        "origin": "https://src.isharkfly.com",
+        "data": {
+            "enroll": "https://src.isharkfly.com/user/settings/security",
+            "manage": "https://src.isharkfly.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.befr.ebay.be",
+        "data": {
+            "enroll": "https://accounts.befr.ebay.be/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.befr.ebay.be/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.solabladet.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.akersposten.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://master.regatta-systems.com",
+        "data": {
+            "enroll": "https://master.regatta-systems.com/profile/security-information",
+            "manage": "https://master.regatta-systems.com/profile/security-information"
+        }
+    },
+    {
+        "origin": "https://houseofchemistry.net",
+        "data": []
+    },
+    {
+        "origin": "https://br.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://id.moneyforward.com",
+        "data": {
+            "enroll": "https://id.moneyforward.com/webauthn/credentials",
+            "manage": "https://id.moneyforward.com/webauthn/credentials"
+        }
+    },
+    {
+        "origin": "https://www.kv.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.gjengangeren.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://m.cafr.ebay.ca",
+        "data": {
+            "enroll": "https://accounts.cafr.ebay.ca/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.cafr.ebay.ca/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.inderoyningen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://git.qwit.cloud",
+        "data": {
+            "enroll": "https://git.qwit.cloud/user/settings/security",
+            "manage": "https://git.qwit.cloud/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://ve.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://git.743378673.xyz",
+        "data": {
+            "enroll": "https://git.743378673.xyz/user/settings/security",
+            "manage": "https://git.743378673.xyz/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://nothingbundtcakes.couponforless.com",
+        "data": []
+    },
+    {
+        "origin": "https://www.ebay.com.my",
+        "data": {
+            "enroll": "https://accounts.ebay.com.my/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com.my/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://m.ebay.co.uk",
+        "data": {
+            "enroll": "https://accounts.ebay.co.uk/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.co.uk/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.ebay.es",
+        "data": {
+            "enroll": "https://accounts.ebay.es/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.es/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://www.nidaros.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://ppm1.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://qwac.paypal.com",
+        "data": {
+            "enroll": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey",
+            "manage": "https://www.paypal.com/myaccount/security/passkeyLogin/createPasskey"
+        }
+    },
+    {
+        "origin": "https://m.benl.ebay.be",
+        "data": {
+            "enroll": "https://accounts.benl.ebay.be/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.benl.ebay.be/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://projects.staging.blender.org",
+        "data": {
+            "enroll": "https://projects.staging.blender.org/user/settings/security",
+            "manage": "https://projects.staging.blender.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://gitea.baerentsen.space",
+        "data": {
+            "enroll": "https://gitea.baerentsen.space/user/settings/security",
+            "manage": "https://gitea.baerentsen.space/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://src.opensuse.org",
+        "data": {
+            "enroll": "https://src.opensuse.org/user/settings/security",
+            "manage": "https://src.opensuse.org/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://code.binbash.rocks:8443",
+        "data": {
+            "enroll": "https://code.binbash.rocks/user/settings/security",
+            "manage": "https://code.binbash.rocks/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://www.ostlendingen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.tk.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://www.norddalen.no",
+        "data": {
+            "enroll": "https://www.aid.no/aid/webauthn/enroll",
+            "manage": "https://www.aid.no/aid/webauthn/manage"
+        }
+    },
+    {
+        "origin": "https://gitea.thebrokenrail.com",
+        "data": {
+            "enroll": "https://gitea.thebrokenrail.com/user/settings/security",
+            "manage": "https://gitea.thebrokenrail.com/user/settings/security"
+        }
+    },
+    {
+        "origin": "https://jp-mercari-com.translate.goog",
+        "data": {
+            "enroll": "https://jp.mercari.com/mypage/personal_info/passkeys",
+            "manage": "https://jp.mercari.com/mypage/personal_info/passkeys"
+        }
+    },
+    {
+        "origin": "https://sandbox.ebay.com",
+        "data": {
+            "enroll": "https://accounts.ebay.com/acctsec/manage/passkeys/create",
+            "manage": "https://accounts.ebay.com/acctsec/security-center"
+        }
+    },
+    {
+        "origin": "https://roamwings.com",
+        "data": []
+    },
+    {
+        "origin": "https://lcdn.altex.ro",
+        "data": []
+    },
+    {
+        "origin": "https://git.anotherfoxguy.com",
+        "data": {
+            "enroll": "https://git.anotherfoxguy.com/user/settings/security",
+            "manage": "https://git.anotherfoxguy.com/user/settings/security"
+        }
+    }
+]

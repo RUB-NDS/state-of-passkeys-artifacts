@@ -1,0 +1,400 @@
+[
+    {
+        "name": "Arpari",
+        "url": "https://app.arpari.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Amazon",
+        "url": "https://www.amazon.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Authgear",
+        "url": "https://accounts.portal.authgearapps.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/identity/signin",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Beyond Identity",
+        "url": "https://console-us.beyondidentity.com/signup",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "BoursoBank",
+        "url": "https://clients.boursobank.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Braunhousehold",
+        "url": "https://braunhousehold.com",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Card Pointers",
+        "url": "https://cardpointers.com/login/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Carnival",
+        "url": "https://carnival.com",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Coinbase",
+        "url": "https://www.coinbase.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Corbado",
+        "url": "https://app.corbado.com/signin",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "CVS",
+        "url": "https://www.cvs.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Daylite",
+        "url": "https://www.marketcircle.com/account/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Dinero",
+        "url": "https://dinero.dk",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Docomo",
+        "url": "https://www.docomo.ne.jp/english/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "DocuSign",
+        "url": "https://account.docusign.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "eBay",
+        "url": "https://signin.ebay.com/ws/eBayISAPI.dll",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "FormX.ai",
+        "url": "https://auth.formextractorai.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "GitHub",
+        "url": "https://docs.github.com/en/authentication/authenticating-with-a-passkey/signing-in-with-a-passkey",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "GoDaddy",
+        "url": "https://sso.godaddy.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Google",
+        "url": "https://www.google.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Hanko",
+        "url": "https://cloud.hanko.io/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Home Depot",
+        "url": "https://www.homedepot.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Horizon Pics",
+        "url": "https://horizon.pics",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Instacart",
+        "url": "https://www.instacart.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Kayak",
+        "url": "https://www.kayak.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Kenwoodworld.com",
+        "url": "https://kenwoodworld.com",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Laakari.chat",
+        "url": "https://laakari.chat",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Mangadex",
+        "url": "https://mangadex.org/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Microsoft",
+        "url": "https://microsoft.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Money Forward ID",
+        "url": "https://id.moneyforward.com/sign_in",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Nintendo",
+        "url": "https://www.nintendo.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Nvidia",
+        "url": "https://nvidia.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Okta",
+        "url": "https://okta.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Omg.lol",
+        "url": "https://omg.lol",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Pastery",
+        "url": "https://pastery.net/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "PayPal",
+        "url": "https://www.paypal.com/signin/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Privacy Guides Forum",
+        "url": "https://discuss.privacyguides.net/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Qapital",
+        "url": "https://qapital.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Robinhood",
+        "url": "https://robinhood.com/login",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Shop Pay",
+        "url": "https://shop.app",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Shopify",
+        "url": "https://accounts.shopify.com/lookup",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Synology DSM",
+        "url": "https://www.synology.com/en-global/dsm",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Tailscale",
+        "url": "https://tailscale.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Techlore Discussions",
+        "url": "https://discuss.techlore.tech/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "TikTok",
+        "url": "https://newsroom.tiktok.com/en-us/passkeys-fido-alliance",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "The Hendrix",
+        "url": "https://thehendrixjc.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Trusona Authentication Cloud",
+        "url": null,
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Uber",
+        "url": "https://www.uber.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Vault Vision",
+        "url": "https://vaultvision.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Virgin Media",
+        "url": "https://virginmedia.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "WebAuthn.io",
+        "url": "https://webauthn.io/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "World of Hyatt",
+        "url": "https://hyatt.com/",
+        "features": [
+            "login"
+        ]
+    },
+    {
+        "name": "Yahoo!",
+        "url": "https://www.yahoo.com/",
+        "features": [
+            "login",
+            "mfa"
+        ]
+    },
+    {
+        "name": "Zoho",
+        "url": null,
+        "features": [
+            "login",
+            "mfa"
+        ]
+    }
+]

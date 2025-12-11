@@ -1,0 +1,97 @@
+<nav class="navbar navbar-expand-xl mb-3 bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            <img class="d-inline-block align-top" width="30" height="30" src="logo.svg">
+            <span class="small-caps">Passkeys.Tools</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav nav-pills me-auto">
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#info-tab-pane">
+                        <i class="bi bi-info-circle"></i> Info<sup class="text-muted" style="font-size: 0.6em;">0</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#create-tab-pane">
+                        <i class="bi bi-box-arrow-in-down"></i> Create<sup class="text-muted" style="font-size: 0.6em;">1</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#get-tab-pane">
+                        <i class="bi bi-box-arrow-up"></i> Get<sup class="text-muted" style="font-size: 0.6em;">2</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#attestation-tab-pane">
+                        <i class="bi bi-person-plus-fill"></i> Attestation<sup class="text-muted" style="font-size: 0.6em;">3</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#assertion-tab-pane">
+                        <i class="bi bi-person-badge-fill"></i> Assertion<sup class="text-muted" style="font-size: 0.6em;">4</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#keys-tab-pane">
+                        <i class="bi bi-key"></i> Keys<sup class="text-muted" style="font-size: 0.6em;">K</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#users-tab-pane">
+                        <i class="bi bi-people"></i> Users<sup class="text-muted" style="font-size: 0.6em;">U</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#history-tab-pane">
+                        <i class="bi bi-clock-history"></i> History<sup class="text-muted" style="font-size: 0.6em;">H</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#converters-tab-pane">
+                        <i class="bi bi-arrow-left-right"></i> Converters<sup class="text-muted" style="font-size: 0.6em;">T</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#interceptor-tab-pane">
+                        <i class="bi bi-lightning"></i> Interceptor<sup class="text-muted" style="font-size: 0.6em;">I</sup>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#settings-tab-pane">
+                        <i class="bi bi-gear"></i> Settings<sup class="text-muted" style="font-size: 0.6em;">#</sup>
+                    </button>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-md-auto flex-row flex-wrap">
+                <li class="nav-item dropdown me-1">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-braces"></i> Test Vectors
+                    </a>
+                    <ul class="dropdown-menu" id="testVectorsDropdown">
+                        <li><h6 class="dropdown-header">Test Vectors</h6></li>
+                        <li><span class="dropdown-item-text small">Example values from the <a href="https://www.w3.org/TR/webauthn-3/#sctn-test-vectors">WebAuthn specification</a> that you can use in the <a href="#" onclick="showTab('attestation'); return false;">Attestation</a> and <a href="#" onclick="showTab('assertion'); return false;">Assertion</a> tabs.</span></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </li>
+                <li class="nav-item me-1">
+                    <a class="nav-link" href="/extension.zip" download>
+                        <i class="bi bi-puzzle"></i> Extension
+                    </a>
+                </li>
+                <li class="nav-item me-1">
+                    <a class="nav-link" href="https://github.com/RUB-NDS/state-of-passkeys-artifacts">
+                        <i class="bi bi-file-code"></i> Artifacts
+                    </a>
+                </li>
+                <li class="nav-item me-1">
+                    <a class="nav-link" href="https://github.com/RUB-NDS/passkeys.tools">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
