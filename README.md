@@ -2,6 +2,8 @@
 
 This repository contains the artifacts for the paper **"The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web"**, accepted at the **35th USENIX Security Symposium 2026**.
 
+[![DOI](https://zenodo.org/badge/1114366317.svg)](https://doi.org/10.5281/zenodo.17898769)
+
 ## 📂 Repository Structure
 
 Our artifacts are organized into five main components:
