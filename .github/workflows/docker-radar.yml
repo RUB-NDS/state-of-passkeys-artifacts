@@ -1,10 +1,14 @@
-name: Build Docker Image
+name: Build Radar Docker Image
 
 on:
   push:
     branches: [main]
+    paths:
+      - 'radar/**'
   pull_request:
     branches: [main]
+    paths:
+      - 'radar/**'
 
 env:
   REGISTRY: ghcr.io
@@ -37,7 +41,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./radar
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
