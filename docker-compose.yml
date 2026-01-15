@@ -48,19 +48,19 @@ services:
     environment:
       - ADMIN_PASSWORD=${ADMIN_PASSWORD}
 
-  fun-with-flags:
-    image: ghcr.io/lonetis/fun-with-flags:latest
+  fun-with-flags-and-passkeys:
+    image: ghcr.io/lonetis/fun-with-flags-and-passkeys:latest
     restart: unless-stopped
     expose:
       - "3000"
     volumes:
-      - fun-with-flags-data:/app/data/instances
+      - fun-with-flags-and-passkeys-data:/app/data/instances
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.fun-with-flags.rule=Host(`learning.passkeys.tools`)"
-      - "traefik.http.routers.fun-with-flags.entrypoints=websecure"
-      - "traefik.http.routers.fun-with-flags.tls.certresolver=letsencrypt"
-      - "traefik.http.services.fun-with-flags.loadbalancer.server.port=3000"
+      - "traefik.http.routers.fun-with-flags-and-passkeys.rule=Host(`learning.passkeys.tools`)"
+      - "traefik.http.routers.fun-with-flags-and-passkeys.entrypoints=websecure"
+      - "traefik.http.routers.fun-with-flags-and-passkeys.tls.certresolver=letsencrypt"
+      - "traefik.http.services.fun-with-flags-and-passkeys.loadbalancer.server.port=3000"
     environment:
       - PORT=3000
       - NODE_ENV=production
@@ -68,7 +68,7 @@ services:
       - RP_ID=learning.passkeys.tools
       - ORIGIN=https://learning.passkeys.tools
       - USE_MONGO=true
-      - MONGO_URI=mongodb://mongo:27017/fun-with-flags
+      - MONGO_URI=mongodb://mongo:27017/fun-with-flags-and-passkeys
       - INSTANCE_MAX_AGE_MS=86400000
       - CLEANUP_INTERVAL_MS=3600000
 
@@ -98,6 +98,6 @@ services:
 
 volumes:
   passkeys-tools-data:
-  fun-with-flags-data:
+  fun-with-flags-and-passkeys-data:
   mongo-data:
   letsencrypt-data:
