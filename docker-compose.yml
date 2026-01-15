@@ -1,0 +1,103 @@
+services:
+
+  passkeys-tools-frontend:
+    image: ghcr.io/rub-nds/passkeys-tools-frontend:latest
+    restart: unless-stopped
+    expose:
+      - "4173"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.passkeys-tools-frontend.rule=Host(`passkeys.tools`) || Host(`attacker.passkeys.tools`)"
+      - "traefik.http.routers.passkeys-tools-frontend.entrypoints=websecure"
+      - "traefik.http.routers.passkeys-tools-frontend.tls.certresolver=letsencrypt"
+      - "traefik.http.services.passkeys-tools-frontend.loadbalancer.server.port=4173"
+
+  passkeys-tools-backend:
+    image: ghcr.io/rub-nds/passkeys-tools-backend:latest
+    restart: unless-stopped
+    expose:
+      - "3000"
+    volumes:
+      - passkeys-tools-data:/data
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.passkeys-tools-backend.rule=Host(`db.passkeys.tools`)"
+      - "traefik.http.routers.passkeys-tools-backend.entrypoints=websecure"
+      - "traefik.http.routers.passkeys-tools-backend.tls.certresolver=letsencrypt"
+      - "traefik.http.services.passkeys-tools-backend.loadbalancer.server.port=3000"
+    environment:
+      - NODE_ENV=production
+      - LOG_LEVEL=WARN
+      - PORT=3000
+      - USE_MONGO=true
+      - MONGO_URL=mongodb://mongo:27017/passkeys-tools
+
+  passkeys-radar:
+    image: ghcr.io/rub-nds/passkeys-radar:latest
+    restart: unless-stopped
+    expose:
+      - "8090"
+    volumes:
+      - ./data:/data
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.passkeys-radar.rule=Host(`radar.passkeys.tools`)"
+      - "traefik.http.routers.passkeys-radar.entrypoints=websecure"
+      - "traefik.http.routers.passkeys-radar.tls.certresolver=letsencrypt"
+      - "traefik.http.services.passkeys-radar.loadbalancer.server.port=8090"
+    environment:
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+
+  fun-with-flags:
+    image: ghcr.io/lonetis/fun-with-flags:latest
+    restart: unless-stopped
+    expose:
+      - "3000"
+    volumes:
+      - fun-with-flags-data:/app/data/instances
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.fun-with-flags.rule=Host(`learning.passkeys.tools`)"
+      - "traefik.http.routers.fun-with-flags.entrypoints=websecure"
+      - "traefik.http.routers.fun-with-flags.tls.certresolver=letsencrypt"
+      - "traefik.http.services.fun-with-flags.loadbalancer.server.port=3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - SESSION_SECRET=${SESSION_SECRET}
+      - RP_ID=learning.passkeys.tools
+      - ORIGIN=https://learning.passkeys.tools
+      - USE_MONGO=true
+      - MONGO_URI=mongodb://mongo:27017/fun-with-flags
+      - INSTANCE_MAX_AGE_MS=86400000
+      - CLEANUP_INTERVAL_MS=3600000
+
+  mongo:
+    image: mongo:4
+    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
+
+  traefik:
+    image: traefik:v3.2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - TRAEFIK_PROVIDERS_DOCKER=true
+      - TRAEFIK_PROVIDERS_DOCKER_EXPOSEDBYDEFAULT=false
+      - TRAEFIK_ENTRYPOINTS_WEB_ADDRESS=:80
+      - TRAEFIK_ENTRYPOINTS_WEBSECURE_ADDRESS=:443
+      - TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_EMAIL=louis.jannett@rub.de
+      - TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_STORAGE=/letsencrypt/acme.json
+      - TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_HTTPCHALLENGE_ENTRYPOINT=web
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - letsencrypt-data:/letsencrypt
+
+volumes:
+  passkeys-tools-data:
+  fun-with-flags-data:
+  mongo-data:
+  letsencrypt-data:
