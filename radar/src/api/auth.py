@@ -9,8 +9,8 @@ from fastapi.security import HTTPBasic, HTTPBasicCredentials
 # Security
 security = HTTPBasic()
 
-# Default credentials (can be overridden by environment variables)
-ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "admin")
+# Credentials
+ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "changeme")
 
 
