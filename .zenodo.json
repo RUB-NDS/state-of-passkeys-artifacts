@@ -1,0 +1,55 @@
+{
+    "title": "Artifacts – The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web",
+    "description": "Artifacts for the paper \"The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web\", accepted at the 35th USENIX Security Symposium 2026.",
+    "access_right": "open",
+    "creators": [
+        {
+            "name": "Jannett, Louis",
+            "orcid": "0000-0001-5448-5929",
+            "affiliation": "Ruhr University Bochum"
+        },
+        {
+            "name": "Mayer, Andreas",
+            "orcid": "0000-0001-7055-8876",
+            "affiliation": "Heilbronn University of Applied Sciences"
+        },
+        {
+            "name": "Westers, Maximilian",
+            "orcid": "0000-0003-1666-906X",
+            "affiliation": "Heilbronn University of Applied Sciences"
+        },
+        {
+            "name": "Mladenov, Vladislav",
+            "orcid": "0000-0001-9208-9281",
+            "affiliation": "Ruhr University Bochum"
+        },
+        {
+            "name": "Mainka, Christian",
+            "orcid": "0000-0002-4273-645X",
+            "affiliation": "University of Wuppertal"
+        },
+        {
+            "name": "Schwenk, Jörg",
+            "orcid": "0000-0001-9315-7354",
+            "affiliation": "Ruhr University Bochum"
+        }
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/RUB-NDS/state-of-passkeys-artifacts",
+            "relation": "isSupplementTo",
+            "resource_type": "software"
+        }
+    ],
+    "keywords": [
+        "passkeys",
+        "webauthn",
+        "fido2",
+        "authentication",
+        "web security",
+        "web measurement",
+        "usenix"
+    ],
+    "upload_type": "software",
+    "language": "eng"
+}
