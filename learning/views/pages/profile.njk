@@ -1,0 +1,72 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-4">
+          <div class="avatar bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+               style="width: 80px; height: 80px; font-size: 2rem;">
+            {{ profile.username[0] | upper }}
+          </div>
+          <div>
+            <h2 class="mb-1">{{ profile.username }}</h2>
+            <p class="text-muted mb-0">
+              <i class="bi bi-calendar"></i> Member since {{ profile.createdAt | replace('T', ' ') | replace('Z', '') | truncate(10, true, '') }}
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row text-center">
+          <div class="col-4">
+            <div class="border rounded p-3">
+              <h3 class="mb-0">{{ stats.flags }}</h3>
+              <small class="text-muted">Flags Posted</small>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="border rounded p-3">
+              <h3 class="mb-0">{{ stats.comments }}</h3>
+              <small class="text-muted">Comments</small>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="border rounded p-3">
+              <h3 class="mb-0">{{ stats.ratings }}</h3>
+              <small class="text-muted">Ratings Given</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% if flags.length > 0 %}
+    <div class="card mt-4">
+      <div class="card-header">
+        <h5 class="mb-0"><i class="bi bi-flag"></i> Flags by {{ profile.username }}</h5>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          {% for flag in flags %}
+          <div class="col-md-6 mb-3">
+            <div class="card h-100">
+              <img src="{{ flag.imageUrl }}" class="card-img-top" alt="{{ flag.title }}" style="height: 120px; object-fit: cover;">
+              <div class="card-body p-2">
+                <h6 class="card-title mb-1">
+                  <a href="/flags/{{ flag.id }}" class="text-decoration-none">{{ flag.title }}</a>
+                </h6>
+                <small class="text-muted">{{ flag.country }}</small>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

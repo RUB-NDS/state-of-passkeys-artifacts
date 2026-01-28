@@ -1,0 +1,41 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="alert alert-info d-flex align-items-center mb-4" role="alert">
+  <i class="bi bi-info-circle-fill me-2"></i>
+  <div>
+    New to this platform? Check out the <a href="/guide" class="alert-link">Guide</a> to learn how to use this passkey learning platform.
+  </div>
+</div>
+
+<div class="row mb-4">
+  <div class="col">
+    <h1 class="display-5">
+      <span class="me-2">🚩</span> Fun with Flags and Passkeys
+    </h1>
+    <p class="lead text-muted">
+      Welcome to the Fun with Flags community! Share your love for flags from around the world.
+    </p>
+  </div>
+</div>
+
+{% if flags.length == 0 %}
+<div class="alert alert-info">
+  <i class="bi bi-info-circle"></i>
+  No flags have been posted yet.
+  {% if user %}
+    <a href="/flags/new">Be the first to add a flag!</a>
+  {% else %}
+    <a href="/login">Login</a> or <a href="/register">register</a> to add a flag!
+  {% endif %}
+</div>
+{% else %}
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  {% for flag in flags %}
+  <div class="col">
+    {% include "partials/flag-card.njk" %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+{% endblock %}

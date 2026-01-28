@@ -1,0 +1,53 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="card">
+      <div class="card-header bg-success text-white">
+        <h4 class="mb-0"><i class="bi bi-plus-circle"></i> Add New Flag</h4>
+      </div>
+      <div class="card-body">
+        {% if error %}
+        <div class="alert alert-danger">
+          <i class="bi bi-exclamation-triangle"></i> {{ error }}
+        </div>
+        {% endif %}
+
+        <form action="/flags" method="POST">
+          <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="title" name="title"
+                   value="{{ form.title if form }}" placeholder="e.g., Flag of Nepal" required>
+          </div>
+          <div class="mb-3">
+            <label for="country" class="form-label">Country/Region</label>
+            <input type="text" class="form-control" id="country" name="country"
+                   value="{{ form.country if form }}" placeholder="e.g., Nepal" required>
+          </div>
+          <div class="mb-3">
+            <label for="imageUrl" class="form-label">Image URL</label>
+            <input type="url" class="form-control" id="imageUrl" name="imageUrl"
+                   value="{{ form.imageUrl if form }}" placeholder="https://example.com/flag.png" required>
+            <div class="form-text">
+              Tip: You can use <a href="https://flagcdn.com/" target="_blank">flagcdn.com</a> for flag images.
+              Example: https://flagcdn.com/w320/np.png
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control" id="description" name="description" rows="5"
+                      placeholder="Share interesting facts about this flag..." required>{{ form.description if form }}</textarea>
+          </div>
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-success">
+              <i class="bi bi-check"></i> Create Flag
+            </button>
+            <a href="/flags" class="btn btn-outline-secondary">Cancel</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

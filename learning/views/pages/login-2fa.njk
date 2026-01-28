@@ -1,0 +1,65 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-6 col-lg-5">
+    <div class="card shadow">
+      <div class="card-header bg-primary text-white">
+        <h4 class="mb-0"><i class="bi bi-shield-lock"></i> Two-Factor Authentication</h4>
+      </div>
+      <div class="card-body">
+        <div class="alert alert-info">
+          <i class="bi bi-info-circle"></i>
+          Please verify your identity using your passkey to complete login.
+        </div>
+
+        <div class="text-center mb-4">
+          <i class="bi bi-key" style="font-size: 4rem; color: #0d6efd;"></i>
+        </div>
+
+        <button type="button" class="btn btn-primary w-100 btn-lg" id="verify-passkey-btn">
+          <i class="bi bi-fingerprint"></i> Verify with Passkey
+        </button>
+
+        <!-- Passkey status area -->
+        <div id="passkey-status" class="mt-3" style="display: none;">
+          <div class="alert" id="passkey-alert">
+            <span id="passkey-message"></span>
+          </div>
+        </div>
+
+        <!-- Flag display area -->
+        <div id="flag-display" class="mt-3" style="display: none;">
+          <div class="alert alert-success">
+            <h5><i class="bi bi-trophy"></i> Reward Flag Unlocked!</h5>
+            <code id="captured-flag"></code>
+            <p class="mb-0 mt-2 small" id="flag-message"></p>
+          </div>
+        </div>
+
+        <div class="mt-3 text-center">
+          <a href="/login" class="text-muted">Cancel and try again</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% include "partials/passkey-scripts.njk" %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const verifyBtn = document.getElementById('verify-passkey-btn');
+
+  verifyBtn.addEventListener('click', async function() {
+    await passkeyAuthenticate({ discoverable: false, twoFactor: true });
+  });
+
+  // Auto-trigger on page load
+  setTimeout(() => {
+    passkeyAuthenticate({ discoverable: false, twoFactor: true });
+  }, 500);
+});
+</script>
+{% endblock %}

@@ -1,0 +1,107 @@
+<!-- Reward Modal for Security Challenge Completion -->
+<div class="modal fade" id="rewardModal" tabindex="-1" aria-labelledby="rewardModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title" id="rewardModalLabel">
+          <i class="bi bi-trophy-fill me-2"></i>Challenge Completed!
+        </h5>
+      </div>
+      <div class="modal-body text-center">
+        <p id="reward-message" class="lead mb-4"></p>
+
+        <!-- Flag Card -->
+        <div class="card mx-auto" style="max-width: 350px;">
+          <img id="reward-flag-image" src="" class="card-img-top" alt="Flag" style="max-height: 200px; object-fit: contain; background: #f8f9fa;">
+          <div class="card-body">
+            <h5 class="card-title" id="reward-flag-title"></h5>
+            <h6 class="card-subtitle mb-2 text-muted" id="reward-flag-country"></h6>
+            <p class="card-text small" id="reward-flag-description"></p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-success btn-lg" id="reward-dismiss-btn" data-bs-dismiss="modal">
+          <i class="bi bi-check-lg me-2"></i>Awesome!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Reward modal functions
+function showRewardModal(reward, onDismiss) {
+  const modal = document.getElementById('rewardModal');
+  if (!modal) return;
+
+  // Populate modal with reward data
+  document.getElementById('reward-message').textContent = reward.message;
+  document.getElementById('reward-flag-image').src = reward.imageUrl;
+  document.getElementById('reward-flag-image').alt = 'Flag of ' + reward.country;
+  document.getElementById('reward-flag-title').textContent = reward.title;
+  document.getElementById('reward-flag-country').textContent = reward.country;
+  document.getElementById('reward-flag-description').textContent = reward.description;
+
+  // Create and show modal
+  const bsModal = new bootstrap.Modal(modal);
+
+  // Handle dismiss
+  const dismissBtn = document.getElementById('reward-dismiss-btn');
+  const handleDismiss = () => {
+    if (onDismiss) onDismiss();
+    dismissBtn.removeEventListener('click', handleDismiss);
+  };
+  dismissBtn.addEventListener('click', handleDismiss);
+
+  // Also handle backdrop click and escape key
+  modal.addEventListener('hidden.bs.modal', function handler() {
+    if (onDismiss) onDismiss();
+    modal.removeEventListener('hidden.bs.modal', handler);
+  }, { once: true });
+
+  bsModal.show();
+
+  // Trigger confetti
+  triggerConfetti();
+}
+
+function triggerConfetti() {
+  // Multiple bursts of confetti
+  const duration = 3000;
+  const end = Date.now() + duration;
+
+  const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+
+  (function frame() {
+    confetti({
+      particleCount: 3,
+      angle: 60,
+      spread: 55,
+      origin: { x: 0 },
+      colors: colors
+    });
+    confetti({
+      particleCount: 3,
+      angle: 120,
+      spread: 55,
+      origin: { x: 1 },
+      colors: colors
+    });
+
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  }());
+
+  // Big burst in the center
+  setTimeout(() => {
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+      colors: colors
+    });
+  }, 500);
+}
+</script>

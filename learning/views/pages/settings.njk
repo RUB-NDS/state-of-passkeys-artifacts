@@ -1,0 +1,385 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-10 mx-auto">
+    <h1 class="mb-4"><i class="bi bi-gear"></i> Account Settings</h1>
+
+    <!-- Account Info -->
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="mb-0"><i class="bi bi-person"></i> Account Information</h5>
+      </div>
+      <div class="card-body">
+        <dl class="row mb-0">
+          <dt class="col-sm-3">Username</dt>
+          <dd class="col-sm-9">{{ account.username }}</dd>
+          <dt class="col-sm-3">Member Since</dt>
+          <dd class="col-sm-9">{{ account.createdAt | replace('T', ' ') | replace('Z', '') | truncate(19, true, '') }}</dd>
+          {% if account.securityQuestion %}
+          <dt class="col-sm-3">Security Question</dt>
+          <dd class="col-sm-9">{{ account.securityQuestion }}</dd>
+          <dt class="col-sm-3">Security Answer</dt>
+          <dd class="col-sm-9"><code>{{ account.securityAnswer }}</code></dd>
+          {% endif %}
+        </dl>
+      </div>
+    </div>
+
+    <!-- Change Password -->
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="mb-0"><i class="bi bi-key"></i> Change Password</h5>
+      </div>
+      <div class="card-body">
+        {% if passwordError %}
+        <div class="alert alert-danger">
+          <i class="bi bi-exclamation-triangle"></i> {{ passwordError }}
+        </div>
+        {% endif %}
+        {% if passwordSuccess %}
+        <div class="alert alert-success">
+          <i class="bi bi-check-circle"></i> {{ passwordSuccess }}
+        </div>
+        {% endif %}
+
+        <form action="/settings/password" method="POST">
+          <div class="mb-3">
+            <label for="currentPassword" class="form-label">Current Password</label>
+            <input type="password" class="form-control" id="currentPassword" name="currentPassword" required>
+          </div>
+          <div class="mb-3">
+            <label for="newPassword" class="form-label">New Password</label>
+            <input type="password" class="form-control" id="newPassword" name="newPassword" required>
+          </div>
+          <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm New Password</label>
+            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="bi bi-check"></i> Update Password
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Passkeys -->
+    <div class="card mb-4">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="mb-0"><i class="bi bi-fingerprint"></i> Passkeys</h5>
+        <button type="button" class="btn btn-sm btn-success" id="add-passkey-btn">
+          <i class="bi bi-plus"></i> Add Passkey
+        </button>
+      </div>
+      <div class="card-body">
+        <!-- Registration Verifier Selector -->
+        <div class="card shadow mb-4">
+          <div class="card-header bg-secondary text-white">
+            <i class="bi bi-shield-check"></i> Registration Verifier
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <label class="form-label small text-muted">Demo Verifiers</label>
+                <select class="form-select form-select-sm" id="reg-verifier-select-demo">
+                  <option value=""></option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small text-muted">Security Verifiers</label>
+                <select class="form-select form-select-sm" id="reg-verifier-select-security">
+                  <option value=""></option>
+                </select>
+              </div>
+            </div>
+            <div class="mt-3 p-2 bg-light rounded small">
+              <strong id="current-reg-verifier-name">{{ regVerifier.name }}</strong>
+              <span class="text-muted ms-2">(#{{ regVerifier.id }})</span>
+              {% if regVerifier.rewardFlagId %}
+              <span class="badge bg-warning text-dark ms-2"><i class="bi bi-trophy-fill"></i></span>
+              {% endif %}
+              <p class="mb-0 mt-1 text-muted" id="current-reg-verifier-desc">{{ regVerifier.description }}</p>
+            </div>
+          </div>
+        </div>
+
+        {% if account.passkeys.length == 0 %}
+        <div class="text-center text-muted py-4">
+          <i class="bi bi-fingerprint" style="font-size: 3rem;"></i>
+          <p class="mt-2 mb-0">No passkeys registered yet.</p>
+          <p class="small">Click "Add Passkey" to register one.</p>
+        </div>
+        {% else %}
+        <div class="table-responsive">
+          <table class="table table-hover table-sm">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Authenticator</th>
+                <th>Algorithm</th>
+                <th>Sign Count</th>
+                <th>Flags</th>
+                <th>Transports</th>
+                <th>Created</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for passkey in account.passkeys %}
+              <tr>
+                <td>
+                  <i class="bi bi-key me-2"></i>
+                  {{ passkey.name or 'Passkey ' + loop.index }}
+                </td>
+                <td>
+                  <span class="d-flex align-items-center" title="{{ passkey.aaguid }}">
+                    {% if passkey.authenticatorIcon %}
+                    <img src="{{ passkey.authenticatorIcon }}" alt="" class="me-2" style="width: 20px; height: 20px;">
+                    {% else %}
+                    <i class="bi bi-question-circle me-2"></i>
+                    {% endif %}
+                    <span class="small">{{ passkey.authenticatorName | truncate(25, true, '...') }}</span>
+                  </span>
+                </td>
+                <td>
+                  {% if passkey.algorithm == -7 %}ES256
+                  {% elif passkey.algorithm == -35 %}ES384
+                  {% elif passkey.algorithm == -36 %}ES512
+                  {% elif passkey.algorithm == -37 %}PS256
+                  {% elif passkey.algorithm == -38 %}PS384
+                  {% elif passkey.algorithm == -39 %}PS512
+                  {% elif passkey.algorithm == -257 %}RS256
+                  {% elif passkey.algorithm == -258 %}RS384
+                  {% elif passkey.algorithm == -259 %}RS512
+                  {% elif passkey.algorithm == -8 %}EdDSA
+                  {% else %}{{ passkey.algorithm }}
+                  {% endif %}
+                </td>
+                <td>{{ passkey.signCount }}</td>
+                <td class="text-nowrap">
+                  <span class="badge {% if passkey.backupEligible %}bg-success{% else %}bg-secondary{% endif %}" title="Backup Eligible (BE)">BE</span>
+                  <span class="badge {% if passkey.backupState %}bg-success{% else %}bg-secondary{% endif %}" title="Backup State (BS)">BS</span>
+                  <span class="badge {% if passkey.uvInitialized %}bg-success{% else %}bg-secondary{% endif %}" title="UV Initialized">UV</span>
+                </td>
+                <td class="small">
+                  {% for transport in passkey.transports %}
+                    <span class="badge bg-light text-dark">{{ transport }}</span>
+                  {% endfor %}
+                </td>
+                <td class="small text-nowrap">{{ passkey.createdAt | replace('T', ' ') | replace('Z', '') | truncate(16, true, '') }}</td>
+                <td class="text-nowrap">
+                  <button type="button" class="btn btn-sm btn-outline-secondary view-json-btn me-1"
+                          data-passkey-json="{{ passkey | dump | escape }}"
+                          data-passkey-name="{{ passkey.name or 'Passkey' }}"
+                          title="View JSON">
+                    <i class="bi bi-code-slash"></i>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-danger delete-passkey-btn"
+                          data-passkey-id="{{ passkey.id }}" data-passkey-name="{{ passkey.name }}"
+                          title="Delete">
+                    <i class="bi bi-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% endif %}
+
+        <!-- Passkey status area -->
+        <div id="passkey-status" class="mt-3" style="display: none;">
+          <div class="alert" id="passkey-alert">
+            <span id="passkey-message"></span>
+          </div>
+        </div>
+
+        <!-- Flag display area -->
+        <div id="flag-display" class="mt-3" style="display: none;">
+          <div class="alert alert-success">
+            <h5><i class="bi bi-trophy"></i> Reward Flag Unlocked!</h5>
+            <code id="captured-flag"></code>
+            <p class="mb-0 mt-2 small" id="flag-message"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add Passkey Modal -->
+<div class="modal fade" id="addPasskeyModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><i class="bi bi-fingerprint"></i> Add Passkey</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="passkey-name" class="form-label">Passkey Name (optional)</label>
+          <input type="text" class="form-control" id="passkey-name" placeholder="e.g., MacBook Touch ID">
+          <div class="form-text">Give your passkey a name to identify it later</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="confirm-add-passkey">
+          <i class="bi bi-fingerprint"></i> Register Passkey
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- View JSON Modal -->
+<div class="modal fade" id="viewJsonModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"><i class="bi bi-code-slash"></i> <span id="json-modal-title">Passkey JSON</span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <pre class="bg-dark text-light p-3 rounded" style="max-height: 400px; overflow-y: auto;"><code id="json-content"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" id="copy-json-btn">
+          <i class="bi bi-clipboard"></i> Copy
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% include "partials/passkey-scripts.njk" %}
+<script>
+document.addEventListener('DOMContentLoaded', async function() {
+  // Load registration verifiers
+  await loadRegVerifiers();
+
+  const addPasskeyBtn = document.getElementById('add-passkey-btn');
+  const addPasskeyModal = new bootstrap.Modal(document.getElementById('addPasskeyModal'));
+  const confirmAddPasskey = document.getElementById('confirm-add-passkey');
+  const passkeyNameInput = document.getElementById('passkey-name');
+
+  addPasskeyBtn.addEventListener('click', function() {
+    passkeyNameInput.value = '';
+    addPasskeyModal.show();
+  });
+
+  confirmAddPasskey.addEventListener('click', async function() {
+    addPasskeyModal.hide();
+    const name = passkeyNameInput.value.trim() || undefined;
+    await passkeyRegister({ name });
+  });
+
+  // Delete passkey buttons
+  document.querySelectorAll('.delete-passkey-btn').forEach(btn => {
+    btn.addEventListener('click', async function() {
+      const passkeyId = this.dataset.passkeyId;
+      const passkeyName = this.dataset.passkeyName || 'this passkey';
+
+      if (!confirm(`Are you sure you want to delete ${passkeyName}?`)) {
+        return;
+      }
+
+      try {
+        const response = await fetch(`/settings/passkey/${passkeyId}`, {
+          method: 'DELETE',
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          location.reload();
+        } else {
+          const data = await response.json();
+          alert(data.error || 'Failed to delete passkey');
+        }
+      } catch (error) {
+        alert('Error deleting passkey: ' + error.message);
+      }
+    });
+  });
+
+  // View JSON buttons
+  const viewJsonModal = new bootstrap.Modal(document.getElementById('viewJsonModal'));
+  const jsonContent = document.getElementById('json-content');
+  const jsonModalTitle = document.getElementById('json-modal-title');
+  const copyJsonBtn = document.getElementById('copy-json-btn');
+  let currentJson = '';
+
+  document.querySelectorAll('.view-json-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const passkeyData = JSON.parse(this.dataset.passkeyJson);
+      const passkeyName = this.dataset.passkeyName;
+
+      // Remove UI-only fields for cleaner display
+      const { authenticatorName, authenticatorIcon, authenticatorIconDark, ...rawPasskey } = passkeyData;
+
+      currentJson = JSON.stringify(rawPasskey, null, 2);
+      jsonContent.textContent = currentJson;
+      jsonModalTitle.textContent = `${passkeyName} - Raw JSON`;
+      viewJsonModal.show();
+    });
+  });
+
+  copyJsonBtn.addEventListener('click', async function() {
+    try {
+      await navigator.clipboard.writeText(currentJson);
+      const originalHtml = this.innerHTML;
+      this.innerHTML = '<i class="bi bi-check"></i> Copied!';
+      setTimeout(() => {
+        this.innerHTML = originalHtml;
+      }, 2000);
+    } catch (error) {
+      alert('Failed to copy: ' + error.message);
+    }
+  });
+});
+
+async function loadRegVerifiers() {
+  try {
+    const response = await fetch('/verifiers/api/list?target=registration');
+    const data = await response.json();
+
+    const demoSelect = document.getElementById('reg-verifier-select-demo');
+    const securitySelect = document.getElementById('reg-verifier-select-security');
+
+    data.verifiers.forEach(v => {
+      const option = document.createElement('option');
+      option.value = v.id;
+      // Include section number for security verifiers
+      option.textContent = v.section ? `${v.name} (§${v.section})` : v.name;
+      if (v.id === data.currentRegVerifier) {
+        option.selected = true;
+      }
+
+      if (v.type === 'demo') {
+        demoSelect.appendChild(option);
+      } else if (v.type === 'security') {
+        securitySelect.appendChild(option);
+      }
+    });
+
+    // Add change handlers
+    demoSelect.addEventListener('change', function() {
+      if (this.value) {
+        switchVerifier(parseInt(this.value, 10), 'registration');
+      }
+    });
+
+    securitySelect.addEventListener('change', function() {
+      if (this.value) {
+        switchVerifier(parseInt(this.value, 10), 'registration');
+      }
+    });
+  } catch (error) {
+    console.error('Failed to load verifiers:', error);
+  }
+}
+</script>
+{% endblock %}

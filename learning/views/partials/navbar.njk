@@ -1,0 +1,106 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/flags">
+      <span class="fs-4 me-2">🚩</span>
+      <span>Fun with Flags and Passkeys</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/flags">
+            <i class="bi bi-house"></i> Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/guide">
+            <i class="bi bi-book"></i> Guide
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/verifiers">
+            <i class="bi bi-shield-check"></i> Verifiers
+          </a>
+        </li>
+        <!-- Instance Control -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-box"></i> Instance
+          </a>
+          <div class="dropdown-menu p-3" style="min-width: 350px;">
+            <h6 class="dropdown-header px-0">Current Instance</h6>
+            <div class="d-flex align-items-center gap-2 py-1">
+              <code class="small text-break flex-grow-1" id="current-instance-id">{{ instanceId }}</code>
+              <button class="btn btn-sm btn-outline-secondary py-0 px-1" type="button" id="copy-instance-btn" title="Copy UUID">
+                <i class="bi bi-clipboard"></i>
+              </button>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="mb-2">
+              <label class="form-label small mb-1">Switch Instance</label>
+              <div class="input-group input-group-sm">
+                <input type="text" class="form-control" id="switch-instance-input" placeholder="Enter Instance UUID">
+                <button class="btn btn-outline-primary" type="button" id="switch-instance-btn">Switch</button>
+              </div>
+            </div>
+            <div class="d-flex gap-2">
+              <button class="btn btn-sm btn-outline-secondary flex-grow-1" id="new-instance-btn">
+                <i class="bi bi-plus"></i> New
+              </button>
+              <button class="btn btn-sm btn-outline-warning flex-grow-1" id="reset-instance-btn">
+                <i class="bi bi-arrow-clockwise"></i> Reset
+              </button>
+              <button class="btn btn-sm btn-outline-danger flex-grow-1" id="delete-instance-btn">
+                <i class="bi bi-trash"></i> Delete
+              </button>
+            </div>
+          </div>
+        </li>
+        {% if user %}
+        <li class="nav-item">
+          <a class="nav-link" href="/flags/new">
+            <i class="bi bi-plus-circle"></i> Add Flag
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+
+      <ul class="navbar-nav align-items-center">
+        <!-- User Menu -->
+        {% if user %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-person-circle"></i> {{ user.username }}
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="/settings"><i class="bi bi-gear"></i> Settings</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+              <form action="/logout" method="POST" class="d-inline">
+                <button type="submit" class="dropdown-item"><i class="bi bi-box-arrow-right"></i> Logout</button>
+              </form>
+            </li>
+          </ul>
+        </li>
+        {% else %}
+        <!-- Login Button - Blue (Authentication) -->
+        <li class="nav-item py-2 py-lg-0">
+          <a class="btn btn-primary btn-sm me-lg-2" href="/login">
+            <i class="bi bi-box-arrow-in-right"></i> Login
+          </a>
+        </li>
+        <!-- Register Button - Green (Registration) -->
+        <li class="nav-item py-2 py-lg-0">
+          <a class="btn btn-success btn-sm" href="/register">
+            <i class="bi bi-person-plus"></i> Register
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>

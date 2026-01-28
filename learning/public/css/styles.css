@@ -1,0 +1,136 @@
+/* Fun with Flags and Passkeys - Custom Styles */
+
+/* Flag images */
+.flag-image {
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.flag-detail-image {
+  max-height: 400px;
+  object-fit: contain;
+  background: #f8f9fa;
+}
+
+/* Flag cards */
+.flag-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.flag-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Avatar */
+.avatar {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Rating stars */
+.star-btn {
+  transition: color 0.2s, transform 0.2s;
+}
+
+.star-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Navbar instance/verifier controls */
+.navbar .dropdown-menu {
+  font-size: 0.9rem;
+}
+
+.navbar .dropdown-menu .form-control,
+.navbar .dropdown-menu .form-select,
+.navbar .dropdown-menu .btn {
+  font-size: 0.85rem;
+}
+
+/* Code in instance display */
+#current-instance-id {
+  font-size: 0.75rem;
+  word-break: break-all;
+}
+
+/* CTF Flag display */
+#flag-display code {
+  font-size: 1.2rem;
+  display: block;
+  padding: 10px;
+  background: #000;
+  color: #0f0;
+  border-radius: 4px;
+}
+
+/* Verifier tables */
+.table td {
+  vertical-align: middle;
+}
+
+/* Alert styling for passkey operations */
+#passkey-status .alert {
+  margin-bottom: 0;
+}
+
+/* Form improvements */
+.form-text a {
+  color: inherit;
+}
+
+/* Footer */
+footer {
+  border-top: 3px solid #0d6efd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .flag-image {
+    height: 150px;
+  }
+
+  .navbar .dropdown-menu {
+    min-width: 280px !important;
+  }
+}
+
+/* Loading spinner */
+.spinner {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner 0.75s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Badge improvements for verifier status */
+.badge.bg-danger {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .form-control,
+  .form-select {
+    color-scheme: dark;
+  }
+}

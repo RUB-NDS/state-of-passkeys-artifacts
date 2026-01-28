@@ -1,0 +1,227 @@
+{% extends "layouts/base.njk" %}
+
+{% block head %}
+<style>
+  .hint-cell {
+    position: relative;
+    cursor: pointer;
+    min-width: 300px;
+  }
+  .hint-text {
+    filter: blur(5px);
+    transition: filter 0.4s ease-out;
+    user-select: none;
+  }
+  .hint-text.revealed {
+    filter: blur(0);
+    user-select: auto;
+  }
+  .hint-cell:hover .hint-text:not(.revealed) {
+    filter: blur(3px);
+  }
+  .hint-cell::after {
+    content: "Click to reveal";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7rem;
+    color: #6c757d;
+    opacity: 0.8;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .hint-cell:has(.revealed)::after {
+    opacity: 0;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+  <div class="col">
+    <h1><i class="bi bi-shield-check"></i> Verifiers</h1>
+    <p class="lead text-muted">
+      Explore different passkey authentication flows and security vulnerabilities.
+      Select a verifier to activate it for the current session.
+    </p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- AUTHENTICATION VERIFIERS                                                    -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<div class="card mb-4 border-primary">
+  <div class="card-header bg-primary text-white">
+    <h4 class="mb-0"><i class="bi bi-box-arrow-in-right"></i> Authentication Verifiers</h4>
+  </div>
+  <div class="card-body">
+    <!-- Authentication Demo Verifiers -->
+    <h5 class="mt-2 mb-3"><i class="bi bi-play-circle text-primary"></i> Demo Verifiers</h5>
+    <p class="text-muted small">These verifiers demonstrate different passkey authentication flows.</p>
+    <div class="table-responsive mb-4">
+      <table class="table table-hover table-sm">
+        <thead class="table-light">
+          <tr>
+            <th style="width: 50px">ID</th>
+            <th style="width: 180px">Name</th>
+            <th>Description</th>
+            <th style="min-width: 300px">Hint</th>
+            <th style="width: 80px"></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for v in authenticationDemo %}
+          <tr class="{% if v.id == currentAuthVerifier.id %}table-primary{% endif %}">
+            <td><code>{{ v.id }}</code></td>
+            <td>{{ v.name }}</td>
+            <td>{{ v.description }}</td>
+            <td class="hint-cell"><small class="text-muted hint-text">{{ v.hint }}</small></td>
+            <td class="text-nowrap">
+              <button class="btn btn-sm {% if v.id == currentAuthVerifier.id %}btn-primary{% else %}btn-outline-primary{% endif %} switch-verifier-btn" data-verifier-id="{{ v.id }}" data-target="authentication">
+                {% if v.id == currentAuthVerifier.id %}<i class="bi bi-check-lg"></i>{% else %}Select{% endif %}
+              </button>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Authentication Security Verifiers -->
+    <h5 class="mt-4 mb-3"><i class="bi bi-bug text-danger"></i> Security Verifiers</h5>
+    <p class="text-muted small">These verifiers contain intentional vulnerabilities in the authentication flow. Find and exploit them to unlock a reward flag!</p>
+    <div class="table-responsive">
+      <table class="table table-hover table-sm">
+        <thead class="table-light">
+          <tr>
+            <th style="width: 50px">ID</th>
+            <th style="width: 70px">Section</th>
+            <th style="width: 220px">Name</th>
+            <th>Description</th>
+            <th style="min-width: 300px">Hint</th>
+            <th style="width: 80px"></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for v in authenticationSecurity %}
+          <tr class="{% if v.id == currentAuthVerifier.id %}table-primary{% endif %}">
+            <td><code>{{ v.id }}</code></td>
+            <td><span class="badge bg-primary">§{{ v.section }}</span></td>
+            <td>{{ v.name }}</td>
+            <td>{{ v.description }}</td>
+            <td class="hint-cell"><small class="text-muted hint-text">{{ v.hint }}</small></td>
+            <td class="text-nowrap">
+              <button class="btn btn-sm {% if v.id == currentAuthVerifier.id %}btn-primary{% else %}btn-outline-primary{% endif %} switch-verifier-btn" data-verifier-id="{{ v.id }}" data-target="authentication">
+                {% if v.id == currentAuthVerifier.id %}<i class="bi bi-check-lg"></i>{% else %}Select{% endif %}
+              </button>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- REGISTRATION VERIFIERS                                                      -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<div class="card mb-4 border-success">
+  <div class="card-header bg-success text-white">
+    <h4 class="mb-0"><i class="bi bi-person-plus"></i> Registration Verifiers</h4>
+  </div>
+  <div class="card-body">
+    <!-- Registration Demo Verifiers -->
+    <h5 class="mt-2 mb-3"><i class="bi bi-play-circle text-success"></i> Demo Verifiers</h5>
+    <p class="text-muted small">These verifiers demonstrate different passkey registration flows.</p>
+    <div class="table-responsive mb-4">
+      <table class="table table-hover table-sm">
+        <thead class="table-light">
+          <tr>
+            <th style="width: 50px">ID</th>
+            <th style="width: 180px">Name</th>
+            <th>Description</th>
+            <th style="min-width: 300px">Hint</th>
+            <th style="width: 80px"></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for v in registrationDemo %}
+          <tr class="{% if v.id == currentRegVerifier.id %}table-success{% endif %}">
+            <td><code>{{ v.id }}</code></td>
+            <td>{{ v.name }}</td>
+            <td>{{ v.description }}</td>
+            <td class="hint-cell"><small class="text-muted hint-text">{{ v.hint }}</small></td>
+            <td class="text-nowrap">
+              <button class="btn btn-sm {% if v.id == currentRegVerifier.id %}btn-success{% else %}btn-outline-success{% endif %} switch-verifier-btn" data-verifier-id="{{ v.id }}" data-target="registration">
+                {% if v.id == currentRegVerifier.id %}<i class="bi bi-check-lg"></i>{% else %}Select{% endif %}
+              </button>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Registration Security Verifiers -->
+    <h5 class="mt-4 mb-3"><i class="bi bi-bug text-danger"></i> Security Verifiers</h5>
+    <p class="text-muted small">These verifiers contain intentional vulnerabilities in the registration flow. Find and exploit them to unlock a reward flag!</p>
+    <div class="table-responsive">
+      <table class="table table-hover table-sm">
+        <thead class="table-light">
+          <tr>
+            <th style="width: 50px">ID</th>
+            <th style="width: 70px">Section</th>
+            <th style="width: 220px">Name</th>
+            <th>Description</th>
+            <th style="min-width: 300px">Hint</th>
+            <th style="width: 80px"></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for v in registrationSecurity %}
+          <tr class="{% if v.id == currentRegVerifier.id %}table-success{% endif %}">
+            <td><code>{{ v.id }}</code></td>
+            <td><span class="badge bg-success">§{{ v.section }}</span></td>
+            <td>{{ v.name }}</td>
+            <td>{{ v.description }}</td>
+            <td class="hint-cell"><small class="text-muted hint-text">{{ v.hint }}</small></td>
+            <td class="text-nowrap">
+              <button class="btn btn-sm {% if v.id == currentRegVerifier.id %}btn-success{% else %}btn-outline-success{% endif %} switch-verifier-btn" data-verifier-id="{{ v.id }}" data-target="registration">
+                {% if v.id == currentRegVerifier.id %}<i class="bi bi-check-lg"></i>{% else %}Select{% endif %}
+              </button>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Verifier switch buttons
+  document.querySelectorAll('.switch-verifier-btn').forEach(btn => {
+    btn.addEventListener('click', async function() {
+      const verifierId = this.dataset.verifierId;
+      const target = this.dataset.target;
+      await switchVerifier(verifierId, target);
+    });
+  });
+
+  // Hint reveal on click
+  document.querySelectorAll('.hint-cell').forEach(cell => {
+    cell.addEventListener('click', function() {
+      const hintText = this.querySelector('.hint-text');
+      if (hintText) {
+        hintText.classList.toggle('revealed');
+      }
+    });
+  });
+});
+</script>
+{% endblock %}

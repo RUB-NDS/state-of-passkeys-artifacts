@@ -1,0 +1,157 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="row mb-4">
+  <div class="col">
+    <h1><i class="bi bi-book"></i> How to Use This Platform</h1>
+    <p class="lead text-muted">
+      Learn how to navigate the passkey learning platform and solve challenges.
+    </p>
+  </div>
+</div>
+
+<!-- Overview -->
+<div class="card mb-4">
+  <div class="card-header">
+    <h5 class="mb-0"><i class="bi bi-info-circle"></i> Overview</h5>
+  </div>
+  <div class="card-body">
+    <p>
+      This platform allows you to analyze different passkey registration and authentication flows.
+      The website provides a community platform for sharing, discussing, and rating various national flags.
+      Your goal is to understand how (secure) passkeys are integrated into the registration and login processes.
+    </p>
+  </div>
+</div>
+
+<!-- Instances -->
+<div class="card mb-4">
+  <div class="card-header">
+    <h5 class="mb-0"><i class="bi bi-box"></i> Instances</h5>
+  </div>
+  <div class="card-body">
+    <p>The website uses isolated instances to ensure your work doesn't interfere with others:</p>
+    <ul>
+      <li>By default, you are assigned to a new instance with its own isolated database and user accounts.</li>
+      <li>
+        <strong>Resetting your instance:</strong>
+        <ul>
+          <li>Navigate to <strong>Instance</strong> <i class="bi bi-arrow-right"></i> <strong>Reset</strong> in the navigation bar.</li>
+          <li>This restores the instance to its initial default state.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>When using multiple browser profiles:</strong>
+        <ul>
+          <li>Use the same instance ID across all profiles.</li>
+          <li>Switch to your instance ID after opening a new browser profile.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Verifiers -->
+<div class="card mb-4">
+  <div class="card-header">
+    <h5 class="mb-0"><i class="bi bi-shield-check"></i> Verifiers</h5>
+  </div>
+  <div class="card-body">
+    <p>Verifiers control how the passkey registration and authentication flows behave:</p>
+    <ul>
+      <li><strong>Overview:</strong> All verifiers are available at <a href="/verifiers">/verifiers</a>.</li>
+      <li><strong>Targets:</strong> There are separate verifiers for registration and authentication flows.</li>
+      <li>
+        <strong>Types:</strong> Each flow has two types of verifiers:
+        <ul>
+          <li><em><i class="bi bi-play-circle text-primary"></i> Demo verifiers:</em> Secure implementations that demonstrate specific features or behaviors of passkeys.</li>
+          <li><em><i class="bi bi-bug text-danger"></i> Security verifiers:</em> Intentionally vulnerable implementations that miss certain security checks or validations.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Switching verifiers:</strong> You can switch between verifiers in two ways:
+        <ul>
+          <li>Select from the dropdown menu on the registration or authentication pages.</li>
+          <li>Navigate directly via <a href="/verifiers">/verifiers</a>.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="alert alert-success mt-3">
+      <h6 class="alert-heading"><i class="bi bi-trophy"></i> Solving Security Verifiers</h6>
+      <ul class="mb-0">
+        <li>Exploit the missing security checks or validations.</li>
+        <li>Successful exploitation displays confetti and a special national flag.</li>
+        <li>
+          Unless stated otherwise, submit the following as your solution:
+          <ul>
+            <li>The country of the displayed flag, e.g., "Papua New Guinea".</li>
+            <li>A short explanation of how you exploited the vulnerability (steps to reproduce).</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <p class="mt-3"><i class="bi bi-lightbulb"></i> <strong>Help:</strong> Each verifier includes a description of its purpose and hints for solving security challenges.</p>
+  </div>
+</div>
+
+<!-- Tooling -->
+<div class="card mb-4">
+  <div class="card-header">
+    <h5 class="mb-0"><i class="bi bi-tools"></i> Tooling</h5>
+  </div>
+  <div class="card-body">
+    <p>Passkeys use custom CBOR structures and binary data formats that require specialized tools:</p>
+    <ul>
+      <li>
+        <strong>Available tools:</strong> Access our passkey analysis tools at <a href="https://passkeys.tools" target="_blank" rel="noopener">https://passkeys.tools</a>.
+        You are allowed to use other tools as well. All tasks can be solved using only <a href="https://passkeys.tools" target="_blank" rel="noopener">passkeys.tools</a>, so there is no need to use additional tools.
+      </li>
+      <li>
+        <strong>Setup:</strong>
+        <ul>
+          <li>Read the information and instructions on the website carefully.</li>
+          <li>Follow the "Cross-Browser Mode Setup" in the "Getting Started" section to use the tool across different browser profiles.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="alert alert-warning mt-3">
+      <h6 class="alert-heading"><i class="bi bi-shield-exclamation"></i> Security Best Practices</h6>
+      <ul class="mb-0">
+        <li>Only use the tools for this exercise or other development/testing purposes.</li>
+        <li><strong>DO NOT</strong> store your real production passkeys in these tools.</li>
+        <li>Use a separate testing-only browser that is not used for any other purposes.</li>
+        <li>Example: Install and use a separate nightly build of <a href="https://www.google.com/intl/en/chrome/canary/" target="_blank" rel="noopener">Google Chrome Canary</a>.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Quick Links -->
+<div class="card mb-4">
+  <div class="card-header">
+    <h5 class="mb-0"><i class="bi bi-link-45deg"></i> Quick Links</h5>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <a href="/verifiers" class="btn btn-outline-primary w-100">
+          <i class="bi bi-shield-check"></i> View Verifiers
+        </a>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <a href="/login" class="btn btn-primary w-100">
+          <i class="bi bi-box-arrow-in-right"></i> Login
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="/register" class="btn btn-success w-100">
+          <i class="bi bi-person-plus"></i> Register
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

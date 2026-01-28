@@ -1,0 +1,60 @@
+# Dependencies (installed fresh in container)
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# GitHub
+.github/
+
+# Source files (only dist is needed for production)
+src/
+
+# TypeScript config
+tsconfig.json
+
+# Linting/Formatting
+.eslintrc.json
+.prettierrc
+
+# Documentation
+*.md
+CLAUDE.md
+TASKS.md
+README.md
+
+# Environment files (secrets should be passed at runtime)
+.env
+.env.*
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/Coverage
+coverage/
+*.test.ts
+*.spec.ts
+
+# Instance data (created at runtime)
+data/instances/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Docker files (not needed inside container)
+Dockerfile
+.dockerignore
+
+# Temp
+tmp/
+temp/

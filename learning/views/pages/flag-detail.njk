@@ -1,0 +1,191 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-8">
+    <!-- Flag Card -->
+    <div class="card mb-4">
+      <img src="{{ flag.imageUrl }}" class="card-img-top flag-detail-image" alt="{{ flag.title }}">
+      <div class="card-body">
+        <h1 class="card-title">{{ flag.title }}</h1>
+        <p class="text-muted">
+          <i class="bi bi-geo-alt"></i> {{ flag.country }}
+          <span class="mx-2">|</span>
+          Posted by <a href="/profile/{{ flag.user.id }}" class="text-muted">{{ flag.user.username }}</a>
+          <span class="mx-2">|</span>
+          {{ flag.createdAt | replace('T', ' ') | replace('Z', '') | truncate(16, true, '') }}
+        </p>
+        <hr>
+        <p class="card-text">{{ flag.description }}</p>
+      </div>
+      {% if isOwner %}
+      <div class="card-footer">
+        <a href="/flags/{{ flag.id }}/edit" class="btn btn-sm btn-outline-primary">
+          <i class="bi bi-pencil"></i> Edit
+        </a>
+        <form action="/flags/{{ flag.id }}/delete" method="POST" class="d-inline"
+              onsubmit="return confirm('Are you sure you want to delete this flag?');">
+          <button type="submit" class="btn btn-sm btn-outline-danger">
+            <i class="bi bi-trash"></i> Delete
+          </button>
+        </form>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Comments Section -->
+    <div class="card">
+      <div class="card-header">
+        <h5 class="mb-0"><i class="bi bi-chat"></i> Comments ({{ flag.comments.length }})</h5>
+      </div>
+      <div class="card-body">
+        {% if user %}
+        <form action="/comments" method="POST" class="mb-4">
+          <input type="hidden" name="flagId" value="{{ flag.id }}">
+          <div class="mb-2">
+            <textarea class="form-control" name="content" rows="3" placeholder="Write a comment..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-sm">
+            <i class="bi bi-send"></i> Post Comment
+          </button>
+        </form>
+        {% else %}
+        <div class="alert alert-info mb-4">
+          <a href="/login">Login</a> to post a comment.
+        </div>
+        {% endif %}
+
+        {% if flag.comments.length == 0 %}
+        <p class="text-muted text-center">No comments yet. Be the first to comment!</p>
+        {% else %}
+        {% for comment in flag.comments %}
+        <div class="d-flex mb-3">
+          <div class="flex-shrink-0">
+            <div class="avatar bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center"
+                 style="width: 40px; height: 40px;">
+              {{ comment.user.username[0] | upper }}
+            </div>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <div class="d-flex justify-content-between">
+              <a href="/profile/{{ comment.user.id }}" class="text-decoration-none"><strong>{{ comment.user.username }}</strong></a>
+              <small class="text-muted">{{ comment.createdAt | replace('T', ' ') | replace('Z', '') | truncate(16, true, '') }}</small>
+            </div>
+            <p class="mb-1">{{ comment.content }}</p>
+            {% if user and user.id == comment.userId %}
+            <form action="/comments/{{ comment.id }}/delete" method="POST" class="d-inline">
+              <input type="hidden" name="flagId" value="{{ flag.id }}">
+              <button type="submit" class="btn btn-link btn-sm text-danger p-0">Delete</button>
+            </form>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <!-- Rating Card -->
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="mb-0"><i class="bi bi-star"></i> Rating</h5>
+      </div>
+      <div class="card-body text-center">
+        <div class="display-4 mb-2">
+          <i class="bi bi-star-fill text-warning"></i>
+          {{ flag.averageRating | round(1) }}
+        </div>
+        <p class="text-muted">{{ flag.ratings.length }} rating{{ 's' if flag.ratings.length != 1 else '' }}</p>
+
+        {% if user %}
+        <hr>
+        <p class="mb-2">Your rating:</p>
+        <div class="rating-stars" id="user-rating">
+          {% for i in range(1, 6) %}
+          <i class="bi bi-star{{ '-fill' if flag.userRating and flag.userRating >= i else '' }} star-btn"
+             data-value="{{ i }}" style="font-size: 1.5rem; cursor: pointer;"></i>
+          {% endfor %}
+        </div>
+        {% else %}
+        <hr>
+        <p class="text-muted small"><a href="/login">Login</a> to rate this flag.</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="card">
+      <div class="card-header">
+        <h5 class="mb-0"><i class="bi bi-graph-up"></i> Stats</h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Comments</span>
+          <span class="badge bg-primary">{{ flag.comments.length }}</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Ratings</span>
+          <span class="badge bg-primary">{{ flag.ratings.length }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const ratingStars = document.querySelectorAll('.star-btn');
+
+  ratingStars.forEach(star => {
+    star.addEventListener('click', async function() {
+      const value = parseInt(this.dataset.value);
+      const flagId = '{{ flag.id }}';
+
+      try {
+        const response = await fetch('/ratings', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({ flagId, value })
+        });
+
+        if (response.ok) {
+          // Update star display
+          ratingStars.forEach((s, i) => {
+            if (i < value) {
+              s.classList.remove('bi-star');
+              s.classList.add('bi-star-fill');
+            } else {
+              s.classList.remove('bi-star-fill');
+              s.classList.add('bi-star');
+            }
+          });
+        }
+      } catch (error) {
+        console.error('Error rating:', error);
+      }
+    });
+
+    // Hover effect
+    star.addEventListener('mouseenter', function() {
+      const value = parseInt(this.dataset.value);
+      ratingStars.forEach((s, i) => {
+        if (i < value) {
+          s.classList.add('text-warning');
+        }
+      });
+    });
+
+    star.addEventListener('mouseleave', function() {
+      ratingStars.forEach(s => s.classList.remove('text-warning'));
+    });
+  });
+});
+</script>
+{% endblock %}

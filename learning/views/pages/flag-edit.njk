@@ -1,0 +1,49 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="card">
+      <div class="card-header bg-primary text-white">
+        <h4 class="mb-0"><i class="bi bi-pencil"></i> Edit Flag</h4>
+      </div>
+      <div class="card-body">
+        {% if error %}
+        <div class="alert alert-danger">
+          <i class="bi bi-exclamation-triangle"></i> {{ error }}
+        </div>
+        {% endif %}
+
+        <form action="/flags/{{ flag.id }}" method="POST">
+          <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="title" name="title"
+                   value="{{ flag.title }}" required>
+          </div>
+          <div class="mb-3">
+            <label for="country" class="form-label">Country/Region</label>
+            <input type="text" class="form-control" id="country" name="country"
+                   value="{{ flag.country }}" required>
+          </div>
+          <div class="mb-3">
+            <label for="imageUrl" class="form-label">Image URL</label>
+            <input type="url" class="form-control" id="imageUrl" name="imageUrl"
+                   value="{{ flag.imageUrl }}" required>
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control" id="description" name="description" rows="5"
+                      required>{{ flag.description }}</textarea>
+          </div>
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary">
+              <i class="bi bi-check"></i> Save Changes
+            </button>
+            <a href="/flags/{{ flag.id }}" class="btn btn-outline-secondary">Cancel</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

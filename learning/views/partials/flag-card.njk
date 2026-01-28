@@ -1,0 +1,26 @@
+<div class="card h-100 flag-card">
+  <a href="/flags/{{ flag.id }}" class="text-decoration-none">
+    <img src="{{ flag.imageUrl }}" class="card-img-top flag-image" alt="{{ flag.title }}" loading="lazy">
+    <div class="card-body">
+      <h5 class="card-title text-dark">{{ flag.title }}</h5>
+      <p class="card-text small text-muted">
+        <i class="bi bi-geo-alt"></i> {{ flag.country }}
+      </p>
+      <p class="card-text text-dark">{{ flag.description | truncate(100) }}</p>
+    </div>
+  </a>
+  <div class="card-footer bg-transparent">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="text-muted small">
+        <span class="me-2" title="Average Rating">
+          <i class="bi bi-star-fill text-warning"></i>
+          {{ flag.averageRating | round(1) if flag.averageRating else '0' }}
+        </span>
+        <span class="me-2" title="Comments">
+          <i class="bi bi-chat"></i> {{ flag.comments }}
+        </span>
+        <i class="bi bi-person"></i> <a href="/profile/{{ flag.user.id }}" class="text-muted" title="View Profile">{{ flag.user.username }}</a>
+      </div>
+    </div>
+  </div>
+</div>
