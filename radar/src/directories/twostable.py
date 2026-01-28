@@ -10,20 +10,20 @@ logger = logging.getLogger(__name__)
 
 def get_entries():
     r1 = requests.get("https://passkeys.2stable.com/services/")
-    s1 = BeautifulSoup(r1.text, "html.parser")
+    s1 = BeautifulSoup(r1.text, "lxml")
 
     entries = []
     for e in s1.select("div#services-supporting-passkeys table tbody tr"):
         try:
             id = e.select_one("th").get_text(strip=True)
-            name = e.select_one("td h6").get_text(strip=True)
-            domain = e.select_one("td p.fw-normal").get_text(strip=True)
-            details = f"https://passkeys.2stable.com{e.select_one('td > a')['href']}"
+            name = e.select_one("td div.text-dark").get_text(strip=True)
+            domain = e.select_one("td div.small.text-secondary").get_text(strip=True)
+            details = f"https://passkeys.2stable.com{e.select('td a')[-1]['href']}"
 
             logger.debug(f"Fetch details from: {details}")
             r2 = requests.get(details)
-            s2 = BeautifulSoup(r2.text, "html.parser")
-            containers = s2.select("body > div > div:nth-child(2) > div > div:nth-child(4) > div > div.list-group > div")
+            s2 = BeautifulSoup(r2.text, "lxml")
+            containers = s2.select(".list-group .list-group-item")
 
             # service
             # name = containers[0].select_one("p").get_text(strip=True)
@@ -33,15 +33,21 @@ def get_entries():
             # domain = (a := containers[1].select_one("a#service")) and a.get_text(strip=True)
 
             # setup
-            setup = ((a := containers[2].select_one("a#set-up")) and a["href"]) or ((p := containers[2].select_one("p")) and p.get_text())
+            setup = (
+                (a := containers[2].select_one("a")) and a["href"]
+            ) or (
+                (p := containers[2].select_one("p")) and p.get_text(strip=True)
+            )
 
             # howto
-            howto = containers[3].select_one("div").get_text()
-            howto_links = [a["href"] for a in containers[3].select_one("div").select("a")]
+            howto_div = containers[3]
+            howto = howto_div.get_text(separator=" ", strip=True)
+            howto_links = [a["href"] for a in howto_div.select("a")]
 
             # recover
-            recover = containers[4].select_one("div").get_text()
-            recover_links = [a["href"] for a in containers[4].select_one("div").select("a")]
+            recover_div = containers[4]
+            recover = recover_div.get_text(separator=" ", strip=True)
+            recover_links = [a["href"] for a in recover_div.select("a")]
 
             entries.append({
                 "id": id, "name": name, "domain": domain, "details": details,
