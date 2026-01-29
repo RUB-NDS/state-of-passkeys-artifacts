@@ -9,7 +9,6 @@ bs4 = "*"
 gitpython = "*"
 typer = "*"
 tldextract = "*"
-pandas = "*"
 jupyter = "*"
 dash = "*"
 upsetplot = "*"
@@ -18,6 +17,7 @@ jsonlines = "*"
 tqdm = "*"
 pymongo = "*"
 tranco = "*"
+pandas = "<3.0"
 
 [dev-packages]
 
