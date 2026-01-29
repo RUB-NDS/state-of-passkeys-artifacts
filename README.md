@@ -6,13 +6,14 @@ This repository contains the artifacts for the paper **"The State of Passkeys: S
 
 ## 📂 Repository Structure
 
-Our artifacts are organized into five main components:
+Our artifacts are organized into six main components:
 
 | Directory | Description |
 |-----------|-------------|
 | 📡 [`./radar`](#-passkeys-radar) | Source code of the PASSKEYS-RADAR |
 | 🔍 [`./detector`](#-well-known-detector) | Source code for scanning well-known files |
 | 🛠️ [`./tools`](#️-passkeys-attacker) | Source code of the PASSKEYS-ATTACKER |
+| 🎓 [`./learning`](#-learning-platform) | Intentionally vulnerable learning platform |
 | 💾 [`./data`](#-data-artifacts) | Data artifacts including community directories and lists |
 | 📊 [`./notebooks`](#-analysis-notebooks) | Jupyter notebooks for analysis and figure generation |
 
@@ -28,13 +29,13 @@ A comprehensive tool for aggregating and analyzing passkey adoption across multi
 
 **Location:** [`./detector`](./detector)
 
-Source code for scanning and analyzing well-known files across websites. This tool crawls the web to detect passkey-related configuration files.
+Scans 18M CrUX domains to detect passkey-related well-known files (`/.well-known/passkey_endpoints` and `/.well-known/webauthn`).
 
 ### Components
-- 📁 `./detector/taskly` — Main application with Docker orchestration
-- 📁 `./detector/tasks` — Task definitions and configurations
+- 📁 `./detector/taskly` — Parallel-execution framework with Docker orchestration (not part of our contribution)
+- 📁 `./detector/tasks` — Scanning task definitions (our contribution)
 
-📖 See [`./detector/taskly/README.md`](./detector/taskly/README.md) for setup instructions.
+📖 See [`./detector/README.md`](./detector/README.md) for setup instructions.
 
 ## 🛠️ PASSKEYS-ATTACKER
 
@@ -49,11 +50,19 @@ A comprehensive security testing toolkit for WebAuthn (passkey) implementations.
 
 📖 See [`./tools/README.md`](./tools/README.md) for setup and usage instructions.
 
+## 🎓 Learning Platform
+
+**Location:** [`./learning`](./learning)
+
+An intentionally vulnerable learning platform for artifact evaluation. Covers all vulnerabilities from Table 2 in the paper and enables safe, controlled experimentation with PASSKEYS-ATTACKER.
+
+📖 See [`./learning/README.md`](./learning/README.md) for setup and usage instructions.
+
 ## 💾 Data Artifacts
 
 **Location:** [`./data`](./data)
 
-Contains all data artifacts collected and processed by the PASSKEYS-RADAR.
+Contains all generated data since 2021, including aggregated passkey directories and well-known scan results.
 
 ## 📊 Analysis Notebooks
 
@@ -76,7 +85,9 @@ Jupyter notebooks for analyzing evaluation data and generating paper figures.
 |------|-------------|
 | 📄 `sheet.csv` | Main evaluation dataset |
 | 📄 `sheet.xlsx` | Evaluation data in Excel format |
-| 📄 `sites.txt` | List of analyzed websites |
+| 📄 `*-combined.json` | Aggregated websites from all sources |
+| 📄 `*-merged.json` | Deduplicated list of passkey-enabled sites |
+| 📄 `*-sites.txt` | List of analyzed websites |
 
 ### Generated Figures
 
