@@ -4,6 +4,8 @@ A tool for aggregating and analyzing passkey adoption across multiple directorie
 
 ## Development Setup
 
+Requires Python 3.11.
+
 ```bash
 cp .env.example .env
 
