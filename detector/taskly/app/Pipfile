@@ -18,6 +18,7 @@ requests = "*"
 crux-cache = "*"
 tranco = "*"
 sniffio = "*"
+exceptiongroup = "*"
 
 [dev-packages]
 
