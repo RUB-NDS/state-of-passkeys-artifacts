@@ -18,7 +18,7 @@ docker run --rm -it -v $(pwd)/tasks:/app/tasks -v $(pwd)/output:/output -e TASKS
 
 ### Schedule Wellknown Task
 
-The `schedule_wellknown` command schedules tasks based on a scan configuration.
+The `schedule_wellknown` command schedules tasks based on a scan configuration. It probes a broad set of well-known URIs (e.g., `openid-configuration`, `oauth-client`, `web-identity`, `jwks`, etc.) in addition to the passkey-related ones (`passkey-endpoints`, `webauthn`, `fido-configuration`, `fido2-configuration`). Only the passkey-related results are used in the paper; the remaining endpoints were collected for exploratory purposes and are not part of the analysis.
 
 ```bash
 docker run --rm -it -v $(pwd)/tasks:/app/tasks -v $(pwd)/output:/output -e TASKS_DIR=/app/tasks taskly-worker python cli.py schedule_wellknown [OPTIONS]
