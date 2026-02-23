@@ -1,21 +1,36 @@
 from typing import Literal, Optional
-from pydantic import BaseModel, model_validator
+from pydantic import BaseModel, Field, model_validator
 
 
 class ScanConfigOrigin(BaseModel):
-    type: Literal["origin", "crux", "tranco"] = "origin"
+    type: Literal["origin", "crux", "tranco"] = Field(
+        default="origin",
+        description="Source type: 'origin' for a single origin, 'crux' for CrUX dataset, 'tranco' for Tranco dataset",
+    )
 
     # origin type fields
-    origin: Optional[str] = "https://example.com"
+    origin: Optional[str] = Field(
+        default="https://example.com",
+        description="Single origin to scan (required when type is 'origin')",
+    )
 
     # crux type fields
-    crux_yyyymm: Optional[str] = "202501"
+    crux_yyyymm: Optional[str] = Field(
+        default="202501",
+        description="CrUX dataset month in YYYYMM format (required when type is 'crux')",
+    )
 
     # tranco type fields
-    tranco_yyyymmdd: Optional[str] = "20250101"
+    tranco_yyyymmdd: Optional[str] = Field(
+        default="20250101",
+        description="Tranco dataset date in YYYYMMDD format (required when type is 'tranco')",
+    )
 
     # shared fields
-    max_rank: Optional[int] = 1000
+    max_rank: Optional[int] = Field(
+        default=1000,
+        description="Maximum rank to scan from the dataset",
+    )
 
     @model_validator(mode="after")
     def validate_fields_by_type(self):
@@ -36,5 +51,11 @@ class TaskConfigOrigin(BaseModel):
 
 
 class AnalysisConfigOrigin(BaseModel):
-    origin: str = "https://example.com"
-    rank: Optional[int] = None
+    origin: str = Field(
+        default="https://example.com",
+        description="Origin URL to analyze",
+    )
+    rank: Optional[int] = Field(
+        default=None,
+        description="Rank of the origin in the dataset",
+    )

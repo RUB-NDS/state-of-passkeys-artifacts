@@ -1,8 +1,10 @@
 import os
 import json
+from typing import Annotated
 from uuid import uuid4
 from pprint import pprint
 from argdantic import ArgParser
+from pydantic import Field
 from modules.tasks import load
 from modules.lfs import store_in_filesystem
 
@@ -38,7 +40,8 @@ def execute(out, task_name, scan_id, task_id, start, scan_config, task_config, a
 
 
 def cmd_schedule(task_name, schedule, start, scan_config_class, task_config_class, analysis_config_class):
-    def cmd(out: str = "/tmp", scan_config: scan_config_class = scan_config_class(), task_config: task_config_class = task_config_class(), analysis_config: analysis_config_class = analysis_config_class()):
+    def cmd(out: Annotated[str, Field(description="Output directory for results")] = "/tmp", scan_config: scan_config_class = scan_config_class(), task_config: task_config_class = task_config_class(), analysis_config: analysis_config_class = analysis_config_class()):
+        """Schedule and run all analysis tasks derived from the scan configuration."""
         scan_id = str(uuid4())
         for analysis_config in list(schedule(scan_config, task_config)):
             task_id = str(uuid4())
@@ -47,7 +50,8 @@ def cmd_schedule(task_name, schedule, start, scan_config_class, task_config_clas
 
 
 def cmd_start(task_name, schedule, start, scan_config_class, task_config_class, analysis_config_class):
-    def cmd(out: str = "/tmp", scan_config: scan_config_class = scan_config_class(), task_config: task_config_class = task_config_class(), analysis_config: analysis_config_class = analysis_config_class()):
+    def cmd(out: Annotated[str, Field(description="Output directory for results")] = "/tmp", scan_config: scan_config_class = scan_config_class(), task_config: task_config_class = task_config_class(), analysis_config: analysis_config_class = analysis_config_class()):
+        """Run a single analysis task with the given configuration."""
         scan_id = str(uuid4())
         task_id = str(uuid4())
         execute(out, task_name, scan_id, task_id, start, scan_config, task_config, analysis_config)
