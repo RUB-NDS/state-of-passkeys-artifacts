@@ -23,19 +23,19 @@ cp .env.example .env
 
 ```bash
 docker run -d \
-  --name fun-with-flags \
+  --name fun-with-flags-and-passkeys \
   -p 3000:3000 \
   --env-file .env \
-  -v fun-with-flags-data:/app/data/instances \
-  ghcr.io/lonetis/fun-with-flags:latest
+  -v fun-with-flags-and-passkeys-data:/app/data/instances \
+  ghcr.io/lonetis/fun-with-flags-and-passkeys:latest
 ```
 
 ### Docker Compose
 
 ```yaml
 services:
-  fun-with-flags:
-    image: ghcr.io/lonetis/fun-with-flags:latest
+  fun-with-flags-and-passkeys:
+    image: ghcr.io/lonetis/fun-with-flags-and-passkeys:latest
     restart: unless-stopped
     env_file: .env
     expose:

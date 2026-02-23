@@ -18,7 +18,7 @@ Fun with Flags and Passkeys is a WebAuthn/Passkey learning platform. It provides
 ## Project Structure
 
 ```
-fun-with-flags/
+fun-with-flags-and-passkeys/
 ├── src/
 │   ├── app.ts                    # Express app setup
 │   ├── server.ts                 # Server entry point

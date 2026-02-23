@@ -1,5 +1,5 @@
 {
-  "name": "fun-with-flags",
+  "name": "fun-with-flags-and-passkeys",
   "version": "1.0.0",
   "description": "A Big Bang Theory themed passkey learning platform",
   "main": "dist/server.js",
