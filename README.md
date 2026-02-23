@@ -4,6 +4,19 @@ This repository contains the artifacts for the paper **"The State of Passkeys: S
 
 [![DOI](https://zenodo.org/badge/1114366317.svg)](https://doi.org/10.5281/zenodo.17898769)
 
+## 💻 Environment
+
+Our artifacts run on any modern GUI-based OS (x86 or ARM) capable of running Docker, Chrome, Python 3, and Pipenv. We tested and recommend **Ubuntu 24.04 LTS** or **macOS Tahoe 26.2** (on the host or in a VM). Windows 11 is untested but should work as well.
+
+| Dependency | Tested Version |
+|------------|---------------|
+| Docker | 29.1.5+ (Compose v5.0.1+) |
+| Chrome | 144.0.7559.97+ |
+| Python | 3.11 (radar) / 3.14 (notebooks) |
+| Pipenv | 2026.0.3 |
+
+For detailed setup instructions, see the [Artifact Appendix](artifact-appendix.pdf) (§A.2–A.3).
+
 ## 📂 Repository Structure
 
 Our artifacts are organized into six main components:
