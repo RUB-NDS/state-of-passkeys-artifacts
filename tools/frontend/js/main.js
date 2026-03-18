@@ -30,7 +30,8 @@ export const showStorageError = () => {
 }
 
 const setupEncodingHandlers = (elements, decoder, editor, encoder) => {
-    const { b64urlTextarea, b64Textarea, hexTextarea } = elements
+    const { b64urlTextarea, b64Textarea, hexTextarea, jsonTextarea } = elements
+    let jsonSyncInProgress = false
 
     b64urlTextarea.oninput = async () => {
         const data = await decoder(b64urlTextarea.value, "b64url")
@@ -51,8 +52,26 @@ const setupEncodingHandlers = (elements, decoder, editor, encoder) => {
     }
 
     editor.on("change", async () => {
+        if (jsonTextarea && !jsonSyncInProgress) {
+            jsonTextarea.value = JSON.stringify(editor.getValue(), null, 2)
+            jsonTextarea.classList.remove("is-invalid")
+        }
         await encoder()
     })
+
+    if (jsonTextarea) {
+        jsonTextarea.oninput = () => {
+            try {
+                const data = JSON.parse(jsonTextarea.value)
+                jsonTextarea.classList.remove("is-invalid")
+                jsonSyncInProgress = true
+                editor.setValue(data)
+                jsonSyncInProgress = false
+            } catch {
+                jsonTextarea.classList.add("is-invalid")
+            }
+        }
+    }
 }
 
 const populateSelectOptions = (selectElement, options, valueKey = "value", textKey = "text") => {
@@ -142,7 +161,8 @@ const encodeAttestationClientDataJSON = async () => {
 setupEncodingHandlers({
     b64urlTextarea: attestationClientDataJSONEncB64urlTextarea,
     b64Textarea: attestationClientDataJSONEncB64Textarea,
-    hexTextarea: attestationClientDataJSONEncHexTextarea
+    hexTextarea: attestationClientDataJSONEncHexTextarea,
+    jsonTextarea: attestationClientDataJSONJsonTextarea,
 }, decoders.clientDataJSON, editors.attestationClientDataJSONDecEditor, encodeAttestationClientDataJSON)
 
 /* attestation -> attestationObject */
@@ -177,7 +197,8 @@ const encodeAttestationAttestationObject = async () => {
 setupEncodingHandlers({
     b64urlTextarea: attestationAttestationObjectEncB64urlTextarea,
     b64Textarea: attestationAttestationObjectEncB64Textarea,
-    hexTextarea: attestationAttestationObjectEncHexTextarea
+    hexTextarea: attestationAttestationObjectEncHexTextarea,
+    jsonTextarea: attestationAttestationObjectJsonTextarea,
 }, decoders.attestationObject, editors.attestationAttestationObjectDecEditor, encodeAttestationAttestationObject)
 
 attestationSendKeyToParserBtn.onclick = () => {
@@ -252,7 +273,8 @@ const encodeAssertionClientDataJSON = async () => {
 setupEncodingHandlers({
     b64urlTextarea: assertionClientDataJSONEncB64urlTextarea,
     b64Textarea: assertionClientDataJSONEncB64Textarea,
-    hexTextarea: assertionClientDataJSONEncHexTextarea
+    hexTextarea: assertionClientDataJSONEncHexTextarea,
+    jsonTextarea: assertionClientDataJSONJsonTextarea,
 }, decoders.clientDataJSON, editors.assertionClientDataJSONDecEditor, encodeAssertionClientDataJSON)
 
 /* assertion -> authenticatorData */
@@ -270,7 +292,8 @@ const encodeAssertionAuthenticatorData = () => {
 setupEncodingHandlers({
     b64urlTextarea: assertionAuthenticatorDataEncB64urlTextarea,
     b64Textarea: assertionAuthenticatorDataEncB64Textarea,
-    hexTextarea: assertionAuthenticatorDataEncHexTextarea
+    hexTextarea: assertionAuthenticatorDataEncHexTextarea,
+    jsonTextarea: assertionAuthenticatorDataJsonTextarea,
 }, decoders.authenticatorData, editors.assertionAuthenticatorDataDecEditor, encodeAssertionAuthenticatorData)
 
 for (const e of ["change", "keydown", "paste", "input"]) {
@@ -370,7 +393,8 @@ const encodeKeys = async () => {
 setupEncodingHandlers({
     b64urlTextarea: keysCoseB64urlTextarea,
     b64Textarea: keysCoseB64Textarea,
-    hexTextarea: keysCoseHexTextarea
+    hexTextarea: keysCoseHexTextarea,
+    jsonTextarea: keysJwkJsonTextarea,
 }, (value, format) => decoders.keys(value, "cose", format), editors.keysJwkEditor, encodeKeys)
 
 export const renderKeys = async () => {
@@ -406,57 +430,68 @@ export const renderKeys = async () => {
         for (const [name, key] of keyEntries) {
             const row = document.createElement("tr")
 
-            // Name cell
-            const nameCell = document.createElement("td")
-            nameCell.textContent = name
-            row.appendChild(nameCell)
+            try {
+                // Name cell
+                const nameCell = document.createElement("td")
+                nameCell.textContent = name
+                row.appendChild(nameCell)
 
-            // Credential ID cell (combined formats)
-            const credentialIdCell = document.createElement("td")
-            if (key.credentialId) {
-                const idFormats = document.createElement("div")
-                idFormats.className = "id-formats"
+                // Credential ID cell (combined formats)
+                const credentialIdCell = document.createElement("td")
+                if (key.credentialId) {
+                    const idFormats = document.createElement("div")
+                    idFormats.className = "id-formats"
 
-                const formats = [
-                    { label: "hex", value: key.credentialId },
-                    { label: "b64url", value: hexToB64url(key.credentialId) },
-                    { label: "b64", value: hexToB64(key.credentialId) }
-                ]
+                    const formats = [
+                        { label: "hex", value: key.credentialId },
+                        { label: "b64url", value: hexToB64url(key.credentialId) },
+                        { label: "b64", value: hexToB64(key.credentialId) }
+                    ]
 
-                formats.forEach(({ label, value }) => {
-                    const formatDiv = document.createElement("div")
-                    formatDiv.className = "id-format"
-                    const labelSpan = document.createElement("span")
-                    labelSpan.className = "id-format-label"
-                    labelSpan.textContent = label
-                    const valueSpan = document.createElement("span")
-                    valueSpan.className = "id-format-value"
-                    valueSpan.textContent = value
-                    formatDiv.appendChild(labelSpan)
-                    formatDiv.appendChild(valueSpan)
-                    idFormats.appendChild(formatDiv)
-                })
-                credentialIdCell.appendChild(idFormats)
-            } else {
-                credentialIdCell.textContent = "N/A"
+                    formats.forEach(({ label, value }) => {
+                        const formatDiv = document.createElement("div")
+                        formatDiv.className = "id-format"
+                        const labelSpan = document.createElement("span")
+                        labelSpan.className = "id-format-label"
+                        labelSpan.textContent = label
+                        const valueSpan = document.createElement("span")
+                        valueSpan.className = "id-format-value"
+                        valueSpan.textContent = value
+                        formatDiv.appendChild(labelSpan)
+                        formatDiv.appendChild(valueSpan)
+                        idFormats.appendChild(formatDiv)
+                    })
+                    credentialIdCell.appendChild(idFormats)
+                } else {
+                    credentialIdCell.textContent = "N/A"
+                }
+                row.appendChild(credentialIdCell)
+
+                // Public Key cell
+                const publicKeyCell = document.createElement("td")
+                const publicKeyPre = document.createElement("pre")
+                publicKeyPre.className = "table-code"
+                publicKeyPre.textContent = JSON.stringify(key.publicKey, null, 2)
+                publicKeyCell.appendChild(publicKeyPre)
+                row.appendChild(publicKeyCell)
+
+                // Private Key cell
+                const privateKeyCell = document.createElement("td")
+                const privateKeyPre = document.createElement("pre")
+                privateKeyPre.className = "table-code"
+                privateKeyPre.textContent = JSON.stringify(key.privateKey, null, 2)
+                privateKeyCell.appendChild(privateKeyPre)
+                row.appendChild(privateKeyCell)
+            } catch (error) {
+                logger.error(`Error rendering key ${name}:`, error)
+                // Clear any partial cells and show error state
+                row.replaceChildren()
+                const errorCell = document.createElement("td")
+                errorCell.colSpan = 4
+                errorCell.className = "text-danger"
+                errorCell.textContent = `Error rendering key: ${name} (invalid data)`
+                row.appendChild(errorCell)
             }
-            row.appendChild(credentialIdCell)
-
-            // Public Key cell
-            const publicKeyCell = document.createElement("td")
-            const publicKeyPre = document.createElement("pre")
-            publicKeyPre.className = "table-code"
-            publicKeyPre.textContent = JSON.stringify(key.publicKey, null, 2)
-            publicKeyCell.appendChild(publicKeyPre)
-            row.appendChild(publicKeyCell)
-
-            // Private Key cell
-            const privateKeyCell = document.createElement("td")
-            const privateKeyPre = document.createElement("pre")
-            privateKeyPre.className = "table-code"
-            privateKeyPre.textContent = JSON.stringify(key.privateKey, null, 2)
-            privateKeyCell.appendChild(privateKeyPre)
-            row.appendChild(privateKeyCell)
 
             keysTable.appendChild(row)
         }
@@ -579,63 +614,74 @@ export const renderUsers = async () => {
         for (const [userId, user] of userEntries) {
             const row = document.createElement("tr")
 
-            // RP ID cell
-            const rpIdCell = document.createElement("td")
-            rpIdCell.textContent = user.rpId || "N/A"
-            row.appendChild(rpIdCell)
+            try {
+                // RP ID cell
+                const rpIdCell = document.createElement("td")
+                rpIdCell.textContent = user.rpId || "N/A"
+                row.appendChild(rpIdCell)
 
-            // Name cell
-            const nameCell = document.createElement("td")
-            nameCell.textContent = user.name || "N/A"
-            row.appendChild(nameCell)
+                // Name cell
+                const nameCell = document.createElement("td")
+                nameCell.textContent = user.name || "N/A"
+                row.appendChild(nameCell)
 
-            // Display Name cell
-            const displayNameCell = document.createElement("td")
-            displayNameCell.textContent = user.displayName || "N/A"
-            row.appendChild(displayNameCell)
+                // Display Name cell
+                const displayNameCell = document.createElement("td")
+                displayNameCell.textContent = user.displayName || "N/A"
+                row.appendChild(displayNameCell)
 
-            // User ID cell (combined formats)
-            const userIdCell = document.createElement("td")
-            if (user.userId) {
-                const idFormats = document.createElement("div")
-                idFormats.className = "id-formats"
+                // User ID cell (combined formats)
+                const userIdCell = document.createElement("td")
+                if (user.userId) {
+                    const idFormats = document.createElement("div")
+                    idFormats.className = "id-formats"
 
-                const formats = [
-                    { label: "hex", value: user.userId },
-                    { label: "b64url", value: hexToB64url(user.userId) },
-                    { label: "b64", value: hexToB64(user.userId) }
-                ]
+                    const formats = [
+                        { label: "hex", value: user.userId },
+                        { label: "b64url", value: hexToB64url(user.userId) },
+                        { label: "b64", value: hexToB64(user.userId) }
+                    ]
 
-                formats.forEach(({ label, value }) => {
-                    const formatDiv = document.createElement("div")
-                    formatDiv.className = "id-format"
-                    const labelSpan = document.createElement("span")
-                    labelSpan.className = "id-format-label"
-                    labelSpan.textContent = label
-                    const valueSpan = document.createElement("span")
-                    valueSpan.className = "id-format-value"
-                    valueSpan.textContent = value
-                    formatDiv.appendChild(labelSpan)
-                    formatDiv.appendChild(valueSpan)
-                    idFormats.appendChild(formatDiv)
-                })
-                userIdCell.appendChild(idFormats)
-            } else {
-                userIdCell.textContent = "N/A"
+                    formats.forEach(({ label, value }) => {
+                        const formatDiv = document.createElement("div")
+                        formatDiv.className = "id-format"
+                        const labelSpan = document.createElement("span")
+                        labelSpan.className = "id-format-label"
+                        labelSpan.textContent = label
+                        const valueSpan = document.createElement("span")
+                        valueSpan.className = "id-format-value"
+                        valueSpan.textContent = value
+                        formatDiv.appendChild(labelSpan)
+                        formatDiv.appendChild(valueSpan)
+                        idFormats.appendChild(formatDiv)
+                    })
+                    userIdCell.appendChild(idFormats)
+                } else {
+                    userIdCell.textContent = "N/A"
+                }
+                row.appendChild(userIdCell)
+
+                // Mode cell
+                const modeCell = document.createElement("td")
+                if (user.mode) {
+                    const modeBadge = document.createElement("span")
+                    modeBadge.className = "badge bg-secondary"
+                    modeBadge.textContent = user.mode
+                    modeCell.appendChild(modeBadge)
+                } else {
+                    modeCell.textContent = "N/A"
+                }
+                row.appendChild(modeCell)
+            } catch (error) {
+                logger.error(`Error rendering user ${userId}:`, error)
+                // Clear any partial cells and show error state
+                row.replaceChildren()
+                const errorCell = document.createElement("td")
+                errorCell.colSpan = 5
+                errorCell.className = "text-danger"
+                errorCell.textContent = `Error rendering user: ${userId} (invalid data)`
+                row.appendChild(errorCell)
             }
-            row.appendChild(userIdCell)
-
-            // Mode cell
-            const modeCell = document.createElement("td")
-            if (user.mode) {
-                const modeBadge = document.createElement("span")
-                modeBadge.className = "badge bg-secondary"
-                modeBadge.textContent = user.mode
-                modeCell.appendChild(modeBadge)
-            } else {
-                modeCell.textContent = "N/A"
-            }
-            row.appendChild(modeCell)
 
             usersTable.appendChild(row)
         }
