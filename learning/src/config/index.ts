@@ -1,4 +1,5 @@
 import { Verifier, VerifierConfig, VerifierTarget, VerifierType } from '../types/verifier';
+import { VerifierRewardFlag } from '../types/flag';
 import verifiersJson from './verifiers.json';
 import aaguidJson from './combined_aaguid.json';
 
@@ -11,6 +12,57 @@ export interface AuthenticatorInfo {
 const aaguidData = aaguidJson as Record<string, AuthenticatorInfo>;
 
 const verifierConfig = verifiersJson as VerifierConfig;
+
+// Apply reward flag order shuffling from REWARD_FLAG_ORDER env var
+function applyRewardFlagOrder(): void {
+  const orderStr = process.env.REWARD_FLAG_ORDER;
+  if (!orderStr) return;
+
+  // Collect all security verifiers (those with reward flags) in order
+  const securityVerifiers = verifierConfig.verifiers.filter(
+    (v) => v.type === 'security' && v.rewardFlag !== null
+  );
+
+  // Collect the reward flag pool (original flags in order)
+  const flagPool: VerifierRewardFlag[] = securityVerifiers.map(
+    (v) => v.rewardFlag!
+  );
+
+  // Parse the order (1-indexed)
+  const order = orderStr.split(',').map((s) => parseInt(s.trim(), 10));
+
+  if (order.length !== flagPool.length) {
+    console.error(
+      `[Config] REWARD_FLAG_ORDER has ${order.length} entries but there are ${flagPool.length} security verifiers. Ignoring.`
+    );
+    return;
+  }
+
+  // Validate all indices are valid
+  const valid = order.every((idx) => idx >= 1 && idx <= flagPool.length);
+  if (!valid) {
+    console.error(
+      '[Config] REWARD_FLAG_ORDER contains invalid indices. Ignoring.'
+    );
+    return;
+  }
+
+  // Check for duplicates
+  const unique = new Set(order);
+  if (unique.size !== order.length) {
+    console.error(
+      '[Config] REWARD_FLAG_ORDER contains duplicate indices. Ignoring.'
+    );
+    return;
+  }
+
+  // Apply the permutation: position i gets flag at index order[i]-1
+  securityVerifiers.forEach((verifier, i) => {
+    verifier.rewardFlag = flagPool[order[i] - 1];
+  });
+}
+
+applyRewardFlagOrder();
 
 export const config = {
   port: parseInt(process.env.PORT || '3000', 10),

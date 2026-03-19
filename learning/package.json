@@ -10,7 +10,9 @@
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
-    "format:check": "prettier --check \"src/**/*.ts\""
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "test": "playwright test",
+    "generate-env": "node scripts/generate-env.js"
   },
   "keywords": [
     "passkey",
@@ -34,6 +36,7 @@
     "uuid": "^11.0.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
     "@types/bcrypt": "^5.0.2",
     "@types/cookie-parser": "^1.4.7",
     "@types/express": "^5.0.0",
@@ -43,6 +46,7 @@
     "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^8.15.0",
     "@typescript-eslint/parser": "^8.15.0",
+    "cbor-x": "^1.6.4",
     "eslint": "^8.57.1",
     "prettier": "^3.3.3",
     "ts-node-dev": "^2.0.0",

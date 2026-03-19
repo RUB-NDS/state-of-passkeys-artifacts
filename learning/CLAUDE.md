@@ -6,6 +6,7 @@ Fun with Flags and Passkeys is a WebAuthn/Passkey learning platform. It provides
 - Demo verifiers showing correct passkey implementations
 - Security verifiers with intentional vulnerabilities (CTF-style)
 - Isolated instances per browser session
+- Configurable credentials and reward flags to prevent cheating in public deployments
 
 ## Tech Stack
 
@@ -14,6 +15,7 @@ Fun with Flags and Passkeys is a WebAuthn/Passkey learning platform. It provides
 - **Frontend**: Vanilla JS, Bootstrap 5, Bootstrap Icons
 - **WebAuthn**: @simplewebauthn/server + @simplewebauthn/browser
 - **Storage**: JSON files (file-based, per-instance)
+- **Testing**: Playwright (91 tests covering all 61 verifiers + core features)
 
 ## Project Structure
 
@@ -23,7 +25,8 @@ fun-with-flags-and-passkeys/
 │   ├── app.ts                    # Express app setup
 │   ├── server.ts                 # Server entry point
 │   ├── config/
-│   │   ├── index.ts              # Configuration and helpers
+│   │   ├── index.ts              # Configuration, helpers, reward flag shuffling
+│   │   ├── defaults-loader.ts    # Env-var overrides for defaults.json
 │   │   ├── verifiers.json        # All verifier definitions
 │   │   └── combined_aaguid.json  # Authenticator metadata (AAGUIDs)
 │   ├── middleware/
@@ -44,7 +47,7 @@ fun-with-flags-and-passkeys/
 │   ├── services/
 │   │   └── storage/
 │   │       ├── index.ts          # Storage interface
-│   │       ├── json-storage.ts   # JSON file storage implementation
+│   │       ├── json-storage.ts   # JSON file storage (uses defaults-loader)
 │   │       └── mongo-storage.ts  # MongoDB storage implementation
 │   └── types/
 │       ├── index.ts              # Express type extensions
@@ -53,45 +56,67 @@ fun-with-flags-and-passkeys/
 │       ├── passkey.ts            # Passkey interface
 │       ├── user.ts               # User interface
 │       └── verifier.ts           # Verifier types and interfaces
-├── views/
-│   ├── layouts/
-│   │   └── base.njk              # Base template
-│   ├── pages/
-│   │   ├── home.njk              # Flags feed page
-│   │   ├── login.njk             # Login page
-│   │   ├── login-2fa.njk         # 2FA login page
-│   │   ├── register.njk          # Registration page
-│   │   ├── settings.njk          # User settings page
-│   │   ├── verifiers.njk         # Verifiers selection page
-│   │   ├── flag-detail.njk       # Single flag view
-│   │   ├── flag-create.njk       # Create flag form
-│   │   ├── flag-edit.njk         # Edit flag form
-│   │   └── error.njk             # Error page
-│   └── partials/
-│       ├── navbar.njk            # Navigation bar
-│       ├── flag-card.njk         # Flag card component
-│       ├── passkey-scripts.njk   # WebAuthn JS helpers
-│       └── reward-modal.njk      # Reward popup modal
+├── views/                        # Nunjucks templates
 ├── public/                       # Static assets (CSS, JS)
 ├── data/
-│   ├── defaults.json             # Default instance data
+│   ├── defaults.json             # Default instance data (base values)
 │   └── instances/                # Per-instance JSON files
+├── scripts/
+│   └── generate-env.js           # Generate randomized .env for production
+├── tests/
+│   ├── helpers/
+│   │   ├── webauthn.ts           # WebAuthn emulator (COSE, signatures, etc.)
+│   │   └── api.ts                # Session-aware API client
+│   ├── core.spec.ts              # 30 core feature tests
+│   ├── auth-demo.spec.ts         # 8 auth demo verifier tests (IDs 1-8)
+│   ├── auth-security.spec.ts     # 20 auth security verifier tests (IDs 9-28)
+│   ├── reg-demo.spec.ts          # 15 reg demo verifier tests (IDs 29-43)
+│   └── reg-security.spec.ts      # 18 reg security verifier tests (IDs 44-61)
+├── playwright.config.ts          # Playwright test configuration
 └── dist/                         # Compiled JavaScript output
 ```
+
+## Configuration System
+
+All default user credentials and reward flag assignments are configurable via `.env` to support public repositories without enabling cheating.
+
+### How It Works
+
+1. **`data/defaults.json`** contains base default values (users, passkeys, flags)
+2. **`src/config/defaults-loader.ts`** reads env vars at startup and overrides defaults:
+   - `USER_<NAME>_PASSWORD` → bcrypt-hashed and replaces stored passwordHash
+   - `USER_<NAME>_SECURITY_QUESTION` / `USER_<NAME>_SECURITY_ANSWER` → replaces Q&A
+   - `PASSKEY_KEYS` → base64-encoded JSON of `{ id, publicKey, credentialId }` overrides
+3. **`src/config/index.ts`** reads `REWARD_FLAG_ORDER` and permutes reward flags across security verifiers
+4. **`src/services/storage/json-storage.ts`** uses `getEffectiveDefaults()` instead of raw defaults.json
+
+### Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| `USER_SHELDON_PASSWORD`, etc. | Plaintext passwords (bcrypt-hashed at startup) |
+| `USER_SHELDON_SECURITY_QUESTION`, etc. | Security question text |
+| `USER_SHELDON_SECURITY_ANSWER`, etc. | Security answer text |
+| `PASSKEY_KEYS` | Base64-encoded JSON array of passkey key overrides |
+| `REWARD_FLAG_ORDER` | Comma-separated 1-38 permutation (maps verifier position to flag index) |
+
+### Generate Script
+
+`node scripts/generate-env.js` produces a `.env` with randomized values and a `passkey-private-keys.json` with the corresponding JWK private keys.
 
 ## Verifier System
 
 ### Structure (src/config/verifiers.json)
 
-60 verifiers total:
-- **IDs 1-7**: Authentication demo verifiers (7 total, no rewards)
-- **IDs 8-27**: Authentication security verifiers (20 total, §7.2.x)
-- **IDs 28-42**: Registration demo verifiers (15 total, no rewards)
-- **IDs 43-60**: Registration security verifiers (18 total, §7.1.x)
+61 verifiers total:
+- **IDs 1-8**: Authentication demo verifiers (8 total, no rewards)
+- **IDs 9-28**: Authentication security verifiers (20 total, §7.2.x)
+- **IDs 29-43**: Registration demo verifiers (15 total, no rewards)
+- **IDs 44-61**: Registration security verifiers (18 total, §7.1.x)
 
-Each security verifier has an embedded `rewardFlag` object containing the flag details (country, title, description, imageUrl).
+Each security verifier has an embedded `rewardFlag` object containing the flag details (country, title, description, imageUrl). At startup, `REWARD_FLAG_ORDER` can permute which flag goes to which verifier.
 
-Default verifiers: Authentication = 2 (Discoverable), Registration = 28 (All Algorithms).
+Default verifiers: Authentication = 2 (Discoverable), Registration = 29 (All Algorithms).
 
 ### VerifierChecks Interface (src/types/verifier.ts)
 
@@ -186,9 +211,11 @@ req.session.challengeHistory: string[]
 - Each browser gets a UUID stored in cookie
 - Instance data stored in `data/instances/{uuid}.json`
 - Middleware in `src/middleware/instance.ts` handles instance resolution
-- Default data loaded from `data/defaults.json` on new instance creation
+- Default data loaded via `getEffectiveDefaults()` (from `src/config/defaults-loader.ts`) on new instance creation
 
 ## Default Users
+
+These are the default values (from `.env.example`). All are overridable via env vars.
 
 | Username | Password | Passkeys | Algorithms | Reference |
 |----------|----------|----------|------------|-----------|
@@ -219,6 +246,56 @@ req.session.challengeHistory: string[]
 - Each security verifier has a `rewardFlag` object with: `country`, `title`, `description`, `imageUrl`
 - Demo verifiers have `rewardFlag: null`
 - Reward granted when exploit detected during verification
+- `REWARD_FLAG_ORDER` env var permutes which flag goes to which verifier (anti-cheat)
+
+## Testing
+
+### Test Suite (91 tests)
+
+| File | Tests | Coverage |
+|------|-------|----------|
+| `tests/core.spec.ts` | 30 | Login, registration, logout, instance management, verifier switching, flag CRUD |
+| `tests/auth-demo.spec.ts` | 8 | Auth demo verifiers 1-8 (password, discoverable, non-discoverable, conditional UI, 2FA) |
+| `tests/auth-security.spec.ts` | 20 | Auth security verifiers 9-28 (all 20 exploits) |
+| `tests/reg-demo.spec.ts` | 15 | Reg demo verifiers 29-43 (all algorithms, RP ID upscope, platform/cross-platform, attestation) |
+| `tests/reg-security.spec.ts` | 18 | Reg security verifiers 44-61 (all 18 exploits) |
+
+### Test Helpers
+
+- **`tests/helpers/webauthn.ts`** — Full WebAuthn response emulator:
+  - COSE key encoding (ES256, RS256, PS384, EdDSA, and more)
+  - AuthenticatorData construction with configurable flags (UP, UV, BE, BS, AT)
+  - ClientDataJSON construction with configurable type, challenge, origin, crossOrigin, topOrigin
+  - Attestation object (registration) and assertion (authentication) building
+  - Signature generation with correct algorithms
+  - Invalid signature generation (for skipSignatureVerification exploits)
+  - Default key loading from hardcoded JWK values (sheldon, leonard, howard, bernadette, amy)
+
+- **`tests/helpers/api.ts`** — Session-aware HTTP client:
+  - Automatic instance creation and isolation
+  - Cookie management for session and verifier state
+  - Typed methods: login, register, logout, switchVerifier, getRegistrationOptions, verifyRegistration, getAuthenticationOptions, verifyAuthentication, resetInstance, deleteInstance
+
+### Running Tests
+
+```bash
+npx playwright install chromium  # First time only
+npm test                          # Run all 91 tests
+npx playwright test <file>        # Run specific test file
+```
+
+### Writing New Tests
+
+For security verifier tests, the pattern is:
+1. Create API client → fresh isolated instance
+2. Login (if needed for registration verifiers)
+3. Switch to target verifier
+4. Get options (challenge)
+5. Build manipulated WebAuthn response using helpers
+6. Verify and assert reward flag is returned
+7. Cleanup via `client.dispose()`
+
+Key detail: sheldon's ES256 passkey has `signCount: 42` in defaults, so authentication responses must use `signCount >= 43` to avoid counter errors (unless testing the counter bypass itself).
 
 ## UI Color Scheme
 
@@ -235,7 +312,7 @@ req.session.challengeHistory: string[]
 2. **Add verifier entry** to `src/config/verifiers.json`:
    ```json
    {
-     "id": 61,
+     "id": 62,
      "name": "No Example Check",
      "target": "authentication",
      "type": "security",
@@ -248,65 +325,19 @@ req.session.challengeHistory: string[]
        "description": "Interesting fact about this flag...",
        "imageUrl": "https://flagcdn.com/w320/xx.png"
      },
-     "options": {
-       "passkeyEnabled": true,
-       "passkeyFlow": "discoverable",
-       "conditionalUI": false,
-       "userVerification": "required"
-     },
-     "ui": {
-       "showPasswordForm": true,
-       "showPasskeyButton": true,
-       "showUsernameFirst": false,
-       "autotriggerPasskey": false
-     },
-     "checks": {
-       "skipCredentialBindingCheck": false,
-       "loginAsPreIdentifiedUser": false,
-       "skipUserHandleCheck": false,
-       "loginAsUserHandle": false,
-       "skipTypeVerification": false,
-       "allowSwappedType": false,
-       "skipChallengeVerification": false,
-       "allowReusedChallenge": false,
-       "allowAnyChallengeFromAnySession": false,
-       "skipOriginVerification": false,
-       "allowSameSiteOrigin": false,
-       "skipCrossOriginCheck": false,
-       "skipRpIdVerification": false,
-       "allowSameSiteRpId": false,
-       "skipUserPresentCheck": false,
-       "skipUserVerifiedCheck": false,
-       "skipBackupFlagsCheck": false,
-       "skipBackupEligibilityCheck": false,
-       "skipAlgorithmVerification": false,
-       "skipSignatureVerification": false,
-       "skipSignatureCounterCheck": false,
-       "skipCredentialIdLengthCheck": false,
-       "allowDuplicateCredentialId": false,
-       "allowCredentialOverwrite": false,
-       "allowCrossAccountCredential": false
-     }
+     "options": { ... },
+     "ui": { ... },
+     "checks": { ... }
    }
    ```
 
-3. **Implement the check** in `src/routes/passkey.ts` with section comment:
-   ```typescript
-   // ══════════════════════════════════════════════════════════════════════
-   // §7.2.x: Description of what this check does
-   // ══════════════════════════════════════════════════════════════════════
-   if (checks.skipExampleCheck) {
-     // Bypass the check, mark exploit detected
-     exploitDetected = true;
-   } else {
-     // Normal secure verification
-     if (!validCondition) {
-       return res.status(400).json({ error: 'Verification failed', verified: false });
-     }
-   }
-   ```
+3. **Implement the check** in `src/routes/passkey.ts` with section comment
 
-4. **Run build**: `npm run build`
+4. **Update `REWARD_FLAG_ORDER`** in `.env.example` to include the new flag index (39th entry)
+
+5. **Add a test** in the appropriate test file
+
+6. **Run build and tests**: `npm run build && npm test`
 
 ### Add a New Demo Verifier
 
@@ -314,6 +345,7 @@ Same as above but:
 - Set `"type": "demo"` instead of `"security"`
 - Set `"rewardFlag": null`
 - No need to add check logic (demos use secure defaults)
+- No REWARD_FLAG_ORDER update needed
 
 ### Modify Verification Logic
 
@@ -326,9 +358,11 @@ Look for section comments (§7.x.x) to find specific checks.
 ## Scripts
 
 ```bash
-npm run dev      # Development with hot reload
-npm run build    # Compile TypeScript
-npm start        # Production server
-npm run lint     # ESLint check
-npm run format   # Prettier format
+npm run dev           # Development with hot reload
+npm run build         # Compile TypeScript
+npm start             # Production server
+npm test              # Run Playwright test suite (91 tests)
+npm run generate-env  # Generate randomized .env for production
+npm run lint          # ESLint check
+npm run format        # Prettier format
 ```

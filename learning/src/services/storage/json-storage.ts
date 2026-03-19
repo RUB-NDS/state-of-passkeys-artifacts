@@ -5,7 +5,7 @@ import { InstanceData } from '../../types/instance';
 import { User } from '../../types/user';
 import { Passkey } from '../../types/passkey';
 import { Flag, Comment, Rating } from '../../types/flag';
-import defaultsJson from '../../../data/defaults.json';
+import { getEffectiveDefaults } from '../../config/defaults-loader';
 
 const DATA_DIR = path.join(__dirname, '../../../data/instances');
 
@@ -36,13 +36,7 @@ export class JsonStorage implements Storage {
   }
 
   private getDefaults(): Omit<InstanceData, 'id' | 'createdAt'> {
-    return {
-      users: defaultsJson.users as User[],
-      passkeys: defaultsJson.passkeys as Passkey[],
-      flags: defaultsJson.flags as Flag[],
-      comments: defaultsJson.comments as Comment[],
-      ratings: defaultsJson.ratings as Rating[],
-    };
+    return getEffectiveDefaults();
   }
 
   // Instance operations

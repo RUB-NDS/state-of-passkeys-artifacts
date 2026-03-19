@@ -14,6 +14,15 @@ Open http://localhost:3000
 
 ## Production Deployment
 
+For production, generate randomized credentials and reward flag ordering to prevent students from cheating by reading the source code:
+
+```bash
+node scripts/generate-env.js
+# Edit .env for production (set RP_ID, ORIGIN, SESSION_SECRET, etc.)
+```
+
+Alternatively, to use the default (development) values:
+
 ```bash
 cp .env.example .env
 # Edit .env for production
@@ -79,7 +88,38 @@ volumes:
   letsencrypt-data:
 ```
 
+## Configuration
+
+All default user credentials, passkey keys, and reward flag assignments are configurable via environment variables in `.env`. This allows the repository to remain public while preventing students from cheating by reading hardcoded values.
+
+### Environment Variables
+
+See `.env.example` for the full list. Key categories:
+
+| Category | Variables | Description |
+|----------|-----------|-------------|
+| Server | `PORT`, `NODE_ENV`, `SESSION_SECRET` | Basic server config |
+| WebAuthn | `RP_ID`, `ORIGIN` | Relying party settings |
+| User Passwords | `USER_SHELDON_PASSWORD`, ... | Plaintext passwords (bcrypt-hashed at startup) |
+| Security Q&A | `USER_SHELDON_SECURITY_QUESTION`, `USER_SHELDON_SECURITY_ANSWER`, ... | Per-user security questions and answers |
+| Passkey Keys | `PASSKEY_KEYS` | Base64-encoded JSON of passkey key overrides |
+| Reward Flags | `REWARD_FLAG_ORDER` | Comma-separated permutation (1-38) mapping verifiers to flags |
+| Storage | `USE_MONGO`, `MONGO_URI` | Optional MongoDB backend |
+| Cleanup | `INSTANCE_MAX_AGE_MS`, `CLEANUP_INTERVAL_MS` | Instance auto-cleanup timings |
+
+### Generating Random Values
+
+Run the generate script to create a `.env` with randomized passwords, security questions, passkey key pairs, and a shuffled reward flag order:
+
+```bash
+node scripts/generate-env.js
+```
+
+This also outputs `passkey-private-keys.json` containing the JWK private keys needed for testing. Both files are in `.gitignore`.
+
 ## Default Users
+
+These are the default values (used when `cp .env.example .env`). When `generate-env.js` is used, all passwords, security questions, and passkey keys are randomized.
 
 | Username | Password | Passkeys | Algorithms |
 |----------|----------|----------|------------|
@@ -90,6 +130,18 @@ volumes:
 | raj | `CinnamonDog` | 0 | - |
 | bernadette | `HalleyAndNeil` | 1 | EdDSA |
 | amy | `Shamy4Life` | 3 | ES256, ES256, RS256 |
+
+### Default Security Questions
+
+| Username | Question | Answer |
+|----------|----------|--------|
+| sheldon | What is the name of my favorite spot on the couch? | 0,0,0,0 |
+| leonard | What is the name of my inhaler brand? | Primatene Mist |
+| penny | What is my apartment number? | 4B |
+| howard | What is the name of the space station I visited? | International Space Station |
+| raj | What is the name of my dog? | Cinnamon |
+| bernadette | What is my daughter's name? | Halley |
+| amy | What is the name of my pet monkey? | Ricky |
 
 ## Verifiers
 
@@ -114,6 +166,10 @@ Verifiers are configurations that control how the server handles passkey registr
 - Each skips or weakens a specific WebAuthn verification step
 - Mapped to W3C WebAuthn spec sections (§7.1.x for registration, §7.2.x for authentication)
 - Successfully exploiting a vulnerability rewards you with a collectible flag
+
+### Reward Flag Ordering
+
+By default, reward flags are assigned sequentially to security verifiers (verifier 1 gets flag 1, etc.). In production, set `REWARD_FLAG_ORDER` to a shuffled permutation so students cannot determine which flag belongs to which verifier from the source code. The `generate-env.js` script does this automatically.
 
 ## Instance System
 
@@ -143,13 +199,49 @@ Access the Instance dropdown in the navbar to:
 - **Collaboration**: Share your UUID with others to work in the same instance
 - **Fresh Start**: Reset or create new instance to start over
 
+## Testing
+
+The project includes a comprehensive Playwright test suite covering all 61 verifiers and core platform features.
+
+### Running Tests
+
+```bash
+# Install Playwright browsers (first time only)
+npx playwright install chromium
+
+# Run all tests
+npm test
+
+# Run specific test file
+npx playwright test auth-security.spec.ts
+
+# Run with verbose output
+npx playwright test --reporter=line
+```
+
+### Test Structure
+
+| File | Tests | Coverage |
+|------|-------|----------|
+| `tests/core.spec.ts` | 30 | Login, registration, logout, instance management, verifier switching, flag CRUD |
+| `tests/auth-demo.spec.ts` | 8 | Authentication demo verifiers (IDs 1-8) |
+| `tests/auth-security.spec.ts` | 20 | Authentication security verifiers (IDs 9-28) |
+| `tests/reg-demo.spec.ts` | 15 | Registration demo verifiers (IDs 29-43) |
+| `tests/reg-security.spec.ts` | 18 | Registration security verifiers (IDs 44-61) |
+
+### Test Helpers
+
+- `tests/helpers/webauthn.ts` — WebAuthn emulator for crafting valid and manipulated attestation/assertion responses (COSE key encoding, signature generation, field manipulation)
+- `tests/helpers/api.ts` — Session-aware API client with automatic instance isolation
+
+Each test creates its own isolated instance and cleans up afterwards. Tests run in parallel for speed.
+
 ## Default User Passkey Keys
 
-These are the JWK (JSON Web Key) representations of the passkeys for the default users.
-The private keys can be used for testing authentication flows.
+These are the JWK (JSON Web Key) representations of the default passkeys. When `generate-env.js` is used, new key pairs are generated and the private keys are written to `passkey-private-keys.json`.
 
 <details>
-<summary>Click to expand JWK keys</summary>
+<summary>Click to expand default JWK keys</summary>
 
 ```json
 {

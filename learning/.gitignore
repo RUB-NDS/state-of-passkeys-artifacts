@@ -36,3 +36,10 @@ coverage/
 # Temporary files
 tmp/
 temp/
+
+# Generated secrets
+passkey-private-keys.json
+
+# Test artifacts
+test-results/
+playwright-report/
