@@ -96,14 +96,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - letsencrypt-data:/letsencrypt
 
-  wud:
-    image: getwud/wud
-    restart: unless-stopped
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    environment:
-      - WUD_WATCHER_LOCAL_CRON=0 * * * *
-
 volumes:
   passkeys-tools-data:
   fun-with-flags-and-passkeys-data:
