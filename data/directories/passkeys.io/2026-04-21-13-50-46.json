@@ -1,0 +1,237 @@
+[
+    {
+        "domain": "adobe.com",
+        "name": "Adobe",
+        "url": "#"
+    },
+    {
+        "domain": "affirm.com",
+        "name": "Affirm",
+        "url": "https://www.affirm.com/"
+    },
+    {
+        "domain": "amazon.com",
+        "name": "Amazon",
+        "url": "https://www.amazon.com/"
+    },
+    {
+        "domain": "icloud.com",
+        "name": "Apple iCloud",
+        "url": "https://www.icloud.com/"
+    },
+    {
+        "domain": "bestbuy.com",
+        "name": "Bestbuy",
+        "url": "https://www.bestbuy.com/"
+    },
+    {
+        "domain": "bitwarden.com",
+        "name": "Bitwarden",
+        "url": "https://bitwarden.com/"
+    },
+    {
+        "domain": "bolt.eu",
+        "name": "Bolt",
+        "url": "https://bolt.eu/de-de/"
+    },
+    {
+        "domain": "coinbase.com",
+        "name": "Coinbase",
+        "url": "https://www.coinbase.com/en-de/"
+    },
+    {
+        "domain": "discord.com",
+        "name": "Discord(Apps)",
+        "url": "https://discord.com/"
+    },
+    {
+        "domain": "discourse.org",
+        "name": "Discourse",
+        "url": "https://www.discourse.org/"
+    },
+    {
+        "domain": "ebay.com",
+        "name": "Ebay",
+        "url": "https://www.ebay.com/"
+    },
+    {
+        "domain": "github.com",
+        "name": "GitHub",
+        "url": "https://github.com/"
+    },
+    {
+        "domain": "google.com",
+        "name": "Google",
+        "url": "https://www.google.com/"
+    },
+    {
+        "domain": "my.gov.au",
+        "name": "Gov.au",
+        "url": "https://my.gov.au/"
+    },
+    {
+        "domain": "hancock.ink",
+        "name": "Hancock",
+        "url": "https://hancock.ink/"
+    },
+    {
+        "domain": "hanko.io",
+        "name": "Hanko",
+        "url": "https://www.hanko.io/"
+    },
+    {
+        "domain": "instacard.co",
+        "name": "Instacard",
+        "url": "https://home.instacard.co/"
+    },
+    {
+        "domain": "kayak.com",
+        "name": "KAYAK",
+        "url": "https://www.kayak.com/"
+    },
+    {
+        "domain": "linear.app",
+        "name": "Linear",
+        "url": "https://linear.app/homepage"
+    },
+    {
+        "domain": "linkedin.com",
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/"
+    },
+    {
+        "domain": "account.microsoft.com",
+        "name": "Microsoft",
+        "url": "https://account.microsoft.com/account/Account?ru=https%3A%2F%2Faccount.microsoft.com%2F&destrt=home.landing"
+    },
+    {
+        "domain": "nintendo.com",
+        "name": "Nintendo",
+        "url": "https://www.nintendo.com/"
+    },
+    {
+        "domain": "notion.so",
+        "name": "Notion",
+        "url": "https://www.notion.com/"
+    },
+    {
+        "domain": "nvidia.com",
+        "name": "Nvidia",
+        "url": "https://www.nvidia.com/"
+    },
+    {
+        "domain": "papermark.io",
+        "name": "Papermark",
+        "url": "https://www.papermark.io/"
+    },
+    {
+        "domain": "paypal.com",
+        "name": "PayPal(Apps only)",
+        "url": "https://www.paypal.com/"
+    },
+    {
+        "domain": "pixiv.net",
+        "name": "Pixiv",
+        "url": "https://www.pixiv.net/en/"
+    },
+    {
+        "domain": null,
+        "name": "Playstation(Sony Account)",
+        "url": null
+    },
+    {
+        "domain": "porkbun.com",
+        "name": "Porkbun",
+        "url": "https://porkbun.com/"
+    },
+    {
+        "domain": "robinhood.com",
+        "name": "Robinhood",
+        "url": "https://robinhood.com/eu/en/about/crypto/"
+    },
+    {
+        "domain": "roblox.com",
+        "name": "Roblox",
+        "url": "https://www.roblox.com/"
+    },
+    {
+        "domain": "shopify.com",
+        "name": "Shopify",
+        "url": "https://www.shopify.com/de"
+    },
+    {
+        "domain": "snapchat.com",
+        "name": "Snapchat(App)",
+        "url": "https://www.snapchat.com/"
+    },
+    {
+        "domain": "spaceship.com",
+        "name": "Spaceship",
+        "url": "https://www.spaceship.com/"
+    },
+    {
+        "domain": "stripe.com",
+        "name": "Stripe Checkout",
+        "url": "https://stripe.com/de"
+    },
+    {
+        "domain": "tailscale.com",
+        "name": "Tailscale",
+        "url": "https://tailscale.com/"
+    },
+    {
+        "domain": "target.com",
+        "name": "Target",
+        "url": "https://www.target.com/"
+    },
+    {
+        "domain": "telekom.com",
+        "name": "Telekom",
+        "url": "https://www.telekom.com/"
+    },
+    {
+        "domain": "ticketeer.se",
+        "name": "Ticketeer",
+        "url": "https://www.ticketeer.se/"
+    },
+    {
+        "domain": "tiktok.com",
+        "name": "TikTok(iOS)",
+        "url": "https://www.tiktok.com/"
+    },
+    {
+        "domain": "uber.com",
+        "name": "Uber",
+        "url": "https://www.uber.com/"
+    },
+    {
+        "domain": "uninbox.com",
+        "name": "Uninbox",
+        "url": "https://uninbox.com/"
+    },
+    {
+        "domain": "vercel.com",
+        "name": "Vercel",
+        "url": "https://vercel.com/"
+    },
+    {
+        "domain": "volt.io",
+        "name": "Volt",
+        "url": "https://www.volt.io/"
+    },
+    {
+        "domain": "walmart.com",
+        "name": "Walmart",
+        "url": "https://www.walmart.com/"
+    },
+    {
+        "domain": "whatsapp.com",
+        "name": "WhatsApp",
+        "url": "https://www.whatsapp.com/"
+    },
+    {
+        "domain": "x.com",
+        "name": "X(Twitter)",
+        "url": "https://x.com/"
+    }
+]

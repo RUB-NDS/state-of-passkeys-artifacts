@@ -1,0 +1,872 @@
+[
+    {
+        "name": "\u00e2\u0080\u008dAdobe",
+        "description": "Leading software company for creatives.",
+        "link": null
+    },
+    {
+        "name": "Auone.jp",
+        "description": "Japanese internet and content provider.",
+        "link": null
+    },
+    {
+        "name": "Affirm",
+        "description": "Buy-now-pay-later financial services.",
+        "link": null
+    },
+    {
+        "name": "Air New Zealand",
+        "description": "Leading airline in New Zealand.",
+        "link": null
+    },
+    {
+        "name": "Amazon",
+        "description": "The top eCommerce and cloud computing company.Learn more.",
+        "link": "https://www.passkeys.com/amazon-passkey"
+    },
+    {
+        "name": "Albert Heijn",
+        "description": "Dutch eCommerce platform for groceries.",
+        "link": null
+    },
+    {
+        "name": "Anki Forums",
+        "description": "Education-focused community for learning tools.",
+        "link": null
+    },
+    {
+        "name": "Apple",
+        "description": "The top technology company for devices and software.Learn more.",
+        "link": "https://www.passkeys.com/apple-passkey-ios-passkeys-guide"
+    },
+    {
+        "name": "Arcalive",
+        "description": "Social platform for online communities and discussions.",
+        "link": null
+    },
+    {
+        "name": "Armstrong Bank",
+        "description": "Regional bank offering financial services.",
+        "link": null
+    },
+    {
+        "name": "Arpari",
+        "description": "Financial platform for modern banking solutions.",
+        "link": null
+    },
+    {
+        "name": "Bagou450",
+        "description": "Technology solutions provider for various industries.",
+        "link": null
+    },
+    {
+        "name": "Best Buy",
+        "description": "The top eCommerce platform for electronics and appliances.",
+        "link": null
+    },
+    {
+        "name": "Binance",
+        "description": "The top cryptocurrency exchange platform.",
+        "link": null
+    },
+    {
+        "name": "BMW",
+        "description": "The top automotive company specializing in luxury vehicles.",
+        "link": null
+    },
+    {
+        "name": "Boursorama",
+        "description": "French platform for banking and finance.",
+        "link": null
+    },
+    {
+        "name": "Bread Financial",
+        "description": "Financial services provider for payment and credit solutions.",
+        "link": null
+    },
+    {
+        "name": "Bridgecrest",
+        "description": "Auto loan servicing and financial management company.",
+        "link": null
+    },
+    {
+        "name": "Cape Cod 5",
+        "description": "Regional bank offering financial services.",
+        "link": null
+    },
+    {
+        "name": "CardPointers",
+        "description": "Finance app for credit card rewards optimization.",
+        "link": null
+    },
+    {
+        "name": "Caremark",
+        "description": "Health services provider for prescription and wellness programs.",
+        "link": null
+    },
+    {
+        "name": "Chek",
+        "description": "Financial platform for payments and banking.",
+        "link": null
+    },
+    {
+        "name": "Cloze",
+        "description": "Information technology for CRM and relationship management.",
+        "link": null
+    },
+    {
+        "name": "Coinbase",
+        "description": "The top cryptocurrency trading platform.",
+        "link": null
+    },
+    {
+        "name": "ComputerBase",
+        "description": "Technology platform for computing news and reviews.",
+        "link": null
+    },
+    {
+        "name": "Coveto Recruiting Software",
+        "description": "Software for recruitment and hiring solutions.",
+        "link": null
+    },
+    {
+        "name": "Credit Union of Texas",
+        "description": "Financial cooperative offering banking services.",
+        "link": null
+    },
+    {
+        "name": "Crowdin",
+        "description": "Information technology platform for translation management.",
+        "link": null
+    },
+    {
+        "name": "CustomerPing.AI",
+        "description": "AI-driven platform for customer marketing.",
+        "link": null
+    },
+    {
+        "name": "CVS",
+        "description": "The top health and wellness retailer.",
+        "link": null
+    },
+    {
+        "name": "CVS Specialty",
+        "description": "Specialized health services and prescription management.",
+        "link": null
+    },
+    {
+        "name": "DataPacket",
+        "description": "Technology solutions for data hosting and networking.",
+        "link": null
+    },
+    {
+        "name": "Daylite",
+        "description": "CRM software for small businesses.",
+        "link": null
+    },
+    {
+        "name": "Deutsche Telekom",
+        "description": "The top telecommunications company in Europe.",
+        "link": null
+    },
+    {
+        "name": "Devolutions",
+        "description": "Information technology company specializing in remote access management.",
+        "link": null
+    },
+    {
+        "name": "Dinero",
+        "description": "Financial platform for bookkeeping and accounting.",
+        "link": null
+    },
+    {
+        "name": "Discord",
+        "description": "Social networking platform for voice, video, and text communication.",
+        "link": null
+    },
+    {
+        "name": "Discourse",
+        "description": "Open-source platform for community discussions and forums.",
+        "link": null
+    },
+    {
+        "name": "Docomo",
+        "description": "Japanese telecommunications and technology provider.",
+        "link": null
+    },
+    {
+        "name": "Documenso",
+        "description": "Productivity software for document management and collaboration.",
+        "link": null
+    },
+    {
+        "name": "DocuSign",
+        "description": "Digital platform for electronic signatures and agreements.",
+        "link": null
+    },
+    {
+        "name": "Duke",
+        "description": "Prestigious educational institution in the United States.",
+        "link": null
+    },
+    {
+        "name": "eBay",
+        "description": "The top eCommerce platform for online auctions and shopping.",
+        "link": null
+    },
+    {
+        "name": "Esl Gaming",
+        "description": "eSports organization and competitive gaming platform.",
+        "link": null
+    },
+    {
+        "name": "Fairfax County, Virginia (MyFairfax)",
+        "description": "Government portal for county services and resources.",
+        "link": null
+    },
+    {
+        "name": "Fastmail",
+        "description": "Secure email provider with privacy-focused features.",
+        "link": null
+    },
+    {
+        "name": "Finom",
+        "description": "Finance platform for business banking and invoicing.",
+        "link": null
+    },
+    {
+        "name": "First Financial Bank",
+        "description": "Regional bank offering a range of financial services.",
+        "link": null
+    },
+    {
+        "name": "Fleeps",
+        "description": "Travel and tourism platform for bookings and exploration.",
+        "link": null
+    },
+    {
+        "name": "FormX.ai",
+        "description": "Technology company specializing in AI-powered form processing.",
+        "link": null
+    },
+    {
+        "name": "ForwardEmail",
+        "description": "Secure, open-source email forwarding service.",
+        "link": null
+    },
+    {
+        "name": "FreePrints",
+        "description": "eCommerce platform for photo printing services.",
+        "link": null
+    },
+    {
+        "name": "Gemini Exchange",
+        "description": "Cryptocurrency exchange for buying and trading digital assets.",
+        "link": null
+    },
+    {
+        "name": "GitHub",
+        "description": "The top platform for collaborative software development and version control.",
+        "link": null
+    },
+    {
+        "name": "Google",
+        "description": "The top technology company for search, ads, and cloud services.Learn more.",
+        "link": "https://www.passkeys.com/google-passkey"
+    },
+    {
+        "name": "haeppie",
+        "description": "Technology company offering IT solutions.",
+        "link": null
+    },
+    {
+        "name": "Hancock",
+        "description": "Information technology provider for data management systems.",
+        "link": null
+    },
+    {
+        "name": "Hard Wax",
+        "description": "eCommerce platform specializing in vinyl records.",
+        "link": null
+    },
+    {
+        "name": "Hatena",
+        "description": "Japanese platform for blogging and digital services.",
+        "link": null
+    },
+    {
+        "name": "Home Assistant",
+        "description": "Open-source platform for smart home automation.",
+        "link": null
+    },
+    {
+        "name": "Home Depot",
+        "description": "eCommerce platform for home improvement and construction supplies.",
+        "link": null
+    },
+    {
+        "name": "Horizon Pics",
+        "description": "Technology company specializing in image solutions.",
+        "link": null
+    },
+    {
+        "name": "iCloud",
+        "description": "Cloud storage and services platform by Apple.",
+        "link": null
+    },
+    {
+        "name": "Instacart",
+        "description": "eCommerce platform for grocery delivery services.",
+        "link": null
+    },
+    {
+        "name": "Intastellar Accounts",
+        "description": "Information technology service for account management.",
+        "link": null
+    },
+    {
+        "name": "KAYAK",
+        "description": "Travel platform for flight, hotel, and car rental bookings.",
+        "link": null
+    },
+    {
+        "name": "KEMBA Financial Credit Union",
+        "description": "Member-owned cooperative offering financial services.",
+        "link": null
+    },
+    {
+        "name": "Klemn",
+        "description": "Information technology company for digital solutions.",
+        "link": null
+    },
+    {
+        "name": "L\u00c3\u00a4\u00c3\u00a4k\u00c3\u00a4ri.chat",
+        "description": "Health platform for online doctor consultations.",
+        "link": null
+    },
+    {
+        "name": "larksuite.com",
+        "description": "Technology platform for workplace productivity and collaboration.",
+        "link": null
+    },
+    {
+        "name": "LGTM.lol",
+        "description": "Miscellaneous platform for niche content and services.",
+        "link": null
+    },
+    {
+        "name": "Linear",
+        "description": "Project management software for teams and workflows.",
+        "link": null
+    },
+    {
+        "name": "Link by Stripe",
+        "description": "eCommerce solution for streamlined payments and checkout.",
+        "link": null
+    },
+    {
+        "name": "Link3",
+        "description": "Technology company for digital networking solutions.",
+        "link": null
+    },
+    {
+        "name": "LinkedIn",
+        "description": "The top platform for professional networking and job search.",
+        "link": null
+    },
+    {
+        "name": "live.com",
+        "description": "Microsoft\u00e2\u0080\u0099s platform for email and cloud services.",
+        "link": null
+    },
+    {
+        "name": "lnk.bio",
+        "description": "Link management platform for social media profiles.",
+        "link": null
+    },
+    {
+        "name": "Locker",
+        "description": "Technology company for data and storage solutions.",
+        "link": null
+    },
+    {
+        "name": "Lowe's",
+        "description": "eCommerce platform for home improvement and hardware.",
+        "link": null
+    },
+    {
+        "name": "Luno",
+        "description": "Finance platform for cryptocurrency trading and investing.",
+        "link": null
+    },
+    {
+        "name": "Marshmallow",
+        "description": "Social media platform for online connections.",
+        "link": null
+    },
+    {
+        "name": "Mercari",
+        "description": "eCommerce platform for buying and selling items.",
+        "link": null
+    },
+    {
+        "name": "Micro Center",
+        "description": "eCommerce platform specializing in electronics and computers.",
+        "link": null
+    },
+    {
+        "name": "Microsoft",
+        "description": "The top technology company for software and cloud services.Learn more.",
+        "link": "https://www.passkeys.com/windows-passkey"
+    },
+    {
+        "name": "MINI",
+        "description": "Automotive company known for compact cars.",
+        "link": null
+    },
+    {
+        "name": "Miniflux",
+        "description": "Information technology platform for RSS feed management.",
+        "link": null
+    },
+    {
+        "name": "Mintbase Wallet",
+        "description": "Finance platform for managing cryptocurrency wallets.",
+        "link": null
+    },
+    {
+        "name": "minter.io",
+        "description": "Analytics platform for social media performance.",
+        "link": null
+    },
+    {
+        "name": "MIXI M",
+        "description": "Financial platform for digital banking.",
+        "link": null
+    },
+    {
+        "name": "Money Forward ID",
+        "description": "Finance tool for personal and business accounting.",
+        "link": null
+    },
+    {
+        "name": "Moneybird",
+        "description": "Financial platform for small business invoicing and accounting.",
+        "link": null
+    },
+    {
+        "name": "My Helsana",
+        "description": "Health and wellness app for Swiss insurance services.",
+        "link": null
+    },
+    {
+        "name": "MyGov AU",
+        "description": "Government platform for Australian citizen services.",
+        "link": null
+    },
+    {
+        "name": "mySites.guru",
+        "description": "IT platform for website management and optimization.",
+        "link": null
+    },
+    {
+        "name": "NFL",
+        "description": "The top professional American football league in the United States.Read More.",
+        "link": "https://passwordless.nfl.com/info"
+    },
+    {
+        "name": "NHS",
+        "description": "Health and wellness services in the United Kingdom.",
+        "link": null
+    },
+    {
+        "name": "Nintendo",
+        "description": "Entertainment company for gaming consoles and software.",
+        "link": null
+    },
+    {
+        "name": "Notion",
+        "description": "An all-in-one workspace for notes, tasks, projects, and team collaboration.",
+        "link": null
+    },
+    {
+        "name": "nulab",
+        "description": "IT platform for collaboration and productivity tools.",
+        "link": null
+    },
+    {
+        "name": "Nvidia",
+        "description": "The top technology company for graphics and AI solutions.",
+        "link": null
+    },
+    {
+        "name": "OKX",
+        "description": "Finance platform for cryptocurrency trading and investing.",
+        "link": null
+    },
+    {
+        "name": "omg.lol",
+        "description": "Social media platform for creative connections.",
+        "link": null
+    },
+    {
+        "name": "Onedrive",
+        "description": "Cloud storage and file-sharing platform by Microsoft.",
+        "link": null
+    },
+    {
+        "name": "Online Scout Manager (OSM)",
+        "description": "Lifestyle platform for scout management.",
+        "link": null
+    },
+    {
+        "name": "OnlyFans",
+        "description": "Lifestyle platform for creator subscriptions.",
+        "link": null
+    },
+    {
+        "name": "Outlook Mail",
+        "description": "Email service by Microsoft.",
+        "link": null
+    },
+    {
+        "name": "Papermark",
+        "description": "Technology platform for digital documentation.",
+        "link": null
+    },
+    {
+        "name": "Pastery",
+        "description": "IT service for creating and sharing code snippets.",
+        "link": null
+    },
+    {
+        "name": "PayFit",
+        "description": "Finance platform for payroll management.",
+        "link": null
+    },
+    {
+        "name": "PayPal",
+        "description": "The top finance platform for online payments.",
+        "link": null
+    },
+    {
+        "name": "Pixiv",
+        "description": "Creative platform for sharing artwork and illustrations.",
+        "link": null
+    },
+    {
+        "name": "PlayStation",
+        "description": "Gaming platform for consoles and digital games.",
+        "link": null
+    },
+    {
+        "name": "Poblano",
+        "description": "IT solutions for enterprise systems.",
+        "link": null
+    },
+    {
+        "name": "Poloniex",
+        "description": "Finance platform for cryptocurrency exchanges.",
+        "link": null
+    },
+    {
+        "name": "Porkbun",
+        "description": "IT platform for domain registration and management.",
+        "link": null
+    },
+    {
+        "name": "Proton",
+        "description": "Secure IT platform for email and VPN services.",
+        "link": null
+    },
+    {
+        "name": "Qapital",
+        "description": "Finance app for saving and budgeting.",
+        "link": null
+    },
+    {
+        "name": "rad.dad",
+        "description": "IT platform for niche software solutions.",
+        "link": null
+    },
+    {
+        "name": "Ring",
+        "description": "Smart home technology for security and video doorbells.",
+        "link": null
+    },
+    {
+        "name": "Robinhood",
+        "description": "Finance app for stock and crypto trading.",
+        "link": null
+    },
+    {
+        "name": "Roblox",
+        "description": "Gaming platform for creating and playing games.",
+        "link": null
+    },
+    {
+        "name": "Salad",
+        "description": "IT platform for GPU-based computing rewards.",
+        "link": null
+    },
+    {
+        "name": "Samsung",
+        "description": "The top technology company for electronics and smartphones.Learn more.",
+        "link": "https://www.passkeys.com/samsung-passkey"
+    },
+    {
+        "name": "Scrooge Games",
+        "description": "Lifestyle platform for casual online gaming.",
+        "link": null
+    },
+    {
+        "name": "Shakepay",
+        "description": "Finance platform for buying and selling Bitcoin.",
+        "link": null
+    },
+    {
+        "name": "Shop Pay",
+        "description": "eCommerce checkout platform by Shopify.",
+        "link": null
+    },
+    {
+        "name": "Shopify",
+        "description": "The top eCommerce platform for online stores.",
+        "link": null
+    },
+    {
+        "name": "Simply.com",
+        "description": "IT hosting platform for websites and domains.",
+        "link": null
+    },
+    {
+        "name": "Sirius XM Satellite Radio",
+        "description": "Lifestyle platform for music and radio streaming.",
+        "link": null
+    },
+    {
+        "name": "Snapchat",
+        "description": "Social platform for multimedia messaging.",
+        "link": null
+    },
+    {
+        "name": "So-net",
+        "description": "IT platform for internet services in Japan.",
+        "link": null
+    },
+    {
+        "name": "Sony",
+        "description": "Entertainment company for electronics, music, and gaming.",
+        "link": null
+    },
+    {
+        "name": "Spaceship",
+        "description": "IT platform for website hosting by NameCheap.",
+        "link": null
+    },
+    {
+        "name": "Stall-Frei.de",
+        "description": "Lifestyle platform for horse stable management.",
+        "link": null
+    },
+    {
+        "name": "State of Michigan",
+        "description": "Government platform for Michigan state services.",
+        "link": null
+    },
+    {
+        "name": "Station-Drivers",
+        "description": "IT platform for driver updates and downloads.",
+        "link": null
+    },
+    {
+        "name": "Stripe",
+        "description": "Finance platform for payment processing solutions.",
+        "link": null
+    },
+    {
+        "name": "Stuudium",
+        "description": "Education platform for student and teacher collaboration.",
+        "link": null
+    },
+    {
+        "name": "Synology",
+        "description": "IT platform for NAS and storage solutions.",
+        "link": null
+    },
+    {
+        "name": "Tailscale",
+        "description": "IT platform for secure virtual networks.",
+        "link": null
+    },
+    {
+        "name": "Target",
+        "description": "eCommerce platform for retail shopping.",
+        "link": null
+    },
+    {
+        "name": "Telstra",
+        "description": "Telecommunications company in Australia.",
+        "link": null
+    },
+    {
+        "name": "The Hendrix",
+        "description": "Real estate platform for property management.",
+        "link": null
+    },
+    {
+        "name": "The Olympics",
+        "description": "The top global sporting event featuring athletes worldwide.Read more.",
+        "link": "https://passwordless.olympics.com/info"
+    },
+    {
+        "name": "Tender",
+        "description": "Finance platform for secure transactions.",
+        "link": null
+    },
+    {
+        "name": "Thunder",
+        "description": "Finance platform for digital banking solutions.",
+        "link": null
+    },
+    {
+        "name": "Ticketeer",
+        "description": "IT platform for ticketing and event management.",
+        "link": null
+    },
+    {
+        "name": "TikTok",
+        "description": "Social media platform for short video content.",
+        "link": null
+    },
+    {
+        "name": "TOKYU",
+        "description": "IT platform for transportation and urban services.",
+        "link": null
+    },
+    {
+        "name": "Toyota",
+        "description": "Automotive company for reliable vehicles.",
+        "link": null
+    },
+    {
+        "name": "Tripletex",
+        "description": "Finance platform for accounting and payroll.",
+        "link": null
+    },
+    {
+        "name": "Trustworthy",
+        "description": "Health platform for managing personal and family records.",
+        "link": null
+    },
+    {
+        "name": "Turnkey",
+        "description": "IT solutions for automation and data management.",
+        "link": null
+    },
+    {
+        "name": "Twitter",
+        "description": "Social networking platform for updates and discussions.",
+        "link": null
+    },
+    {
+        "name": "Ubank",
+        "description": "Finance platform for banking and payments.",
+        "link": null
+    },
+    {
+        "name": "Uber",
+        "description": "Travel and tourism platform for ride-hailing services.",
+        "link": null
+    },
+    {
+        "name": "Uninbox",
+        "description": "Email service for inbox management.",
+        "link": null
+    },
+    {
+        "name": "United Southeast Federal Credit Union",
+        "description": "Finance cooperative for banking services.",
+        "link": null
+    },
+    {
+        "name": "usesarchbtw.lol",
+        "description": "IT platform for niche technology solutions.",
+        "link": null
+    },
+    {
+        "name": "Vercel",
+        "description": "IT platform for frontend development and hosting.",
+        "link": null
+    },
+    {
+        "name": "Virgin Media",
+        "description": "IT platform for telecommunications and internet services.",
+        "link": null
+    },
+    {
+        "name": "Visma",
+        "description": "Finance platform for business solutions.",
+        "link": null
+    },
+    {
+        "name": "vk",
+        "description": "Social networking platform for communication and sharing.",
+        "link": null
+    },
+    {
+        "name": "Voura",
+        "description": "Finance platform for digital wallet solutions.",
+        "link": null
+    },
+    {
+        "name": "Walmart",
+        "description": "The top eCommerce platform for retail shopping.",
+        "link": null
+    },
+    {
+        "name": "WhatsApp",
+        "description": "Messaging platform for personal and business communication.",
+        "link": null
+    },
+    {
+        "name": "World of Hyatt",
+        "description": "Travel platform for hotel bookings and rewards.",
+        "link": null
+    },
+    {
+        "name": "X (Twitter)",
+        "description": "Social networking platform for news and updates.",
+        "link": null
+    },
+    {
+        "name": "XenForo",
+        "description": "IT platform for community forums and discussions.",
+        "link": null
+    },
+    {
+        "name": "Yahoo Mail",
+        "description": "Email service by Yahoo.",
+        "link": null
+    },
+    {
+        "name": "Yahoo!",
+        "description": "IT platform for search and digital services.",
+        "link": null
+    },
+    {
+        "name": "Yahoo! JAPAN",
+        "description": "IT platform for search and online services in Japan.",
+        "link": null
+    },
+    {
+        "name": "Yandex",
+        "description": "IT platform for search and digital services in Russia.",
+        "link": null
+    },
+    {
+        "name": "Zoho",
+        "description": "IT platform for business productivity tools.",
+        "link": null
+    }
+]
